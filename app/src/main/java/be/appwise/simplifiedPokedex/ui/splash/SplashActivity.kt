@@ -14,9 +14,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_splash.*
 
-//TODO: use this json-minded 'api' https://github.com/jalyna/oakdex-pokedex/tree/master/data
-
-//TODO: https://github.com/veekun/pokedex/blob/master/pokedex/data/csv/pokemon.csv
+//TODO: get each json file from this github, after each file, increment the progressBar, only do this once in a while
 class SplashActivity : AppCompatActivity() {
     private val compositeDisposable: CompositeDisposable = CompositeDisposable()
     private val pokemonList: ArrayList<Pokemon> = ArrayList()
@@ -25,12 +23,12 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        if (!Hawk.get<Boolean>(Constants.DATABASE_BEEN_SYNCED, false)) {
-            getAllSeparatePokemons()
-        } else {
-            startActivity(MainActivity.newIntent(this))
-            finish()
-        }
+//        if (!Hawk.get<Boolean>(Constants.DATABASE_BEEN_SYNCED, false)) {
+        getAllSeparatePokemons()
+//        } else {
+//            startActivity(MainActivity.newIntent(this))
+//            finish()
+//        }
     }
 
     private fun getAllSeparatePokemons() {
@@ -47,7 +45,7 @@ class SplashActivity : AppCompatActivity() {
             }, {
                 it.printStackTrace()
             }, {
-                Hawk.put(Constants.DATABASE_BEEN_SYNCED, true)
+                //                Hawk.put(Constants.DATABASE_BEEN_SYNCED, true)
 
                 startActivity(MainActivity.newIntent(this))
                 finish()
@@ -81,7 +79,7 @@ class SplashActivity : AppCompatActivity() {
 //                finish()
 //            })
 
-//        compositeDisposable.add(disposable)
+        compositeDisposable.add(disposable)
     }
 
     private fun addStepToProgress() {
