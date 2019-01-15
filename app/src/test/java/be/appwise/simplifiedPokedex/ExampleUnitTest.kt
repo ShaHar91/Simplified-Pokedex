@@ -1,4 +1,4 @@
-package be.appwise.simplified_pokedex
+package be.appwise.simplifiedPokedex
 
 import org.junit.Test
 
