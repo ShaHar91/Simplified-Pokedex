@@ -1,0 +1,1506 @@
+[
+    {
+        "_id": "1",
+        "description": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
+        "nPokemons": "(10)",
+        "name": "Adaptability",
+        "overworld": "/",
+        "short_description": "Powers up moves of the same type."
+    },
+    {
+        "_id": "2",
+        "description": "Increases the power of Normal-type moves by 30%. It then changes those moves to Flying-type.",
+        "nPokemons": "(1)",
+        "name": "Aerilate",
+        "overworld": "/",
+        "short_description": "Normal-type moves become Flying-type moves."
+    },
+    {
+        "_id": "3",
+        "description": "When this Pokémon is knocked out by a move that makes contact, the move's user takes 1/4 its maximum HP in damage.",
+        "nPokemons": "(8)",
+        "name": "Aftermath",
+        "overworld": "/",
+        "short_description": "Damages the attacker for 1/4 its max HPwhen knocked out by a contact move."
+    },
+    {
+        "_id": "4",
+        "description": "All weather effects are negated while the Pokémon is on the field.",
+        "nPokemons": "(1)",
+        "name": "Air Lock",
+        "overworld": "/",
+        "short_description": "Eliminates the effects of weather."
+    },
+    {
+        "_id": "5",
+        "description": "Attack power increases by 30% if the Pokémon is the last Pokémon to attack this turn",
+        "nPokemons": "(12)",
+        "name": "Analytic",
+        "overworld": "/",
+        "short_description": "If you are last to attack, the move becomes more powerful."
+    },
+    {
+        "_id": "6",
+        "description": "Increases Attack to maximum level upon taking a critical hit.",
+        "nPokemons": "(7)",
+        "name": "Anger Point",
+        "overworld": "/",
+        "short_description": "Raises Attack upon taking a critical hit."
+    },
+    {
+        "_id": "7",
+        "description": "Warns when the foe knows 1-hit KO or super-effective moves.",
+        "nPokemons": "(9)",
+        "name": "Anticipation",
+        "overworld": "/",
+        "short_description": "Senses the foe’s dangerous moves."
+    },
+    {
+        "_id": "8",
+        "description": "The opponent cannot run nor switch. Flying-type Pokémon and Pokémon with the Levitate special ability are unaffected. If this Pokémon switches, the opponent is still trapped for that turn. The opponent may still switch by using Baton Pass.",
+        "nPokemons": "(3)",
+        "name": "Arena Trap",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases to 200%.",
+        "short_description": "Prevents the foe from fleeing."
+    },
+    {
+        "_id": "9",
+        "description": "Protects allies from attacks that effect their mental state.",
+        "nPokemons": "(2)",
+        "name": "Aroma Veil",
+        "overworld": "/",
+        "short_description": "Protects allies from attacks that effect their mental state."
+    },
+    {
+        "_id": "10",
+        "description": "The effects of Aura Abilities are reversed.",
+        "nPokemons": "(1)",
+        "name": "Aura Break",
+        "overworld": "/",
+        "short_description": "The effects of Aura Abilities are reversed."
+    },
+    {
+        "_id": "11",
+        "description": "Reduces a sleeping foe’s HP.",
+        "nPokemons": "(1)",
+        "name": "Bad Dreams",
+        "overworld": "/",
+        "short_description": "Reduces a sleeping foe’s HP."
+    },
+    {
+        "_id": "12",
+        "description": "Opponent’s moves cannot Critical Hit.",
+        "nPokemons": "(8)",
+        "name": "Battle Armor",
+        "overworld": "/",
+        "short_description": "The Pokémon is protected against critical hits."
+    },
+    {
+        "_id": "13",
+        "description": "Its defense cannot be lowered. ",
+        "nPokemons": "(12)",
+        "name": "Big Pecks",
+        "overworld": "/",
+        "short_description": "Its defense cannot be lowered. "
+    },
+    {
+        "_id": "14",
+        "description": "When HP is below 1/3rd, Fire’s power increases to 1.5 times.",
+        "nPokemons": "(20)",
+        "name": "Blaze",
+        "overworld": "/",
+        "short_description": "Powers up Fire-type moves in a pinch."
+    },
+    {
+        "_id": "15",
+        "description": "Protects the Pokémon from some ball and bomb moves.",
+        "nPokemons": "(3)",
+        "name": "Bulletproof",
+        "overworld": "/",
+        "short_description": "Protects the Pokémon from some ball and bomb moves."
+    },
+    {
+        "_id": "16",
+        "description": "Restores HP as well when the Pokémon eats a Berry.",
+        "nPokemons": "(3)",
+        "name": "Cheeck Pouch",
+        "overworld": "/",
+        "short_description": "Restores HP as well when the Pokémon eats a Berry."
+    },
+    {
+        "_id": "17",
+        "description": "When sunny, the Pokémon’s Speed doubles. However, Speed will not double on the turn weather becomes Clear Skies.",
+        "nPokemons": "(35)",
+        "name": "Chlorophyll",
+        "overworld": "/",
+        "short_description": "Boosts the Pokémon’s Speed in sunshine."
+    },
+    {
+        "_id": "18",
+        "description": "Opponents’ moves which lower this Pokémon’s ability values have no effect. However this Pokémon may lower its own stats with its own moves.",
+        "nPokemons": "(12)",
+        "name": "Clear Body",
+        "overworld": "/",
+        "short_description": "Prevents the Pokémon’s stats from being lowered."
+    },
+    {
+        "_id": "19",
+        "description": "All weather effects are negated while the Pokémon is on the field.",
+        "nPokemons": "(6)",
+        "name": "Cloud Nine",
+        "overworld": "/",
+        "short_description": "Eliminates the effects of weather."
+    },
+    {
+        "_id": "20",
+        "description": "This Pokémon’s type becomes the type of the last damaging move which hit it.",
+        "nPokemons": "(1)",
+        "name": "Color Change",
+        "overworld": "/",
+        "short_description": "Changes the Pokémon’s type to the foe’s move."
+    },
+    {
+        "_id": "21",
+        "description": "Raises Sp. Atk stat by two stages whenever a stat is lowered",
+        "nPokemons": "(8)",
+        "name": "Competitive",
+        "overworld": "/",
+        "short_description": "Boosts the Sp. Atk stat when a stat is lowered."
+    },
+    {
+        "_id": "22",
+        "description": "Raises the Pokémon’s accuracy by 30%.",
+        "nPokemons": "(9)",
+        "name": "Compoundeyes",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon holding an item increases.",
+        "short_description": "The Pokémon’s accuracy is boosted."
+    },
+    {
+        "_id": "23",
+        "description": "Moves used on the Pokémon that raise stats lower the stats, while the moves that lower the stats raise the stat",
+        "nPokemons": "(7)",
+        "name": "Contrary",
+        "overworld": "/",
+        "short_description": "It reverses changes to its stats."
+    },
+    {
+        "_id": "24",
+        "description": "When a move makes contact with the Pokémon, that move has a 30% chance of getting disabled",
+        "nPokemons": "(5)",
+        "name": "Cursed Body",
+        "overworld": "/",
+        "short_description": "If it is attacked, it will occasionally cause the attacking move to be Disabled. "
+    },
+    {
+        "_id": "25",
+        "description": "The opponent has a 30% chance of being induced with ATTRACT when using an attack, that requires physical contact, against this Pokémon.",
+        "nPokemons": "(13)",
+        "name": "Cute Charm",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon of the opposite gender will be 66.6%. Does not effect swarming Pokémon.",
+        "short_description": "Contact with the Pokémon may cause infatuation."
+    },
+    {
+        "_id": "26",
+        "description": "Explosion and Selfdestruct will not work while the Pokémon is on the field.",
+        "nPokemons": "(18)",
+        "name": "Damp",
+        "overworld": "/",
+        "short_description": "Prevents combatants from self destructing."
+    },
+    {
+        "_id": "27",
+        "description": "Powers up every Pokémon in play's Dark-type moves by 33.3%",
+        "nPokemons": "(1)",
+        "name": "Dark Aura",
+        "overworld": "/",
+        "short_description": "Powers up each Pokémon's Dark-type moves."
+    },
+    {
+        "_id": "28",
+        "description": "The Pokémon's Attack & Special Attack is halved when its Hit Points are below 50% of maximum",
+        "nPokemons": "(2)",
+        "name": "Defeatist",
+        "overworld": "/",
+        "short_description": "If it's HP drops below 50%, Attack is decreased"
+    },
+    {
+        "_id": "29",
+        "description": "Attack is raised by two stages when the Pokémon has its stats lowered. Doesn't work on self inflicted stat drops or drops from allies",
+        "nPokemons": "(12)",
+        "name": "Defiant",
+        "overworld": "/",
+        "short_description": "As its stats are lowered, it's attack increases. "
+    },
+    {
+        "_id": "30",
+        "description": "Attack is increased when the foe’s Defense is lower than its Special Defense or increases Special Attack when the foe’s Special Defense is lower than its Defense.",
+        "nPokemons": "(4)",
+        "name": "Download",
+        "overworld": "/",
+        "short_description": "Adjusts power according to the foe’s ability."
+    },
+    {
+        "_id": "31",
+        "description": "Weather changes to Heavy Rain when the Pokémon enters the battle. As of X & Y, this lasts 5 turns.",
+        "nPokemons": "(2)",
+        "name": "Drizzle",
+        "overworld": "/",
+        "short_description": "The Pokémon makes it rain if it appears in battle."
+    },
+    {
+        "_id": "32",
+        "description": "Weather changes to Intense Sunshine when the Pokémon enters the battle. As of X & Y, this lasts 5 turns.",
+        "nPokemons": "(4)",
+        "name": "Drought",
+        "overworld": "/",
+        "short_description": "The Pokémon makes it sunny if it is in battle."
+    },
+    {
+        "_id": "33",
+        "description": "HP is restored when hit by Water-type moves or when it is raining but also makes the Pokémon weak to Fire-type moves and reduces HP during strong sunlight.",
+        "nPokemons": "(7)",
+        "name": "Dry Skin",
+        "overworld": "/",
+        "short_description": "Reduces HP if it is hot. Water restores HP."
+    },
+    {
+        "_id": "34",
+        "description": "SLEEP conditions lasts for half as long, rounding down. For example, half of three turns is 1.5, which rounds down to one turn. When the number of turns to sleep is one, half of this rounded down is zero, and the Pokémon wakes up instantly.",
+        "nPokemons": "(15)",
+        "name": "Early Bird",
+        "overworld": "/",
+        "short_description": "The Pokémon awakens quickly from sleep."
+    },
+    {
+        "_id": "35",
+        "description": "The opponent has a 10% chance of being induced by PARALYZE, POISON, or SLEEP when using an attack, that requires physical contact, against this Pokémon.",
+        "nPokemons": "(7)",
+        "name": "Effect Spore",
+        "overworld": "/",
+        "short_description": "Contact may paralyze, poison, or cause sleep."
+    },
+    {
+        "_id": "36",
+        "description": "Powers up every Pokémon in play's Fairy-type moves by 33.3%",
+        "nPokemons": "(1)",
+        "name": "Fairy Aura",
+        "overworld": "/",
+        "short_description": "Powers up each Pokémon's Fairy-type moves."
+    },
+    {
+        "_id": "37",
+        "description": "Damage by super-effective moves is reduced by 25%.",
+        "nPokemons": "(3)",
+        "name": "Filter",
+        "overworld": "/",
+        "short_description": "Powers down super-effective moves."
+    },
+    {
+        "_id": "38",
+        "description": "The opponent has a 30% chance of being induced with BURN when using an attack, that requires physical contact, against this Pokémon.",
+        "nPokemons": "(16)",
+        "name": "Flame Body",
+        "overworld": "Eggs hatch quicker (half the number of steps are required).",
+        "short_description": "Contact with the Pokémon may burn the foe."
+    },
+    {
+        "_id": "39",
+        "description": "Special Attack stat increased by 50% when burned",
+        "nPokemons": "(2)",
+        "name": "Flare Boost",
+        "overworld": "/",
+        "short_description": "When it's burnt the power of its Special attacks rises. "
+    },
+    {
+        "_id": "40",
+        "description": "Activates when user is hit by a damaging Fire-type move (including Fire-type Hidden Power). Once activated, user’s Fire-type moves deal 1.5 times damage. While this ability is in effect, this Pokémon is immune to damage from Fire-type attacks and Fire-type Hidden Power (accuracy and effect from these moves are ignored). For Fire-type Pokémon with this ability, Will-O-Wisp activates this ability without having an effect. If a non-Fire-type Pokémon has this ability, Will-O-Wisp will activate the ability and will have an effect.",
+        "nPokemons": "(18)",
+        "name": "Flash Fire",
+        "overworld": "/",
+        "short_description": "Powers up Fire-type moves if hit by a fire move."
+    },
+    {
+        "_id": "41",
+        "description": "Ally’s Attack and Special Defence are multiplied by 1.5 during strong sunlight.",
+        "nPokemons": "(1)",
+        "name": "Flower Gift",
+        "overworld": "/",
+        "short_description": "Powers up party Pokémon when it is sunny."
+    },
+    {
+        "_id": "42",
+        "description": "Prevents lowering of ally Grass-type Pokémon's stats.",
+        "nPokemons": "(3)",
+        "name": "Flower Veil",
+        "overworld": "/",
+        "short_description": "Prevents lowering of ally Grass-type Pokémon's stats."
+    },
+    {
+        "_id": "43",
+        "description": "This Pokémon’s type and figure change with the weather.",
+        "nPokemons": "(1)",
+        "name": "Forecast",
+        "overworld": "/",
+        "short_description": "CASTFORM transforms with the weather."
+    },
+    {
+        "_id": "44",
+        "description": "Reveals the foe’s strongest move.",
+        "nPokemons": "(6)",
+        "name": "Forewarn",
+        "overworld": "/",
+        "short_description": "Determines what moves the foe has."
+    },
+    {
+        "_id": "45",
+        "description": "In Double & Triple battles, the ally Pokémon receive reduced damage from attacks",
+        "nPokemons": "(8)",
+        "name": "Friend Guard",
+        "overworld": "/",
+        "short_description": "It can lower the damage received by a team-mate."
+    },
+    {
+        "_id": "46",
+        "description": "Reveals the foe’s held item.",
+        "nPokemons": "(20)",
+        "name": "Frisk",
+        "overworld": "/",
+        "short_description": "The Pokémon can check the foe’s held item."
+    },
+    {
+        "_id": "47",
+        "description": "Halves damage from physical moves.",
+        "nPokemons": "(1)",
+        "name": "Fur Coat",
+        "overworld": "/",
+        "short_description": "Halves damage from physical moves."
+    },
+    {
+        "_id": "48",
+        "description": "All Flying-type moves have their Speed Priority increased by 1",
+        "nPokemons": "(3)",
+        "name": "Gale Wings",
+        "overworld": "/",
+        "short_description": "Gives priority to Flying-type moves."
+    },
+    {
+        "_id": "49",
+        "description": "A held Berry is eaten earlier than usual when HP is low.",
+        "nPokemons": "(19)",
+        "name": "Gluttony",
+        "overworld": "/",
+        "short_description": "Encourages the early use of a held Berry."
+    },
+    {
+        "_id": "50",
+        "description": "Contact with the Pokémon lowers the attacker's Speed stat.",
+        "nPokemons": "(3)",
+        "name": "Gooey",
+        "overworld": "/",
+        "short_description": "Contact with the Pokémon lowers the attacker's Speed stat."
+    },
+    {
+        "_id": "51",
+        "description": "Increases Defense by 50% when battling on Grass or if the move Grassy Terrain is in effect",
+        "nPokemons": "(2)",
+        "name": "Grass Pelt",
+        "overworld": "/",
+        "short_description": "Boosts the Defense stat when the terrain is grass."
+    },
+    {
+        "_id": "52",
+        "description": "Attack raises to 1.5 times when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE). BURN’s effect of lowering Attack is not applied.",
+        "nPokemons": "(21)",
+        "name": "Guts",
+        "overworld": "/",
+        "short_description": "Boosts Attack if there is a status problem."
+    },
+    {
+        "_id": "53",
+        "description": "The Pokémon has a 50% chance of restoring a consumed berry. During sunshine, this chance increases to 100%",
+        "nPokemons": "(5)",
+        "name": "Harvest",
+        "overworld": "/",
+        "short_description": "The same berry can be reused infinitely within one battle."
+    },
+    {
+        "_id": "54",
+        "description": "At the end of the turn, there is a 30% chance of either Ally being healed from a status condition",
+        "nPokemons": "(7)",
+        "name": "Healer",
+        "overworld": "/",
+        "short_description": "It will occasionally heal its team mate's status problems. "
+    },
+    {
+        "_id": "55",
+        "description": "Damage from Fire-type moves and BURN is halved.",
+        "nPokemons": "(2)",
+        "name": "Heatproof",
+        "overworld": "/",
+        "short_description": "Weakens the power of Fire-type moves."
+    },
+    {
+        "_id": "56",
+        "description": "This Pokémon's weight is doubled.",
+        "nPokemons": "(5)",
+        "name": "Heavy Metal",
+        "overworld": "/",
+        "short_description": "This Pokémon's weight is doubled."
+    },
+    {
+        "_id": "57",
+        "description": "May pick up a Honey after battle; the higher the level, the higher the chance.",
+        "nPokemons": "(2)",
+        "name": "Honey Gather",
+        "overworld": "/",
+        "short_description": "The Pokémon may gather Honey from somewhere."
+    },
+    {
+        "_id": "58",
+        "description": "The power of the Pokémon’s attacks is doubled; the effect is halved if the ability is changed (Skill Swap).",
+        "nPokemons": "(6)",
+        "name": "Huge Power",
+        "overworld": "/",
+        "short_description": "Raises the Pokémon’s Attack stat."
+    },
+    {
+        "_id": "59",
+        "description": "Damage from physical attacks is 1.5 times, but average accuracy is only 80%.",
+        "nPokemons": "(18)",
+        "name": "Hustle",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a high level wild Pokémon decreases to 50%.",
+        "short_description": "Boosts the Attack stat, but lowers accuracy."
+    },
+    {
+        "_id": "60",
+        "description": "All status problems: Burn, Paralysis, Sleep, Frozen and Poison, are healed when raining.",
+        "nPokemons": "(21)",
+        "name": "Hydration",
+        "overworld": "/",
+        "short_description": "Heals status problems if it is raining."
+    },
+    {
+        "_id": "61",
+        "description": "Opponent cannot lower this Pokémon’s Attack value. This Pokémon may still lower its own Attack value using a move of by itself.",
+        "nPokemons": "(9)",
+        "name": "Hyper Cutter",
+        "overworld": "/",
+        "short_description": "Prevents the Attack stat from being lowered."
+    },
+    {
+        "_id": "62",
+        "description": "HP is restored when it’s hailing.",
+        "nPokemons": "(14)",
+        "name": "Ice Body",
+        "overworld": "/",
+        "short_description": "The Pokémon regains HP in a hailstorm."
+    },
+    {
+        "_id": "63",
+        "description": "Raises the likelihood of meeting wild Pokémon.",
+        "nPokemons": "(6)",
+        "name": "Illuminate",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases to 200%.",
+        "short_description": "Raises the likelihood of meeting wild Pokémon."
+    },
+    {
+        "_id": "64",
+        "description": "When sent out into battle, it takes the name and appearance of the last non-fainted Pokémon within your party. It breaks when an attack does damage on the Pokémon but not from Weather Effects or Entry Hazards.",
+        "nPokemons": "(2)",
+        "name": "Illusion",
+        "overworld": "/",
+        "short_description": "You transform into the Pokémon behind you and then come out into the field."
+    },
+    {
+        "_id": "65",
+        "description": "The Pokémon cannot be under the POISON condition while having this ability.",
+        "nPokemons": "(3)",
+        "name": "Immunity",
+        "overworld": "/",
+        "short_description": "Prevents the Pokémon from getting poisoned."
+    },
+    {
+        "_id": "66",
+        "description": "You transform into the Pokémon in front of you - ie your opponent. ",
+        "nPokemons": "(1)",
+        "name": "Imposter",
+        "overworld": "/",
+        "short_description": "You transform into the Pokémon in front of you - ie your opponent. "
+    },
+    {
+        "_id": "67",
+        "description": "The protections and stat boosts caused by the moves Substitute, Reflect, Light Screen and Safeguard by the opponent are ignored.",
+        "nPokemons": "(21)",
+        "name": "Infiltrator",
+        "overworld": "/",
+        "short_description": "You slip through the opponents walls and attack."
+    },
+    {
+        "_id": "68",
+        "description": "This Pokémon will not flinch. Does not prevent flinching with Focus Punch.",
+        "nPokemons": "(26)",
+        "name": "Inner Focus",
+        "overworld": "/",
+        "short_description": "The Pokémon is protected from flinching."
+    },
+    {
+        "_id": "69",
+        "description": "The Pokémon cannot be under the SLEEP condition while having this ability.",
+        "nPokemons": "(14)",
+        "name": "Insomnia",
+        "overworld": "/",
+        "short_description": "Prevents the Pokémon from falling asleep."
+    },
+    {
+        "_id": "70",
+        "description": "Upon entering battle, the opponent’s Attack lowers one stage. In a Double Battle, both opponents’ Attack are lowered. Pokémon with the Clear Body, Hyper Cutter, or White Smoke ability are unaffected. In a link battle, if both sides switch on the same turn, and first player sends out a Pokémon with Intimidate, the opponent’s Attack will be lowered before the opponent’s Pokémon switches.",
+        "nPokemons": "(29)",
+        "name": "Intimidate",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a low level wild Pokémon decreases by 50%. This applies to Pokémon five levels lower than or below the level of the lead Pokémon.",
+        "short_description": "Lowers the foe’s Attack stat."
+    },
+    {
+        "_id": "71",
+        "description": "If this Pokémon is touched the opponent will receive damage.",
+        "nPokemons": "(2)",
+        "name": "Iron Barbs",
+        "overworld": "/",
+        "short_description": "If this Pokémon is touched the opponent will receive damage."
+    },
+    {
+        "_id": "72",
+        "description": "The power of punching moves is increased by 20%.",
+        "nPokemons": "(12)",
+        "name": "Iron Fist",
+        "overworld": "/",
+        "short_description": "Boosts the power of punching moves."
+    },
+    {
+        "_id": "73",
+        "description": "Attack is raised by one stage when the Pokémon is hit by a Dark-type move",
+        "nPokemons": "(10)",
+        "name": "Justified",
+        "overworld": "/",
+        "short_description": "Attack rises if you are hit with a Dark-type attack"
+    },
+    {
+        "_id": "74",
+        "description": "Opponent cannot lower this Pokémon’s accuracy. The Pokémon ignores evasion boosts of the opponent",
+        "nPokemons": "(32)",
+        "name": "Keen Eye",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a low level wild Pokémon decreases by 50%. This applies to Pokémon five levels lower than or below the level of the lead Pokémon.",
+        "short_description": "Prevents the Pokémon from losing accuracy."
+    },
+    {
+        "_id": "75",
+        "description": "The Pokémon cannot receive any effect of hold items except those that affect experience such as Exp.Share or Macho Brace.",
+        "nPokemons": "(7)",
+        "name": "Klutz",
+        "overworld": "/",
+        "short_description": "The Pokémon can’t use any held items."
+    },
+    {
+        "_id": "76",
+        "description": "Prevents the Pokémon from receiving status conditions during strong sunlight.",
+        "nPokemons": "(14)",
+        "name": "Leaf Guard",
+        "overworld": "/",
+        "short_description": "Prevents status problems in sunny weather."
+    },
+    {
+        "_id": "77",
+        "description": "Damage dealing Ground-type moves have no effect on this Pokémon. Cannot be trapped by Arena Trap ability. Takes no damage from Spikes.",
+        "nPokemons": "(40)",
+        "name": "Levitate",
+        "overworld": "/",
+        "short_description": "Gives full immunity to all Ground-type moves."
+    },
+    {
+        "_id": "78",
+        "description": "This Pokémon's weight is halved.",
+        "nPokemons": "(5)",
+        "name": "Light Metal",
+        "overworld": "/",
+        "short_description": "This Pokémon's weight is halved."
+    },
+    {
+        "_id": "79",
+        "description": "Electric-type moves are drawn to this Pokémon. Electric-type moves will do no damage and the Pokémon's SP ATK is raised one stage",
+        "nPokemons": "(15)",
+        "name": "Lightningrod",
+        "overworld": "/",
+        "short_description": "The Pokémon draws in all Electric-type moves."
+    },
+    {
+        "_id": "80",
+        "description": "The Pokémon cannot be under the PARALYZE condition while having this ability.",
+        "nPokemons": "(10)",
+        "name": "Limber",
+        "overworld": "/",
+        "short_description": "The Pokémon is protected from paralysis."
+    },
+    {
+        "_id": "81",
+        "description": "When the opponent absorbs Hit Points from this Pokémon, the opponent instead loses Hit Points.",
+        "nPokemons": "(4)",
+        "name": "Liquid Ooze",
+        "overworld": "/",
+        "short_description": "Inflicts damage on foes using any draining move."
+    },
+    {
+        "_id": "82",
+        "description": "It can reflect the effect of stat-changing moves. ",
+        "nPokemons": "(4)",
+        "name": "Magic Bounce",
+        "overworld": "/",
+        "short_description": "It can reflect the effect of stat-changing moves. "
+    },
+    {
+        "_id": "83",
+        "description": "Prevents all damage except from direct-attack moves.",
+        "nPokemons": "(10)",
+        "name": "Magic Guard",
+        "overworld": "/",
+        "short_description": "The Pokémon only takes damage from attacks."
+    },
+    {
+        "_id": "84",
+        "description": "The Pokémon steals the held item of a Pokémon it hits with a move.",
+        "nPokemons": "(4)",
+        "name": "Magician",
+        "overworld": "/",
+        "short_description": "The Pokémon steals the held item of a Pokémon it hits with a move."
+    },
+    {
+        "_id": "85",
+        "description": "This Pokémon cannot be FREEZE condition while having this ability.",
+        "nPokemons": "(3)",
+        "name": "Magma Armor",
+        "overworld": "Eggs hatch quicker (half the number of steps are required).",
+        "short_description": "Prevents the Pokémon from becoming frozen."
+    },
+    {
+        "_id": "86",
+        "description": "Steel types cannot run nor switch while this Pokémon is in battle. Because the opponent’s switching is blocked, the opponent cannot switch on the turn this Pokémon switches out of battle. The opponent may still switch with Baton Pass.",
+        "nPokemons": "(5)",
+        "name": "Magnet Pull",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a Steel-type wild Pokémon increases to 150%.",
+        "short_description": "Prevents Steel-type Pokémon from escaping."
+    },
+    {
+        "_id": "87",
+        "description": "Ups DEFENSE if suffering - Defense raises to 1.5 times when induced with a status (BURN, PARALYZE, SLEEP, POISON, FREEZE).",
+        "nPokemons": "(3)",
+        "name": "Marvel Scale",
+        "overworld": "/",
+        "short_description": "status "
+    },
+    {
+        "_id": "88",
+        "description": "Increases the power of Aura and Pulse moves by 50%",
+        "nPokemons": "(3)",
+        "name": "Mega Launcher",
+        "overworld": "/",
+        "short_description": "Powers up aura and pulse moves."
+    },
+    {
+        "_id": "89",
+        "description": "When battling with Plus or Minus, Special Attack becomes 1.5 times greater.",
+        "nPokemons": "(6)",
+        "name": "Minus",
+        "overworld": "/",
+        "short_description": "Boosts Sp. Atk if another Pokémon has Plus."
+    },
+    {
+        "_id": "90",
+        "description": "The Pokémon's moves are not affected by foe’s abilities during battle",
+        "nPokemons": "(18)",
+        "name": "Mold Breaker",
+        "overworld": "/",
+        "short_description": "Moves can be used regardless of abilities."
+    },
+    {
+        "_id": "91",
+        "description": "At the end of every turn, a random stat is raised by two stages while another is lowered by one stage. ",
+        "nPokemons": "(7)",
+        "name": "Moody",
+        "overworld": "/",
+        "short_description": "Its stats go up and down. "
+    },
+    {
+        "_id": "92",
+        "description": "The Pokémon takes no damage from Electric-type attacks and Speed raises by one level.",
+        "nPokemons": "(4)",
+        "name": "Motor Drive",
+        "overworld": "/",
+        "short_description": "Raises Speed if hit by an Electric-type move."
+    },
+    {
+        "_id": "93",
+        "description": "Attack is raised by one stage when the Pokémon knocks out another Pokémon",
+        "nPokemons": "(13)",
+        "name": "Moxie",
+        "overworld": "/",
+        "short_description": "Attack rises when you knock out an opponent."
+    },
+    {
+        "_id": "94",
+        "description": "Reduces damage afflicted to the Pokémon by 50% if at maximum HP",
+        "nPokemons": "(2)",
+        "name": "Multiscale",
+        "overworld": "/",
+        "short_description": "When this Pokémon is at full HP, damage is lessened. "
+    },
+    {
+        "_id": "95",
+        "description": "Changes type to match the held Plate.",
+        "nPokemons": "(1)",
+        "name": "Multitype",
+        "overworld": "/",
+        "short_description": "Changes type to match the held Plate."
+    },
+    {
+        "_id": "96",
+        "description": "If you are touched by an opponent, you make their ability Mummy.",
+        "nPokemons": "(2)",
+        "name": "Mummy",
+        "overworld": "/",
+        "short_description": "If you are touched by an opponent, you make their ability Mummy."
+    },
+    {
+        "_id": "97",
+        "description": "The Pokémon’s status (BURN, PARALYZE, SLEEP, POISON, FREEZE) is healed when withdrawn from battle.",
+        "nPokemons": "(15)",
+        "name": "Natural Cure",
+        "overworld": "/",
+        "short_description": "All status problems are healed upon switching out."
+    },
+    {
+        "_id": "98",
+        "description": "The accuracy of all moves known by this Pokémon and all Pokémon targeting this Pokémon raises to 100%",
+        "nPokemons": "(8)",
+        "name": "No Guard",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon increases by 50%.",
+        "short_description": "Ensures the Pokémon and its foe’s attacks land."
+    },
+    {
+        "_id": "99",
+        "description": "All moves known by the Pokémon turn into Normal-type.",
+        "nPokemons": "(2)",
+        "name": "Normalize",
+        "overworld": "/",
+        "short_description": "All the Pokémon’s moves become the Normal type."
+    },
+    {
+        "_id": "100",
+        "description": "The Pokémon cannot be under the Attract condition, or be taunted, while having this ability.",
+        "nPokemons": "(20)",
+        "name": "Oblivious",
+        "overworld": "/",
+        "short_description": "Prevents the Pokémon from becoming infatuated."
+    },
+    {
+        "_id": "101",
+        "description": "Protects Pokémon from Weather Effects and Powder moves such as Sleep Power, Poison Powder etc. ",
+        "nPokemons": "(19)",
+        "name": "Overcoat",
+        "overworld": "/",
+        "short_description": "It will not take damage from weather effects."
+    },
+    {
+        "_id": "102",
+        "description": "When HP is below 1/3rd, Grass’s power increases to 1.5 times.",
+        "nPokemons": "(20)",
+        "name": "Overgrow",
+        "overworld": "/",
+        "short_description": "Powers up Grass-type moves in a pinch."
+    },
+    {
+        "_id": "103",
+        "description": "The Pokémon cannot be Confused while having this ability.",
+        "nPokemons": "(20)",
+        "name": "Own Tempo",
+        "overworld": "/",
+        "short_description": "Prevents the Pokémon from becoming confused."
+    },
+    {
+        "_id": "104",
+        "description": "Every move used by the Pokémon will hit twice. The damage inflicted by the second hit is reduced by 50%. If the move used is a damaging move, each hit is capable of afflicting Secondary Effects and Critical Hits",
+        "nPokemons": "(1)",
+        "name": "Parental Bond",
+        "overworld": "/",
+        "short_description": "Parent and child attack together."
+    },
+    {
+        "_id": "105",
+        "description": "When a Pokémon makes physical contact with the Pokémon, the item of the opponent is stolen.",
+        "nPokemons": "(7)",
+        "name": "Pickpocket",
+        "overworld": "/",
+        "short_description": "It steals the item of an opponent that touches it. "
+    },
+    {
+        "_id": "106",
+        "description": "Has a 10% chance of finding and holding an item after battle. Will not work if this Pokémon is already holding an item. In Black & White, it allows for the user to pick up the item of its opponent or ally if they used up the item in battle.",
+        "nPokemons": "(15)",
+        "name": "Pickup",
+        "overworld": "/",
+        "short_description": "The Pokémon may pick up items."
+    },
+    {
+        "_id": "107",
+        "description": "Increases the power of Normal-type moves by 30%. It then changes those moves to Fairy-type.",
+        "nPokemons": "(2)",
+        "name": "Pixilate",
+        "overworld": "/",
+        "short_description": "Normal-type moves become Fairy-type moves."
+    },
+    {
+        "_id": "108",
+        "description": "When battling with Plus or Minus, Special Attack becomes 1.5 times greater.",
+        "nPokemons": "(8)",
+        "name": "Plus",
+        "overworld": "/",
+        "short_description": "Boosts Sp. Atk if another Pokémon has Minus."
+    },
+    {
+        "_id": "109",
+        "description": "HP is restored every turn while the Pokémon has POISON condition.",
+        "nPokemons": "(3)",
+        "name": "Poison Heal",
+        "overworld": "/",
+        "short_description": "Restores HP if the Pokémon is poisoned."
+    },
+    {
+        "_id": "110",
+        "description": "The opponent has a 30% chance of being induced with POISON when using an attack, that requires physical contact, against this Pokémon.",
+        "nPokemons": "(16)",
+        "name": "Poison Point",
+        "overworld": "/",
+        "short_description": "Contact with the Pokémon may poison the foe."
+    },
+    {
+        "_id": "111",
+        "description": "When the Pokémon attacks its opponents with a move that causes Physical Contact, there is a 20% chance that the target is Poisoned.",
+        "nPokemons": "(7)",
+        "name": "Poison Touch",
+        "overworld": "/",
+        "short_description": "The opponent can become poisoned just by touching this Pokémon."
+    },
+    {
+        "_id": "112",
+        "description": "Status category moves have their Speed Priority increased by 1",
+        "nPokemons": "(14)",
+        "name": "Prankster",
+        "overworld": "/",
+        "short_description": "Non-attacking moves have a higher speed priority."
+    },
+    {
+        "_id": "113",
+        "description": "When this Pokémon is hit by a move, the opponent’s PP lowers by 2 rather than 1.",
+        "nPokemons": "(25)",
+        "name": "Pressure",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a high level wild Pokémon decreases to 50%.",
+        "short_description": "The Pokémon raises the foe’s PP usage."
+    },
+    {
+        "_id": "114",
+        "description": "Before the Pokémon uses a move, it becomes a pure Pokémon of that type.",
+        "nPokemons": "(4)",
+        "name": "Protean",
+        "overworld": "/",
+        "short_description": "Changes the Pokémon's type to the type of the move it's using."
+    },
+    {
+        "_id": "115",
+        "description": "The Pokémon’s attack power is doubled in battle while having this ability.",
+        "nPokemons": "(3)",
+        "name": "Pure Power",
+        "overworld": "/",
+        "short_description": "Boosts the power of physical attacks."
+    },
+    {
+        "_id": "116",
+        "description": "Speed is increased by 50% when induced with a status (Burn, Poison, Sleep, Frozen & Paralysis). If Paralysed, the speed drop is ignored.",
+        "nPokemons": "(9)",
+        "name": "Quick Feet",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%.",
+        "short_description": "Boosts Speed if there is a status problem."
+    },
+    {
+        "_id": "117",
+        "description": "If Heavy Rain weather is in effect, recovers 1/16th max Hit Points at the end of the turn.",
+        "nPokemons": "(11)",
+        "name": "Rain Dish",
+        "overworld": "/",
+        "short_description": "The Pokémon gradually recovers HP in rain."
+    },
+    {
+        "_id": "118",
+        "description": "Speed is raised by one stage when the Pokémon is hit by a Bug-type, Ghost-type or Dark-type move.",
+        "nPokemons": "(11)",
+        "name": "Rattled",
+        "overworld": "/",
+        "short_description": "There are types you are self-conscious around of and raise your speed."
+    },
+    {
+        "_id": "119",
+        "description": "The power of moves that have recoil damage is increased by 20%.",
+        "nPokemons": "(12)",
+        "name": "Reckless",
+        "overworld": "/",
+        "short_description": "Powers up moves that have recoil damage."
+    },
+    {
+        "_id": "120",
+        "description": "Increases the power of Normal-type moves by 30%. It then changes those moves to Ice-type.",
+        "nPokemons": "(2)",
+        "name": "Refrigerate",
+        "overworld": "/",
+        "short_description": "Normal-type moves become Ice-type moves."
+    },
+    {
+        "_id": "121",
+        "description": "When the Pokémon switches out of battle, up to 33.3% of its maximum Hit Points are restored",
+        "nPokemons": "(17)",
+        "name": "Regenerator",
+        "overworld": "/",
+        "short_description": "HP is restored when you switch out."
+    },
+    {
+        "_id": "122",
+        "description": "Attack & Special Attack is increased by 25% if the foe is of the same gender; Attack & Special Attack is decreased by 25% if the foe is of the opposite gender.",
+        "nPokemons": "(18)",
+        "name": "Rivalry",
+        "overworld": "/",
+        "short_description": "Raises Attack if the foe is of the same gender."
+    },
+    {
+        "_id": "123",
+        "description": "Does not receive recoil damage from recoil-causing damages.",
+        "nPokemons": "(20)",
+        "name": "Rock Head",
+        "overworld": "/",
+        "short_description": "Protects the Pokémon from recoil damage."
+    },
+    {
+        "_id": "124",
+        "description": "The opponent is hurt by 1/16th of his maxium Hit Points of recoil when using an attack, that requires physical contact, against this Pokémon.",
+        "nPokemons": "(6)",
+        "name": "Rough Skin",
+        "overworld": "/",
+        "short_description": "Inflicts damage to the foe on contact."
+    },
+    {
+        "_id": "125",
+        "description": "Except for trainer battles, can always run from battle. Cannot run during Mean Look or Block or when the opponent is trapping with the Arena Trap, Magnet Pull, or Shadow Tag ability.",
+        "nPokemons": "(24)",
+        "name": "Run Away",
+        "overworld": "/",
+        "short_description": "Enables sure getaway from wild Pokémon."
+    },
+    {
+        "_id": "126",
+        "description": "Ground-type, Rock-type & Steel-type moves have their power increased by 33% in a Sandstorm",
+        "nPokemons": "(15)",
+        "name": "Sand Force",
+        "overworld": "/",
+        "short_description": "Certain moves will increase in power during a sandstorm."
+    },
+    {
+        "_id": "127",
+        "description": "Speed is doubled within a sandstorm",
+        "nPokemons": "(6)",
+        "name": "Sand Rush",
+        "overworld": "/",
+        "short_description": "Speed rises in a Sand Storm"
+    },
+    {
+        "_id": "128",
+        "description": "Sandstorm blows when the Pokémon enters battle. As of X & Y, this lasts 5 turns.",
+        "nPokemons": "(4)",
+        "name": "Sand Stream",
+        "overworld": "/",
+        "short_description": "The Pokémon summons a sandstorm in battle."
+    },
+    {
+        "_id": "129",
+        "description": "Raises the Pokémon’s evasion during a sandstorm by one level.",
+        "nPokemons": "(20)",
+        "name": "Sand Veil",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon during a sandstorm decreases to 50%.",
+        "short_description": "Boosts the Pokémon’s evasion in a sandstorm."
+    },
+    {
+        "_id": "130",
+        "description": "Attack is raised by one stage when the Pokémon is hit by a Grass-type move. User receives no damage from Grass-type attacks.",
+        "nPokemons": "(16)",
+        "name": "Sap Sipper",
+        "overworld": "/",
+        "short_description": "Attack rises if hit with a Grass-type attack"
+    },
+    {
+        "_id": "131",
+        "description": "A Ghost-type foe can be hit by Normal-type & Fighting-type attacks.",
+        "nPokemons": "(10)",
+        "name": "Scrappy",
+        "overworld": "/",
+        "short_description": "Enables moves to hit Ghost-type foes."
+    },
+    {
+        "_id": "132",
+        "description": "The chances of a move having an effect doubles.",
+        "nPokemons": "(13)",
+        "name": "Serene Grace",
+        "overworld": "/",
+        "short_description": "Boosts the likelihood of added effects appearing."
+    },
+    {
+        "_id": "133",
+        "description": "The opponent cannot run nor switch while this Pokémon is in play. The opponent may still switch by using Baton Pass.",
+        "nPokemons": "(6)",
+        "name": "Shadow Tag",
+        "overworld": "/",
+        "short_description": "Prevents the foe from escaping."
+    },
+    {
+        "_id": "134",
+        "description": "Every turn, it has a 1 in 3 chance of healing from a status condition (BURN, PARALYZE, SLEEP, POISON, FREEZE).",
+        "nPokemons": "(21)",
+        "name": "Shed Skin",
+        "overworld": "/",
+        "short_description": "The Pokémon may heal its own status problems."
+    },
+    {
+        "_id": "135",
+        "description": "Moves with a secondary effect are increased in power by 33% but lose their secondary effect",
+        "nPokemons": "(24)",
+        "name": "Sheer Force",
+        "overworld": "/",
+        "short_description": "Attacks gain power, but lose their secondary effect."
+    },
+    {
+        "_id": "136",
+        "description": "Opponent’s moves cannot Critical Hit.",
+        "nPokemons": "(21)",
+        "name": "Shell Armor",
+        "overworld": "/",
+        "short_description": "The Pokémon is protected against critical hits."
+    },
+    {
+        "_id": "137",
+        "description": "Damaging moves used by the opponent will not have an additional effect.",
+        "nPokemons": "(7)",
+        "name": "Shield Dust",
+        "overworld": "/",
+        "short_description": "Blocks the added effects of attacks taken."
+    },
+    {
+        "_id": "138",
+        "description": "The effectiveness of all stat modifications is doubled.",
+        "nPokemons": "(5)",
+        "name": "Simple",
+        "overworld": "/",
+        "short_description": "The Pokémon is prone to wild stat changes."
+    },
+    {
+        "_id": "139",
+        "description": "Moves that attack 2-5 times always hit 5 times.",
+        "nPokemons": "(7)",
+        "name": "Skill Link",
+        "overworld": "/",
+        "short_description": "Increases the frequency of multi-strike moves."
+    },
+    {
+        "_id": "140",
+        "description": "Attack and Speed is halved during the first five turns since sent out.",
+        "nPokemons": "(1)",
+        "name": "Slow Start",
+        "overworld": "/",
+        "short_description": "Temporarily halves Attack and Speed."
+    },
+    {
+        "_id": "141",
+        "description": "Power of critical-hit moves is increased to 200% rather than 150%.",
+        "nPokemons": "(14)",
+        "name": "Sniper",
+        "overworld": "/",
+        "short_description": "Powers up moves if they become critical hits."
+    },
+    {
+        "_id": "142",
+        "description": "Raises the Pokémon’s evasion during a hailstorm by one level.",
+        "nPokemons": "(8)",
+        "name": "Snow Cloak",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon during a hailstorm decreases to 50%.",
+        "short_description": "Raises evasion in a hailstorm."
+    },
+    {
+        "_id": "143",
+        "description": "Hailstorm blows when the Pokémon enters battle. As of X & Y, this lasts 5 turns.",
+        "nPokemons": "(5)",
+        "name": "Snow Warning",
+        "overworld": "/",
+        "short_description": "The Pokémon summons a hailstorm in battle."
+    },
+    {
+        "_id": "144",
+        "description": "During sunshine, the Pokémon’s Special Attack raises to 1.5 times but HP decreases every turn.",
+        "nPokemons": "(9)",
+        "name": "Solar Power",
+        "overworld": "/",
+        "short_description": "Boosts Sp. Atk, but lowers HP in sunshine."
+    },
+    {
+        "_id": "145",
+        "description": "Damage by super-effective moves is reduced by 25%.",
+        "nPokemons": "(4)",
+        "name": "Solid Rock",
+        "overworld": "/",
+        "short_description": "Powers down super-effective moves."
+    },
+    {
+        "_id": "146",
+        "description": "Unaffected by sound moves. If this Pokémon switches out with Baton Pass, Perish Song against the switched out will not be nullified.",
+        "nPokemons": "(12)",
+        "name": "Soundproof",
+        "overworld": "/",
+        "short_description": "Gives full immunity to all sound-based moves."
+    },
+    {
+        "_id": "147",
+        "description": "Speed increases by one stage each turn except the turn that the Pokémon is switched into battle.",
+        "nPokemons": "(12)",
+        "name": "Speed Boost",
+        "overworld": "/",
+        "short_description": "The Pokémon’s Speed stat is gradually boosted."
+    },
+    {
+        "_id": "148",
+        "description": "The Pokémon always attacks last.",
+        "nPokemons": "(1)",
+        "name": "Stall",
+        "overworld": "/",
+        "short_description": "The Pokémon moves after even slower foes."
+    },
+    {
+        "_id": "149",
+        "description": "The Pokémon changes form depending on how it battles.",
+        "nPokemons": "(1)",
+        "name": "Stance Change",
+        "overworld": "/",
+        "short_description": "The Pokémon changes form depending on how it battles."
+    },
+    {
+        "_id": "150",
+        "description": "The opponent has a 30% chance of being induced with PARALYZE when using an attack, that requires physical contact, against this Pokémon.",
+        "nPokemons": "(15)",
+        "name": "Static",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering an Electric-type wild Pokémon increases to 150%.",
+        "short_description": "Contact with the Pokémon may cause paralysis."
+    },
+    {
+        "_id": "151",
+        "description": "Speed raises by one level every time the Pokémon flinches.",
+        "nPokemons": "(10)",
+        "name": "Steadfast",
+        "overworld": "/",
+        "short_description": "Raises Speed each time the Pokémon flinches."
+    },
+    {
+        "_id": "152",
+        "description": "If the Pokémon make physical contact with the opponent, there is a chance the opponent flinches",
+        "nPokemons": "(7)",
+        "name": "Stench",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%. In Battle Pyramid, it decreases to 75%.",
+        "short_description": "The stench helps keep wild Pokémon away."
+    },
+    {
+        "_id": "153",
+        "description": "This Pokémon’s item cannot be taken.",
+        "nPokemons": "(8)",
+        "name": "Sticky Hold",
+        "overworld": "If the Pokémon is in the lead spot, when fishing, Pokémon are easier to catch.",
+        "short_description": "Protects the Pokémon from item theft."
+    },
+    {
+        "_id": "154",
+        "description": "Water-type moves are drawn to this Pokémon. Water-type moves will do no damage and the Pokémon's SP ATK is raised one stage",
+        "nPokemons": "(7)",
+        "name": "Storm Drain",
+        "overworld": "/",
+        "short_description": "The Pokémon draws in all Water-type moves."
+    },
+    {
+        "_id": "155",
+        "description": "Increases the power of biting moves by 50%",
+        "nPokemons": "(2)",
+        "name": "Strong Jaw",
+        "overworld": "/",
+        "short_description": "The Pokémon's strong jaw gives it tremendous biting power."
+    },
+    {
+        "_id": "156",
+        "description": "The Pokémon is unaffected by One Hit Knock Out moves and in Generation V, the Pokémon cannot be knocked out when it has full Hit Points",
+        "nPokemons": "(36)",
+        "name": "Sturdy",
+        "overworld": "/",
+        "short_description": "The Pokémon is protected against 1-hit KO attacks."
+    },
+    {
+        "_id": "157",
+        "description": "Negates moves that force switching out.",
+        "nPokemons": "(5)",
+        "name": "Suction Cups",
+        "overworld": "If the Pokémon is in the lead spot, when fishing, Pokémon are easier to catch.",
+        "short_description": "Negates moves that force switching out."
+    },
+    {
+        "_id": "158",
+        "description": "Raises the critical-hit ratio of moves.",
+        "nPokemons": "(9)",
+        "name": "Super Luck",
+        "overworld": "/",
+        "short_description": "Heightens the critical-hit ratios of moves."
+    },
+    {
+        "_id": "159",
+        "description": "When HP is below 1/3rd, Bug’s power increases to 1.5 times.",
+        "nPokemons": "(24)",
+        "name": "Swarm",
+        "overworld": "While travelling, the roar of common wild Pokémon can be heard more often if the Pokémon is in the lead spot.",
+        "short_description": "Powers up Bug-type moves in a pinch."
+    },
+    {
+        "_id": "160",
+        "description": "Prevents ally Pokémon from falling asleep.",
+        "nPokemons": "(2)",
+        "name": "Sweet Veil",
+        "overworld": "/",
+        "short_description": "Prevents ally Pokémon from falling asleep."
+    },
+    {
+        "_id": "161",
+        "description": "When rainy, The Pokémon’s Speed doubles. However, Speed will not double on the turn weather becomes Heavy Rain.",
+        "nPokemons": "(38)",
+        "name": "Swift Swim",
+        "overworld": "/",
+        "short_description": "Boosts the Pokémon’s Speed in rain."
+    },
+    {
+        "_id": "162",
+        "description": "The Pokémon can pass an item to an ally.",
+        "nPokemons": "(3)",
+        "name": "Symbiosis",
+        "overworld": "/",
+        "short_description": "The Pokémon can pass an item to an ally."
+    },
+    {
+        "_id": "163",
+        "description": "When this Pokémon becomes POISON, PARALYZE, or BURN, so does the opponent. However, Fire-type and Water Veil ability Pokémon cannot be BURNed, Poison-type and Steel-type and Immunity ability Pokémon cannot be POISONed, and Limber ability Pokémon cannot be PARALYZEd.",
+        "nPokemons": "(15)",
+        "name": "Synchronize",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon with the same nature will be 50%.",
+        "short_description": "Passes on a burn, poison, or paralysis to the foe."
+    },
+    {
+        "_id": "164",
+        "description": "Pokémon’s evasion raises one level when Confused.",
+        "nPokemons": "(7)",
+        "name": "Tangled Feet",
+        "overworld": "/",
+        "short_description": "Raises evasion if the Pokémon is confused."
+    },
+    {
+        "_id": "165",
+        "description": "Moves with a base power of 60 or less raise to 1.5 times.",
+        "nPokemons": "(15)",
+        "name": "Technician",
+        "overworld": "/",
+        "short_description": "Powers up the Pokémon’s weaker moves."
+    },
+    {
+        "_id": "166",
+        "description": "Prevents damage from team-mates during Double and Triple battles",
+        "nPokemons": "(16)",
+        "name": "Telepathy",
+        "overworld": "/",
+        "short_description": "It reads the mind of its team-mates and is unaffected by their attacks."
+    },
+    {
+        "_id": "167",
+        "description": "It can attack the opponent regardless of their ability.",
+        "nPokemons": "(2)",
+        "name": "Teravolt",
+        "overworld": "/",
+        "short_description": "It can attack the opponent regardless of their ability."
+    },
+    {
+        "_id": "168",
+        "description": "Fire and Ice-type moves deal 50% damage.",
+        "nPokemons": "(22)",
+        "name": "Thick Fat",
+        "overworld": "/",
+        "short_description": "Raises resistance to Fire-and Ice-type moves."
+    },
+    {
+        "_id": "169",
+        "description": "The power of “not very effective” moves is doubled.",
+        "nPokemons": "(9)",
+        "name": "Tinted Lens",
+        "overworld": "/",
+        "short_description": "Powers up “not very effective” moves."
+    },
+    {
+        "_id": "170",
+        "description": "When HP is below 1/3rd, Water’s power increases to 1.5 times.",
+        "nPokemons": "(20)",
+        "name": "Torrent",
+        "overworld": "/",
+        "short_description": "Powers up Water-type moves in a pinch."
+    },
+    {
+        "_id": "171",
+        "description": "Increases the power of moves that make physical contact by 30%",
+        "nPokemons": "(4)",
+        "name": "Tough Claws",
+        "overworld": "/",
+        "short_description": "Powers up moves that make direct contact."
+    },
+    {
+        "_id": "172",
+        "description": "Attack stat increased by 50% when Poisoned",
+        "nPokemons": "(1)",
+        "name": "Toxic Boost",
+        "overworld": "/",
+        "short_description": "When poisoned the power of its Physical attacks rises. "
+    },
+    {
+        "_id": "173",
+        "description": "Special ability becomes the same as that of the opponent. Switching this Pokémon out of battle restores its original ability. In a Double Battle, a random opponent’s ability will be copied.",
+        "nPokemons": "(6)",
+        "name": "Trace",
+        "overworld": "/",
+        "short_description": "The Pokémon copies the foe’s ability."
+    },
+    {
+        "_id": "174",
+        "description": "This Pokémon cannot attack consecutively while having this ability.",
+        "nPokemons": "(3)",
+        "name": "Truant",
+        "overworld": "/",
+        "short_description": "The Pokémon can’t attack on consecutive turns."
+    },
+    {
+        "_id": "175",
+        "description": "It can attack the opponent regardless of their ability. ",
+        "nPokemons": "(2)",
+        "name": "Turboblaze",
+        "overworld": "/",
+        "short_description": "It can attack the opponent regardless of their ability. "
+    },
+    {
+        "_id": "176",
+        "description": "Foe’s stat modifications are ignored.",
+        "nPokemons": "(7)",
+        "name": "Unaware",
+        "overworld": "/",
+        "short_description": "Ignores any change in ability by the foe."
+    },
+    {
+        "_id": "177",
+        "description": "Speed is doubled once the held item is consumed.",
+        "nPokemons": "(12)",
+        "name": "Unburden",
+        "overworld": "/",
+        "short_description": "Raises Speed if a held item is used."
+    },
+    {
+        "_id": "178",
+        "description": "The opponent Pokémon will never use their held Berry while the Pokémon is in battle",
+        "nPokemons": "(19)",
+        "name": "Unnerve",
+        "overworld": "/",
+        "short_description": "You make the opponent tense and won't let them eat their berry."
+    },
+    {
+        "_id": "179",
+        "description": "Accuracy for the Pokémon and Allys is raised by 10%",
+        "nPokemons": "(1)",
+        "name": "Victory Star",
+        "overworld": "/",
+        "short_description": "You and your team mates receive an accuracy increase."
+    },
+    {
+        "_id": "180",
+        "description": "The Pokémon cannot be under the SLEEP condition while having this ability.",
+        "nPokemons": "(12)",
+        "name": "Vital Spirit",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a high level wild Pokémon decreases to 50%.",
+        "short_description": "Prevents the Pokémon from falling asleep."
+    },
+    {
+        "_id": "181",
+        "description": "The Pokémon heals up to 1/4 of it’s maximum Hit Points when hit with Electric-type moves.",
+        "nPokemons": "(7)",
+        "name": "Volt Absorb",
+        "overworld": "/",
+        "short_description": "Restores HP if hit by an Electric-type move."
+    },
+    {
+        "_id": "182",
+        "description": "The Pokémon heals up to 1/4 of it’s maximum Hit Points when hit with Water-type moves.",
+        "nPokemons": "(21)",
+        "name": "Water Absorb",
+        "overworld": "/",
+        "short_description": "Restores HP if hit by a Water-type move."
+    },
+    {
+        "_id": "183",
+        "description": "This Pokémon cannot be BURN condition while having this ability.",
+        "nPokemons": "(11)",
+        "name": "Water Veil",
+        "overworld": "/",
+        "short_description": "Prevents the Pokémon from getting a burn."
+    },
+    {
+        "_id": "184",
+        "description": "When hit by an attack, the Pokémon's Defense is lowered by one stage but Speed is increased by one stage.",
+        "nPokemons": "(16)",
+        "name": "Weak Armor",
+        "overworld": "/",
+        "short_description": "When hit with physical attacks its Defense is lowered, but its Speed is increased. "
+    },
+    {
+        "_id": "185",
+        "description": "Opponents’ moves which lower this Pokémon’s ability values have no effect. However this Pokémon may lower its own stats with its own moves.",
+        "nPokemons": "(2)",
+        "name": "White Smoke",
+        "overworld": "If the Pokémon is in the lead spot, chance of encountering a wild Pokémon decreases to 50%.",
+        "short_description": "Prevents the Pokémon’s stats from being lowered."
+    },
+    {
+        "_id": "186",
+        "description": "The Pokémon is only harmed by Super Effective damage, weather effects and condition effects.",
+        "nPokemons": "(1)",
+        "name": "Wonder Guard",
+        "overworld": "/",
+        "short_description": "Only supereffective moves will hit."
+    },
+    {
+        "_id": "187",
+        "description": "Makes non-damaging moves that are targeted at this Pokémon have the accuracy of 50%.",
+        "nPokemons": "(4)",
+        "name": "Wonder Skin",
+        "overworld": "/",
+        "short_description": "Your body makes it difficult to take stat-changing moves. "
+    },
+    {
+        "_id": "188",
+        "description": "When Hit Points get to 50% of maximum, the Pokémon changes form.",
+        "nPokemons": "(1)",
+        "name": "Zen Mode",
+        "overworld": "/",
+        "short_description": "Your form will change when in a pinch."
+    }
+]
