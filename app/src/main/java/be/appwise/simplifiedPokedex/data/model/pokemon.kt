@@ -1,30 +1,32 @@
 package be.appwise.simplifiedPokedex.data.model
 
-import android.arch.persistence.room.Embedded
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
-import android.arch.persistence.room.TypeConverters
-import be.appwise.simplifiedPokedex.data.typeConverters.ListTypeConverter
 
 //TODO: look at @Embedded
 @Entity(tableName = "pokemon")
 data class Pokemon(
     @PrimaryKey(autoGenerate = true)
-    val id: Int?,
+    val _id: Int?,
+    val base_happiness: Int,
+    val capture_rate: Int,
+    val description_x: String,
+    val description_y: String,
+    val egg_group1: String?,
+    val egg_group2: String?,
+    val egg_steps: String,
+    val evYield: String?,
+    val gender_spread: String,
+    val growth: String,
+    val height: String,
+    val isMega: Int,
+    val location_x: String,
+    val location_y: String,
     val name: String,
-    val baseExperience: Int,
-    val height: Int,
-    val isDefault: Boolean,
-    val order: Int,
-    val weight: Int/*,
-//    val species: NamedApiResource,
-//    val abilities: List<PokemonAbility>,
-//    val forms: List<NamedApiResource>,
-//    val gameIndices: List<VersionGameIndex>,
-//    val heldItems: List<PokemonHeldItem>,
-//    val moves: List<PokemonMove>,
-//    val stats: List<PokemonStat>,
-    @TypeConverters(ListTypeConverter::class)
-    val types: List<PokemonType>?*/
-//    val sprites: PokemonSprites
+    val nat_dex: Int,
+    val no_order: Int,
+    val species: String,
+    val type1: String,
+    val type2: String?,
+    val weight: String
 )

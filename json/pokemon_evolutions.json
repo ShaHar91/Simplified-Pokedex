@@ -1,0 +1,7712 @@
+[
+    {
+        "_id": "1",
+        "evolution_chain_id": "1",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Bulbasaur",
+        "ordering": "1"
+    },
+    {
+        "_id": "2",
+        "evolution_chain_id": "1",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "1",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Ivysaur",
+        "ordering": "2"
+    },
+    {
+        "_id": "3",
+        "evolution_chain_id": "1",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "2",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Venasaur",
+        "ordering": "3"
+    },
+    {
+        "_id": "4",
+        "evolution_chain_id": "2",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Charmander",
+        "ordering": "1"
+    },
+    {
+        "_id": "5",
+        "evolution_chain_id": "2",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "4",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Charmeleon",
+        "ordering": "2"
+    },
+    {
+        "_id": "6",
+        "evolution_chain_id": "2",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "5",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Charizard",
+        "ordering": "3"
+    },
+    {
+        "_id": "7",
+        "evolution_chain_id": "3",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Squirtle",
+        "ordering": "1"
+    },
+    {
+        "_id": "8",
+        "evolution_chain_id": "3",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "7",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Wartortle",
+        "ordering": "2"
+    },
+    {
+        "_id": "9",
+        "evolution_chain_id": "3",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "8",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Blastoise",
+        "ordering": "3"
+    },
+    {
+        "_id": "10",
+        "evolution_chain_id": "4",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Caterpie",
+        "ordering": "1"
+    },
+    {
+        "_id": "11",
+        "evolution_chain_id": "4",
+        "evolution_method": "Minimum level 7",
+        "evolves_from_id": "10",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Metapod",
+        "ordering": "2"
+    },
+    {
+        "_id": "12",
+        "evolution_chain_id": "4",
+        "evolution_method": "Minimum level 10",
+        "evolves_from_id": "11",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Butterfree",
+        "ordering": "3"
+    },
+    {
+        "_id": "13",
+        "evolution_chain_id": "5",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Weedle",
+        "ordering": "1"
+    },
+    {
+        "_id": "14",
+        "evolution_chain_id": "5",
+        "evolution_method": "Minimum level 7",
+        "evolves_from_id": "13",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Kakuna",
+        "ordering": "2"
+    },
+    {
+        "_id": "15",
+        "evolution_chain_id": "5",
+        "evolution_method": "Minimum level 10",
+        "evolves_from_id": "14",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Beedrill",
+        "ordering": "2"
+    },
+    {
+        "_id": "16",
+        "evolution_chain_id": "6",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Pidgey",
+        "ordering": "1"
+    },
+    {
+        "_id": "17",
+        "evolution_chain_id": "6",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "17",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Pidgeotto",
+        "ordering": "2"
+    },
+    {
+        "_id": "18",
+        "evolution_chain_id": "6",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "18",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Pidgeot",
+        "ordering": "3"
+    },
+    {
+        "_id": "19",
+        "evolution_chain_id": "7",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Rattata",
+        "ordering": "1"
+    },
+    {
+        "_id": "20",
+        "evolution_chain_id": "7",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "20",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Raticate",
+        "ordering": "2"
+    },
+    {
+        "_id": "21",
+        "evolution_chain_id": "8",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Spearow",
+        "ordering": "1"
+    },
+    {
+        "_id": "22",
+        "evolution_chain_id": "8",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "22",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Fearow",
+        "ordering": "2"
+    },
+    {
+        "_id": "23",
+        "evolution_chain_id": "9",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Ekans",
+        "ordering": "1"
+    },
+    {
+        "_id": "24",
+        "evolution_chain_id": "9",
+        "evolution_method": "Minimum level 22",
+        "evolves_from_id": "24",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Arbok",
+        "ordering": "2"
+    },
+    {
+        "_id": "25",
+        "evolution_chain_id": "10",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "172",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Pikachu",
+        "ordering": "2"
+    },
+    {
+        "_id": "26",
+        "evolution_chain_id": "10",
+        "evolution_method": "Use a Thunder Stone",
+        "evolves_from_id": "25",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Raichu",
+        "ordering": "3"
+    },
+    {
+        "_id": "27",
+        "evolution_chain_id": "11",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Sandshrew",
+        "ordering": "1"
+    },
+    {
+        "_id": "28",
+        "evolution_chain_id": "11",
+        "evolution_method": "Minimum level 22",
+        "evolves_from_id": "27",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Sandslash",
+        "ordering": "2"
+    },
+    {
+        "_id": "29",
+        "evolution_chain_id": "12",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Nidoran",
+        "ordering": "1"
+    },
+    {
+        "_id": "30",
+        "evolution_chain_id": "12",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "29",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Nidorana",
+        "ordering": "2"
+    },
+    {
+        "_id": "31",
+        "evolution_chain_id": "12",
+        "evolution_method": "Use a Moon Stone",
+        "evolves_from_id": "30",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Nidoqueen",
+        "ordering": "3"
+    },
+    {
+        "_id": "32",
+        "evolution_chain_id": "13",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Nidoran",
+        "ordering": "1"
+    },
+    {
+        "_id": "33",
+        "evolution_chain_id": "13",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "32",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Nidorino",
+        "ordering": "2"
+    },
+    {
+        "_id": "34",
+        "evolution_chain_id": "13",
+        "evolution_method": "Use a Moon Stone",
+        "evolves_from_id": "33",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Nidoking",
+        "ordering": "3"
+    },
+    {
+        "_id": "35",
+        "evolution_chain_id": "14",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "173",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Clefairy",
+        "ordering": "2"
+    },
+    {
+        "_id": "36",
+        "evolution_chain_id": "14",
+        "evolution_method": "Use a Moon Stone",
+        "evolves_from_id": "35",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Clefable",
+        "ordering": "3"
+    },
+    {
+        "_id": "37",
+        "evolution_chain_id": "15",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Vulpix",
+        "ordering": "1"
+    },
+    {
+        "_id": "38",
+        "evolution_chain_id": "15",
+        "evolution_method": "Use a Fire Stone",
+        "evolves_from_id": "37",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Ninetales",
+        "ordering": "2"
+    },
+    {
+        "_id": "39",
+        "evolution_chain_id": "16",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "174",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Jigglypuff",
+        "ordering": "2"
+    },
+    {
+        "_id": "40",
+        "evolution_chain_id": "16",
+        "evolution_method": "Use a Moon Stone",
+        "evolves_from_id": "39",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Wigglytuff",
+        "ordering": "3"
+    },
+    {
+        "_id": "41",
+        "evolution_chain_id": "17",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Zubat",
+        "ordering": "1"
+    },
+    {
+        "_id": "42",
+        "evolution_chain_id": "17",
+        "evolution_method": "Minimum level 22",
+        "evolves_from_id": "41",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Golbat",
+        "ordering": "2"
+    },
+    {
+        "_id": "43",
+        "evolution_chain_id": "18",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Oddish",
+        "ordering": "1"
+    },
+    {
+        "_id": "44",
+        "evolution_chain_id": "18",
+        "evolution_method": "Minimum level 21",
+        "evolves_from_id": "43",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Gloom",
+        "ordering": "2"
+    },
+    {
+        "_id": "45",
+        "evolution_chain_id": "18",
+        "evolution_method": "Use a Leaf Stone",
+        "evolves_from_id": "44",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Vileplume",
+        "ordering": "3"
+    },
+    {
+        "_id": "46",
+        "evolution_chain_id": "19",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Paras",
+        "ordering": "1"
+    },
+    {
+        "_id": "47",
+        "evolution_chain_id": "19",
+        "evolution_method": "Minimum level 24",
+        "evolves_from_id": "46",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Parasect",
+        "ordering": "2"
+    },
+    {
+        "_id": "48",
+        "evolution_chain_id": "20",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Venonat",
+        "ordering": "1"
+    },
+    {
+        "_id": "49",
+        "evolution_chain_id": "20",
+        "evolution_method": "Minimum level 31",
+        "evolves_from_id": "48",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Venomoth",
+        "ordering": "2"
+    },
+    {
+        "_id": "50",
+        "evolution_chain_id": "21",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Diglett",
+        "ordering": "1"
+    },
+    {
+        "_id": "51",
+        "evolution_chain_id": "21",
+        "evolution_method": "Minimum level 26",
+        "evolves_from_id": "50",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Dugtrio",
+        "ordering": "2"
+    },
+    {
+        "_id": "52",
+        "evolution_chain_id": "22",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Meowth",
+        "ordering": "1"
+    },
+    {
+        "_id": "53",
+        "evolution_chain_id": "22",
+        "evolution_method": "Minimum level 28",
+        "evolves_from_id": "52",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Persian",
+        "ordering": "2"
+    },
+    {
+        "_id": "54",
+        "evolution_chain_id": "23",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Psyduck",
+        "ordering": "1"
+    },
+    {
+        "_id": "55",
+        "evolution_chain_id": "23",
+        "evolution_method": "Minimum level 33",
+        "evolves_from_id": "54",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Golduck",
+        "ordering": "2"
+    },
+    {
+        "_id": "56",
+        "evolution_chain_id": "24",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Mankey",
+        "ordering": "1"
+    },
+    {
+        "_id": "57",
+        "evolution_chain_id": "24",
+        "evolution_method": "Minimum level 28",
+        "evolves_from_id": "56",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Primeape",
+        "ordering": "2"
+    },
+    {
+        "_id": "58",
+        "evolution_chain_id": "25",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Growlithe",
+        "ordering": "1"
+    },
+    {
+        "_id": "59",
+        "evolution_chain_id": "25",
+        "evolution_method": "Use a Fire Stone",
+        "evolves_from_id": "58",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Arcanine",
+        "ordering": "2"
+    },
+    {
+        "_id": "60",
+        "evolution_chain_id": "26",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Poliwag",
+        "ordering": "1"
+    },
+    {
+        "_id": "61",
+        "evolution_chain_id": "26",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "60",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Poliwhirl",
+        "ordering": "2"
+    },
+    {
+        "_id": "62",
+        "evolution_chain_id": "26",
+        "evolution_method": "Use a Water Stone",
+        "evolves_from_id": "61",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Poliwrath",
+        "ordering": "3"
+    },
+    {
+        "_id": "63",
+        "evolution_chain_id": "27",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Abra",
+        "ordering": "1"
+    },
+    {
+        "_id": "64",
+        "evolution_chain_id": "27",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "63",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Kadabra",
+        "ordering": "2"
+    },
+    {
+        "_id": "65",
+        "evolution_chain_id": "27",
+        "evolution_method": "Trade",
+        "evolves_from_id": "64",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Alakazam",
+        "ordering": "3"
+    },
+    {
+        "_id": "66",
+        "evolution_chain_id": "28",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Machop",
+        "ordering": "1"
+    },
+    {
+        "_id": "67",
+        "evolution_chain_id": "28",
+        "evolution_method": "Minimum level 28",
+        "evolves_from_id": "66",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Machoke",
+        "ordering": "2"
+    },
+    {
+        "_id": "68",
+        "evolution_chain_id": "28",
+        "evolution_method": "Trade",
+        "evolves_from_id": "67",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Machamp",
+        "ordering": "3"
+    },
+    {
+        "_id": "69",
+        "evolution_chain_id": "29",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Bellsprout",
+        "ordering": "1"
+    },
+    {
+        "_id": "70",
+        "evolution_chain_id": "29",
+        "evolution_method": "Minimum level 21",
+        "evolves_from_id": "69",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Weepinbell",
+        "ordering": "2"
+    },
+    {
+        "_id": "71",
+        "evolution_chain_id": "29",
+        "evolution_method": "Use a Leaf Stone",
+        "evolves_from_id": "70",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Victreebel",
+        "ordering": "3"
+    },
+    {
+        "_id": "72",
+        "evolution_chain_id": "30",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Tentacool",
+        "ordering": "1"
+    },
+    {
+        "_id": "73",
+        "evolution_chain_id": "30",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "72",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Tentacruel",
+        "ordering": "2"
+    },
+    {
+        "_id": "74",
+        "evolution_chain_id": "31",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Geodude",
+        "ordering": "1"
+    },
+    {
+        "_id": "75",
+        "evolution_chain_id": "31",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "74",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Graveler",
+        "ordering": "2"
+    },
+    {
+        "_id": "76",
+        "evolution_chain_id": "31",
+        "evolution_method": "Trade",
+        "evolves_from_id": "75",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Golem",
+        "ordering": "3"
+    },
+    {
+        "_id": "77",
+        "evolution_chain_id": "32",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Ponyta",
+        "ordering": "1"
+    },
+    {
+        "_id": "78",
+        "evolution_chain_id": "32",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "77",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Rapidash",
+        "ordering": "2"
+    },
+    {
+        "_id": "79",
+        "evolution_chain_id": "33",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Slowpoke",
+        "ordering": "1"
+    },
+    {
+        "_id": "80",
+        "evolution_chain_id": "33",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "79",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Slowbro",
+        "ordering": "2"
+    },
+    {
+        "_id": "81",
+        "evolution_chain_id": "34",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Magnemite",
+        "ordering": "1"
+    },
+    {
+        "_id": "82",
+        "evolution_chain_id": "34",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "81",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Magneton",
+        "ordering": "2"
+    },
+    {
+        "_id": "83",
+        "evolution_chain_id": "35",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Farfetch'd",
+        "ordering": "1"
+    },
+    {
+        "_id": "84",
+        "evolution_chain_id": "36",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Doduo",
+        "ordering": "1"
+    },
+    {
+        "_id": "85",
+        "evolution_chain_id": "36",
+        "evolution_method": "Minimum level 31",
+        "evolves_from_id": "84",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Dodrio",
+        "ordering": "2"
+    },
+    {
+        "_id": "86",
+        "evolution_chain_id": "37",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Seel",
+        "ordering": "1"
+    },
+    {
+        "_id": "87",
+        "evolution_chain_id": "37",
+        "evolution_method": "Minimum level 34",
+        "evolves_from_id": "86",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Dewgong",
+        "ordering": "2"
+    },
+    {
+        "_id": "88",
+        "evolution_chain_id": "38",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Grimer",
+        "ordering": "1"
+    },
+    {
+        "_id": "89",
+        "evolution_chain_id": "38",
+        "evolution_method": "Minimum level 38",
+        "evolves_from_id": "88",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Muk",
+        "ordering": "2"
+    },
+    {
+        "_id": "90",
+        "evolution_chain_id": "39",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Shellder",
+        "ordering": "1"
+    },
+    {
+        "_id": "91",
+        "evolution_chain_id": "39",
+        "evolution_method": "Use a Water Stone",
+        "evolves_from_id": "90",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Cloyster",
+        "ordering": "2"
+    },
+    {
+        "_id": "92",
+        "evolution_chain_id": "40",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Gastly",
+        "ordering": "1"
+    },
+    {
+        "_id": "93",
+        "evolution_chain_id": "40",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "92",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Haunter",
+        "ordering": "2"
+    },
+    {
+        "_id": "94",
+        "evolution_chain_id": "40",
+        "evolution_method": "Trade",
+        "evolves_from_id": "93",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Gengar",
+        "ordering": "3"
+    },
+    {
+        "_id": "95",
+        "evolution_chain_id": "41",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Onix",
+        "ordering": "1"
+    },
+    {
+        "_id": "96",
+        "evolution_chain_id": "42",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Drowzee",
+        "ordering": "1"
+    },
+    {
+        "_id": "97",
+        "evolution_chain_id": "42",
+        "evolution_method": "Minimum level 26",
+        "evolves_from_id": "96",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Hypno",
+        "ordering": "2"
+    },
+    {
+        "_id": "98",
+        "evolution_chain_id": "43",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Krabby",
+        "ordering": "1"
+    },
+    {
+        "_id": "99",
+        "evolution_chain_id": "43",
+        "evolution_method": "Minimum level 28",
+        "evolves_from_id": "98",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Kingler",
+        "ordering": "2"
+    },
+    {
+        "_id": "100",
+        "evolution_chain_id": "44",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Voltorb",
+        "ordering": "1"
+    },
+    {
+        "_id": "101",
+        "evolution_chain_id": "44",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "100",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Electrode",
+        "ordering": "2"
+    },
+    {
+        "_id": "102",
+        "evolution_chain_id": "45",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Exeggcute",
+        "ordering": "1"
+    },
+    {
+        "_id": "103",
+        "evolution_chain_id": "45",
+        "evolution_method": "Use a Leaf Stone",
+        "evolves_from_id": "102",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Exeggutor",
+        "ordering": "2"
+    },
+    {
+        "_id": "104",
+        "evolution_chain_id": "46",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Cubone",
+        "ordering": "1"
+    },
+    {
+        "_id": "105",
+        "evolution_chain_id": "46",
+        "evolution_method": "Minimum level 28",
+        "evolves_from_id": "104",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Marowak",
+        "ordering": "2"
+    },
+    {
+        "_id": "106",
+        "evolution_chain_id": "47",
+        "evolution_method": "Minimum level 20, when Attack > Defence",
+        "evolves_from_id": "236",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Hitmonlee",
+        "ordering": "2"
+    },
+    {
+        "_id": "107",
+        "evolution_chain_id": "47",
+        "evolution_method": "Minimum level 20, when Attack < Defence",
+        "evolves_from_id": "236",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Hitmonchan",
+        "ordering": "3"
+    },
+    {
+        "_id": "108",
+        "evolution_chain_id": "48",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Lickitung",
+        "ordering": "1"
+    },
+    {
+        "_id": "109",
+        "evolution_chain_id": "49",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Koffing",
+        "ordering": "1"
+    },
+    {
+        "_id": "110",
+        "evolution_chain_id": "49",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "109",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Weezing",
+        "ordering": "2"
+    },
+    {
+        "_id": "111",
+        "evolution_chain_id": "50",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Rhyhorn",
+        "ordering": "1"
+    },
+    {
+        "_id": "112",
+        "evolution_chain_id": "50",
+        "evolution_method": "Minimum level 42",
+        "evolves_from_id": "111",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Rhydon",
+        "ordering": "2"
+    },
+    {
+        "_id": "113",
+        "evolution_chain_id": "51",
+        "evolution_method": "Level up during the day, while holding an Oval Stone",
+        "evolves_from_id": "440",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Chansey",
+        "ordering": "2"
+    },
+    {
+        "_id": "114",
+        "evolution_chain_id": "52",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Tangela",
+        "ordering": "1"
+    },
+    {
+        "_id": "115",
+        "evolution_chain_id": "53",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Kangaskhan",
+        "ordering": "1"
+    },
+    {
+        "_id": "116",
+        "evolution_chain_id": "54",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Horsea",
+        "ordering": "1"
+    },
+    {
+        "_id": "117",
+        "evolution_chain_id": "54",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "116",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Seadra",
+        "ordering": "2"
+    },
+    {
+        "_id": "118",
+        "evolution_chain_id": "55",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Goldeen",
+        "ordering": "1"
+    },
+    {
+        "_id": "119",
+        "evolution_chain_id": "55",
+        "evolution_method": "Minimum level 33",
+        "evolves_from_id": "118",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Seaking",
+        "ordering": "2"
+    },
+    {
+        "_id": "120",
+        "evolution_chain_id": "56",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Staryu",
+        "ordering": "1"
+    },
+    {
+        "_id": "121",
+        "evolution_chain_id": "56",
+        "evolution_method": "Use a Water Stone",
+        "evolves_from_id": "120",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Starmie",
+        "ordering": "2"
+    },
+    {
+        "_id": "122",
+        "evolution_chain_id": "57",
+        "evolution_method": "Level up knowing Mimic",
+        "evolves_from_id": "439",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Mr. Mime",
+        "ordering": "2"
+    },
+    {
+        "_id": "123",
+        "evolution_chain_id": "58",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Scyther",
+        "ordering": "1"
+    },
+    {
+        "_id": "124",
+        "evolution_chain_id": "59",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "238",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Jynx",
+        "ordering": "2"
+    },
+    {
+        "_id": "125",
+        "evolution_chain_id": "60",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "239",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Electabuzz",
+        "ordering": "2"
+    },
+    {
+        "_id": "126",
+        "evolution_chain_id": "61",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "240",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Magmar",
+        "ordering": "2"
+    },
+    {
+        "_id": "127",
+        "evolution_chain_id": "62",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Pinsir",
+        "ordering": "1"
+    },
+    {
+        "_id": "128",
+        "evolution_chain_id": "63",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Tauros",
+        "ordering": "1"
+    },
+    {
+        "_id": "129",
+        "evolution_chain_id": "64",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Magikarp",
+        "ordering": "1"
+    },
+    {
+        "_id": "130",
+        "evolution_chain_id": "64",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "129",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Gyarados",
+        "ordering": "2"
+    },
+    {
+        "_id": "131",
+        "evolution_chain_id": "65",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Lapras",
+        "ordering": "1"
+    },
+    {
+        "_id": "132",
+        "evolution_chain_id": "66",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Ditto",
+        "ordering": "1"
+    },
+    {
+        "_id": "133",
+        "evolution_chain_id": "67",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Eevee",
+        "ordering": "1"
+    },
+    {
+        "_id": "134",
+        "evolution_chain_id": "67",
+        "evolution_method": "Use Water Stone",
+        "evolves_from_id": "133",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Vaporeon",
+        "ordering": "2"
+    },
+    {
+        "_id": "135",
+        "evolution_chain_id": "67",
+        "evolution_method": "Use Thunder Stone",
+        "evolves_from_id": "133",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Jolteon",
+        "ordering": "3"
+    },
+    {
+        "_id": "136",
+        "evolution_chain_id": "67",
+        "evolution_method": "Use Fire Stone",
+        "evolves_from_id": "133",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Flareon",
+        "ordering": "4"
+    },
+    {
+        "_id": "137",
+        "evolution_chain_id": "68",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Porygon",
+        "ordering": "1"
+    },
+    {
+        "_id": "138",
+        "evolution_chain_id": "69",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Omanyte",
+        "ordering": "1"
+    },
+    {
+        "_id": "139",
+        "evolution_chain_id": "69",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "138",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Omastar",
+        "ordering": "2"
+    },
+    {
+        "_id": "140",
+        "evolution_chain_id": "70",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Kabuto",
+        "ordering": "1"
+    },
+    {
+        "_id": "141",
+        "evolution_chain_id": "70",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "140",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Kabutops",
+        "ordering": "2"
+    },
+    {
+        "_id": "142",
+        "evolution_chain_id": "71",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Aerodactyl",
+        "ordering": "1"
+    },
+    {
+        "_id": "143",
+        "evolution_chain_id": "72",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "446",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Snorlax",
+        "ordering": "2"
+    },
+    {
+        "_id": "144",
+        "evolution_chain_id": "73",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Articuno",
+        "ordering": "1"
+    },
+    {
+        "_id": "145",
+        "evolution_chain_id": "74",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Zapdos",
+        "ordering": "1"
+    },
+    {
+        "_id": "146",
+        "evolution_chain_id": "75",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Moltres",
+        "ordering": "1"
+    },
+    {
+        "_id": "147",
+        "evolution_chain_id": "76",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Dratini",
+        "ordering": "1"
+    },
+    {
+        "_id": "148",
+        "evolution_chain_id": "76",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "147",
+        "gen_id": "1",
+        "is_stage": "2",
+        "name": "Dragonair",
+        "ordering": "2"
+    },
+    {
+        "_id": "149",
+        "evolution_chain_id": "76",
+        "evolution_method": "Minimum level 55",
+        "evolves_from_id": "148",
+        "gen_id": "1",
+        "is_stage": "3",
+        "name": "Dragonite",
+        "ordering": "3"
+    },
+    {
+        "_id": "150",
+        "evolution_chain_id": "77",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Mewtwo",
+        "ordering": "1"
+    },
+    {
+        "_id": "151",
+        "evolution_chain_id": "78",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "1",
+        "is_stage": "1",
+        "name": "Mew",
+        "ordering": "1"
+    },
+    {
+        "_id": "152",
+        "evolution_chain_id": "79",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Chikorita",
+        "ordering": "1"
+    },
+    {
+        "_id": "153",
+        "evolution_chain_id": "79",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "152",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Bayleef",
+        "ordering": "2"
+    },
+    {
+        "_id": "154",
+        "evolution_chain_id": "79",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "153",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Meganium",
+        "ordering": "3"
+    },
+    {
+        "_id": "155",
+        "evolution_chain_id": "80",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Cyndaquil",
+        "ordering": "1"
+    },
+    {
+        "_id": "156",
+        "evolution_chain_id": "80",
+        "evolution_method": "Minimum level 14",
+        "evolves_from_id": "155",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Quilava",
+        "ordering": "2"
+    },
+    {
+        "_id": "157",
+        "evolution_chain_id": "80",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "156",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Typhlosion",
+        "ordering": "3"
+    },
+    {
+        "_id": "158",
+        "evolution_chain_id": "81",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Totdile",
+        "ordering": "1"
+    },
+    {
+        "_id": "159",
+        "evolution_chain_id": "81",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "158",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Croconaw",
+        "ordering": "2"
+    },
+    {
+        "_id": "160",
+        "evolution_chain_id": "81",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "159",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Feraligatr",
+        "ordering": "3"
+    },
+    {
+        "_id": "161",
+        "evolution_chain_id": "82",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Sentret",
+        "ordering": "1"
+    },
+    {
+        "_id": "162",
+        "evolution_chain_id": "82",
+        "evolution_method": "Minimum level 15",
+        "evolves_from_id": "161",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Furret",
+        "ordering": "2"
+    },
+    {
+        "_id": "163",
+        "evolution_chain_id": "83",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Hoothoot",
+        "ordering": "1"
+    },
+    {
+        "_id": "164",
+        "evolution_chain_id": "83",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "163",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Noctowl",
+        "ordering": "2"
+    },
+    {
+        "_id": "165",
+        "evolution_chain_id": "84",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Ledyba",
+        "ordering": "1"
+    },
+    {
+        "_id": "166",
+        "evolution_chain_id": "84",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "165",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Ledian",
+        "ordering": "2"
+    },
+    {
+        "_id": "167",
+        "evolution_chain_id": "85",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Spinarak",
+        "ordering": "1"
+    },
+    {
+        "_id": "168",
+        "evolution_chain_id": "85",
+        "evolution_method": "Minimum level 22",
+        "evolves_from_id": "167",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Ariados",
+        "ordering": "2"
+    },
+    {
+        "_id": "169",
+        "evolution_chain_id": "17",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "42",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Crobat",
+        "ordering": "3"
+    },
+    {
+        "_id": "170",
+        "evolution_chain_id": "86",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Chinchou",
+        "ordering": "1"
+    },
+    {
+        "_id": "171",
+        "evolution_chain_id": "86",
+        "evolution_method": "Minimum level 27",
+        "evolves_from_id": "170",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Lanturn",
+        "ordering": "2"
+    },
+    {
+        "_id": "172",
+        "evolution_chain_id": "10",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Pichu",
+        "ordering": "1"
+    },
+    {
+        "_id": "173",
+        "evolution_chain_id": "14",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Cleffa",
+        "ordering": "1"
+    },
+    {
+        "_id": "174",
+        "evolution_chain_id": "16",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Igglybuff",
+        "ordering": "1"
+    },
+    {
+        "_id": "175",
+        "evolution_chain_id": "87",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Togepi",
+        "ordering": "1"
+    },
+    {
+        "_id": "176",
+        "evolution_chain_id": "87",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "175",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Togetic",
+        "ordering": "2"
+    },
+    {
+        "_id": "177",
+        "evolution_chain_id": "88",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Natu",
+        "ordering": "1"
+    },
+    {
+        "_id": "178",
+        "evolution_chain_id": "88",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "177",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Xatu",
+        "ordering": "2"
+    },
+    {
+        "_id": "179",
+        "evolution_chain_id": "89",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Mareep",
+        "ordering": "1"
+    },
+    {
+        "_id": "180",
+        "evolution_chain_id": "89",
+        "evolution_method": "Minimum level 15",
+        "evolves_from_id": "179",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Flaaffy",
+        "ordering": "2"
+    },
+    {
+        "_id": "181",
+        "evolution_chain_id": "89",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "180",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Ampharos",
+        "ordering": "3"
+    },
+    {
+        "_id": "182",
+        "evolution_chain_id": "18",
+        "evolution_method": "Use a Sun Stone",
+        "evolves_from_id": "44",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Bellossom",
+        "ordering": "4"
+    },
+    {
+        "_id": "183",
+        "evolution_chain_id": "90",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "298",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Marril",
+        "ordering": "2"
+    },
+    {
+        "_id": "184",
+        "evolution_chain_id": "90",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "183",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Azumarill",
+        "ordering": "3"
+    },
+    {
+        "_id": "185",
+        "evolution_chain_id": "91",
+        "evolution_method": "Level up knowing Mimic",
+        "evolves_from_id": "438",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Sudowoodo",
+        "ordering": "2"
+    },
+    {
+        "_id": "186",
+        "evolution_chain_id": "26",
+        "evolution_method": "Trade while holding a King's Rock",
+        "evolves_from_id": "61",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Politoed",
+        "ordering": "4"
+    },
+    {
+        "_id": "187",
+        "evolution_chain_id": "92",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Hoppip",
+        "ordering": "1"
+    },
+    {
+        "_id": "188",
+        "evolution_chain_id": "92",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "187",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Skiploom",
+        "ordering": "2"
+    },
+    {
+        "_id": "189",
+        "evolution_chain_id": "92",
+        "evolution_method": "Minimum level 27",
+        "evolves_from_id": "188",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Jumpluff",
+        "ordering": "3"
+    },
+    {
+        "_id": "190",
+        "evolution_chain_id": "93",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Aipom",
+        "ordering": "1"
+    },
+    {
+        "_id": "191",
+        "evolution_chain_id": "94",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Sunkern",
+        "ordering": "1"
+    },
+    {
+        "_id": "192",
+        "evolution_chain_id": "94",
+        "evolution_method": "Use a Sun Stone",
+        "evolves_from_id": "191",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Sunflora",
+        "ordering": "2"
+    },
+    {
+        "_id": "193",
+        "evolution_chain_id": "95",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Yanma",
+        "ordering": "1"
+    },
+    {
+        "_id": "194",
+        "evolution_chain_id": "96",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Wooper",
+        "ordering": "1"
+    },
+    {
+        "_id": "195",
+        "evolution_chain_id": "96",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "194",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Quagsire",
+        "ordering": "2"
+    },
+    {
+        "_id": "196",
+        "evolution_chain_id": "67",
+        "evolution_method": "Level up by day with 220 Happiness",
+        "evolves_from_id": "133",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Espeon",
+        "ordering": "5"
+    },
+    {
+        "_id": "197",
+        "evolution_chain_id": "67",
+        "evolution_method": "Level up by night with 220 Happiness",
+        "evolves_from_id": "133",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Umbreon",
+        "ordering": "6"
+    },
+    {
+        "_id": "198",
+        "evolution_chain_id": "97",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Murkrow",
+        "ordering": "1"
+    },
+    {
+        "_id": "199",
+        "evolution_chain_id": "33",
+        "evolution_method": "Trade while holding a King's Rock",
+        "evolves_from_id": "79",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Slowking",
+        "ordering": "3"
+    },
+    {
+        "_id": "200",
+        "evolution_chain_id": "98",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Misdreavus",
+        "ordering": "1"
+    },
+    {
+        "_id": "201",
+        "evolution_chain_id": "99",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Unown",
+        "ordering": "1"
+    },
+    {
+        "_id": "202",
+        "evolution_chain_id": "100",
+        "evolution_method": "Minimum level 15",
+        "evolves_from_id": "360",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Wobbuffet",
+        "ordering": "2"
+    },
+    {
+        "_id": "203",
+        "evolution_chain_id": "101",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Girafarig",
+        "ordering": "1"
+    },
+    {
+        "_id": "204",
+        "evolution_chain_id": "102",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Pineco",
+        "ordering": "1"
+    },
+    {
+        "_id": "205",
+        "evolution_chain_id": "102",
+        "evolution_method": "Minimum level 31",
+        "evolves_from_id": "204",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Forretress",
+        "ordering": "2"
+    },
+    {
+        "_id": "206",
+        "evolution_chain_id": "103",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Dunsparce",
+        "ordering": "1"
+    },
+    {
+        "_id": "207",
+        "evolution_chain_id": "104",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Gligar",
+        "ordering": "1"
+    },
+    {
+        "_id": "208",
+        "evolution_chain_id": "41",
+        "evolution_method": "Trade wile holding Metal Coat",
+        "evolves_from_id": "95",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Steelix",
+        "ordering": "2"
+    },
+    {
+        "_id": "209",
+        "evolution_chain_id": "105",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Snubbull",
+        "ordering": "1"
+    },
+    {
+        "_id": "210",
+        "evolution_chain_id": "105",
+        "evolution_method": "Minimum level 23",
+        "evolves_from_id": "209",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Granbull",
+        "ordering": "2"
+    },
+    {
+        "_id": "211",
+        "evolution_chain_id": "106",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Qwilfish",
+        "ordering": "1"
+    },
+    {
+        "_id": "212",
+        "evolution_chain_id": "58",
+        "evolution_method": "Trade while holding Metal Coat",
+        "evolves_from_id": "123",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Scizor",
+        "ordering": "2"
+    },
+    {
+        "_id": "213",
+        "evolution_chain_id": "107",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Shuckle",
+        "ordering": "1"
+    },
+    {
+        "_id": "214",
+        "evolution_chain_id": "108",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Heracross",
+        "ordering": "1"
+    },
+    {
+        "_id": "215",
+        "evolution_chain_id": "109",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Sneasel",
+        "ordering": "1"
+    },
+    {
+        "_id": "216",
+        "evolution_chain_id": "110",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Teddiursa",
+        "ordering": "1"
+    },
+    {
+        "_id": "217",
+        "evolution_chain_id": "110",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "216",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Ursaring",
+        "ordering": "2"
+    },
+    {
+        "_id": "218",
+        "evolution_chain_id": "111",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Slugma",
+        "ordering": "1"
+    },
+    {
+        "_id": "219",
+        "evolution_chain_id": "111",
+        "evolution_method": "Minimum level 38",
+        "evolves_from_id": "218",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Magcargo",
+        "ordering": "2"
+    },
+    {
+        "_id": "220",
+        "evolution_chain_id": "112",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Swinub",
+        "ordering": "1"
+    },
+    {
+        "_id": "221",
+        "evolution_chain_id": "112",
+        "evolution_method": "Minimum level 33",
+        "evolves_from_id": "220",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Piloswine",
+        "ordering": "2"
+    },
+    {
+        "_id": "222",
+        "evolution_chain_id": "113",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Corsola",
+        "ordering": "1"
+    },
+    {
+        "_id": "223",
+        "evolution_chain_id": "114",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Remoraid",
+        "ordering": "1"
+    },
+    {
+        "_id": "224",
+        "evolution_chain_id": "114",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "223",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Octillery",
+        "ordering": "2"
+    },
+    {
+        "_id": "225",
+        "evolution_chain_id": "115",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Delibird",
+        "ordering": "1"
+    },
+    {
+        "_id": "226",
+        "evolution_chain_id": "116",
+        "evolution_method": "Level up with Remoraid in the pary",
+        "evolves_from_id": "458",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Mantine",
+        "ordering": "1"
+    },
+    {
+        "_id": "227",
+        "evolution_chain_id": "117",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Skarmory",
+        "ordering": "1"
+    },
+    {
+        "_id": "228",
+        "evolution_chain_id": "118",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Houndour",
+        "ordering": "1"
+    },
+    {
+        "_id": "229",
+        "evolution_chain_id": "118",
+        "evolution_method": "Minimum level 24",
+        "evolves_from_id": "228",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Houndoom",
+        "ordering": "2"
+    },
+    {
+        "_id": "230",
+        "evolution_chain_id": "54",
+        "evolution_method": "Trade while holding a Dragon Scale",
+        "evolves_from_id": "117",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Kingdra",
+        "ordering": "3"
+    },
+    {
+        "_id": "231",
+        "evolution_chain_id": "119",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Phanpy",
+        "ordering": "1"
+    },
+    {
+        "_id": "232",
+        "evolution_chain_id": "119",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "231",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Donphan",
+        "ordering": "2"
+    },
+    {
+        "_id": "233",
+        "evolution_chain_id": "68",
+        "evolution_method": "Trade while holding an Up-Grade",
+        "evolves_from_id": "137",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Porygon2",
+        "ordering": "2"
+    },
+    {
+        "_id": "234",
+        "evolution_chain_id": "120",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Stantler",
+        "ordering": "1"
+    },
+    {
+        "_id": "235",
+        "evolution_chain_id": "121",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Smeargle",
+        "ordering": "1"
+    },
+    {
+        "_id": "236",
+        "evolution_chain_id": "47",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Tyrogue",
+        "ordering": "1"
+    },
+    {
+        "_id": "237",
+        "evolution_chain_id": "47",
+        "evolution_method": "Minimum level 20 when Attack = Defence",
+        "evolves_from_id": "236",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Hitmontop",
+        "ordering": "2"
+    },
+    {
+        "_id": "238",
+        "evolution_chain_id": "59",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Smoochum",
+        "ordering": "1"
+    },
+    {
+        "_id": "239",
+        "evolution_chain_id": "60",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Elekid",
+        "ordering": "1"
+    },
+    {
+        "_id": "240",
+        "evolution_chain_id": "61",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "0",
+        "name": "Magby",
+        "ordering": "1"
+    },
+    {
+        "_id": "241",
+        "evolution_chain_id": "122",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Miltank",
+        "ordering": "1"
+    },
+    {
+        "_id": "242",
+        "evolution_chain_id": "51",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "113",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Blissey",
+        "ordering": "3"
+    },
+    {
+        "_id": "243",
+        "evolution_chain_id": "123",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Raikou",
+        "ordering": "1"
+    },
+    {
+        "_id": "244",
+        "evolution_chain_id": "124",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Entei",
+        "ordering": "1"
+    },
+    {
+        "_id": "245",
+        "evolution_chain_id": "125",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Suicune",
+        "ordering": "1"
+    },
+    {
+        "_id": "246",
+        "evolution_chain_id": "126",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Larvitar",
+        "ordering": "1"
+    },
+    {
+        "_id": "247",
+        "evolution_chain_id": "126",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "246",
+        "gen_id": "2",
+        "is_stage": "2",
+        "name": "Pupitar",
+        "ordering": "2"
+    },
+    {
+        "_id": "248",
+        "evolution_chain_id": "126",
+        "evolution_method": "Minimum level 55",
+        "evolves_from_id": "247",
+        "gen_id": "2",
+        "is_stage": "3",
+        "name": "Tyranitar",
+        "ordering": "3"
+    },
+    {
+        "_id": "249",
+        "evolution_chain_id": "127",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Lugia",
+        "ordering": "1"
+    },
+    {
+        "_id": "250",
+        "evolution_chain_id": "128",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Ho-Oh",
+        "ordering": "1"
+    },
+    {
+        "_id": "251",
+        "evolution_chain_id": "129",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "2",
+        "is_stage": "1",
+        "name": "Celebi",
+        "ordering": "1"
+    },
+    {
+        "_id": "252",
+        "evolution_chain_id": "130",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Treecko",
+        "ordering": "1"
+    },
+    {
+        "_id": "253",
+        "evolution_chain_id": "130",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "252",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Grovyle",
+        "ordering": "2"
+    },
+    {
+        "_id": "254",
+        "evolution_chain_id": "130",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "253",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Sceptile",
+        "ordering": "3"
+    },
+    {
+        "_id": "255",
+        "evolution_chain_id": "131",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Torchic",
+        "ordering": "1"
+    },
+    {
+        "_id": "256",
+        "evolution_chain_id": "131",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "255",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Combusken",
+        "ordering": "2"
+    },
+    {
+        "_id": "257",
+        "evolution_chain_id": "131",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "256",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Blaziken",
+        "ordering": "3"
+    },
+    {
+        "_id": "258",
+        "evolution_chain_id": "132",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Mudkip",
+        "ordering": "1"
+    },
+    {
+        "_id": "259",
+        "evolution_chain_id": "132",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "258",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Marshtomp",
+        "ordering": "2"
+    },
+    {
+        "_id": "260",
+        "evolution_chain_id": "132",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "259",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Swampert",
+        "ordering": "3"
+    },
+    {
+        "_id": "261",
+        "evolution_chain_id": "133",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Poochyena",
+        "ordering": "1"
+    },
+    {
+        "_id": "262",
+        "evolution_chain_id": "133",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "261",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Mightyena",
+        "ordering": "2"
+    },
+    {
+        "_id": "263",
+        "evolution_chain_id": "134",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Zigzagoon",
+        "ordering": "1"
+    },
+    {
+        "_id": "264",
+        "evolution_chain_id": "134",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "263",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Linoone",
+        "ordering": "2"
+    },
+    {
+        "_id": "265",
+        "evolution_chain_id": "135",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Wurmple",
+        "ordering": "1"
+    },
+    {
+        "_id": "266",
+        "evolution_chain_id": "135",
+        "evolution_method": "Minimum level 7",
+        "evolves_from_id": "265",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Silcoon",
+        "ordering": "2"
+    },
+    {
+        "_id": "267",
+        "evolution_chain_id": "135",
+        "evolution_method": "Minimum level 10",
+        "evolves_from_id": "266",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Beautifly",
+        "ordering": "3"
+    },
+    {
+        "_id": "268",
+        "evolution_chain_id": "135",
+        "evolution_method": "Minimum level 7",
+        "evolves_from_id": "265",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Cascoon",
+        "ordering": "4"
+    },
+    {
+        "_id": "269",
+        "evolution_chain_id": "135",
+        "evolution_method": "Minimum level 10",
+        "evolves_from_id": "266",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Dustox",
+        "ordering": "5"
+    },
+    {
+        "_id": "270",
+        "evolution_chain_id": "136",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Lotad",
+        "ordering": "1"
+    },
+    {
+        "_id": "271",
+        "evolution_chain_id": "136",
+        "evolution_method": "Minimum level 14",
+        "evolves_from_id": "270",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Lombre",
+        "ordering": "2"
+    },
+    {
+        "_id": "272",
+        "evolution_chain_id": "136",
+        "evolution_method": "Use a Water Stone",
+        "evolves_from_id": "271",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Ludicolo",
+        "ordering": "3"
+    },
+    {
+        "_id": "273",
+        "evolution_chain_id": "137",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Seedot",
+        "ordering": "1"
+    },
+    {
+        "_id": "274",
+        "evolution_chain_id": "137",
+        "evolution_method": "Minimum level 14",
+        "evolves_from_id": "273",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Nuzleaf",
+        "ordering": "2"
+    },
+    {
+        "_id": "275",
+        "evolution_chain_id": "137",
+        "evolution_method": "Use a Leaf Stone",
+        "evolves_from_id": "274",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Shiftry",
+        "ordering": "3"
+    },
+    {
+        "_id": "276",
+        "evolution_chain_id": "138",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Tailow",
+        "ordering": "1"
+    },
+    {
+        "_id": "277",
+        "evolution_chain_id": "138",
+        "evolution_method": "Minimum level 22",
+        "evolves_from_id": "276",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Swellow",
+        "ordering": "2"
+    },
+    {
+        "_id": "278",
+        "evolution_chain_id": "139",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Wingull",
+        "ordering": "1"
+    },
+    {
+        "_id": "279",
+        "evolution_chain_id": "139",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "278",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Pelipper",
+        "ordering": "2"
+    },
+    {
+        "_id": "280",
+        "evolution_chain_id": "140",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Ralts",
+        "ordering": "1"
+    },
+    {
+        "_id": "281",
+        "evolution_chain_id": "140",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "280",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Kirlia",
+        "ordering": "2"
+    },
+    {
+        "_id": "282",
+        "evolution_chain_id": "140",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "281",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Gardevoir",
+        "ordering": "3"
+    },
+    {
+        "_id": "283",
+        "evolution_chain_id": "141",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Surskit",
+        "ordering": "1"
+    },
+    {
+        "_id": "284",
+        "evolution_chain_id": "141",
+        "evolution_method": "Minimum level 22",
+        "evolves_from_id": "283",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Masquerain",
+        "ordering": "2"
+    },
+    {
+        "_id": "285",
+        "evolution_chain_id": "142",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Shroomish",
+        "ordering": "1"
+    },
+    {
+        "_id": "286",
+        "evolution_chain_id": "142",
+        "evolution_method": "Minimum level 23",
+        "evolves_from_id": "285",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Breloom",
+        "ordering": "2"
+    },
+    {
+        "_id": "287",
+        "evolution_chain_id": "143",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Slakoth",
+        "ordering": "1"
+    },
+    {
+        "_id": "288",
+        "evolution_chain_id": "143",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "287",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Vigoroth",
+        "ordering": "2"
+    },
+    {
+        "_id": "289",
+        "evolution_chain_id": "143",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "288",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Slaking",
+        "ordering": "3"
+    },
+    {
+        "_id": "290",
+        "evolution_chain_id": "144",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Nincada",
+        "ordering": "1"
+    },
+    {
+        "_id": "291",
+        "evolution_chain_id": "144",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "290",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Ninjask",
+        "ordering": "2"
+    },
+    {
+        "_id": "292",
+        "evolution_chain_id": "144",
+        "evolution_method": "Minimum level 20 with a Poké Ball and a free slot in party",
+        "evolves_from_id": "290",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Shedinja",
+        "ordering": "3"
+    },
+    {
+        "_id": "293",
+        "evolution_chain_id": "145",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Whismur",
+        "ordering": "1"
+    },
+    {
+        "_id": "294",
+        "evolution_chain_id": "145",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "293",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Loudred",
+        "ordering": "2"
+    },
+    {
+        "_id": "295",
+        "evolution_chain_id": "145",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "294",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Exploud",
+        "ordering": "3"
+    },
+    {
+        "_id": "296",
+        "evolution_chain_id": "146",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Makuhita",
+        "ordering": "1"
+    },
+    {
+        "_id": "297",
+        "evolution_chain_id": "146",
+        "evolution_method": "Minimum level 24",
+        "evolves_from_id": "296",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Hariyama",
+        "ordering": "2"
+    },
+    {
+        "_id": "298",
+        "evolution_chain_id": "90",
+        "evolution_method": "Either parent must hold a Sea Incense",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "0",
+        "name": "Azurill",
+        "ordering": "1"
+    },
+    {
+        "_id": "299",
+        "evolution_chain_id": "147",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Nosepass",
+        "ordering": "1"
+    },
+    {
+        "_id": "300",
+        "evolution_chain_id": "148",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Skitty",
+        "ordering": "1"
+    },
+    {
+        "_id": "301",
+        "evolution_chain_id": "148",
+        "evolution_method": "Use a Moon Stone",
+        "evolves_from_id": "300",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Delcatty",
+        "ordering": "2"
+    },
+    {
+        "_id": "302",
+        "evolution_chain_id": "149",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Sableye",
+        "ordering": "1"
+    },
+    {
+        "_id": "303",
+        "evolution_chain_id": "150",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Mawile",
+        "ordering": "1"
+    },
+    {
+        "_id": "304",
+        "evolution_chain_id": "151",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Aron",
+        "ordering": "1"
+    },
+    {
+        "_id": "305",
+        "evolution_chain_id": "151",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "304",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Lairon",
+        "ordering": "2"
+    },
+    {
+        "_id": "306",
+        "evolution_chain_id": "151",
+        "evolution_method": "Minimum level 42",
+        "evolves_from_id": "305",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Aggron",
+        "ordering": "3"
+    },
+    {
+        "_id": "307",
+        "evolution_chain_id": "152",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Meditite",
+        "ordering": "1"
+    },
+    {
+        "_id": "308",
+        "evolution_chain_id": "152",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "307",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Medicham",
+        "ordering": "2"
+    },
+    {
+        "_id": "309",
+        "evolution_chain_id": "153",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Electrike",
+        "ordering": "1"
+    },
+    {
+        "_id": "310",
+        "evolution_chain_id": "153",
+        "evolution_method": "Minimum level 26",
+        "evolves_from_id": "309",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Manectric",
+        "ordering": "2"
+    },
+    {
+        "_id": "311",
+        "evolution_chain_id": "154",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Plusle",
+        "ordering": "1"
+    },
+    {
+        "_id": "312",
+        "evolution_chain_id": "155",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Minin",
+        "ordering": "1"
+    },
+    {
+        "_id": "313",
+        "evolution_chain_id": "156",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Volbeat",
+        "ordering": "1"
+    },
+    {
+        "_id": "314",
+        "evolution_chain_id": "157",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Illumise",
+        "ordering": "1"
+    },
+    {
+        "_id": "315",
+        "evolution_chain_id": "158",
+        "evolution_method": "Level up by day with 220 Happiness",
+        "evolves_from_id": "406",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Roselia",
+        "ordering": "2"
+    },
+    {
+        "_id": "316",
+        "evolution_chain_id": "159",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Gulpin",
+        "ordering": "1"
+    },
+    {
+        "_id": "317",
+        "evolution_chain_id": "159",
+        "evolution_method": "Minimum level 26",
+        "evolves_from_id": "316",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Swalot",
+        "ordering": "2"
+    },
+    {
+        "_id": "318",
+        "evolution_chain_id": "160",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Carvanha",
+        "ordering": "1"
+    },
+    {
+        "_id": "319",
+        "evolution_chain_id": "160",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "318",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Sharpedo",
+        "ordering": "2"
+    },
+    {
+        "_id": "320",
+        "evolution_chain_id": "161",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Wailmer",
+        "ordering": "1"
+    },
+    {
+        "_id": "321",
+        "evolution_chain_id": "161",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "320",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Wailord",
+        "ordering": "2"
+    },
+    {
+        "_id": "322",
+        "evolution_chain_id": "162",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Numel",
+        "ordering": "1"
+    },
+    {
+        "_id": "323",
+        "evolution_chain_id": "162",
+        "evolution_method": "Minimum level 33",
+        "evolves_from_id": "322",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Camerupt",
+        "ordering": "2"
+    },
+    {
+        "_id": "324",
+        "evolution_chain_id": "163",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Torkoal",
+        "ordering": "1"
+    },
+    {
+        "_id": "325",
+        "evolution_chain_id": "164",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Spoink",
+        "ordering": "1"
+    },
+    {
+        "_id": "326",
+        "evolution_chain_id": "164",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "325",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Grumpig",
+        "ordering": "2"
+    },
+    {
+        "_id": "327",
+        "evolution_chain_id": "165",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Spinda",
+        "ordering": "1"
+    },
+    {
+        "_id": "328",
+        "evolution_chain_id": "166",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Trapinch",
+        "ordering": "1"
+    },
+    {
+        "_id": "329",
+        "evolution_chain_id": "166",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "328",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Vibrava",
+        "ordering": "2"
+    },
+    {
+        "_id": "330",
+        "evolution_chain_id": "166",
+        "evolution_method": "Minimum level 45",
+        "evolves_from_id": "329",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Flygon",
+        "ordering": "3"
+    },
+    {
+        "_id": "331",
+        "evolution_chain_id": "167",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Cacnea",
+        "ordering": "1"
+    },
+    {
+        "_id": "332",
+        "evolution_chain_id": "167",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "331",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Cacturne",
+        "ordering": "2"
+    },
+    {
+        "_id": "333",
+        "evolution_chain_id": "168",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Swablu",
+        "ordering": "1"
+    },
+    {
+        "_id": "334",
+        "evolution_chain_id": "168",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "333",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Altaria",
+        "ordering": "2"
+    },
+    {
+        "_id": "335",
+        "evolution_chain_id": "169",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Zangoose",
+        "ordering": "1"
+    },
+    {
+        "_id": "336",
+        "evolution_chain_id": "170",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Seviper",
+        "ordering": "1"
+    },
+    {
+        "_id": "337",
+        "evolution_chain_id": "171",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Lunatone",
+        "ordering": "1"
+    },
+    {
+        "_id": "338",
+        "evolution_chain_id": "172",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Solrock",
+        "ordering": "1"
+    },
+    {
+        "_id": "339",
+        "evolution_chain_id": "173",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Barboch",
+        "ordering": "1"
+    },
+    {
+        "_id": "340",
+        "evolution_chain_id": "173",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "339",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Whiscash",
+        "ordering": "2"
+    },
+    {
+        "_id": "341",
+        "evolution_chain_id": "174",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Corphish",
+        "ordering": "1"
+    },
+    {
+        "_id": "342",
+        "evolution_chain_id": "174",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "341",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Crawdaunt",
+        "ordering": "2"
+    },
+    {
+        "_id": "343",
+        "evolution_chain_id": "175",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Baltoy",
+        "ordering": "1"
+    },
+    {
+        "_id": "344",
+        "evolution_chain_id": "175",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "343",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Claydol",
+        "ordering": "2"
+    },
+    {
+        "_id": "345",
+        "evolution_chain_id": "176",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Lileep",
+        "ordering": "1"
+    },
+    {
+        "_id": "346",
+        "evolution_chain_id": "176",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "345",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Cradily",
+        "ordering": "2"
+    },
+    {
+        "_id": "347",
+        "evolution_chain_id": "177",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Anorith",
+        "ordering": "1"
+    },
+    {
+        "_id": "348",
+        "evolution_chain_id": "177",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "347",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Armaldo",
+        "ordering": "2"
+    },
+    {
+        "_id": "349",
+        "evolution_chain_id": "178",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Feebas",
+        "ordering": "1"
+    },
+    {
+        "_id": "350",
+        "evolution_chain_id": "178",
+        "evolution_method": "Level up with at least 171 beauty\nOr, Trade while holding a Prism Scale",
+        "evolves_from_id": "349",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Milotic",
+        "ordering": "2"
+    },
+    {
+        "_id": "351",
+        "evolution_chain_id": "179",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Castform",
+        "ordering": "1"
+    },
+    {
+        "_id": "352",
+        "evolution_chain_id": "180",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Keckleon",
+        "ordering": "1"
+    },
+    {
+        "_id": "353",
+        "evolution_chain_id": "181",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Shuppet",
+        "ordering": "1"
+    },
+    {
+        "_id": "354",
+        "evolution_chain_id": "181",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "353",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Banette",
+        "ordering": "2"
+    },
+    {
+        "_id": "355",
+        "evolution_chain_id": "182",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Duskull",
+        "ordering": "1"
+    },
+    {
+        "_id": "356",
+        "evolution_chain_id": "182",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "355",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Dusclops",
+        "ordering": "2"
+    },
+    {
+        "_id": "357",
+        "evolution_chain_id": "183",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Tropius",
+        "ordering": "1"
+    },
+    {
+        "_id": "358",
+        "evolution_chain_id": "184",
+        "evolution_method": "Level up by night with 220 Happiness",
+        "evolves_from_id": "433",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Chimecho",
+        "ordering": "2"
+    },
+    {
+        "_id": "359",
+        "evolution_chain_id": "185",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Absol",
+        "ordering": "1"
+    },
+    {
+        "_id": "360",
+        "evolution_chain_id": "100",
+        "evolution_method": "Either parent must hold Lax Incense",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "0",
+        "name": "Wynaut",
+        "ordering": "1"
+    },
+    {
+        "_id": "361",
+        "evolution_chain_id": "186",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Snorunt",
+        "ordering": "1"
+    },
+    {
+        "_id": "362",
+        "evolution_chain_id": "186",
+        "evolution_method": "Minimum level 42",
+        "evolves_from_id": "361",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Glalie",
+        "ordering": "2"
+    },
+    {
+        "_id": "363",
+        "evolution_chain_id": "187",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Spheal",
+        "ordering": "1"
+    },
+    {
+        "_id": "364",
+        "evolution_chain_id": "187",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "363",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Sealeo",
+        "ordering": "2"
+    },
+    {
+        "_id": "365",
+        "evolution_chain_id": "187",
+        "evolution_method": "Minimum level 44",
+        "evolves_from_id": "364",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Walrein",
+        "ordering": "3"
+    },
+    {
+        "_id": "366",
+        "evolution_chain_id": "188",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Clamperl",
+        "ordering": "1"
+    },
+    {
+        "_id": "367",
+        "evolution_chain_id": "188",
+        "evolution_method": "Trade while holding a Deep Sea Tooth",
+        "evolves_from_id": "366",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Huntail",
+        "ordering": "2"
+    },
+    {
+        "_id": "368",
+        "evolution_chain_id": "188",
+        "evolution_method": "Trade while holding a Deep Sea Scale",
+        "evolves_from_id": "366",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Gorebyss",
+        "ordering": "3"
+    },
+    {
+        "_id": "369",
+        "evolution_chain_id": "189",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Relicanth",
+        "ordering": "1"
+    },
+    {
+        "_id": "370",
+        "evolution_chain_id": "190",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Luvdisc",
+        "ordering": "1"
+    },
+    {
+        "_id": "371",
+        "evolution_chain_id": "191",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Bagon",
+        "ordering": "1"
+    },
+    {
+        "_id": "372",
+        "evolution_chain_id": "191",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "371",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Shelgon",
+        "ordering": "2"
+    },
+    {
+        "_id": "373",
+        "evolution_chain_id": "191",
+        "evolution_method": "Minimum level 50",
+        "evolves_from_id": "372",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Salamence",
+        "ordering": "3"
+    },
+    {
+        "_id": "374",
+        "evolution_chain_id": "192",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Beldum",
+        "ordering": "1"
+    },
+    {
+        "_id": "375",
+        "evolution_chain_id": "192",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "374",
+        "gen_id": "3",
+        "is_stage": "2",
+        "name": "Metang",
+        "ordering": "2"
+    },
+    {
+        "_id": "376",
+        "evolution_chain_id": "192",
+        "evolution_method": "Minimum level 45",
+        "evolves_from_id": "375",
+        "gen_id": "3",
+        "is_stage": "3",
+        "name": "Metagross",
+        "ordering": "3"
+    },
+    {
+        "_id": "377",
+        "evolution_chain_id": "193",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Regirock",
+        "ordering": "1"
+    },
+    {
+        "_id": "378",
+        "evolution_chain_id": "194",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Regice",
+        "ordering": "1"
+    },
+    {
+        "_id": "379",
+        "evolution_chain_id": "195",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Registeel",
+        "ordering": "1"
+    },
+    {
+        "_id": "380",
+        "evolution_chain_id": "196",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Latias",
+        "ordering": "1"
+    },
+    {
+        "_id": "381",
+        "evolution_chain_id": "197",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Latios",
+        "ordering": "1"
+    },
+    {
+        "_id": "382",
+        "evolution_chain_id": "198",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Kyogre",
+        "ordering": "1"
+    },
+    {
+        "_id": "383",
+        "evolution_chain_id": "199",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Groudon",
+        "ordering": "1"
+    },
+    {
+        "_id": "384",
+        "evolution_chain_id": "200",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Rayquaza",
+        "ordering": "1"
+    },
+    {
+        "_id": "385",
+        "evolution_chain_id": "201",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Jirachi",
+        "ordering": "1"
+    },
+    {
+        "_id": "386",
+        "evolution_chain_id": "202",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "3",
+        "is_stage": "1",
+        "name": "Deoxys",
+        "ordering": "1"
+    },
+    {
+        "_id": "387",
+        "evolution_chain_id": "203",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Turtwig",
+        "ordering": "1"
+    },
+    {
+        "_id": "388",
+        "evolution_chain_id": "203",
+        "evolution_method": "Minimum level 18",
+        "evolves_from_id": "387",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Grotle",
+        "ordering": "2"
+    },
+    {
+        "_id": "389",
+        "evolution_chain_id": "203",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "388",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Torterra",
+        "ordering": "3"
+    },
+    {
+        "_id": "390",
+        "evolution_chain_id": "204",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Chimchar",
+        "ordering": "1"
+    },
+    {
+        "_id": "391",
+        "evolution_chain_id": "204",
+        "evolution_method": "Minimum level 14",
+        "evolves_from_id": "390",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Monferno",
+        "ordering": "2"
+    },
+    {
+        "_id": "392",
+        "evolution_chain_id": "204",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "391",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Infernape",
+        "ordering": "3"
+    },
+    {
+        "_id": "393",
+        "evolution_chain_id": "205",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Piplup",
+        "ordering": "1"
+    },
+    {
+        "_id": "394",
+        "evolution_chain_id": "205",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "393",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Prinplup",
+        "ordering": "2"
+    },
+    {
+        "_id": "395",
+        "evolution_chain_id": "205",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "394",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Empoleon",
+        "ordering": "3"
+    },
+    {
+        "_id": "396",
+        "evolution_chain_id": "206",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Starly",
+        "ordering": "1"
+    },
+    {
+        "_id": "397",
+        "evolution_chain_id": "206",
+        "evolution_method": "Minimum level 14",
+        "evolves_from_id": "396",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Staravia",
+        "ordering": "2"
+    },
+    {
+        "_id": "398",
+        "evolution_chain_id": "206",
+        "evolution_method": "Minimum level 34",
+        "evolves_from_id": "397",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Staraptor",
+        "ordering": "3"
+    },
+    {
+        "_id": "399",
+        "evolution_chain_id": "207",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Bidoof",
+        "ordering": "1"
+    },
+    {
+        "_id": "400",
+        "evolution_chain_id": "207",
+        "evolution_method": "Minimum level 15",
+        "evolves_from_id": "399",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Bibarel",
+        "ordering": "2"
+    },
+    {
+        "_id": "401",
+        "evolution_chain_id": "208",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Kricketot",
+        "ordering": "1"
+    },
+    {
+        "_id": "402",
+        "evolution_chain_id": "208",
+        "evolution_method": "Minimum level 10",
+        "evolves_from_id": "401",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Kricketune",
+        "ordering": "2"
+    },
+    {
+        "_id": "403",
+        "evolution_chain_id": "209",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Shinx",
+        "ordering": "1"
+    },
+    {
+        "_id": "404",
+        "evolution_chain_id": "209",
+        "evolution_method": "Minimum level 15",
+        "evolves_from_id": "403",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Luxio",
+        "ordering": "2"
+    },
+    {
+        "_id": "405",
+        "evolution_chain_id": "209",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "404",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Luxray",
+        "ordering": "3"
+    },
+    {
+        "_id": "406",
+        "evolution_chain_id": "158",
+        "evolution_method": "Either parent must hold Rose Incense",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Budew",
+        "ordering": "1"
+    },
+    {
+        "_id": "407",
+        "evolution_chain_id": "158",
+        "evolution_method": "Use a Shiny Stone",
+        "evolves_from_id": "315",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Roserade",
+        "ordering": "3"
+    },
+    {
+        "_id": "408",
+        "evolution_chain_id": "211",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Cranidso",
+        "ordering": "1"
+    },
+    {
+        "_id": "409",
+        "evolution_chain_id": "211",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "408",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Rampardos",
+        "ordering": "2"
+    },
+    {
+        "_id": "410",
+        "evolution_chain_id": "212",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Shieldon",
+        "ordering": "1"
+    },
+    {
+        "_id": "411",
+        "evolution_chain_id": "212",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "410",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Bastiodon",
+        "ordering": "2"
+    },
+    {
+        "_id": "412",
+        "evolution_chain_id": "213",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Burmy",
+        "ordering": "1"
+    },
+    {
+        "_id": "413",
+        "evolution_chain_id": "213",
+        "evolution_method": "Minimum level 20 (♀ only)",
+        "evolves_from_id": "412",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Wormadam",
+        "ordering": "2"
+    },
+    {
+        "_id": "414",
+        "evolution_chain_id": "213",
+        "evolution_method": "Minimum level 20 (♂ only)",
+        "evolves_from_id": "412",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Mothim",
+        "ordering": "3"
+    },
+    {
+        "_id": "415",
+        "evolution_chain_id": "214",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Combee",
+        "ordering": "1"
+    },
+    {
+        "_id": "416",
+        "evolution_chain_id": "214",
+        "evolution_method": "Minimum level 21 (♀ only)",
+        "evolves_from_id": "415",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Vespiqueen",
+        "ordering": "2"
+    },
+    {
+        "_id": "417",
+        "evolution_chain_id": "215",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Pachirisu",
+        "ordering": "1"
+    },
+    {
+        "_id": "418",
+        "evolution_chain_id": "216",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Buizel",
+        "ordering": "1"
+    },
+    {
+        "_id": "419",
+        "evolution_chain_id": "216",
+        "evolution_method": "Minimum level 26",
+        "evolves_from_id": "418",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Floatzel",
+        "ordering": "2"
+    },
+    {
+        "_id": "420",
+        "evolution_chain_id": "217",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Cherubi",
+        "ordering": "1"
+    },
+    {
+        "_id": "421",
+        "evolution_chain_id": "217",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "420",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Cherrim",
+        "ordering": "2"
+    },
+    {
+        "_id": "422",
+        "evolution_chain_id": "218",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Shellos",
+        "ordering": "1"
+    },
+    {
+        "_id": "423",
+        "evolution_chain_id": "218",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "422",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Gastrodon",
+        "ordering": "2"
+    },
+    {
+        "_id": "424",
+        "evolution_chain_id": "93",
+        "evolution_method": "Level up knowing Double Hit",
+        "evolves_from_id": "190",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Ambipom",
+        "ordering": "2"
+    },
+    {
+        "_id": "425",
+        "evolution_chain_id": "219",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Drifloon",
+        "ordering": "1"
+    },
+    {
+        "_id": "426",
+        "evolution_chain_id": "219",
+        "evolution_method": "Minimum level 28",
+        "evolves_from_id": "425",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Drifblim",
+        "ordering": "2"
+    },
+    {
+        "_id": "427",
+        "evolution_chain_id": "220",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Buneary",
+        "ordering": "1"
+    },
+    {
+        "_id": "428",
+        "evolution_chain_id": "220",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "427",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Lopunny",
+        "ordering": "2"
+    },
+    {
+        "_id": "429",
+        "evolution_chain_id": "98",
+        "evolution_method": "Use a Dusk Stone",
+        "evolves_from_id": "200",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Mismagius",
+        "ordering": "2"
+    },
+    {
+        "_id": "430",
+        "evolution_chain_id": "97",
+        "evolution_method": "Use a Dusk Stone",
+        "evolves_from_id": "198",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Honckrow",
+        "ordering": "2"
+    },
+    {
+        "_id": "431",
+        "evolution_chain_id": "221",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Glameow",
+        "ordering": "1"
+    },
+    {
+        "_id": "432",
+        "evolution_chain_id": "221",
+        "evolution_method": "Minimum level 38",
+        "evolves_from_id": "431",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Purugly",
+        "ordering": "2"
+    },
+    {
+        "_id": "433",
+        "evolution_chain_id": "184",
+        "evolution_method": "Either parent must hold Pure Incense",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Chingling",
+        "ordering": "1"
+    },
+    {
+        "_id": "434",
+        "evolution_chain_id": "223",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Stunky",
+        "ordering": "1"
+    },
+    {
+        "_id": "435",
+        "evolution_chain_id": "223",
+        "evolution_method": "Minimum level 34",
+        "evolves_from_id": "434",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Skuntank",
+        "ordering": "2"
+    },
+    {
+        "_id": "436",
+        "evolution_chain_id": "224",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Bronzor",
+        "ordering": "1"
+    },
+    {
+        "_id": "437",
+        "evolution_chain_id": "224",
+        "evolution_method": "Minimum level 33",
+        "evolves_from_id": "436",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Bronzong",
+        "ordering": "2"
+    },
+    {
+        "_id": "438",
+        "evolution_chain_id": "91",
+        "evolution_method": "Either parent must hold Rock Incense",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Bonsly",
+        "ordering": "1"
+    },
+    {
+        "_id": "439",
+        "evolution_chain_id": "57",
+        "evolution_method": "Either parent must hold Odd Incense",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Mime Jr.",
+        "ordering": "1"
+    },
+    {
+        "_id": "440",
+        "evolution_chain_id": "51",
+        "evolution_method": "Either parent must hold Luck Incense",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Happiny",
+        "ordering": "1"
+    },
+    {
+        "_id": "441",
+        "evolution_chain_id": "228",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Chatot",
+        "ordering": "1"
+    },
+    {
+        "_id": "442",
+        "evolution_chain_id": "229",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Spiritomb",
+        "ordering": "1"
+    },
+    {
+        "_id": "443",
+        "evolution_chain_id": "230",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Gible",
+        "ordering": "1"
+    },
+    {
+        "_id": "444",
+        "evolution_chain_id": "230",
+        "evolution_method": "Minimum level 24",
+        "evolves_from_id": "443",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Gabite",
+        "ordering": "2"
+    },
+    {
+        "_id": "445",
+        "evolution_chain_id": "230",
+        "evolution_method": "Minimum level 48",
+        "evolves_from_id": "444",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Garchomp",
+        "ordering": "3"
+    },
+    {
+        "_id": "446",
+        "evolution_chain_id": "72",
+        "evolution_method": "Either parent must hold Full Incense",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Munchlax",
+        "ordering": "1"
+    },
+    {
+        "_id": "447",
+        "evolution_chain_id": "232",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Riolu",
+        "ordering": "1"
+    },
+    {
+        "_id": "448",
+        "evolution_chain_id": "232",
+        "evolution_method": "Level up by day with 220 Happiness",
+        "evolves_from_id": "447",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Lucario",
+        "ordering": "2"
+    },
+    {
+        "_id": "449",
+        "evolution_chain_id": "233",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Hippopotas",
+        "ordering": "1"
+    },
+    {
+        "_id": "450",
+        "evolution_chain_id": "233",
+        "evolution_method": "Minimum level 34",
+        "evolves_from_id": "449",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Hippowdon",
+        "ordering": "2"
+    },
+    {
+        "_id": "451",
+        "evolution_chain_id": "234",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Skorupi",
+        "ordering": "1"
+    },
+    {
+        "_id": "452",
+        "evolution_chain_id": "234",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "451",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Drapion",
+        "ordering": "2"
+    },
+    {
+        "_id": "453",
+        "evolution_chain_id": "235",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Croagunk",
+        "ordering": "1"
+    },
+    {
+        "_id": "454",
+        "evolution_chain_id": "235",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "453",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Toxicroak",
+        "ordering": "2"
+    },
+    {
+        "_id": "455",
+        "evolution_chain_id": "236",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Carnivine",
+        "ordering": "1"
+    },
+    {
+        "_id": "456",
+        "evolution_chain_id": "237",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Finneon",
+        "ordering": "1"
+    },
+    {
+        "_id": "457",
+        "evolution_chain_id": "237",
+        "evolution_method": "Minimum level 31",
+        "evolves_from_id": "456",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Lumineon",
+        "ordering": "2"
+    },
+    {
+        "_id": "458",
+        "evolution_chain_id": "116",
+        "evolution_method": "Either parent must hold Wave Incense",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "0",
+        "name": "Mantyke",
+        "ordering": "1"
+    },
+    {
+        "_id": "459",
+        "evolution_chain_id": "239",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Snover",
+        "ordering": "1"
+    },
+    {
+        "_id": "460",
+        "evolution_chain_id": "239",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "459",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Abomasnow",
+        "ordering": "2"
+    },
+    {
+        "_id": "461",
+        "evolution_chain_id": "109",
+        "evolution_method": "Level up by night while holding a Razor Claw",
+        "evolves_from_id": "215",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Weavile",
+        "ordering": "2"
+    },
+    {
+        "_id": "462",
+        "evolution_chain_id": "34",
+        "evolution_method": "Level up, around Mt. Coronet (Sinnoh)\nLevel up, around Chargestone Cave (Unova)\nLevel up, around Route 13 (Kalos)",
+        "evolves_from_id": "82",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Magnezone",
+        "ordering": "3"
+    },
+    {
+        "_id": "463",
+        "evolution_chain_id": "48",
+        "evolution_method": "Level up knowing Rollout",
+        "evolves_from_id": "108",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Lickilicky",
+        "ordering": "2"
+    },
+    {
+        "_id": "464",
+        "evolution_chain_id": "50",
+        "evolution_method": "Trade while holding a Protector",
+        "evolves_from_id": "112",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Rhyperior",
+        "ordering": "3"
+    },
+    {
+        "_id": "465",
+        "evolution_chain_id": "52",
+        "evolution_method": "Level up knowing Ancient Power",
+        "evolves_from_id": "114",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Tangrowth",
+        "ordering": "2"
+    },
+    {
+        "_id": "466",
+        "evolution_chain_id": "60",
+        "evolution_method": "Trade while holding an Electirizer",
+        "evolves_from_id": "125",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Electivire",
+        "ordering": "3"
+    },
+    {
+        "_id": "467",
+        "evolution_chain_id": "61",
+        "evolution_method": "Trade while holding an Magmarizer",
+        "evolves_from_id": "126",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Magmortar",
+        "ordering": "3"
+    },
+    {
+        "_id": "468",
+        "evolution_chain_id": "87",
+        "evolution_method": "Use a Shiny Stone",
+        "evolves_from_id": "176",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Togekiss",
+        "ordering": "3"
+    },
+    {
+        "_id": "469",
+        "evolution_chain_id": "95",
+        "evolution_method": "Level up knowing Ancient Power",
+        "evolves_from_id": "193",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Yanmega",
+        "ordering": "2"
+    },
+    {
+        "_id": "470",
+        "evolution_chain_id": "67",
+        "evolution_method": "Level up, around Route 20 (Kalos)\nLevel up, around Pinwheel Forest (Unova)\nLevel up, around Eterna Forest (Sinnoh) ",
+        "evolves_from_id": "133",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Leafeon",
+        "ordering": "7"
+    },
+    {
+        "_id": "471",
+        "evolution_chain_id": "67",
+        "evolution_method": "Level up, around Frost Cavern (Kalos)\nLevel up, around Twist Mountain (Unova)\nLevel up, around Route 217 (Sinnoh) ",
+        "evolves_from_id": "133",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Glaceon",
+        "ordering": "8"
+    },
+    {
+        "_id": "472",
+        "evolution_chain_id": "104",
+        "evolution_method": "Level up by night while holding a Razor Fang",
+        "evolves_from_id": "207",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Gliscor",
+        "ordering": "2"
+    },
+    {
+        "_id": "473",
+        "evolution_chain_id": "112",
+        "evolution_method": "Level up knowing Ancient Power",
+        "evolves_from_id": "221",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Mamoswine",
+        "ordering": "3"
+    },
+    {
+        "_id": "474",
+        "evolution_chain_id": "68",
+        "evolution_method": "Trade while holding a Dubious Disc",
+        "evolves_from_id": "233",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Porygon - Z",
+        "ordering": "3"
+    },
+    {
+        "_id": "475",
+        "evolution_chain_id": "140",
+        "evolution_method": "Use a Dawn stone (♂ only)",
+        "evolves_from_id": "281",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Gallade",
+        "ordering": "5"
+    },
+    {
+        "_id": "476",
+        "evolution_chain_id": "147",
+        "evolution_method": "Level up, around Mt. Coronet (Sinnoh)\nLevel up, around Chargestone Cave (Unova) \nLevel up, around Route 13 (Kalos)",
+        "evolves_from_id": "299",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Probopass",
+        "ordering": "2"
+    },
+    {
+        "_id": "477",
+        "evolution_chain_id": "182",
+        "evolution_method": "Trade while holding a Reaper Cloth",
+        "evolves_from_id": "356",
+        "gen_id": "4",
+        "is_stage": "3",
+        "name": "Dusknoir",
+        "ordering": "3"
+    },
+    {
+        "_id": "478",
+        "evolution_chain_id": "186",
+        "evolution_method": "Use a Dawn Stone (♀ only)",
+        "evolves_from_id": "361",
+        "gen_id": "4",
+        "is_stage": "2",
+        "name": "Froslass",
+        "ordering": "4"
+    },
+    {
+        "_id": "479",
+        "evolution_chain_id": "240",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Rotom",
+        "ordering": "1"
+    },
+    {
+        "_id": "480",
+        "evolution_chain_id": "241",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Uxie",
+        "ordering": "1"
+    },
+    {
+        "_id": "481",
+        "evolution_chain_id": "242",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Mesprit",
+        "ordering": "1"
+    },
+    {
+        "_id": "482",
+        "evolution_chain_id": "243",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Azelf",
+        "ordering": "1"
+    },
+    {
+        "_id": "483",
+        "evolution_chain_id": "244",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Dialga",
+        "ordering": "1"
+    },
+    {
+        "_id": "484",
+        "evolution_chain_id": "245",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Palkia",
+        "ordering": "1"
+    },
+    {
+        "_id": "485",
+        "evolution_chain_id": "246",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Heatran",
+        "ordering": "1"
+    },
+    {
+        "_id": "486",
+        "evolution_chain_id": "247",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Regigigas",
+        "ordering": "1"
+    },
+    {
+        "_id": "487",
+        "evolution_chain_id": "248",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Giratina",
+        "ordering": "1"
+    },
+    {
+        "_id": "488",
+        "evolution_chain_id": "249",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Cresselia",
+        "ordering": "1"
+    },
+    {
+        "_id": "489",
+        "evolution_chain_id": "250",
+        "evolution_method": "Phione can be bred from Manaphy, but does not evolve into Manaphy.",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Phione",
+        "ordering": "1"
+    },
+    {
+        "_id": "490",
+        "evolution_chain_id": "250",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Manaphy",
+        "ordering": "1"
+    },
+    {
+        "_id": "491",
+        "evolution_chain_id": "252",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Darkrai",
+        "ordering": "1"
+    },
+    {
+        "_id": "492",
+        "evolution_chain_id": "253",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Shaymin",
+        "ordering": "1"
+    },
+    {
+        "_id": "493",
+        "evolution_chain_id": "254",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "4",
+        "is_stage": "1",
+        "name": "Arceus",
+        "ordering": "1"
+    },
+    {
+        "_id": "494",
+        "evolution_chain_id": "255",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Victini",
+        "ordering": "1"
+    },
+    {
+        "_id": "495",
+        "evolution_chain_id": "256",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Snivy",
+        "ordering": "1"
+    },
+    {
+        "_id": "496",
+        "evolution_chain_id": "256",
+        "evolution_method": "Minimum level 17",
+        "evolves_from_id": "495",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Servine",
+        "ordering": "2"
+    },
+    {
+        "_id": "497",
+        "evolution_chain_id": "256",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "496",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Serperior",
+        "ordering": "3"
+    },
+    {
+        "_id": "498",
+        "evolution_chain_id": "257",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Tepig",
+        "ordering": "1"
+    },
+    {
+        "_id": "499",
+        "evolution_chain_id": "257",
+        "evolution_method": "Minimum level 17",
+        "evolves_from_id": "498",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Pignite",
+        "ordering": "2"
+    },
+    {
+        "_id": "500",
+        "evolution_chain_id": "257",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "499",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Eboar",
+        "ordering": "3"
+    },
+    {
+        "_id": "501",
+        "evolution_chain_id": "258",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Oshawott",
+        "ordering": "1"
+    },
+    {
+        "_id": "502",
+        "evolution_chain_id": "258",
+        "evolution_method": "Minimum level 17",
+        "evolves_from_id": "501",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Dewott",
+        "ordering": "2"
+    },
+    {
+        "_id": "503",
+        "evolution_chain_id": "258",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "502",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Samurott",
+        "ordering": "3"
+    },
+    {
+        "_id": "504",
+        "evolution_chain_id": "259",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Patrat",
+        "ordering": "1"
+    },
+    {
+        "_id": "505",
+        "evolution_chain_id": "259",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "504",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Watchdog",
+        "ordering": "2"
+    },
+    {
+        "_id": "506",
+        "evolution_chain_id": "260",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Lillipup",
+        "ordering": "1"
+    },
+    {
+        "_id": "507",
+        "evolution_chain_id": "260",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "506",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Herdier",
+        "ordering": "2"
+    },
+    {
+        "_id": "508",
+        "evolution_chain_id": "260",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "507",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Stoutland",
+        "ordering": "3"
+    },
+    {
+        "_id": "509",
+        "evolution_chain_id": "261",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Purrloin",
+        "ordering": "1"
+    },
+    {
+        "_id": "510",
+        "evolution_chain_id": "261",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "509",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Liepard",
+        "ordering": "2"
+    },
+    {
+        "_id": "511",
+        "evolution_chain_id": "262",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Pansage",
+        "ordering": "1"
+    },
+    {
+        "_id": "512",
+        "evolution_chain_id": "262",
+        "evolution_method": "Use a Leaf Stone",
+        "evolves_from_id": "511",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Simisage",
+        "ordering": "2"
+    },
+    {
+        "_id": "513",
+        "evolution_chain_id": "263",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Pansear",
+        "ordering": "1"
+    },
+    {
+        "_id": "514",
+        "evolution_chain_id": "263",
+        "evolution_method": "Use a Fire Stone",
+        "evolves_from_id": "513",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Simisear",
+        "ordering": "2"
+    },
+    {
+        "_id": "515",
+        "evolution_chain_id": "264",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Panpour",
+        "ordering": "1"
+    },
+    {
+        "_id": "516",
+        "evolution_chain_id": "264",
+        "evolution_method": "Use a Water Stone",
+        "evolves_from_id": "515",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Simipour",
+        "ordering": "2"
+    },
+    {
+        "_id": "517",
+        "evolution_chain_id": "265",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Munna",
+        "ordering": "1"
+    },
+    {
+        "_id": "518",
+        "evolution_chain_id": "265",
+        "evolution_method": "Use a Moon Stone",
+        "evolves_from_id": "517",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Musharna",
+        "ordering": "2"
+    },
+    {
+        "_id": "519",
+        "evolution_chain_id": "266",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Pidove",
+        "ordering": "1"
+    },
+    {
+        "_id": "520",
+        "evolution_chain_id": "266",
+        "evolution_method": "Minimum level 21",
+        "evolves_from_id": "519",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Tranquill",
+        "ordering": "2"
+    },
+    {
+        "_id": "521",
+        "evolution_chain_id": "266",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "520",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Unfezant",
+        "ordering": "3"
+    },
+    {
+        "_id": "522",
+        "evolution_chain_id": "267",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Blitzle",
+        "ordering": "1"
+    },
+    {
+        "_id": "523",
+        "evolution_chain_id": "267",
+        "evolution_method": "Minimum level 27",
+        "evolves_from_id": "522",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Zebstrika",
+        "ordering": "2"
+    },
+    {
+        "_id": "524",
+        "evolution_chain_id": "268",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Roggenrola",
+        "ordering": "1"
+    },
+    {
+        "_id": "525",
+        "evolution_chain_id": "268",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "524",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Boldore",
+        "ordering": "2"
+    },
+    {
+        "_id": "526",
+        "evolution_chain_id": "268",
+        "evolution_method": "Trade",
+        "evolves_from_id": "525",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Gigalith",
+        "ordering": "3"
+    },
+    {
+        "_id": "527",
+        "evolution_chain_id": "269",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Woobat",
+        "ordering": "1"
+    },
+    {
+        "_id": "528",
+        "evolution_chain_id": "269",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "527",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Swoobat",
+        "ordering": "2"
+    },
+    {
+        "_id": "529",
+        "evolution_chain_id": "270",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Drilbur",
+        "ordering": "1"
+    },
+    {
+        "_id": "530",
+        "evolution_chain_id": "270",
+        "evolution_method": "Minimum level 31",
+        "evolves_from_id": "529",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Excadrill",
+        "ordering": "2"
+    },
+    {
+        "_id": "531",
+        "evolution_chain_id": "271",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Audino",
+        "ordering": "1"
+    },
+    {
+        "_id": "532",
+        "evolution_chain_id": "272",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Timburr",
+        "ordering": "1"
+    },
+    {
+        "_id": "533",
+        "evolution_chain_id": "272",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "532",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Gurdurr",
+        "ordering": "2"
+    },
+    {
+        "_id": "534",
+        "evolution_chain_id": "272",
+        "evolution_method": "Trade",
+        "evolves_from_id": "533",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Conkeldurr",
+        "ordering": "3"
+    },
+    {
+        "_id": "535",
+        "evolution_chain_id": "273",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Tympole",
+        "ordering": "1"
+    },
+    {
+        "_id": "536",
+        "evolution_chain_id": "273",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "535",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Palpitoad",
+        "ordering": "2"
+    },
+    {
+        "_id": "537",
+        "evolution_chain_id": "273",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "536",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Seismitoad",
+        "ordering": "3"
+    },
+    {
+        "_id": "538",
+        "evolution_chain_id": "274",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Throh",
+        "ordering": "1"
+    },
+    {
+        "_id": "539",
+        "evolution_chain_id": "275",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Sawk",
+        "ordering": "1"
+    },
+    {
+        "_id": "540",
+        "evolution_chain_id": "276",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Sewaddle",
+        "ordering": "1"
+    },
+    {
+        "_id": "541",
+        "evolution_chain_id": "276",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "540",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Swadloon",
+        "ordering": "2"
+    },
+    {
+        "_id": "542",
+        "evolution_chain_id": "276",
+        "evolution_method": "Level up with 220 Happiness",
+        "evolves_from_id": "541",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Leavanny",
+        "ordering": "3"
+    },
+    {
+        "_id": "543",
+        "evolution_chain_id": "277",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Venipede",
+        "ordering": "1"
+    },
+    {
+        "_id": "544",
+        "evolution_chain_id": "277",
+        "evolution_method": "Minimum level 22",
+        "evolves_from_id": "543",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Whirlipede",
+        "ordering": "2"
+    },
+    {
+        "_id": "545",
+        "evolution_chain_id": "277",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "544",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Scolipede",
+        "ordering": "3"
+    },
+    {
+        "_id": "546",
+        "evolution_chain_id": "278",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Cottonee",
+        "ordering": "1"
+    },
+    {
+        "_id": "547",
+        "evolution_chain_id": "278",
+        "evolution_method": "Use a Sun Stone",
+        "evolves_from_id": "546",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Whimsicott",
+        "ordering": "2"
+    },
+    {
+        "_id": "548",
+        "evolution_chain_id": "279",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Petilil",
+        "ordering": "1"
+    },
+    {
+        "_id": "549",
+        "evolution_chain_id": "279",
+        "evolution_method": "Use a Sun Stone",
+        "evolves_from_id": "548",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Lilligant",
+        "ordering": "2"
+    },
+    {
+        "_id": "550",
+        "evolution_chain_id": "280",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Basculin",
+        "ordering": "1"
+    },
+    {
+        "_id": "551",
+        "evolution_chain_id": "281",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Sandile",
+        "ordering": "1"
+    },
+    {
+        "_id": "552",
+        "evolution_chain_id": "281",
+        "evolution_method": "Minimum level 29",
+        "evolves_from_id": "551",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Krokorok",
+        "ordering": "2"
+    },
+    {
+        "_id": "553",
+        "evolution_chain_id": "281",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "552",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Krookodile",
+        "ordering": "3"
+    },
+    {
+        "_id": "554",
+        "evolution_chain_id": "282",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Darumaka",
+        "ordering": "1"
+    },
+    {
+        "_id": "555",
+        "evolution_chain_id": "282",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "554",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Darmanitan",
+        "ordering": "2"
+    },
+    {
+        "_id": "556",
+        "evolution_chain_id": "283",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Maractus",
+        "ordering": "1"
+    },
+    {
+        "_id": "557",
+        "evolution_chain_id": "284",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Dwebble",
+        "ordering": "1"
+    },
+    {
+        "_id": "558",
+        "evolution_chain_id": "284",
+        "evolution_method": "Minimum level 34",
+        "evolves_from_id": "557",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Crustle",
+        "ordering": "2"
+    },
+    {
+        "_id": "559",
+        "evolution_chain_id": "285",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Scraggy",
+        "ordering": "1"
+    },
+    {
+        "_id": "560",
+        "evolution_chain_id": "285",
+        "evolution_method": "Minimum level 39",
+        "evolves_from_id": "559",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Scrafty",
+        "ordering": "2"
+    },
+    {
+        "_id": "561",
+        "evolution_chain_id": "286",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Sigilyph",
+        "ordering": "1"
+    },
+    {
+        "_id": "562",
+        "evolution_chain_id": "287",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Yamask",
+        "ordering": "1"
+    },
+    {
+        "_id": "563",
+        "evolution_chain_id": "287",
+        "evolution_method": "Minimum level 34",
+        "evolves_from_id": "562",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Cofagrigus",
+        "ordering": "2"
+    },
+    {
+        "_id": "564",
+        "evolution_chain_id": "288",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Tirtouga",
+        "ordering": "1"
+    },
+    {
+        "_id": "565",
+        "evolution_chain_id": "288",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "564",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Carracosta",
+        "ordering": "2"
+    },
+    {
+        "_id": "566",
+        "evolution_chain_id": "289",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Archen",
+        "ordering": "1"
+    },
+    {
+        "_id": "567",
+        "evolution_chain_id": "289",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "566",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Archeops",
+        "ordering": "2"
+    },
+    {
+        "_id": "568",
+        "evolution_chain_id": "290",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Trubbish",
+        "ordering": "1"
+    },
+    {
+        "_id": "569",
+        "evolution_chain_id": "290",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "568",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Gabodor",
+        "ordering": "2"
+    },
+    {
+        "_id": "570",
+        "evolution_chain_id": "291",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Zorua",
+        "ordering": "1"
+    },
+    {
+        "_id": "571",
+        "evolution_chain_id": "291",
+        "evolution_method": "Minimum level 30",
+        "evolves_from_id": "570",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Zoroark",
+        "ordering": "2"
+    },
+    {
+        "_id": "572",
+        "evolution_chain_id": "292",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Minccino",
+        "ordering": "1"
+    },
+    {
+        "_id": "573",
+        "evolution_chain_id": "292",
+        "evolution_method": "Use a Shiny Stone",
+        "evolves_from_id": "572",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Cinccino",
+        "ordering": "2"
+    },
+    {
+        "_id": "574",
+        "evolution_chain_id": "293",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Gothita",
+        "ordering": "1"
+    },
+    {
+        "_id": "575",
+        "evolution_chain_id": "293",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "574",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Gothorita",
+        "ordering": "2"
+    },
+    {
+        "_id": "576",
+        "evolution_chain_id": "293",
+        "evolution_method": "Minimum level 41",
+        "evolves_from_id": "575",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Gothitelle",
+        "ordering": "3"
+    },
+    {
+        "_id": "577",
+        "evolution_chain_id": "294",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Solosis",
+        "ordering": "1"
+    },
+    {
+        "_id": "578",
+        "evolution_chain_id": "294",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "577",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Duosion",
+        "ordering": "2"
+    },
+    {
+        "_id": "579",
+        "evolution_chain_id": "294",
+        "evolution_method": "Minimum level 41",
+        "evolves_from_id": "578",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Reuniclus",
+        "ordering": "3"
+    },
+    {
+        "_id": "580",
+        "evolution_chain_id": "295",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Ducklett",
+        "ordering": "1"
+    },
+    {
+        "_id": "581",
+        "evolution_chain_id": "295",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "580",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Swanna",
+        "ordering": "2"
+    },
+    {
+        "_id": "582",
+        "evolution_chain_id": "296",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Vannilite",
+        "ordering": "1"
+    },
+    {
+        "_id": "583",
+        "evolution_chain_id": "296",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "582",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Vannilish",
+        "ordering": "2"
+    },
+    {
+        "_id": "584",
+        "evolution_chain_id": "296",
+        "evolution_method": "Minimum level 47",
+        "evolves_from_id": "583",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Vanilluxe",
+        "ordering": "3"
+    },
+    {
+        "_id": "585",
+        "evolution_chain_id": "297",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Deerling",
+        "ordering": "1"
+    },
+    {
+        "_id": "586",
+        "evolution_chain_id": "297",
+        "evolution_method": "Minimum level 34",
+        "evolves_from_id": "585",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Sawsbuck",
+        "ordering": "2"
+    },
+    {
+        "_id": "587",
+        "evolution_chain_id": "298",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Emolga",
+        "ordering": "1"
+    },
+    {
+        "_id": "588",
+        "evolution_chain_id": "299",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Karrablast",
+        "ordering": "1"
+    },
+    {
+        "_id": "589",
+        "evolution_chain_id": "299",
+        "evolution_method": "Trade in exchange for Shelmet",
+        "evolves_from_id": "588",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Escavalier",
+        "ordering": "2"
+    },
+    {
+        "_id": "590",
+        "evolution_chain_id": "300",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Foongus",
+        "ordering": "1"
+    },
+    {
+        "_id": "591",
+        "evolution_chain_id": "300",
+        "evolution_method": "Minimum level 39",
+        "evolves_from_id": "590",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Amoonguss",
+        "ordering": "2"
+    },
+    {
+        "_id": "592",
+        "evolution_chain_id": "301",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Frillish",
+        "ordering": "1"
+    },
+    {
+        "_id": "593",
+        "evolution_chain_id": "301",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "592",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Jellicent",
+        "ordering": "2"
+    },
+    {
+        "_id": "594",
+        "evolution_chain_id": "302",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Alomomola",
+        "ordering": "1"
+    },
+    {
+        "_id": "595",
+        "evolution_chain_id": "303",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Joltik",
+        "ordering": "1"
+    },
+    {
+        "_id": "596",
+        "evolution_chain_id": "303",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "595",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Galvantula",
+        "ordering": "2"
+    },
+    {
+        "_id": "597",
+        "evolution_chain_id": "304",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Ferroseed",
+        "ordering": "1"
+    },
+    {
+        "_id": "598",
+        "evolution_chain_id": "304",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "597",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Ferrothorn",
+        "ordering": "2"
+    },
+    {
+        "_id": "599",
+        "evolution_chain_id": "305",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Klink",
+        "ordering": "1"
+    },
+    {
+        "_id": "600",
+        "evolution_chain_id": "305",
+        "evolution_method": "Minimum level 38",
+        "evolves_from_id": "599",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Klang",
+        "ordering": "2"
+    },
+    {
+        "_id": "601",
+        "evolution_chain_id": "305",
+        "evolution_method": "Minimum level 49",
+        "evolves_from_id": "600",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Klinkklang",
+        "ordering": "3"
+    },
+    {
+        "_id": "602",
+        "evolution_chain_id": "306",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Tynamo",
+        "ordering": "1"
+    },
+    {
+        "_id": "603",
+        "evolution_chain_id": "306",
+        "evolution_method": "Minimum level 39",
+        "evolves_from_id": "602",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Eelektrik",
+        "ordering": "2"
+    },
+    {
+        "_id": "604",
+        "evolution_chain_id": "306",
+        "evolution_method": "Use a Thunder Stone",
+        "evolves_from_id": "603",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Eelektross",
+        "ordering": "3"
+    },
+    {
+        "_id": "605",
+        "evolution_chain_id": "307",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Elgyem",
+        "ordering": "1"
+    },
+    {
+        "_id": "606",
+        "evolution_chain_id": "307",
+        "evolution_method": "Minimum level 42",
+        "evolves_from_id": "605",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Beheeyem",
+        "ordering": "2"
+    },
+    {
+        "_id": "607",
+        "evolution_chain_id": "308",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Litwick",
+        "ordering": "1"
+    },
+    {
+        "_id": "608",
+        "evolution_chain_id": "308",
+        "evolution_method": "Minimum level 41",
+        "evolves_from_id": "607",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Lampent",
+        "ordering": "2"
+    },
+    {
+        "_id": "609",
+        "evolution_chain_id": "308",
+        "evolution_method": "Use a Dusk Stone",
+        "evolves_from_id": "608",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Chandelure",
+        "ordering": "3"
+    },
+    {
+        "_id": "610",
+        "evolution_chain_id": "309",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Axew",
+        "ordering": "1"
+    },
+    {
+        "_id": "611",
+        "evolution_chain_id": "309",
+        "evolution_method": "Minimum level 38",
+        "evolves_from_id": "610",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Fraxure",
+        "ordering": "2"
+    },
+    {
+        "_id": "612",
+        "evolution_chain_id": "309",
+        "evolution_method": "Minimum level 48",
+        "evolves_from_id": "611",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Haxorus",
+        "ordering": "3"
+    },
+    {
+        "_id": "613",
+        "evolution_chain_id": "310",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Cubchoo",
+        "ordering": "1"
+    },
+    {
+        "_id": "614",
+        "evolution_chain_id": "310",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "613",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Beartic",
+        "ordering": "2"
+    },
+    {
+        "_id": "615",
+        "evolution_chain_id": "311",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Cryogonal",
+        "ordering": "1"
+    },
+    {
+        "_id": "616",
+        "evolution_chain_id": "312",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Shelmet",
+        "ordering": "1"
+    },
+    {
+        "_id": "617",
+        "evolution_chain_id": "312",
+        "evolution_method": "Trade in exchange for Karrablast",
+        "evolves_from_id": "616",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Accelgor",
+        "ordering": "2"
+    },
+    {
+        "_id": "618",
+        "evolution_chain_id": "313",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Stunfisk",
+        "ordering": "1"
+    },
+    {
+        "_id": "619",
+        "evolution_chain_id": "314",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Mienfoo",
+        "ordering": "1"
+    },
+    {
+        "_id": "620",
+        "evolution_chain_id": "314",
+        "evolution_method": "Minimum level 50",
+        "evolves_from_id": "619",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Mienshao",
+        "ordering": "2"
+    },
+    {
+        "_id": "621",
+        "evolution_chain_id": "315",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Druddigon",
+        "ordering": "1"
+    },
+    {
+        "_id": "622",
+        "evolution_chain_id": "316",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Golett",
+        "ordering": "1"
+    },
+    {
+        "_id": "623",
+        "evolution_chain_id": "316",
+        "evolution_method": "Minimum level 43",
+        "evolves_from_id": "622",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Golurk",
+        "ordering": "2"
+    },
+    {
+        "_id": "624",
+        "evolution_chain_id": "317",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Pawniard",
+        "ordering": "1"
+    },
+    {
+        "_id": "625",
+        "evolution_chain_id": "317",
+        "evolution_method": "Minimum level 52",
+        "evolves_from_id": "624",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Bisharp",
+        "ordering": "2"
+    },
+    {
+        "_id": "626",
+        "evolution_chain_id": "318",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Bouffalant",
+        "ordering": "1"
+    },
+    {
+        "_id": "627",
+        "evolution_chain_id": "319",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Rufflet",
+        "ordering": "1"
+    },
+    {
+        "_id": "628",
+        "evolution_chain_id": "319",
+        "evolution_method": "Minimum level 54",
+        "evolves_from_id": "627",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Braviary",
+        "ordering": "2"
+    },
+    {
+        "_id": "629",
+        "evolution_chain_id": "320",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Vullaby",
+        "ordering": "1"
+    },
+    {
+        "_id": "630",
+        "evolution_chain_id": "320",
+        "evolution_method": "Minimum level 54",
+        "evolves_from_id": "629",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Mandibuzz",
+        "ordering": "2"
+    },
+    {
+        "_id": "631",
+        "evolution_chain_id": "321",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Heatmor",
+        "ordering": "1"
+    },
+    {
+        "_id": "632",
+        "evolution_chain_id": "322",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Durant",
+        "ordering": "1"
+    },
+    {
+        "_id": "633",
+        "evolution_chain_id": "323",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Deino",
+        "ordering": "1"
+    },
+    {
+        "_id": "634",
+        "evolution_chain_id": "323",
+        "evolution_method": "Minimum level 50",
+        "evolves_from_id": "633",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Zweilous",
+        "ordering": "2"
+    },
+    {
+        "_id": "635",
+        "evolution_chain_id": "323",
+        "evolution_method": "Minimum level 64",
+        "evolves_from_id": "634",
+        "gen_id": "5",
+        "is_stage": "3",
+        "name": "Hydreigon",
+        "ordering": "3"
+    },
+    {
+        "_id": "636",
+        "evolution_chain_id": "324",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Larvesta",
+        "ordering": "1"
+    },
+    {
+        "_id": "637",
+        "evolution_chain_id": "324",
+        "evolution_method": "Minimum level 59",
+        "evolves_from_id": "636",
+        "gen_id": "5",
+        "is_stage": "2",
+        "name": "Volcarona",
+        "ordering": "2"
+    },
+    {
+        "_id": "638",
+        "evolution_chain_id": "325",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Cobalion",
+        "ordering": "1"
+    },
+    {
+        "_id": "639",
+        "evolution_chain_id": "326",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Terrakion",
+        "ordering": "1"
+    },
+    {
+        "_id": "640",
+        "evolution_chain_id": "327",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Virizion",
+        "ordering": "1"
+    },
+    {
+        "_id": "641",
+        "evolution_chain_id": "328",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Tornadus",
+        "ordering": "1"
+    },
+    {
+        "_id": "642",
+        "evolution_chain_id": "329",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Thundurus",
+        "ordering": "1"
+    },
+    {
+        "_id": "643",
+        "evolution_chain_id": "330",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Reshiram",
+        "ordering": "1"
+    },
+    {
+        "_id": "644",
+        "evolution_chain_id": "331",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Zekrom",
+        "ordering": "1"
+    },
+    {
+        "_id": "645",
+        "evolution_chain_id": "332",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Landorus",
+        "ordering": "1"
+    },
+    {
+        "_id": "646",
+        "evolution_chain_id": "333",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Kyurem",
+        "ordering": "1"
+    },
+    {
+        "_id": "647",
+        "evolution_chain_id": "334",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Keldeo",
+        "ordering": "1"
+    },
+    {
+        "_id": "648",
+        "evolution_chain_id": "335",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Meloetta",
+        "ordering": "1"
+    },
+    {
+        "_id": "649",
+        "evolution_chain_id": "336",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "5",
+        "is_stage": "1",
+        "name": "Genesect",
+        "ordering": "1"
+    },
+    {
+        "_id": "650",
+        "evolution_chain_id": "337",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Chespin",
+        "ordering": "1"
+    },
+    {
+        "_id": "651",
+        "evolution_chain_id": "337",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "650",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Quilladin",
+        "ordering": "2"
+    },
+    {
+        "_id": "652",
+        "evolution_chain_id": "337",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "651",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Chesnaught",
+        "ordering": "3"
+    },
+    {
+        "_id": "653",
+        "evolution_chain_id": "338",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Fennekin",
+        "ordering": "1"
+    },
+    {
+        "_id": "654",
+        "evolution_chain_id": "338",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "653",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Braixen",
+        "ordering": "2"
+    },
+    {
+        "_id": "655",
+        "evolution_chain_id": "338",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "654",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Delphox",
+        "ordering": "3"
+    },
+    {
+        "_id": "656",
+        "evolution_chain_id": "339",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Froakie",
+        "ordering": "1"
+    },
+    {
+        "_id": "657",
+        "evolution_chain_id": "339",
+        "evolution_method": "Minimum level 16",
+        "evolves_from_id": "656",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Frogadier",
+        "ordering": "2"
+    },
+    {
+        "_id": "658",
+        "evolution_chain_id": "339",
+        "evolution_method": "Minimum level 36",
+        "evolves_from_id": "657",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Greninja",
+        "ordering": "3"
+    },
+    {
+        "_id": "659",
+        "evolution_chain_id": "340",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Bunnelby",
+        "ordering": "1"
+    },
+    {
+        "_id": "660",
+        "evolution_chain_id": "340",
+        "evolution_method": "Minimum level 20",
+        "evolves_from_id": "659",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Diggersby",
+        "ordering": "2"
+    },
+    {
+        "_id": "661",
+        "evolution_chain_id": "341",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Fletchling",
+        "ordering": "1"
+    },
+    {
+        "_id": "662",
+        "evolution_chain_id": "341",
+        "evolution_method": "Minimum level 17",
+        "evolves_from_id": "661",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Fletchinder",
+        "ordering": "2"
+    },
+    {
+        "_id": "663",
+        "evolution_chain_id": "341",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "662",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Talonflame",
+        "ordering": "3"
+    },
+    {
+        "_id": "664",
+        "evolution_chain_id": "342",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Scatterbug",
+        "ordering": "1"
+    },
+    {
+        "_id": "665",
+        "evolution_chain_id": "342",
+        "evolution_method": "Minimum level 9",
+        "evolves_from_id": "664",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Spewpa",
+        "ordering": "2"
+    },
+    {
+        "_id": "666",
+        "evolution_chain_id": "342",
+        "evolution_method": "Minimum level 12",
+        "evolves_from_id": "665",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Vivillon",
+        "ordering": "3"
+    },
+    {
+        "_id": "667",
+        "evolution_chain_id": "343",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Litleo",
+        "ordering": "1"
+    },
+    {
+        "_id": "668",
+        "evolution_chain_id": "343",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "667",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Pyroar",
+        "ordering": "2"
+    },
+    {
+        "_id": "669",
+        "evolution_chain_id": "344",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Flabébé",
+        "ordering": "1"
+    },
+    {
+        "_id": "670",
+        "evolution_chain_id": "344",
+        "evolution_method": "Minimum level 19",
+        "evolves_from_id": "669",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Floette",
+        "ordering": "2"
+    },
+    {
+        "_id": "671",
+        "evolution_chain_id": "344",
+        "evolution_method": "Use a Shiny Stone",
+        "evolves_from_id": "670",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Florges",
+        "ordering": "3"
+    },
+    {
+        "_id": "672",
+        "evolution_chain_id": "345",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Skiddo",
+        "ordering": "1"
+    },
+    {
+        "_id": "673",
+        "evolution_chain_id": "345",
+        "evolution_method": "Minimum level 32",
+        "evolves_from_id": "672",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Gogoat",
+        "ordering": "2"
+    },
+    {
+        "_id": "674",
+        "evolution_chain_id": "346",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Pancham",
+        "ordering": "1"
+    },
+    {
+        "_id": "675",
+        "evolution_chain_id": "346",
+        "evolution_method": "Minimum level 32 with a Dark-type Pokémon in the party",
+        "evolves_from_id": "674",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Pangoro",
+        "ordering": "2"
+    },
+    {
+        "_id": "676",
+        "evolution_chain_id": "347",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Furfrou",
+        "ordering": "1"
+    },
+    {
+        "_id": "677",
+        "evolution_chain_id": "348",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Espurr",
+        "ordering": "1"
+    },
+    {
+        "_id": "678",
+        "evolution_chain_id": "348",
+        "evolution_method": "Minimum level 25",
+        "evolves_from_id": "677",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Meowstic",
+        "ordering": "2"
+    },
+    {
+        "_id": "679",
+        "evolution_chain_id": "349",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Honedge",
+        "ordering": "1"
+    },
+    {
+        "_id": "680",
+        "evolution_chain_id": "349",
+        "evolution_method": "Minimum level 35",
+        "evolves_from_id": "679",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Doublade",
+        "ordering": "2"
+    },
+    {
+        "_id": "681",
+        "evolution_chain_id": "349",
+        "evolution_method": "Use a Dusk Stone",
+        "evolves_from_id": "680",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Aegislash",
+        "ordering": "3"
+    },
+    {
+        "_id": "682",
+        "evolution_chain_id": "350",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Spritzee",
+        "ordering": "1"
+    },
+    {
+        "_id": "683",
+        "evolution_chain_id": "350",
+        "evolution_method": "Trade while holding a Sachet",
+        "evolves_from_id": "682",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Aromatisse",
+        "ordering": "2"
+    },
+    {
+        "_id": "684",
+        "evolution_chain_id": "351",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Swirlix",
+        "ordering": "1"
+    },
+    {
+        "_id": "685",
+        "evolution_chain_id": "351",
+        "evolution_method": "Trade while holding a Whipped Dream",
+        "evolves_from_id": "684",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Slurpuff",
+        "ordering": "2"
+    },
+    {
+        "_id": "686",
+        "evolution_chain_id": "352",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Inkay",
+        "ordering": "1"
+    },
+    {
+        "_id": "687",
+        "evolution_chain_id": "352",
+        "evolution_method": "Minimum level 30, with the 3DS turned upside-down",
+        "evolves_from_id": "686",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Malamar",
+        "ordering": "2"
+    },
+    {
+        "_id": "688",
+        "evolution_chain_id": "353",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Binacle",
+        "ordering": "1"
+    },
+    {
+        "_id": "689",
+        "evolution_chain_id": "353",
+        "evolution_method": "Minimum level 39",
+        "evolves_from_id": "688",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Barbaracle",
+        "ordering": "2"
+    },
+    {
+        "_id": "690",
+        "evolution_chain_id": "354",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Skrelp",
+        "ordering": "1"
+    },
+    {
+        "_id": "691",
+        "evolution_chain_id": "354",
+        "evolution_method": "Minimum level 48",
+        "evolves_from_id": "690",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Dragalge",
+        "ordering": "2"
+    },
+    {
+        "_id": "692",
+        "evolution_chain_id": "355",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Clauncher",
+        "ordering": "1"
+    },
+    {
+        "_id": "693",
+        "evolution_chain_id": "355",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "692",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Clawitzer",
+        "ordering": "2"
+    },
+    {
+        "_id": "694",
+        "evolution_chain_id": "356",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Helioptile",
+        "ordering": "1"
+    },
+    {
+        "_id": "695",
+        "evolution_chain_id": "356",
+        "evolution_method": "Use a Sun Stone",
+        "evolves_from_id": "694",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Heliolisk",
+        "ordering": "2"
+    },
+    {
+        "_id": "696",
+        "evolution_chain_id": "357",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Tyrunt",
+        "ordering": "1"
+    },
+    {
+        "_id": "697",
+        "evolution_chain_id": "357",
+        "evolution_method": "Minimum level 39 by day",
+        "evolves_from_id": "696",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Tyrantrum",
+        "ordering": "2"
+    },
+    {
+        "_id": "698",
+        "evolution_chain_id": "358",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Amaura",
+        "ordering": "1"
+    },
+    {
+        "_id": "699",
+        "evolution_chain_id": "358",
+        "evolution_method": "Minimum level 39 by night",
+        "evolves_from_id": "698",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Aurorus",
+        "ordering": "2"
+    },
+    {
+        "_id": "700",
+        "evolution_chain_id": "67",
+        "evolution_method": "Level up knowing a Fairy-type move, with at least 2 affection in Pokémon-Amie",
+        "evolves_from_id": "133",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Sylveon",
+        "ordering": "9"
+    },
+    {
+        "_id": "701",
+        "evolution_chain_id": "359",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Hawlucha",
+        "ordering": "1"
+    },
+    {
+        "_id": "702",
+        "evolution_chain_id": "360",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Dedenne",
+        "ordering": "1"
+    },
+    {
+        "_id": "703",
+        "evolution_chain_id": "361",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Carbink",
+        "ordering": "1"
+    },
+    {
+        "_id": "704",
+        "evolution_chain_id": "362",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Goomy",
+        "ordering": "1"
+    },
+    {
+        "_id": "705",
+        "evolution_chain_id": "362",
+        "evolution_method": "Minimum level 40",
+        "evolves_from_id": "704",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Sliggoo",
+        "ordering": "2"
+    },
+    {
+        "_id": "706",
+        "evolution_chain_id": "362",
+        "evolution_method": "Minimum level 50 while it is raining outside of battle",
+        "evolves_from_id": "705",
+        "gen_id": "6",
+        "is_stage": "3",
+        "name": "Goodra",
+        "ordering": "3"
+    },
+    {
+        "_id": "707",
+        "evolution_chain_id": "363",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Klefki",
+        "ordering": "1"
+    },
+    {
+        "_id": "708",
+        "evolution_chain_id": "364",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Phantump",
+        "ordering": "1"
+    },
+    {
+        "_id": "709",
+        "evolution_chain_id": "364",
+        "evolution_method": "Trade",
+        "evolves_from_id": "708",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Trevenant",
+        "ordering": "2"
+    },
+    {
+        "_id": "710",
+        "evolution_chain_id": "365",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Pumpkaboo",
+        "ordering": "1"
+    },
+    {
+        "_id": "711",
+        "evolution_chain_id": "365",
+        "evolution_method": "Trade",
+        "evolves_from_id": "710",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Gourgeist",
+        "ordering": "2"
+    },
+    {
+        "_id": "712",
+        "evolution_chain_id": "366",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Bergmite",
+        "ordering": "1"
+    },
+    {
+        "_id": "713",
+        "evolution_chain_id": "366",
+        "evolution_method": "Minimum level 37",
+        "evolves_from_id": "712",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Avalugg",
+        "ordering": "2"
+    },
+    {
+        "_id": "714",
+        "evolution_chain_id": "367",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Noibat",
+        "ordering": "1"
+    },
+    {
+        "_id": "715",
+        "evolution_chain_id": "367",
+        "evolution_method": "Minimum level 48",
+        "evolves_from_id": "714",
+        "gen_id": "6",
+        "is_stage": "2",
+        "name": "Noivern",
+        "ordering": "2"
+    },
+    {
+        "_id": "716",
+        "evolution_chain_id": "368",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Xerneas",
+        "ordering": "1"
+    },
+    {
+        "_id": "717",
+        "evolution_chain_id": "369",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Yveltal",
+        "ordering": "1"
+    },
+    {
+        "_id": "718",
+        "evolution_chain_id": "370",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Zygarde",
+        "ordering": "1"
+    },
+    {
+        "_id": "719",
+        "evolution_chain_id": "371",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Diancie",
+        "ordering": "1"
+    },
+    {
+        "_id": "720",
+        "evolution_chain_id": "372",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Hoopa",
+        "ordering": "1"
+    },
+    {
+        "_id": "721",
+        "evolution_chain_id": "373",
+        "evolution_method": "",
+        "evolves_from_id": "",
+        "gen_id": "6",
+        "is_stage": "1",
+        "name": "Volcanion",
+        "ordering": "1"
+    },
+    {
+        "_id": "10033",
+        "evolution_chain_id": "1",
+        "evolution_method": "Using mega stone, Venusaurite",
+        "evolves_from_id": "3",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Venasaur",
+        "ordering": "4"
+    },
+    {
+        "_id": "10034",
+        "evolution_chain_id": "2",
+        "evolution_method": "Using mega stone, Charizardnite X",
+        "evolves_from_id": "6",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Charizard X",
+        "ordering": "4"
+    },
+    {
+        "_id": "10035",
+        "evolution_chain_id": "2",
+        "evolution_method": "Using mega stone, Charizardnite Y",
+        "evolves_from_id": "6",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Charizard Y",
+        "ordering": "5"
+    },
+    {
+        "_id": "10036",
+        "evolution_chain_id": "3",
+        "evolution_method": "Using mega Stone, Blastoisinite",
+        "evolves_from_id": "9",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Blastoise",
+        "ordering": "4"
+    },
+    {
+        "_id": "10037",
+        "evolution_chain_id": "27",
+        "evolution_method": "Using mega stone, Alakazite",
+        "evolves_from_id": "65",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Alakazam",
+        "ordering": "4"
+    },
+    {
+        "_id": "10038",
+        "evolution_chain_id": "40",
+        "evolution_method": "Using mega stone, Gengarite",
+        "evolves_from_id": "94",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Gengar",
+        "ordering": "4"
+    },
+    {
+        "_id": "10039",
+        "evolution_chain_id": "53",
+        "evolution_method": "Using mega stone, Kangaskhanite",
+        "evolves_from_id": "115",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Kangaskhan",
+        "ordering": "2"
+    },
+    {
+        "_id": "10040",
+        "evolution_chain_id": "62",
+        "evolution_method": "Using mega stone, Pinsirite",
+        "evolves_from_id": "127",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Pinsir",
+        "ordering": "2"
+    },
+    {
+        "_id": "10041",
+        "evolution_chain_id": "64",
+        "evolution_method": "Using mega stone, Gyaradosite",
+        "evolves_from_id": "130",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Gyarados",
+        "ordering": "3"
+    },
+    {
+        "_id": "10042",
+        "evolution_chain_id": "71",
+        "evolution_method": "Using mega stone, Aerodactylite",
+        "evolves_from_id": "142",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Aerodctyl",
+        "ordering": "2"
+    },
+    {
+        "_id": "10043",
+        "evolution_chain_id": "77",
+        "evolution_method": "Using mega stone, Mewtwonite X",
+        "evolves_from_id": "150",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Mewtwo X",
+        "ordering": "2"
+    },
+    {
+        "_id": "10044",
+        "evolution_chain_id": "77",
+        "evolution_method": "Using mega stone, Mewtwonite Y",
+        "evolves_from_id": "150",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Mewtwo Y",
+        "ordering": "3"
+    },
+    {
+        "_id": "10045",
+        "evolution_chain_id": "89",
+        "evolution_method": "Using mega stone, Ampharosite",
+        "evolves_from_id": "181",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Ampharos",
+        "ordering": "4"
+    },
+    {
+        "_id": "10046",
+        "evolution_chain_id": "58",
+        "evolution_method": "Using mega stone, Scizorite",
+        "evolves_from_id": "212",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Scizor",
+        "ordering": "3"
+    },
+    {
+        "_id": "10047",
+        "evolution_chain_id": "108",
+        "evolution_method": "Using mega stone, Heracronite",
+        "evolves_from_id": "214",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Heracross",
+        "ordering": "2"
+    },
+    {
+        "_id": "10048",
+        "evolution_chain_id": "118",
+        "evolution_method": "Using mega stone, Houndoominite",
+        "evolves_from_id": "229",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Houndoom",
+        "ordering": "3"
+    },
+    {
+        "_id": "10049",
+        "evolution_chain_id": "126",
+        "evolution_method": "Using mega stone, Tyranitarite",
+        "evolves_from_id": "248",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Tyranitar",
+        "ordering": "4"
+    },
+    {
+        "_id": "10050",
+        "evolution_chain_id": "131",
+        "evolution_method": "Using mega stone, Blazikenite",
+        "evolves_from_id": "257",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Blaziken",
+        "ordering": "4"
+    },
+    {
+        "_id": "10051",
+        "evolution_chain_id": "140",
+        "evolution_method": "Using mega stone, Gardevoirite",
+        "evolves_from_id": "282",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Gardevoir",
+        "ordering": "4"
+    },
+    {
+        "_id": "10052",
+        "evolution_chain_id": "150",
+        "evolution_method": "Using mega stone, Mawilite",
+        "evolves_from_id": "303",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Mawile",
+        "ordering": "2"
+    },
+    {
+        "_id": "10053",
+        "evolution_chain_id": "151",
+        "evolution_method": "Using mega stone, Aggronite",
+        "evolves_from_id": "306",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Aggron",
+        "ordering": "4"
+    },
+    {
+        "_id": "10054",
+        "evolution_chain_id": "152",
+        "evolution_method": "Using mega stone, Medichamite",
+        "evolves_from_id": "308",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Medicham",
+        "ordering": "3"
+    },
+    {
+        "_id": "10055",
+        "evolution_chain_id": "153",
+        "evolution_method": "Using mega stone, Manectite",
+        "evolves_from_id": "310",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Manectric",
+        "ordering": "3"
+    },
+    {
+        "_id": "10056",
+        "evolution_chain_id": "181",
+        "evolution_method": "Using mega stone, Banettite",
+        "evolves_from_id": "354",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Banette",
+        "ordering": "3"
+    },
+    {
+        "_id": "10057",
+        "evolution_chain_id": "185",
+        "evolution_method": "Using mega stone, Absolite",
+        "evolves_from_id": "359",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Absol",
+        "ordering": "2"
+    },
+    {
+        "_id": "10058",
+        "evolution_chain_id": "230",
+        "evolution_method": "Using mega stone, Garchompite",
+        "evolves_from_id": "445",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Garchomp",
+        "ordering": "4"
+    },
+    {
+        "_id": "10059",
+        "evolution_chain_id": "232",
+        "evolution_method": "Using mega stone, Lucarionite",
+        "evolves_from_id": "448",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Lucario",
+        "ordering": "3"
+    },
+    {
+        "_id": "10060",
+        "evolution_chain_id": "239",
+        "evolution_method": "Using mega stone, Abomasite",
+        "evolves_from_id": "460",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Abomasnow",
+        "ordering": "3"
+    },
+    {
+        "_id": "10061",
+        "evolution_chain_id": "130",
+        "evolution_method": "Using mega stone, Sceptilite",
+        "evolves_from_id": "254",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Sceptile",
+        "ordering": "4"
+    },
+    {
+        "_id": "10062",
+        "evolution_chain_id": "132",
+        "evolution_method": "Using mega stone, Swampertite",
+        "evolves_from_id": "260",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Swampert",
+        "ordering": "4"
+    },
+    {
+        "_id": "10063",
+        "evolution_chain_id": "196",
+        "evolution_method": "Using mega stone, Latiasite",
+        "evolves_from_id": "380",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Latias",
+        "ordering": "2"
+    },
+    {
+        "_id": "10064",
+        "evolution_chain_id": "197",
+        "evolution_method": "Using mega stone, Latiosite",
+        "evolves_from_id": "381",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Latios",
+        "ordering": "2"
+    },
+    {
+        "_id": "10065",
+        "evolution_chain_id": "198",
+        "evolution_method": "",
+        "evolves_from_id": "382",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Primal Kyogre",
+        "ordering": "2"
+    },
+    {
+        "_id": "10066",
+        "evolution_chain_id": "199",
+        "evolution_method": "",
+        "evolves_from_id": "383",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Primal Groudon",
+        "ordering": "2"
+    },
+    {
+        "_id": "10067",
+        "evolution_chain_id": "371",
+        "evolution_method": "Using mega stone, Diancite",
+        "evolves_from_id": "719",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Diancie",
+        "ordering": "2"
+    },
+    {
+        "_id": "10068",
+        "evolution_chain_id": "33",
+        "evolution_method": "Using mega stone, Slowbronite",
+        "evolves_from_id": "80",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Slowbro",
+        "ordering": "3"
+    },
+    {
+        "_id": "10069",
+        "evolution_chain_id": "149",
+        "evolution_method": "Using mega stone, Sablenite",
+        "evolves_from_id": "302",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Sableye",
+        "ordering": "2"
+    },
+    {
+        "_id": "10070",
+        "evolution_chain_id": "168",
+        "evolution_method": "Using mega stone, Altarianite",
+        "evolves_from_id": "334",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Altaria",
+        "ordering": "3"
+    },
+    {
+        "_id": "10071",
+        "evolution_chain_id": "191",
+        "evolution_method": "Using mega stone, Salamencite",
+        "evolves_from_id": "373",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Salamence",
+        "ordering": "4"
+    },
+    {
+        "_id": "10072",
+        "evolution_chain_id": "192",
+        "evolution_method": "Using mega stone, Metagrossite",
+        "evolves_from_id": "376",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Metagross",
+        "ordering": "4"
+    },
+    {
+        "_id": "10073",
+        "evolution_chain_id": "220",
+        "evolution_method": "Using mega stone, Lopunnite",
+        "evolves_from_id": "428",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Lopunny",
+        "ordering": "3"
+    },
+    {
+        "_id": "10074",
+        "evolution_chain_id": "271",
+        "evolution_method": "Using mega stone, Audinite",
+        "evolves_from_id": "531",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Audino",
+        "ordering": "2"
+    },
+    {
+        "_id": "10075",
+        "evolution_chain_id": "140",
+        "evolution_method": "Using mega stone, Galladite",
+        "evolves_from_id": "475",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Gallade",
+        "ordering": "6"
+    },
+    {
+        "_id": "10076",
+        "evolution_chain_id": "160",
+        "evolution_method": "Using mega stone, Sharpedonite",
+        "evolves_from_id": "319",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Sharpedo",
+        "ordering": "3"
+    },
+    {
+        "_id": "10077",
+        "evolution_chain_id": "41",
+        "evolution_method": "Using mega stone, Steelixite",
+        "evolves_from_id": "208",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Steelix",
+        "ordering": "2"
+    },
+    {
+        "_id": "10078",
+        "evolution_chain_id": "6",
+        "evolution_method": "Using mega stone, Pidgeotite",
+        "evolves_from_id": "18",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Pidgeot",
+        "ordering": "4"
+    },
+    {
+        "_id": "10079",
+        "evolution_chain_id": "186",
+        "evolution_method": "Using mega stone, Glalitite",
+        "evolves_from_id": "362",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Glalie",
+        "ordering": "3"
+    },
+    {
+        "_id": "10080",
+        "evolution_chain_id": "200",
+        "evolution_method": "",
+        "evolves_from_id": "384",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Rayquaza",
+        "ordering": "2"
+    },
+    {
+        "_id": "10081",
+        "evolution_chain_id": "162",
+        "evolution_method": "Using mega stone, Cameruptite",
+        "evolves_from_id": "323",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Camerupt",
+        "ordering": "3"
+    },
+    {
+        "_id": "10082",
+        "evolution_chain_id": "5",
+        "evolution_method": "Using mega stone, Beedrillite",
+        "evolves_from_id": "15",
+        "gen_id": "6",
+        "is_stage": "4",
+        "name": "Mega Beedrill",
+        "ordering": "4"
+    }
+]

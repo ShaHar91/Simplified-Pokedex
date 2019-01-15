@@ -1,0 +1,227 @@
+[
+    {
+        "_id": "1",
+        "att": "1.1",
+        "def": "1",
+        "name": "Adamant",
+        "sp_att": "0.9",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "2",
+        "att": "1",
+        "def": "1",
+        "name": "Bashful",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "3",
+        "att": "0.9",
+        "def": "1.1",
+        "name": "Bold",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "4",
+        "att": "1.1",
+        "def": "1",
+        "name": "Brave",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "0.9"
+    },
+    {
+        "_id": "5",
+        "att": "0.9",
+        "def": "1",
+        "name": "Calm",
+        "sp_att": "1",
+        "sp_def": "1.1",
+        "speed": "1"
+    },
+    {
+        "_id": "6",
+        "att": "1",
+        "def": "1",
+        "name": "Careful",
+        "sp_att": "0.9",
+        "sp_def": "1.1",
+        "speed": "1"
+    },
+    {
+        "_id": "7",
+        "att": "1",
+        "def": "1",
+        "name": "Docile",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "8",
+        "att": "1",
+        "def": "0.9",
+        "name": "Gentle",
+        "sp_att": "1",
+        "sp_def": "1.1",
+        "speed": "1"
+    },
+    {
+        "_id": "9",
+        "att": "1",
+        "def": "1",
+        "name": "Hardy",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "10",
+        "att": "1",
+        "def": "0.9",
+        "name": "Hasty",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1.1"
+    },
+    {
+        "_id": "11",
+        "att": "1",
+        "def": "1.1",
+        "name": "Impish",
+        "sp_att": "0.9",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "12",
+        "att": "1",
+        "def": "1",
+        "name": "Jolly",
+        "sp_att": "0.9",
+        "sp_def": "1",
+        "speed": "1.1"
+    },
+    {
+        "_id": "13",
+        "att": "1",
+        "def": "1.1",
+        "name": "Lax",
+        "sp_att": "1",
+        "sp_def": "0.9",
+        "speed": "1"
+    },
+    {
+        "_id": "14",
+        "att": "1.1",
+        "def": "0.9",
+        "name": "Lonely",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "15",
+        "att": "1",
+        "def": "0.9",
+        "name": "Mild",
+        "sp_att": "1.1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "16",
+        "att": "0.9",
+        "def": "1",
+        "name": "Modest",
+        "sp_att": "1.1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "17",
+        "att": "1",
+        "def": "1",
+        "name": "Naïve",
+        "sp_att": "1",
+        "sp_def": "0.9",
+        "speed": "1.1"
+    },
+    {
+        "_id": "18",
+        "att": "1.1",
+        "def": "1",
+        "name": "Naughty",
+        "sp_att": "1",
+        "sp_def": "0.9",
+        "speed": "1"
+    },
+    {
+        "_id": "19",
+        "att": "1",
+        "def": "1",
+        "name": "Quiet",
+        "sp_att": "1.1",
+        "sp_def": "1",
+        "speed": "0.9"
+    },
+    {
+        "_id": "20",
+        "att": "1",
+        "def": "1",
+        "name": "Quirky",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "21",
+        "att": "1",
+        "def": "1",
+        "name": "Rash",
+        "sp_att": "1.1",
+        "sp_def": "0.9",
+        "speed": "1"
+    },
+    {
+        "_id": "22",
+        "att": "1",
+        "def": "1.1",
+        "name": "Relaxed",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "0.9"
+    },
+    {
+        "_id": "23",
+        "att": "1",
+        "def": "1",
+        "name": "Sassy",
+        "sp_att": "1",
+        "sp_def": "1.1",
+        "speed": "0.9"
+    },
+    {
+        "_id": "24",
+        "att": "1",
+        "def": "1",
+        "name": "Serious",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1"
+    },
+    {
+        "_id": "25",
+        "att": "0.9",
+        "def": "1",
+        "name": "Timid",
+        "sp_att": "1",
+        "sp_def": "1",
+        "speed": "1.1"
+    }
+]

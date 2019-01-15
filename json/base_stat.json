@@ -4,7 +4,6 @@
         "att": "49",
         "def": "49",
         "hp": "45",
-        "name": "Bulbasaur",
         "sp_att": "65",
         "sp_def": "65",
         "speed": "45"
@@ -14,7 +13,6 @@
         "att": "62",
         "def": "63",
         "hp": "60",
-        "name": "Ivysaur",
         "sp_att": "80",
         "sp_def": "80",
         "speed": "60"
@@ -24,7 +22,6 @@
         "att": "82",
         "def": "83",
         "hp": "80",
-        "name": "Venusaur",
         "sp_att": "100",
         "sp_def": "100",
         "speed": "80"
@@ -34,7 +31,6 @@
         "att": "52",
         "def": "43",
         "hp": "39",
-        "name": "Charmander",
         "sp_att": "60",
         "sp_def": "50",
         "speed": "65"
@@ -44,7 +40,6 @@
         "att": "64",
         "def": "58",
         "hp": "58",
-        "name": "Charmeleon",
         "sp_att": "80",
         "sp_def": "65",
         "speed": "80"
@@ -54,7 +49,6 @@
         "att": "84",
         "def": "78",
         "hp": "78",
-        "name": "Charizard",
         "sp_att": "109",
         "sp_def": "85",
         "speed": "100"
@@ -64,7 +58,6 @@
         "att": "48",
         "def": "65",
         "hp": "44",
-        "name": "Squirtle",
         "sp_att": "50",
         "sp_def": "64",
         "speed": "43"
@@ -74,7 +67,6 @@
         "att": "63",
         "def": "80",
         "hp": "59",
-        "name": "Wartortle",
         "sp_att": "65",
         "sp_def": "80",
         "speed": "58"
@@ -84,7 +76,6 @@
         "att": "83",
         "def": "100",
         "hp": "79",
-        "name": "Blastoise",
         "sp_att": "85",
         "sp_def": "105",
         "speed": "78"
@@ -94,7 +85,6 @@
         "att": "30",
         "def": "35",
         "hp": "45",
-        "name": "Caterpie",
         "sp_att": "20",
         "sp_def": "20",
         "speed": "45"
@@ -104,7 +94,6 @@
         "att": "20",
         "def": "55",
         "hp": "50",
-        "name": "Metapod",
         "sp_att": "25",
         "sp_def": "25",
         "speed": "30"
@@ -114,7 +103,6 @@
         "att": "45",
         "def": "50",
         "hp": "60",
-        "name": "Butterfree",
         "sp_att": "90",
         "sp_def": "80",
         "speed": "70"
@@ -124,7 +112,6 @@
         "att": "35",
         "def": "30",
         "hp": "45",
-        "name": "Weedle",
         "sp_att": "20",
         "sp_def": "20",
         "speed": "50"
@@ -134,7 +121,6 @@
         "att": "25",
         "def": "50",
         "hp": "45",
-        "name": "Kakuna",
         "sp_att": "25",
         "sp_def": "25",
         "speed": "35"
@@ -144,7 +130,6 @@
         "att": "90",
         "def": "40",
         "hp": "65",
-        "name": "Beedrill",
         "sp_att": "45",
         "sp_def": "80",
         "speed": "75"
@@ -154,7 +139,6 @@
         "att": "45",
         "def": "40",
         "hp": "40",
-        "name": "Pidgey",
         "sp_att": "35",
         "sp_def": "35",
         "speed": "56"
@@ -164,7 +148,6 @@
         "att": "60",
         "def": "55",
         "hp": "63",
-        "name": "Pidgeotto",
         "sp_att": "50",
         "sp_def": "50",
         "speed": "71"
@@ -174,7 +157,6 @@
         "att": "80",
         "def": "75",
         "hp": "83",
-        "name": "Pidgeot",
         "sp_att": "70",
         "sp_def": "70",
         "speed": "101"
@@ -184,7 +166,6 @@
         "att": "56",
         "def": "35",
         "hp": "30",
-        "name": "Rattata",
         "sp_att": "25",
         "sp_def": "35",
         "speed": "72"
@@ -194,7 +175,6 @@
         "att": "81",
         "def": "60",
         "hp": "55",
-        "name": "Raticate",
         "sp_att": "50",
         "sp_def": "70",
         "speed": "97"
@@ -204,7 +184,6 @@
         "att": "60",
         "def": "30",
         "hp": "40",
-        "name": "Spearow",
         "sp_att": "31",
         "sp_def": "31",
         "speed": "70"
@@ -214,7 +193,6 @@
         "att": "90",
         "def": "65",
         "hp": "65",
-        "name": "Fearow",
         "sp_att": "61",
         "sp_def": "61",
         "speed": "100"
@@ -224,7 +202,6 @@
         "att": "60",
         "def": "44",
         "hp": "35",
-        "name": "Ekans",
         "sp_att": "40",
         "sp_def": "54",
         "speed": "55"
@@ -234,7 +211,6 @@
         "att": "85",
         "def": "69",
         "hp": "60",
-        "name": "Arbok",
         "sp_att": "65",
         "sp_def": "79",
         "speed": "80"
@@ -244,7 +220,6 @@
         "att": "55",
         "def": "40",
         "hp": "35",
-        "name": "Pikachu",
         "sp_att": "50",
         "sp_def": "50",
         "speed": "90"
@@ -254,7 +229,6 @@
         "att": "90",
         "def": "55",
         "hp": "60",
-        "name": "Raichu",
         "sp_att": "90",
         "sp_def": "80",
         "speed": "110"
@@ -264,7 +238,6 @@
         "att": "75",
         "def": "85",
         "hp": "50",
-        "name": "Sandshrew",
         "sp_att": "20",
         "sp_def": "30",
         "speed": "40"
@@ -274,7 +247,6 @@
         "att": "100",
         "def": "110",
         "hp": "75",
-        "name": "Sandslash",
         "sp_att": "45",
         "sp_def": "55",
         "speed": "65"
@@ -284,7 +256,6 @@
         "att": "47",
         "def": "52",
         "hp": "55",
-        "name": "Nidoran ♀",
         "sp_att": "40",
         "sp_def": "40",
         "speed": "41"
@@ -294,7 +265,6 @@
         "att": "62",
         "def": "67",
         "hp": "70",
-        "name": "Nidorina",
         "sp_att": "55",
         "sp_def": "55",
         "speed": "56"
@@ -304,7 +274,6 @@
         "att": "92",
         "def": "87",
         "hp": "90",
-        "name": "Nidoqueen",
         "sp_att": "75",
         "sp_def": "85",
         "speed": "76"
@@ -314,7 +283,6 @@
         "att": "57",
         "def": "40",
         "hp": "46",
-        "name": "Nidoran ♂",
         "sp_att": "40",
         "sp_def": "40",
         "speed": "50"
@@ -324,7 +292,6 @@
         "att": "72",
         "def": "57",
         "hp": "61",
-        "name": "Nidorino",
         "sp_att": "55",
         "sp_def": "55",
         "speed": "65"
@@ -334,7 +301,6 @@
         "att": "102",
         "def": "77",
         "hp": "72",
-        "name": "Nidoking",
         "sp_att": "85",
         "sp_def": "75",
         "speed": "85"
@@ -344,7 +310,6 @@
         "att": "45",
         "def": "48",
         "hp": "70",
-        "name": "Clefairy",
         "sp_att": "60",
         "sp_def": "65",
         "speed": "35"
@@ -354,7 +319,6 @@
         "att": "70",
         "def": "73",
         "hp": "95",
-        "name": "Clefable",
         "sp_att": "95",
         "sp_def": "90",
         "speed": "96"
@@ -364,7 +328,6 @@
         "att": "41",
         "def": "40",
         "hp": "38",
-        "name": "Vulpix",
         "sp_att": "50",
         "sp_def": "65",
         "speed": "65"
@@ -374,7 +337,6 @@
         "att": "76",
         "def": "75",
         "hp": "73",
-        "name": "Ninetales",
         "sp_att": "81",
         "sp_def": "100",
         "speed": "100"
@@ -384,7 +346,6 @@
         "att": "45",
         "def": "20",
         "hp": "115",
-        "name": "Jigglypuff",
         "sp_att": "45",
         "sp_def": "25",
         "speed": "20"
@@ -394,7 +355,6 @@
         "att": "70",
         "def": "45",
         "hp": "140",
-        "name": "Wigglytuff",
         "sp_att": "85",
         "sp_def": "50",
         "speed": "45"
@@ -404,7 +364,6 @@
         "att": "45",
         "def": "35",
         "hp": "40",
-        "name": "Zubat",
         "sp_att": "30",
         "sp_def": "40",
         "speed": "55"
@@ -414,7 +373,6 @@
         "att": "80",
         "def": "70",
         "hp": "75",
-        "name": "Golbat",
         "sp_att": "65",
         "sp_def": "75",
         "speed": "90"
@@ -424,7 +382,6 @@
         "att": "50",
         "def": "55",
         "hp": "45",
-        "name": "Oddish",
         "sp_att": "75",
         "sp_def": "65",
         "speed": "30"
@@ -434,7 +391,6 @@
         "att": "65",
         "def": "70",
         "hp": "60",
-        "name": "Gloom",
         "sp_att": "85",
         "sp_def": "75",
         "speed": "40"
@@ -444,7 +400,6 @@
         "att": "80",
         "def": "85",
         "hp": "75",
-        "name": "Vileplume",
         "sp_att": "110",
         "sp_def": "90",
         "speed": "50"
@@ -454,7 +409,6 @@
         "att": "70",
         "def": "55",
         "hp": "35",
-        "name": "Paras",
         "sp_att": "45",
         "sp_def": "55",
         "speed": "25"
@@ -464,7 +418,6 @@
         "att": "95",
         "def": "80",
         "hp": "60",
-        "name": "Parasect",
         "sp_att": "60",
         "sp_def": "80",
         "speed": "30"
@@ -474,7 +427,6 @@
         "att": "55",
         "def": "50",
         "hp": "60",
-        "name": "Venonat",
         "sp_att": "40",
         "sp_def": "55",
         "speed": "45"
@@ -484,7 +436,6 @@
         "att": "65",
         "def": "60",
         "hp": "70",
-        "name": "Venomoth",
         "sp_att": "90",
         "sp_def": "75",
         "speed": "90"
@@ -494,7 +445,6 @@
         "att": "55",
         "def": "25",
         "hp": "10",
-        "name": "Diglet",
         "sp_att": "35",
         "sp_def": "45",
         "speed": "95"
@@ -504,7 +454,6 @@
         "att": "80",
         "def": "50",
         "hp": "35",
-        "name": "Dugtrio",
         "sp_att": "50",
         "sp_def": "70",
         "speed": "120"
@@ -514,7 +463,6 @@
         "att": "45",
         "def": "35",
         "hp": "40",
-        "name": "Meowth",
         "sp_att": "40",
         "sp_def": "40",
         "speed": "90"
@@ -524,7 +472,6 @@
         "att": "70",
         "def": "60",
         "hp": "65",
-        "name": "Persian",
         "sp_att": "65",
         "sp_def": "65",
         "speed": "115"
@@ -534,7 +481,6 @@
         "att": "52",
         "def": "48",
         "hp": "50",
-        "name": "Psyduck",
         "sp_att": "65",
         "sp_def": "50",
         "speed": "55"
@@ -544,7 +490,6 @@
         "att": "82",
         "def": "78",
         "hp": "80",
-        "name": "Golduck",
         "sp_att": "95",
         "sp_def": "80",
         "speed": "85"
@@ -554,7 +499,6 @@
         "att": "80",
         "def": "35",
         "hp": "40",
-        "name": "Mankey",
         "sp_att": "35",
         "sp_def": "45",
         "speed": "70"
@@ -564,7 +508,6 @@
         "att": "105",
         "def": "60",
         "hp": "65",
-        "name": "Primeape",
         "sp_att": "60",
         "sp_def": "70",
         "speed": "95"
@@ -574,7 +517,6 @@
         "att": "70",
         "def": "45",
         "hp": "55",
-        "name": "Growlithe",
         "sp_att": "70",
         "sp_def": "50",
         "speed": "60"
@@ -584,7 +526,6 @@
         "att": "110",
         "def": "80",
         "hp": "90",
-        "name": "Arcanine",
         "sp_att": "100",
         "sp_def": "80",
         "speed": "95"
@@ -594,7 +535,6 @@
         "att": "50",
         "def": "40",
         "hp": "40",
-        "name": "Poliwag",
         "sp_att": "40",
         "sp_def": "40",
         "speed": "90"
@@ -604,7 +544,6 @@
         "att": "65",
         "def": "65",
         "hp": "65",
-        "name": "Poliwhirl",
         "sp_att": "50",
         "sp_def": "50",
         "speed": "90"
@@ -614,7 +553,6 @@
         "att": "95",
         "def": "95",
         "hp": "90",
-        "name": "Poliwrath",
         "sp_att": "70",
         "sp_def": "90",
         "speed": "70"
@@ -624,7 +562,6 @@
         "att": "20",
         "def": "15",
         "hp": "25",
-        "name": "Abra",
         "sp_att": "105",
         "sp_def": "55",
         "speed": "90"
@@ -634,7 +571,6 @@
         "att": "35",
         "def": "30",
         "hp": "40",
-        "name": "Kadabra",
         "sp_att": "120",
         "sp_def": "70",
         "speed": "105"
@@ -644,7 +580,6 @@
         "att": "50",
         "def": "45",
         "hp": "55",
-        "name": "Alakazam",
         "sp_att": "135",
         "sp_def": "95",
         "speed": "120"
@@ -654,7 +589,6 @@
         "att": "80",
         "def": "50",
         "hp": "70",
-        "name": "Machop",
         "sp_att": "35",
         "sp_def": "35",
         "speed": "35"
@@ -664,7 +598,6 @@
         "att": "100",
         "def": "70",
         "hp": "80",
-        "name": "Machoke",
         "sp_att": "50",
         "sp_def": "60",
         "speed": "45"
@@ -674,7 +607,6 @@
         "att": "130",
         "def": "80",
         "hp": "90",
-        "name": "Machamp",
         "sp_att": "65",
         "sp_def": "85",
         "speed": "55"
@@ -684,7 +616,6 @@
         "att": "75",
         "def": "35",
         "hp": "50",
-        "name": "Bellsprout",
         "sp_att": "70",
         "sp_def": "30",
         "speed": "40"
@@ -694,7 +625,6 @@
         "att": "90",
         "def": "50",
         "hp": "65",
-        "name": "Weepinbell",
         "sp_att": "85",
         "sp_def": "45",
         "speed": "55"
@@ -704,7 +634,6 @@
         "att": "105",
         "def": "65",
         "hp": "80",
-        "name": "Victreebel",
         "sp_att": "100",
         "sp_def": "70",
         "speed": "70"
@@ -714,7 +643,6 @@
         "att": "40",
         "def": "35",
         "hp": "40",
-        "name": "Tentacool",
         "sp_att": "50",
         "sp_def": "100",
         "speed": "70"
@@ -724,7 +652,6 @@
         "att": "70",
         "def": "65",
         "hp": "80",
-        "name": "Tentacruel",
         "sp_att": "80",
         "sp_def": "120",
         "speed": "100"
@@ -734,7 +661,6 @@
         "att": "80",
         "def": "100",
         "hp": "40",
-        "name": "Geodude",
         "sp_att": "30",
         "sp_def": "30",
         "speed": "20"
@@ -744,7 +670,6 @@
         "att": "95",
         "def": "115",
         "hp": "55",
-        "name": "Graveler",
         "sp_att": "45",
         "sp_def": "45",
         "speed": "35"
@@ -754,7 +679,6 @@
         "att": "120",
         "def": "130",
         "hp": "80",
-        "name": "Golem",
         "sp_att": "55",
         "sp_def": "65",
         "speed": "45"
@@ -764,7 +688,6 @@
         "att": "85",
         "def": "55",
         "hp": "50",
-        "name": "Ponyta",
         "sp_att": "65",
         "sp_def": "65",
         "speed": "90"
@@ -774,7 +697,6 @@
         "att": "100",
         "def": "70",
         "hp": "65",
-        "name": "Rapidash",
         "sp_att": "80",
         "sp_def": "80",
         "speed": "105"
@@ -784,7 +706,6 @@
         "att": "65",
         "def": "65",
         "hp": "90",
-        "name": "Slowpoke",
         "sp_att": "40",
         "sp_def": "40",
         "speed": "15"
@@ -794,7 +715,6 @@
         "att": "75",
         "def": "110",
         "hp": "95",
-        "name": "Slowbro",
         "sp_att": "100",
         "sp_def": "80",
         "speed": "30"
@@ -804,7 +724,6 @@
         "att": "35",
         "def": "70",
         "hp": "25",
-        "name": "Magnemite",
         "sp_att": "95",
         "sp_def": "55",
         "speed": "45"
@@ -814,7 +733,6 @@
         "att": "60",
         "def": "95",
         "hp": "50",
-        "name": "Magneton",
         "sp_att": "120",
         "sp_def": "70",
         "speed": "70"
@@ -824,7 +742,6 @@
         "att": "65",
         "def": "55",
         "hp": "52",
-        "name": "Farfetch'd",
         "sp_att": "58",
         "sp_def": "62",
         "speed": "60"
@@ -834,7 +751,6 @@
         "att": "85",
         "def": "45",
         "hp": "35",
-        "name": "Doduo",
         "sp_att": "35",
         "sp_def": "35",
         "speed": "75"
@@ -844,7 +760,6 @@
         "att": "110",
         "def": "70",
         "hp": "60",
-        "name": "Dodrio",
         "sp_att": "60",
         "sp_def": "60",
         "speed": "100"
@@ -854,7 +769,6 @@
         "att": "45",
         "def": "55",
         "hp": "65",
-        "name": "Seel",
         "sp_att": "45",
         "sp_def": "70",
         "speed": "45"
@@ -864,7 +778,6 @@
         "att": "70",
         "def": "80",
         "hp": "90",
-        "name": "Dewgong",
         "sp_att": "70",
         "sp_def": "95",
         "speed": "70"
@@ -874,7 +787,6 @@
         "att": "80",
         "def": "50",
         "hp": "80",
-        "name": "Grimer",
         "sp_att": "40",
         "sp_def": "50",
         "speed": "25"
@@ -884,7 +796,6 @@
         "att": "105",
         "def": "75",
         "hp": "105",
-        "name": "Muk",
         "sp_att": "65",
         "sp_def": "100",
         "speed": "50"
@@ -894,7 +805,6 @@
         "att": "65",
         "def": "100",
         "hp": "30",
-        "name": "Shellder",
         "sp_att": "45",
         "sp_def": "25",
         "speed": "40"
@@ -904,7 +814,6 @@
         "att": "95",
         "def": "180",
         "hp": "50",
-        "name": "Cloyster",
         "sp_att": "85",
         "sp_def": "45",
         "speed": "70"
@@ -914,7 +823,6 @@
         "att": "35",
         "def": "30",
         "hp": "30",
-        "name": "Gastly",
         "sp_att": "100",
         "sp_def": "35",
         "speed": "80"
@@ -924,7 +832,6 @@
         "att": "50",
         "def": "45",
         "hp": "45",
-        "name": "Haunter",
         "sp_att": "115",
         "sp_def": "55",
         "speed": "95"
@@ -934,7 +841,6 @@
         "att": "65",
         "def": "60",
         "hp": "60",
-        "name": "Gengar",
         "sp_att": "130",
         "sp_def": "75",
         "speed": "110"
@@ -944,7 +850,6 @@
         "att": "45",
         "def": "160",
         "hp": "35",
-        "name": "Onix",
         "sp_att": "30",
         "sp_def": "45",
         "speed": "70"
@@ -954,7 +859,6 @@
         "att": "48",
         "def": "45",
         "hp": "60",
-        "name": "Drowzee",
         "sp_att": "43",
         "sp_def": "90",
         "speed": "42"
@@ -964,7 +868,6 @@
         "att": "73",
         "def": "70",
         "hp": "85",
-        "name": "Hypno",
         "sp_att": "73",
         "sp_def": "115",
         "speed": "67"
@@ -974,7 +877,6 @@
         "att": "105",
         "def": "90",
         "hp": "30",
-        "name": "Krabby",
         "sp_att": "25",
         "sp_def": "25",
         "speed": "50"
@@ -984,7 +886,6 @@
         "att": "130",
         "def": "115",
         "hp": "55",
-        "name": "Kingler",
         "sp_att": "50",
         "sp_def": "50",
         "speed": "75"
@@ -994,7 +895,6 @@
         "att": "30",
         "def": "50",
         "hp": "40",
-        "name": "Voltorb",
         "sp_att": "55",
         "sp_def": "55",
         "speed": "100"
@@ -1004,7 +904,6 @@
         "att": "50",
         "def": "70",
         "hp": "60",
-        "name": "Electrode",
         "sp_att": "80",
         "sp_def": "80",
         "speed": "140"
@@ -1014,7 +913,6 @@
         "att": "40",
         "def": "80",
         "hp": "60",
-        "name": "Exeggcute",
         "sp_att": "60",
         "sp_def": "45",
         "speed": "40"
@@ -1024,7 +922,6 @@
         "att": "95",
         "def": "85",
         "hp": "95",
-        "name": "Exeggutor",
         "sp_att": "125",
         "sp_def": "65",
         "speed": "55"
@@ -1034,7 +931,6 @@
         "att": "50",
         "def": "95",
         "hp": "50",
-        "name": "Cubone",
         "sp_att": "40",
         "sp_def": "50",
         "speed": "35"
@@ -1044,7 +940,6 @@
         "att": "80",
         "def": "110",
         "hp": "60",
-        "name": "Marowak",
         "sp_att": "50",
         "sp_def": "80",
         "speed": "45"
@@ -1054,7 +949,6 @@
         "att": "120",
         "def": "53",
         "hp": "50",
-        "name": "Hitmonlee",
         "sp_att": "35",
         "sp_def": "110",
         "speed": "87"
@@ -1064,7 +958,6 @@
         "att": "105",
         "def": "79",
         "hp": "50",
-        "name": "Hitmonchan",
         "sp_att": "35",
         "sp_def": "110",
         "speed": "76"
@@ -1074,7 +967,6 @@
         "att": "55",
         "def": "75",
         "hp": "90",
-        "name": "Lickitung",
         "sp_att": "60",
         "sp_def": "75",
         "speed": "30"
@@ -1084,7 +976,6 @@
         "att": "65",
         "def": "95",
         "hp": "40",
-        "name": "Koffing",
         "sp_att": "60",
         "sp_def": "45",
         "speed": "35"
@@ -1094,7 +985,6 @@
         "att": "90",
         "def": "120",
         "hp": "65",
-        "name": "Weezing",
         "sp_att": "85",
         "sp_def": "70",
         "speed": "60"
@@ -1104,7 +994,6 @@
         "att": "85",
         "def": "95",
         "hp": "80",
-        "name": "Rhyhorn",
         "sp_att": "30",
         "sp_def": "30",
         "speed": "25"
@@ -1114,7 +1003,6 @@
         "att": "130",
         "def": "120",
         "hp": "105",
-        "name": "Rhydon",
         "sp_att": "45",
         "sp_def": "45",
         "speed": "40"
@@ -1124,7 +1012,6 @@
         "att": "5",
         "def": "5",
         "hp": "250",
-        "name": "Chansey",
         "sp_att": "35",
         "sp_def": "105",
         "speed": "50"
@@ -1134,7 +1021,6 @@
         "att": "55",
         "def": "115",
         "hp": "65",
-        "name": "Tangela",
         "sp_att": "100",
         "sp_def": "40",
         "speed": "60"
@@ -1144,7 +1030,6 @@
         "att": "95",
         "def": "80",
         "hp": "105",
-        "name": "Kangaskhan",
         "sp_att": "40",
         "sp_def": "80",
         "speed": "90"
@@ -1154,7 +1039,6 @@
         "att": "40",
         "def": "70",
         "hp": "30",
-        "name": "Horsea",
         "sp_att": "70",
         "sp_def": "25",
         "speed": "60"
@@ -1164,7 +1048,6 @@
         "att": "65",
         "def": "95",
         "hp": "55",
-        "name": "Seadra",
         "sp_att": "95",
         "sp_def": "45",
         "speed": "85"
@@ -1174,7 +1057,6 @@
         "att": "67",
         "def": "60",
         "hp": "45",
-        "name": "Goldeen",
         "sp_att": "35",
         "sp_def": "50",
         "speed": "63"
@@ -1184,7 +1066,6 @@
         "att": "92",
         "def": "65",
         "hp": "80",
-        "name": "Seaking",
         "sp_att": "65",
         "sp_def": "80",
         "speed": "68"
@@ -1194,7 +1075,6 @@
         "att": "45",
         "def": "55",
         "hp": "30",
-        "name": "Staryu",
         "sp_att": "70",
         "sp_def": "55",
         "speed": "85"
@@ -1204,7 +1084,6 @@
         "att": "75",
         "def": "85",
         "hp": "60",
-        "name": "Starmie",
         "sp_att": "100",
         "sp_def": "85",
         "speed": "115"
@@ -1214,7 +1093,6 @@
         "att": "45",
         "def": "65",
         "hp": "40",
-        "name": "Mr. Mime",
         "sp_att": "100",
         "sp_def": "120",
         "speed": "90"
@@ -1224,7 +1102,6 @@
         "att": "110",
         "def": "80",
         "hp": "70",
-        "name": "Scyther",
         "sp_att": "55",
         "sp_def": "80",
         "speed": "105"
@@ -1234,7 +1111,6 @@
         "att": "50",
         "def": "35",
         "hp": "65",
-        "name": "Jynx",
         "sp_att": "115",
         "sp_def": "95",
         "speed": "95"
@@ -1244,7 +1120,6 @@
         "att": "83",
         "def": "57",
         "hp": "65",
-        "name": "Electabuzz",
         "sp_att": "95",
         "sp_def": "85",
         "speed": "105"
@@ -1254,7 +1129,6 @@
         "att": "95",
         "def": "57",
         "hp": "65",
-        "name": "Magmar",
         "sp_att": "100",
         "sp_def": "85",
         "speed": "93"
@@ -1264,7 +1138,6 @@
         "att": "125",
         "def": "100",
         "hp": "65",
-        "name": "Pinsir",
         "sp_att": "55",
         "sp_def": "70",
         "speed": "85"
@@ -1274,7 +1147,6 @@
         "att": "100",
         "def": "95",
         "hp": "75",
-        "name": "Tauros",
         "sp_att": "40",
         "sp_def": "70",
         "speed": "110"
@@ -1284,7 +1156,6 @@
         "att": "10",
         "def": "55",
         "hp": "20",
-        "name": "Magikarp",
         "sp_att": "15",
         "sp_def": "20",
         "speed": "80"
@@ -1294,7 +1165,6 @@
         "att": "125",
         "def": "79",
         "hp": "95",
-        "name": "Gyarados",
         "sp_att": "60",
         "sp_def": "100",
         "speed": "81"
@@ -1304,7 +1174,6 @@
         "att": "85",
         "def": "80",
         "hp": "130",
-        "name": "Lapras",
         "sp_att": "85",
         "sp_def": "95",
         "speed": "60"
@@ -1314,7 +1183,6 @@
         "att": "48",
         "def": "48",
         "hp": "48",
-        "name": "Ditto",
         "sp_att": "48",
         "sp_def": "48",
         "speed": "48"
@@ -1324,7 +1192,6 @@
         "att": "55",
         "def": "50",
         "hp": "55",
-        "name": "Eevee",
         "sp_att": "45",
         "sp_def": "65",
         "speed": "55"
@@ -1334,7 +1201,6 @@
         "att": "65",
         "def": "60",
         "hp": "130",
-        "name": "Vaporeon",
         "sp_att": "110",
         "sp_def": "95",
         "speed": "65"
@@ -1344,7 +1210,6 @@
         "att": "65",
         "def": "60",
         "hp": "65",
-        "name": "Jolteon",
         "sp_att": "110",
         "sp_def": "95",
         "speed": "130"
@@ -1354,7 +1219,6 @@
         "att": "130",
         "def": "60",
         "hp": "65",
-        "name": "Flareon",
         "sp_att": "95",
         "sp_def": "110",
         "speed": "65"
@@ -1364,7 +1228,6 @@
         "att": "60",
         "def": "70",
         "hp": "65",
-        "name": "Porygon",
         "sp_att": "85",
         "sp_def": "75",
         "speed": "40"
@@ -1374,7 +1237,6 @@
         "att": "40",
         "def": "100",
         "hp": "35",
-        "name": "Omanyte",
         "sp_att": "90",
         "sp_def": "55",
         "speed": "35"
@@ -1384,7 +1246,6 @@
         "att": "60",
         "def": "125",
         "hp": "70",
-        "name": "Omastar",
         "sp_att": "115",
         "sp_def": "70",
         "speed": "55"
@@ -1394,7 +1255,6 @@
         "att": "80",
         "def": "90",
         "hp": "30",
-        "name": "Kabuto",
         "sp_att": "55",
         "sp_def": "45",
         "speed": "55"
@@ -1404,7 +1264,6 @@
         "att": "115",
         "def": "105",
         "hp": "60",
-        "name": "Kabutops",
         "sp_att": "65",
         "sp_def": "70",
         "speed": "80"
@@ -1414,7 +1273,6 @@
         "att": "105",
         "def": "65",
         "hp": "80",
-        "name": "Aerodactyl",
         "sp_att": "60",
         "sp_def": "75",
         "speed": "130"
@@ -1424,7 +1282,6 @@
         "att": "110",
         "def": "65",
         "hp": "160",
-        "name": "Snorlax",
         "sp_att": "65",
         "sp_def": "110",
         "speed": "30"
@@ -1434,7 +1291,6 @@
         "att": "85",
         "def": "100",
         "hp": "90",
-        "name": "Articuno",
         "sp_att": "95",
         "sp_def": "125",
         "speed": "85"
@@ -1444,7 +1300,6 @@
         "att": "90",
         "def": "85",
         "hp": "90",
-        "name": "Zapdos",
         "sp_att": "125",
         "sp_def": "90",
         "speed": "100"
@@ -1454,7 +1309,6 @@
         "att": "100",
         "def": "90",
         "hp": "90",
-        "name": "Moltres",
         "sp_att": "125",
         "sp_def": "85",
         "speed": "90"
@@ -1464,7 +1318,6 @@
         "att": "64",
         "def": "45",
         "hp": "41",
-        "name": "Dratini",
         "sp_att": "50",
         "sp_def": "50",
         "speed": "50"
@@ -1474,7 +1327,6 @@
         "att": "84",
         "def": "65",
         "hp": "61",
-        "name": "Dragonair",
         "sp_att": "70",
         "sp_def": "70",
         "speed": "70"
@@ -1484,7 +1336,6 @@
         "att": "134",
         "def": "95",
         "hp": "91",
-        "name": "Dragonite",
         "sp_att": "100",
         "sp_def": "100",
         "speed": "80"
@@ -1494,7 +1345,6 @@
         "att": "110",
         "def": "90",
         "hp": "106",
-        "name": "Mewtwo",
         "sp_att": "154",
         "sp_def": "90",
         "speed": "130"
@@ -1504,17 +1354,5136 @@
         "att": "100",
         "def": "100",
         "hp": "100",
-        "name": "Mew",
         "sp_att": "100",
         "sp_def": "100",
         "speed": "100"
+    },
+    {
+        "_id": "152",
+        "att": "49",
+        "def": "65",
+        "hp": "45",
+        "sp_att": "49",
+        "sp_def": "65",
+        "speed": "45"
+    },
+    {
+        "_id": "153",
+        "att": "62",
+        "def": "80",
+        "hp": "60",
+        "sp_att": "63",
+        "sp_def": "80",
+        "speed": "60"
+    },
+    {
+        "_id": "154",
+        "att": "82",
+        "def": "100",
+        "hp": "80",
+        "sp_att": "83",
+        "sp_def": "100",
+        "speed": "80"
+    },
+    {
+        "_id": "155",
+        "att": "52",
+        "def": "43",
+        "hp": "39",
+        "sp_att": "60",
+        "sp_def": "50",
+        "speed": "65"
+    },
+    {
+        "_id": "156",
+        "att": "64",
+        "def": "58",
+        "hp": "58",
+        "sp_att": "80",
+        "sp_def": "65",
+        "speed": "80"
+    },
+    {
+        "_id": "157",
+        "att": "84",
+        "def": "78",
+        "hp": "78",
+        "sp_att": "109",
+        "sp_def": "85",
+        "speed": "100"
+    },
+    {
+        "_id": "158",
+        "att": "65",
+        "def": "64",
+        "hp": "50",
+        "sp_att": "44",
+        "sp_def": "48",
+        "speed": "43"
+    },
+    {
+        "_id": "159",
+        "att": "80",
+        "def": "80",
+        "hp": "65",
+        "sp_att": "59",
+        "sp_def": "63",
+        "speed": "58"
+    },
+    {
+        "_id": "160",
+        "att": "105",
+        "def": "100",
+        "hp": "85",
+        "sp_att": "79",
+        "sp_def": "83",
+        "speed": "78"
+    },
+    {
+        "_id": "161",
+        "att": "46",
+        "def": "34",
+        "hp": "35",
+        "sp_att": "35",
+        "sp_def": "45",
+        "speed": "20"
+    },
+    {
+        "_id": "162",
+        "att": "76",
+        "def": "64",
+        "hp": "85",
+        "sp_att": "45",
+        "sp_def": "55",
+        "speed": "90"
+    },
+    {
+        "_id": "163",
+        "att": "30",
+        "def": "30",
+        "hp": "60",
+        "sp_att": "36",
+        "sp_def": "56",
+        "speed": "50"
+    },
+    {
+        "_id": "164",
+        "att": "50",
+        "def": "50",
+        "hp": "100",
+        "sp_att": "76",
+        "sp_def": "96",
+        "speed": "70"
+    },
+    {
+        "_id": "165",
+        "att": "20",
+        "def": "30",
+        "hp": "40",
+        "sp_att": "40",
+        "sp_def": "80",
+        "speed": "55"
+    },
+    {
+        "_id": "166",
+        "att": "35",
+        "def": "50",
+        "hp": "55",
+        "sp_att": "55",
+        "sp_def": "110",
+        "speed": "85"
+    },
+    {
+        "_id": "167",
+        "att": "60",
+        "def": "40",
+        "hp": "40",
+        "sp_att": "40",
+        "sp_def": "40",
+        "speed": "30"
+    },
+    {
+        "_id": "168",
+        "att": "90",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "40"
+    },
+    {
+        "_id": "169",
+        "att": "90",
+        "def": "80",
+        "hp": "85",
+        "sp_att": "70",
+        "sp_def": "80",
+        "speed": "130"
+    },
+    {
+        "_id": "170",
+        "att": "38",
+        "def": "38",
+        "hp": "75",
+        "sp_att": "56",
+        "sp_def": "56",
+        "speed": "67"
+    },
+    {
+        "_id": "171",
+        "att": "58",
+        "def": "58",
+        "hp": "125",
+        "sp_att": "76",
+        "sp_def": "76",
+        "speed": "67"
+    },
+    {
+        "_id": "172",
+        "att": "40",
+        "def": "15",
+        "hp": "20",
+        "sp_att": "35",
+        "sp_def": "35",
+        "speed": "60"
+    },
+    {
+        "_id": "173",
+        "att": "25",
+        "def": "28",
+        "hp": "50",
+        "sp_att": "45",
+        "sp_def": "55",
+        "speed": "15"
+    },
+    {
+        "_id": "174",
+        "att": "30",
+        "def": "15",
+        "hp": "90",
+        "sp_att": "40",
+        "sp_def": "20",
+        "speed": "15"
+    },
+    {
+        "_id": "175",
+        "att": "20",
+        "def": "65",
+        "hp": "35",
+        "sp_att": "40",
+        "sp_def": "65",
+        "speed": "20"
+    },
+    {
+        "_id": "176",
+        "att": "40",
+        "def": "85",
+        "hp": "55",
+        "sp_att": "80",
+        "sp_def": "105",
+        "speed": "40"
+    },
+    {
+        "_id": "177",
+        "att": "50",
+        "def": "45",
+        "hp": "40",
+        "sp_att": "70",
+        "sp_def": "45",
+        "speed": "70"
+    },
+    {
+        "_id": "178",
+        "att": "75",
+        "def": "70",
+        "hp": "65",
+        "sp_att": "95",
+        "sp_def": "70",
+        "speed": "95"
+    },
+    {
+        "_id": "179",
+        "att": "40",
+        "def": "40",
+        "hp": "55",
+        "sp_att": "65",
+        "sp_def": "45",
+        "speed": "35"
+    },
+    {
+        "_id": "180",
+        "att": "55",
+        "def": "55",
+        "hp": "70",
+        "sp_att": "80",
+        "sp_def": "60",
+        "speed": "45"
+    },
+    {
+        "_id": "181",
+        "att": "75",
+        "def": "85",
+        "hp": "90",
+        "sp_att": "115",
+        "sp_def": "90",
+        "speed": "55"
+    },
+    {
+        "_id": "182",
+        "att": "80",
+        "def": "95",
+        "hp": "75",
+        "sp_att": "90",
+        "sp_def": "100",
+        "speed": "50"
+    },
+    {
+        "_id": "183",
+        "att": "20",
+        "def": "50",
+        "hp": "70",
+        "sp_att": "20",
+        "sp_def": "50",
+        "speed": "40"
+    },
+    {
+        "_id": "184",
+        "att": "50",
+        "def": "80",
+        "hp": "100",
+        "sp_att": "60",
+        "sp_def": "80",
+        "speed": "50"
+    },
+    {
+        "_id": "185",
+        "att": "100",
+        "def": "115",
+        "hp": "70",
+        "sp_att": "30",
+        "sp_def": "65",
+        "speed": "30"
+    },
+    {
+        "_id": "186",
+        "att": "75",
+        "def": "75",
+        "hp": "90",
+        "sp_att": "90",
+        "sp_def": "100",
+        "speed": "70"
+    },
+    {
+        "_id": "187",
+        "att": "35",
+        "def": "40",
+        "hp": "35",
+        "sp_att": "35",
+        "sp_def": "55",
+        "speed": "50"
+    },
+    {
+        "_id": "188",
+        "att": "45",
+        "def": "50",
+        "hp": "55",
+        "sp_att": "45",
+        "sp_def": "65",
+        "speed": "80"
+    },
+    {
+        "_id": "189",
+        "att": "55",
+        "def": "70",
+        "hp": "75",
+        "sp_att": "55",
+        "sp_def": "95",
+        "speed": "110"
+    },
+    {
+        "_id": "190",
+        "att": "70",
+        "def": "55",
+        "hp": "55",
+        "sp_att": "40",
+        "sp_def": "55",
+        "speed": "85"
+    },
+    {
+        "_id": "191",
+        "att": "30",
+        "def": "30",
+        "hp": "30",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "30"
+    },
+    {
+        "_id": "192",
+        "att": "75",
+        "def": "55",
+        "hp": "75",
+        "sp_att": "105",
+        "sp_def": "85",
+        "speed": "30"
+    },
+    {
+        "_id": "193",
+        "att": "65",
+        "def": "45",
+        "hp": "65",
+        "sp_att": "75",
+        "sp_def": "45",
+        "speed": "95"
+    },
+    {
+        "_id": "194",
+        "att": "45",
+        "def": "45",
+        "hp": "55",
+        "sp_att": "25",
+        "sp_def": "25",
+        "speed": "15"
+    },
+    {
+        "_id": "195",
+        "att": "85",
+        "def": "85",
+        "hp": "95",
+        "sp_att": "65",
+        "sp_def": "65",
+        "speed": "35"
+    },
+    {
+        "_id": "196",
+        "att": "65",
+        "def": "60",
+        "hp": "65",
+        "sp_att": "130",
+        "sp_def": "95",
+        "speed": "110"
+    },
+    {
+        "_id": "197",
+        "att": "65",
+        "def": "110",
+        "hp": "95",
+        "sp_att": "60",
+        "sp_def": "130",
+        "speed": "65"
+    },
+    {
+        "_id": "198",
+        "att": "85",
+        "def": "42",
+        "hp": "60",
+        "sp_att": "85",
+        "sp_def": "42",
+        "speed": "91"
+    },
+    {
+        "_id": "199",
+        "att": "75",
+        "def": "80",
+        "hp": "95",
+        "sp_att": "100",
+        "sp_def": "110",
+        "speed": "30"
+    },
+    {
+        "_id": "200",
+        "att": "60",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "85",
+        "sp_def": "85",
+        "speed": "85"
+    },
+    {
+        "_id": "201",
+        "att": "72",
+        "def": "48",
+        "hp": "48",
+        "sp_att": "72",
+        "sp_def": "48",
+        "speed": "48"
+    },
+    {
+        "_id": "202",
+        "att": "33",
+        "def": "58",
+        "hp": "190",
+        "sp_att": "33",
+        "sp_def": "58",
+        "speed": "33"
+    },
+    {
+        "_id": "203",
+        "att": "80",
+        "def": "65",
+        "hp": "70",
+        "sp_att": "90",
+        "sp_def": "65",
+        "speed": "85"
+    },
+    {
+        "_id": "204",
+        "att": "65",
+        "def": "90",
+        "hp": "50",
+        "sp_att": "35",
+        "sp_def": "35",
+        "speed": "15"
+    },
+    {
+        "_id": "205",
+        "att": "90",
+        "def": "140",
+        "hp": "75",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "40"
+    },
+    {
+        "_id": "206",
+        "att": "70",
+        "def": "70",
+        "hp": "100",
+        "sp_att": "65",
+        "sp_def": "65",
+        "speed": "45"
+    },
+    {
+        "_id": "207",
+        "att": "75",
+        "def": "105",
+        "hp": "65",
+        "sp_att": "35",
+        "sp_def": "65",
+        "speed": "85"
+    },
+    {
+        "_id": "208",
+        "att": "85",
+        "def": "200",
+        "hp": "75",
+        "sp_att": "55",
+        "sp_def": "65",
+        "speed": "30"
+    },
+    {
+        "_id": "209",
+        "att": "80",
+        "def": "50",
+        "hp": "60",
+        "sp_att": "40",
+        "sp_def": "40",
+        "speed": "30"
+    },
+    {
+        "_id": "210",
+        "att": "120",
+        "def": "75",
+        "hp": "90",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "45"
+    },
+    {
+        "_id": "211",
+        "att": "95",
+        "def": "75",
+        "hp": "65",
+        "sp_att": "55",
+        "sp_def": "55",
+        "speed": "85"
+    },
+    {
+        "_id": "213",
+        "att": "10",
+        "def": "230",
+        "hp": "20",
+        "sp_att": "10",
+        "sp_def": "230",
+        "speed": "5"
+    },
+    {
+        "_id": "214",
+        "att": "125",
+        "def": "75",
+        "hp": "80",
+        "sp_att": "40",
+        "sp_def": "95",
+        "speed": "85"
+    },
+    {
+        "_id": "215",
+        "att": "95",
+        "def": "55",
+        "hp": "55",
+        "sp_att": "35",
+        "sp_def": "75",
+        "speed": "115"
+    },
+    {
+        "_id": "216",
+        "att": "80",
+        "def": "50",
+        "hp": "60",
+        "sp_att": "50",
+        "sp_def": "50",
+        "speed": "40"
+    },
+    {
+        "_id": "217",
+        "att": "130",
+        "def": "75",
+        "hp": "90",
+        "sp_att": "75",
+        "sp_def": "75",
+        "speed": "55"
+    },
+    {
+        "_id": "218",
+        "att": "40",
+        "def": "40",
+        "hp": "40",
+        "sp_att": "70",
+        "sp_def": "40",
+        "speed": "20"
+    },
+    {
+        "_id": "219",
+        "att": "50",
+        "def": "120",
+        "hp": "50",
+        "sp_att": "80",
+        "sp_def": "80",
+        "speed": "30"
+    },
+    {
+        "_id": "220",
+        "att": "50",
+        "def": "40",
+        "hp": "50",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "50"
+    },
+    {
+        "_id": "221",
+        "att": "100",
+        "def": "80",
+        "hp": "100",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "50"
+    },
+    {
+        "_id": "222",
+        "att": "55",
+        "def": "85",
+        "hp": "55",
+        "sp_att": "65",
+        "sp_def": "85",
+        "speed": "35"
+    },
+    {
+        "_id": "223",
+        "att": "65",
+        "def": "35",
+        "hp": "35",
+        "sp_att": "65",
+        "sp_def": "35",
+        "speed": "65"
+    },
+    {
+        "_id": "224",
+        "att": "105",
+        "def": "75",
+        "hp": "75",
+        "sp_att": "105",
+        "sp_def": "75",
+        "speed": "45"
+    },
+    {
+        "_id": "225",
+        "att": "55",
+        "def": "45",
+        "hp": "45",
+        "sp_att": "65",
+        "sp_def": "45",
+        "speed": "75"
+    },
+    {
+        "_id": "226",
+        "att": "40",
+        "def": "70",
+        "hp": "65",
+        "sp_att": "80",
+        "sp_def": "140",
+        "speed": "70"
+    },
+    {
+        "_id": "227",
+        "att": "80",
+        "def": "140",
+        "hp": "65",
+        "sp_att": "40",
+        "sp_def": "70",
+        "speed": "70"
+    },
+    {
+        "_id": "228",
+        "att": "60",
+        "def": "30",
+        "hp": "45",
+        "sp_att": "80",
+        "sp_def": "50",
+        "speed": "65"
+    },
+    {
+        "_id": "229",
+        "att": "90",
+        "def": "50",
+        "hp": "75",
+        "sp_att": "110",
+        "sp_def": "80",
+        "speed": "95"
+    },
+    {
+        "_id": "230",
+        "att": "95",
+        "def": "95",
+        "hp": "75",
+        "sp_att": "95",
+        "sp_def": "95",
+        "speed": "85"
+    },
+    {
+        "_id": "231",
+        "att": "60",
+        "def": "60",
+        "hp": "90",
+        "sp_att": "40",
+        "sp_def": "40",
+        "speed": "40"
+    },
+    {
+        "_id": "232",
+        "att": "120",
+        "def": "120",
+        "hp": "90",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "50"
+    },
+    {
+        "_id": "233",
+        "att": "80",
+        "def": "90",
+        "hp": "85",
+        "sp_att": "105",
+        "sp_def": "95",
+        "speed": "60"
+    },
+    {
+        "_id": "234",
+        "att": "95",
+        "def": "62",
+        "hp": "73",
+        "sp_att": "85",
+        "sp_def": "65",
+        "speed": "85"
+    },
+    {
+        "_id": "235",
+        "att": "20",
+        "def": "35",
+        "hp": "55",
+        "sp_att": "20",
+        "sp_def": "45",
+        "speed": "75"
+    },
+    {
+        "_id": "236",
+        "att": "35",
+        "def": "35",
+        "hp": "35",
+        "sp_att": "35",
+        "sp_def": "35",
+        "speed": "35"
+    },
+    {
+        "_id": "237",
+        "att": "95",
+        "def": "95",
+        "hp": "50",
+        "sp_att": "35",
+        "sp_def": "110",
+        "speed": "70"
+    },
+    {
+        "_id": "238",
+        "att": "30",
+        "def": "15",
+        "hp": "45",
+        "sp_att": "85",
+        "sp_def": "65",
+        "speed": "65"
+    },
+    {
+        "_id": "239",
+        "att": "63",
+        "def": "37",
+        "hp": "45",
+        "sp_att": "65",
+        "sp_def": "55",
+        "speed": "95"
+    },
+    {
+        "_id": "240",
+        "att": "75",
+        "def": "37",
+        "hp": "45",
+        "sp_att": "70",
+        "sp_def": "55",
+        "speed": "83"
+    },
+    {
+        "_id": "241",
+        "att": "80",
+        "def": "105",
+        "hp": "95",
+        "sp_att": "40",
+        "sp_def": "70",
+        "speed": "100"
+    },
+    {
+        "_id": "242",
+        "att": "10",
+        "def": "10",
+        "hp": "255",
+        "sp_att": "75",
+        "sp_def": "135",
+        "speed": "55"
+    },
+    {
+        "_id": "243",
+        "att": "85",
+        "def": "75",
+        "hp": "90",
+        "sp_att": "115",
+        "sp_def": "100",
+        "speed": "115"
+    },
+    {
+        "_id": "244",
+        "att": "115",
+        "def": "85",
+        "hp": "115",
+        "sp_att": "90",
+        "sp_def": "75",
+        "speed": "100"
+    },
+    {
+        "_id": "245",
+        "att": "75",
+        "def": "115",
+        "hp": "100",
+        "sp_att": "90",
+        "sp_def": "115",
+        "speed": "85"
+    },
+    {
+        "_id": "246",
+        "att": "64",
+        "def": "50",
+        "hp": "50",
+        "sp_att": "45",
+        "sp_def": "50",
+        "speed": "41"
+    },
+    {
+        "_id": "247",
+        "att": "84",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "65",
+        "sp_def": "70",
+        "speed": "51"
+    },
+    {
+        "_id": "248",
+        "att": "134",
+        "def": "110",
+        "hp": "100",
+        "sp_att": "95",
+        "sp_def": "100",
+        "speed": "61"
+    },
+    {
+        "_id": "249",
+        "att": "90",
+        "def": "130",
+        "hp": "106",
+        "sp_att": "90",
+        "sp_def": "154",
+        "speed": "110"
+    },
+    {
+        "_id": "250",
+        "att": "130",
+        "def": "90",
+        "hp": "106",
+        "sp_att": "110",
+        "sp_def": "154",
+        "speed": "90"
+    },
+    {
+        "_id": "251",
+        "att": "100",
+        "def": "100",
+        "hp": "100",
+        "sp_att": "100",
+        "sp_def": "100",
+        "speed": "100"
+    },
+    {
+        "_id": "252",
+        "att": "45",
+        "def": "35",
+        "hp": "40",
+        "sp_att": "65",
+        "sp_def": "55",
+        "speed": "70"
+    },
+    {
+        "_id": "253",
+        "att": "65",
+        "def": "45",
+        "hp": "50",
+        "sp_att": "85",
+        "sp_def": "65",
+        "speed": "95"
+    },
+    {
+        "_id": "254",
+        "att": "85",
+        "def": "65",
+        "hp": "70",
+        "sp_att": "105",
+        "sp_def": "85",
+        "speed": "120"
+    },
+    {
+        "_id": "255",
+        "att": "60",
+        "def": "40",
+        "hp": "45",
+        "sp_att": "70",
+        "sp_def": "50",
+        "speed": "45"
+    },
+    {
+        "_id": "256",
+        "att": "85",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "85",
+        "sp_def": "60",
+        "speed": "55"
+    },
+    {
+        "_id": "257",
+        "att": "120",
+        "def": "70",
+        "hp": "80",
+        "sp_att": "110",
+        "sp_def": "70",
+        "speed": "80"
+    },
+    {
+        "_id": "258",
+        "att": "70",
+        "def": "50",
+        "hp": "50",
+        "sp_att": "50",
+        "sp_def": "50",
+        "speed": "40"
+    },
+    {
+        "_id": "259",
+        "att": "85",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "60",
+        "sp_def": "70",
+        "speed": "50"
+    },
+    {
+        "_id": "260",
+        "att": "110",
+        "def": "90",
+        "hp": "100",
+        "sp_att": "85",
+        "sp_def": "90",
+        "speed": "60"
+    },
+    {
+        "_id": "261",
+        "att": "55",
+        "def": "35",
+        "hp": "35",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "35"
+    },
+    {
+        "_id": "262",
+        "att": "90",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "70"
+    },
+    {
+        "_id": "263",
+        "att": "30",
+        "def": "41",
+        "hp": "38",
+        "sp_att": "30",
+        "sp_def": "41",
+        "speed": "60"
+    },
+    {
+        "_id": "264",
+        "att": "70",
+        "def": "61",
+        "hp": "78",
+        "sp_att": "50",
+        "sp_def": "61",
+        "speed": "100"
+    },
+    {
+        "_id": "265",
+        "att": "45",
+        "def": "35",
+        "hp": "45",
+        "sp_att": "20",
+        "sp_def": "30",
+        "speed": "20"
+    },
+    {
+        "_id": "266",
+        "att": "35",
+        "def": "55",
+        "hp": "50",
+        "sp_att": "25",
+        "sp_def": "25",
+        "speed": "15"
+    },
+    {
+        "_id": "267",
+        "att": "70",
+        "def": "50",
+        "hp": "60",
+        "sp_att": "100",
+        "sp_def": "50",
+        "speed": "65"
+    },
+    {
+        "_id": "268",
+        "att": "35",
+        "def": "55",
+        "hp": "50",
+        "sp_att": "25",
+        "sp_def": "25",
+        "speed": "15"
+    },
+    {
+        "_id": "269",
+        "att": "50",
+        "def": "70",
+        "hp": "60",
+        "sp_att": "50",
+        "sp_def": "90",
+        "speed": "65"
+    },
+    {
+        "_id": "270",
+        "att": "30",
+        "def": "30",
+        "hp": "40",
+        "sp_att": "40",
+        "sp_def": "50",
+        "speed": "30"
+    },
+    {
+        "_id": "271",
+        "att": "50",
+        "def": "50",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "70",
+        "speed": "50"
+    },
+    {
+        "_id": "272",
+        "att": "70",
+        "def": "70",
+        "hp": "80",
+        "sp_att": "90",
+        "sp_def": "100",
+        "speed": "70"
+    },
+    {
+        "_id": "273",
+        "att": "40",
+        "def": "50",
+        "hp": "40",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "30"
+    },
+    {
+        "_id": "274",
+        "att": "70",
+        "def": "40",
+        "hp": "70",
+        "sp_att": "60",
+        "sp_def": "40",
+        "speed": "60"
+    },
+    {
+        "_id": "275",
+        "att": "100",
+        "def": "60",
+        "hp": "90",
+        "sp_att": "90",
+        "sp_def": "60",
+        "speed": "80"
+    },
+    {
+        "_id": "276",
+        "att": "55",
+        "def": "30",
+        "hp": "40",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "85"
+    },
+    {
+        "_id": "277",
+        "att": "85",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "50",
+        "sp_def": "50",
+        "speed": "125"
+    },
+    {
+        "_id": "278",
+        "att": "30",
+        "def": "30",
+        "hp": "40",
+        "sp_att": "55",
+        "sp_def": "30",
+        "speed": "85"
+    },
+    {
+        "_id": "279",
+        "att": "50",
+        "def": "100",
+        "hp": "60",
+        "sp_att": "85",
+        "sp_def": "70",
+        "speed": "65"
+    },
+    {
+        "_id": "280",
+        "att": "25",
+        "def": "25",
+        "hp": "28",
+        "sp_att": "45",
+        "sp_def": "35",
+        "speed": "40"
+    },
+    {
+        "_id": "281",
+        "att": "35",
+        "def": "35",
+        "hp": "38",
+        "sp_att": "65",
+        "sp_def": "55",
+        "speed": "50"
+    },
+    {
+        "_id": "282",
+        "att": "65",
+        "def": "65",
+        "hp": "68",
+        "sp_att": "125",
+        "sp_def": "115",
+        "speed": "80"
+    },
+    {
+        "_id": "283",
+        "att": "30",
+        "def": "32",
+        "hp": "40",
+        "sp_att": "50",
+        "sp_def": "52",
+        "speed": "65"
+    },
+    {
+        "_id": "284",
+        "att": "60",
+        "def": "62",
+        "hp": "70",
+        "sp_att": "80",
+        "sp_def": "82",
+        "speed": "60"
+    },
+    {
+        "_id": "285",
+        "att": "40",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "40",
+        "sp_def": "60",
+        "speed": "35"
+    },
+    {
+        "_id": "286",
+        "att": "130",
+        "def": "80",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "70"
+    },
+    {
+        "_id": "287",
+        "att": "60",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "35",
+        "sp_def": "35",
+        "speed": "30"
+    },
+    {
+        "_id": "288",
+        "att": "80",
+        "def": "80",
+        "hp": "80",
+        "sp_att": "55",
+        "sp_def": "55",
+        "speed": "90"
+    },
+    {
+        "_id": "289",
+        "att": "160",
+        "def": "100",
+        "hp": "150",
+        "sp_att": "95",
+        "sp_def": "65",
+        "speed": "100"
+    },
+    {
+        "_id": "290",
+        "att": "45",
+        "def": "90",
+        "hp": "31",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "40"
+    },
+    {
+        "_id": "291",
+        "att": "90",
+        "def": "45",
+        "hp": "61",
+        "sp_att": "50",
+        "sp_def": "50",
+        "speed": "160"
+    },
+    {
+        "_id": "292",
+        "att": "90",
+        "def": "45",
+        "hp": "1",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "40"
+    },
+    {
+        "_id": "293",
+        "att": "51",
+        "def": "23",
+        "hp": "64",
+        "sp_att": "51",
+        "sp_def": "23",
+        "speed": "28"
+    },
+    {
+        "_id": "294",
+        "att": "71",
+        "def": "43",
+        "hp": "84",
+        "sp_att": "71",
+        "sp_def": "43",
+        "speed": "48"
+    },
+    {
+        "_id": "295",
+        "att": "91",
+        "def": "63",
+        "hp": "104",
+        "sp_att": "91",
+        "sp_def": "73",
+        "speed": "68"
+    },
+    {
+        "_id": "296",
+        "att": "60",
+        "def": "30",
+        "hp": "72",
+        "sp_att": "20",
+        "sp_def": "30",
+        "speed": "25"
+    },
+    {
+        "_id": "297",
+        "att": "120",
+        "def": "60",
+        "hp": "144",
+        "sp_att": "40",
+        "sp_def": "60",
+        "speed": "50"
+    },
+    {
+        "_id": "298",
+        "att": "20",
+        "def": "40",
+        "hp": "50",
+        "sp_att": "20",
+        "sp_def": "40",
+        "speed": "20"
+    },
+    {
+        "_id": "299",
+        "att": "45",
+        "def": "135",
+        "hp": "30",
+        "sp_att": "45",
+        "sp_def": "90",
+        "speed": "30"
+    },
+    {
+        "_id": "300",
+        "att": "45",
+        "def": "45",
+        "hp": "50",
+        "sp_att": "35",
+        "sp_def": "35",
+        "speed": "50"
+    },
+    {
+        "_id": "301",
+        "att": "65",
+        "def": "65",
+        "hp": "70",
+        "sp_att": "55",
+        "sp_def": "55",
+        "speed": "70"
+    },
+    {
+        "_id": "302",
+        "att": "75",
+        "def": "75",
+        "hp": "50",
+        "sp_att": "65",
+        "sp_def": "65",
+        "speed": "50"
+    },
+    {
+        "_id": "303",
+        "att": "85",
+        "def": "85",
+        "hp": "50",
+        "sp_att": "55",
+        "sp_def": "55",
+        "speed": "50"
+    },
+    {
+        "_id": "304",
+        "att": "70",
+        "def": "100",
+        "hp": "50",
+        "sp_att": "40",
+        "sp_def": "40",
+        "speed": "30"
+    },
+    {
+        "_id": "305",
+        "att": "90",
+        "def": "140",
+        "hp": "60",
+        "sp_att": "50",
+        "sp_def": "50",
+        "speed": "40"
+    },
+    {
+        "_id": "306",
+        "att": "110",
+        "def": "180",
+        "hp": "70",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "50"
+    },
+    {
+        "_id": "307",
+        "att": "40",
+        "def": "55",
+        "hp": "30",
+        "sp_att": "40",
+        "sp_def": "55",
+        "speed": "60"
+    },
+    {
+        "_id": "308",
+        "att": "60",
+        "def": "75",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "75",
+        "speed": "80"
+    },
+    {
+        "_id": "309",
+        "att": "45",
+        "def": "40",
+        "hp": "40",
+        "sp_att": "65",
+        "sp_def": "40",
+        "speed": "65"
+    },
+    {
+        "_id": "310",
+        "att": "75",
+        "def": "60",
+        "hp": "70",
+        "sp_att": "105",
+        "sp_def": "60",
+        "speed": "105"
+    },
+    {
+        "_id": "311",
+        "att": "50",
+        "def": "40",
+        "hp": "60",
+        "sp_att": "85",
+        "sp_def": "75",
+        "speed": "95"
+    },
+    {
+        "_id": "312",
+        "att": "40",
+        "def": "50",
+        "hp": "60",
+        "sp_att": "75",
+        "sp_def": "85",
+        "speed": "95"
+    },
+    {
+        "_id": "313",
+        "att": "73",
+        "def": "55",
+        "hp": "65",
+        "sp_att": "47",
+        "sp_def": "75",
+        "speed": "85"
+    },
+    {
+        "_id": "314",
+        "att": "47",
+        "def": "55",
+        "hp": "65",
+        "sp_att": "73",
+        "sp_def": "75",
+        "speed": "85"
+    },
+    {
+        "_id": "315",
+        "att": "60",
+        "def": "45",
+        "hp": "50",
+        "sp_att": "100",
+        "sp_def": "80",
+        "speed": "65"
+    },
+    {
+        "_id": "316",
+        "att": "43",
+        "def": "53",
+        "hp": "70",
+        "sp_att": "43",
+        "sp_def": "53",
+        "speed": "40"
+    },
+    {
+        "_id": "317",
+        "att": "73",
+        "def": "83",
+        "hp": "100",
+        "sp_att": "73",
+        "sp_def": "83",
+        "speed": "55"
+    },
+    {
+        "_id": "318",
+        "att": "90",
+        "def": "20",
+        "hp": "45",
+        "sp_att": "65",
+        "sp_def": "20",
+        "speed": "65"
+    },
+    {
+        "_id": "319",
+        "att": "120",
+        "def": "40",
+        "hp": "70",
+        "sp_att": "95",
+        "sp_def": "40",
+        "speed": "95"
+    },
+    {
+        "_id": "320",
+        "att": "70",
+        "def": "35",
+        "hp": "130",
+        "sp_att": "70",
+        "sp_def": "35",
+        "speed": "60"
+    },
+    {
+        "_id": "321",
+        "att": "90",
+        "def": "45",
+        "hp": "170",
+        "sp_att": "90",
+        "sp_def": "45",
+        "speed": "60"
+    },
+    {
+        "_id": "322",
+        "att": "60",
+        "def": "40",
+        "hp": "60",
+        "sp_att": "65",
+        "sp_def": "45",
+        "speed": "35"
+    },
+    {
+        "_id": "323",
+        "att": "100",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "105",
+        "sp_def": "75",
+        "speed": "40"
+    },
+    {
+        "_id": "324",
+        "att": "85",
+        "def": "140",
+        "hp": "70",
+        "sp_att": "85",
+        "sp_def": "70",
+        "speed": "20"
+    },
+    {
+        "_id": "325",
+        "att": "25",
+        "def": "35",
+        "hp": "60",
+        "sp_att": "70",
+        "sp_def": "80",
+        "speed": "60"
+    },
+    {
+        "_id": "326",
+        "att": "45",
+        "def": "65",
+        "hp": "80",
+        "sp_att": "90",
+        "sp_def": "110",
+        "speed": "80"
+    },
+    {
+        "_id": "327",
+        "att": "60",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "60"
+    },
+    {
+        "_id": "328",
+        "att": "100",
+        "def": "45",
+        "hp": "45",
+        "sp_att": "45",
+        "sp_def": "45",
+        "speed": "10"
+    },
+    {
+        "_id": "329",
+        "att": "70",
+        "def": "50",
+        "hp": "50",
+        "sp_att": "50",
+        "sp_def": "50",
+        "speed": "70"
+    },
+    {
+        "_id": "330",
+        "att": "100",
+        "def": "80",
+        "hp": "80",
+        "sp_att": "80",
+        "sp_def": "80",
+        "speed": "100"
+    },
+    {
+        "_id": "331",
+        "att": "85",
+        "def": "40",
+        "hp": "50",
+        "sp_att": "85",
+        "sp_def": "40",
+        "speed": "35"
+    },
+    {
+        "_id": "332",
+        "att": "115",
+        "def": "60",
+        "hp": "70",
+        "sp_att": "115",
+        "sp_def": "60",
+        "speed": "55"
+    },
+    {
+        "_id": "333",
+        "att": "40",
+        "def": "60",
+        "hp": "45",
+        "sp_att": "40",
+        "sp_def": "75",
+        "speed": "50"
+    },
+    {
+        "_id": "334",
+        "att": "70",
+        "def": "90",
+        "hp": "75",
+        "sp_att": "70",
+        "sp_def": "105",
+        "speed": "80"
+    },
+    {
+        "_id": "335",
+        "att": "115",
+        "def": "60",
+        "hp": "73",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "90"
+    },
+    {
+        "_id": "336",
+        "att": "100",
+        "def": "60",
+        "hp": "73",
+        "sp_att": "100",
+        "sp_def": "60",
+        "speed": "65"
+    },
+    {
+        "_id": "337",
+        "att": "55",
+        "def": "65",
+        "hp": "70",
+        "sp_att": "95",
+        "sp_def": "85",
+        "speed": "70"
+    },
+    {
+        "_id": "338",
+        "att": "95",
+        "def": "85",
+        "hp": "70",
+        "sp_att": "55",
+        "sp_def": "65",
+        "speed": "70"
+    },
+    {
+        "_id": "339",
+        "att": "48",
+        "def": "43",
+        "hp": "50",
+        "sp_att": "46",
+        "sp_def": "41",
+        "speed": "60"
+    },
+    {
+        "_id": "340",
+        "att": "78",
+        "def": "73",
+        "hp": "110",
+        "sp_att": "76",
+        "sp_def": "71",
+        "speed": "60"
+    },
+    {
+        "_id": "341",
+        "att": "80",
+        "def": "65",
+        "hp": "43",
+        "sp_att": "50",
+        "sp_def": "35",
+        "speed": "35"
+    },
+    {
+        "_id": "342",
+        "att": "120",
+        "def": "85",
+        "hp": "63",
+        "sp_att": "90",
+        "sp_def": "55",
+        "speed": "55"
+    },
+    {
+        "_id": "343",
+        "att": "40",
+        "def": "55",
+        "hp": "40",
+        "sp_att": "40",
+        "sp_def": "70",
+        "speed": "55"
+    },
+    {
+        "_id": "344",
+        "att": "70",
+        "def": "105",
+        "hp": "60",
+        "sp_att": "70",
+        "sp_def": "120",
+        "speed": "75"
+    },
+    {
+        "_id": "345",
+        "att": "41",
+        "def": "77",
+        "hp": "66",
+        "sp_att": "61",
+        "sp_def": "87",
+        "speed": "23"
+    },
+    {
+        "_id": "346",
+        "att": "81",
+        "def": "97",
+        "hp": "86",
+        "sp_att": "81",
+        "sp_def": "107",
+        "speed": "43"
+    },
+    {
+        "_id": "347",
+        "att": "95",
+        "def": "50",
+        "hp": "45",
+        "sp_att": "40",
+        "sp_def": "50",
+        "speed": "75"
+    },
+    {
+        "_id": "348",
+        "att": "125",
+        "def": "100",
+        "hp": "75",
+        "sp_att": "70",
+        "sp_def": "80",
+        "speed": "45"
+    },
+    {
+        "_id": "349",
+        "att": "15",
+        "def": "20",
+        "hp": "20",
+        "sp_att": "10",
+        "sp_def": "55",
+        "speed": "80"
+    },
+    {
+        "_id": "350",
+        "att": "60",
+        "def": "79",
+        "hp": "95",
+        "sp_att": "100",
+        "sp_def": "125",
+        "speed": "81"
+    },
+    {
+        "_id": "351",
+        "att": "70",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "70",
+        "sp_def": "70",
+        "speed": "70"
+    },
+    {
+        "_id": "352",
+        "att": "90",
+        "def": "70",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "120",
+        "speed": "40"
+    },
+    {
+        "_id": "353",
+        "att": "75",
+        "def": "35",
+        "hp": "44",
+        "sp_att": "63",
+        "sp_def": "33",
+        "speed": "45"
+    },
+    {
+        "_id": "354",
+        "att": "115",
+        "def": "65",
+        "hp": "64",
+        "sp_att": "83",
+        "sp_def": "63",
+        "speed": "65"
+    },
+    {
+        "_id": "355",
+        "att": "40",
+        "def": "90",
+        "hp": "20",
+        "sp_att": "30",
+        "sp_def": "90",
+        "speed": "25"
+    },
+    {
+        "_id": "356",
+        "att": "70",
+        "def": "130",
+        "hp": "40",
+        "sp_att": "60",
+        "sp_def": "130",
+        "speed": "25"
+    },
+    {
+        "_id": "357",
+        "att": "68",
+        "def": "83",
+        "hp": "99",
+        "sp_att": "72",
+        "sp_def": "87",
+        "speed": "51"
+    },
+    {
+        "_id": "358",
+        "att": "50",
+        "def": "70",
+        "hp": "65",
+        "sp_att": "95",
+        "sp_def": "80",
+        "speed": "65"
+    },
+    {
+        "_id": "359",
+        "att": "130",
+        "def": "60",
+        "hp": "65",
+        "sp_att": "75",
+        "sp_def": "60",
+        "speed": "75"
+    },
+    {
+        "_id": "360",
+        "att": "23",
+        "def": "48",
+        "hp": "95",
+        "sp_att": "23",
+        "sp_def": "48",
+        "speed": "23"
+    },
+    {
+        "_id": "361",
+        "att": "50",
+        "def": "50",
+        "hp": "50",
+        "sp_att": "50",
+        "sp_def": "50",
+        "speed": "50"
+    },
+    {
+        "_id": "362",
+        "att": "80",
+        "def": "80",
+        "hp": "80",
+        "sp_att": "80",
+        "sp_def": "80",
+        "speed": "80"
+    },
+    {
+        "_id": "363",
+        "att": "40",
+        "def": "50",
+        "hp": "70",
+        "sp_att": "55",
+        "sp_def": "50",
+        "speed": "25"
+    },
+    {
+        "_id": "364",
+        "att": "60",
+        "def": "70",
+        "hp": "90",
+        "sp_att": "75",
+        "sp_def": "70",
+        "speed": "45"
+    },
+    {
+        "_id": "365",
+        "att": "80",
+        "def": "90",
+        "hp": "110",
+        "sp_att": "95",
+        "sp_def": "90",
+        "speed": "65"
+    },
+    {
+        "_id": "366",
+        "att": "64",
+        "def": "85",
+        "hp": "35",
+        "sp_att": "74",
+        "sp_def": "55",
+        "speed": "32"
+    },
+    {
+        "_id": "367",
+        "att": "104",
+        "def": "105",
+        "hp": "55",
+        "sp_att": "94",
+        "sp_def": "75",
+        "speed": "52"
+    },
+    {
+        "_id": "368",
+        "att": "84",
+        "def": "105",
+        "hp": "55",
+        "sp_att": "114",
+        "sp_def": "75",
+        "speed": "52"
+    },
+    {
+        "_id": "369",
+        "att": "90",
+        "def": "130",
+        "hp": "100",
+        "sp_att": "45",
+        "sp_def": "65",
+        "speed": "55"
+    },
+    {
+        "_id": "370",
+        "att": "30",
+        "def": "55",
+        "hp": "43",
+        "sp_att": "40",
+        "sp_def": "65",
+        "speed": "97"
+    },
+    {
+        "_id": "371",
+        "att": "75",
+        "def": "60",
+        "hp": "45",
+        "sp_att": "40",
+        "sp_def": "30",
+        "speed": "50"
+    },
+    {
+        "_id": "372",
+        "att": "95",
+        "def": "100",
+        "hp": "65",
+        "sp_att": "60",
+        "sp_def": "50",
+        "speed": "50"
+    },
+    {
+        "_id": "373",
+        "att": "135",
+        "def": "80",
+        "hp": "95",
+        "sp_att": "110",
+        "sp_def": "80",
+        "speed": "100"
+    },
+    {
+        "_id": "374",
+        "att": "55",
+        "def": "80",
+        "hp": "40",
+        "sp_att": "35",
+        "sp_def": "60",
+        "speed": "30"
+    },
+    {
+        "_id": "375",
+        "att": "75",
+        "def": "100",
+        "hp": "60",
+        "sp_att": "55",
+        "sp_def": "80",
+        "speed": "50"
+    },
+    {
+        "_id": "376",
+        "att": "135",
+        "def": "130",
+        "hp": "80",
+        "sp_att": "95",
+        "sp_def": "90",
+        "speed": "70"
+    },
+    {
+        "_id": "377",
+        "att": "100",
+        "def": "200",
+        "hp": "80",
+        "sp_att": "50",
+        "sp_def": "100",
+        "speed": "50"
+    },
+    {
+        "_id": "378",
+        "att": "50",
+        "def": "100",
+        "hp": "80",
+        "sp_att": "100",
+        "sp_def": "200",
+        "speed": "50"
+    },
+    {
+        "_id": "379",
+        "att": "75",
+        "def": "150",
+        "hp": "80",
+        "sp_att": "75",
+        "sp_def": "150",
+        "speed": "50"
+    },
+    {
+        "_id": "380",
+        "att": "80",
+        "def": "90",
+        "hp": "80",
+        "sp_att": "110",
+        "sp_def": "130",
+        "speed": "110"
+    },
+    {
+        "_id": "381",
+        "att": "90",
+        "def": "80",
+        "hp": "80",
+        "sp_att": "130",
+        "sp_def": "110",
+        "speed": "110"
+    },
+    {
+        "_id": "382",
+        "att": "100",
+        "def": "90",
+        "hp": "100",
+        "sp_att": "150",
+        "sp_def": "140",
+        "speed": "90"
+    },
+    {
+        "_id": "383",
+        "att": "150",
+        "def": "140",
+        "hp": "100",
+        "sp_att": "100",
+        "sp_def": "90",
+        "speed": "90"
+    },
+    {
+        "_id": "384",
+        "att": "150",
+        "def": "90",
+        "hp": "105",
+        "sp_att": "150",
+        "sp_def": "90",
+        "speed": "95"
+    },
+    {
+        "_id": "385",
+        "att": "100",
+        "def": "100",
+        "hp": "100",
+        "sp_att": "100",
+        "sp_def": "100",
+        "speed": "100"
+    },
+    {
+        "_id": "386",
+        "att": "150",
+        "def": "50",
+        "hp": "50",
+        "sp_att": "150",
+        "sp_def": "50",
+        "speed": "150"
+    },
+    {
+        "_id": "387",
+        "att": "68",
+        "def": "64",
+        "hp": "55",
+        "sp_att": "45",
+        "sp_def": "55",
+        "speed": "31"
+    },
+    {
+        "_id": "388",
+        "att": "89",
+        "def": "85",
+        "hp": "75",
+        "sp_att": "55",
+        "sp_def": "65",
+        "speed": "36"
+    },
+    {
+        "_id": "389",
+        "att": "109",
+        "def": "105",
+        "hp": "95",
+        "sp_att": "75",
+        "sp_def": "85",
+        "speed": "56"
+    },
+    {
+        "_id": "390",
+        "att": "58",
+        "def": "44",
+        "hp": "44",
+        "sp_att": "58",
+        "sp_def": "44",
+        "speed": "61"
+    },
+    {
+        "_id": "391",
+        "att": "78",
+        "def": "52",
+        "hp": "64",
+        "sp_att": "78",
+        "sp_def": "52",
+        "speed": "81"
+    },
+    {
+        "_id": "392",
+        "att": "104",
+        "def": "71",
+        "hp": "76",
+        "sp_att": "104",
+        "sp_def": "71",
+        "speed": "108"
+    },
+    {
+        "_id": "393",
+        "att": "51",
+        "def": "53",
+        "hp": "53",
+        "sp_att": "61",
+        "sp_def": "56",
+        "speed": "40"
+    },
+    {
+        "_id": "394",
+        "att": "66",
+        "def": "68",
+        "hp": "64",
+        "sp_att": "81",
+        "sp_def": "76",
+        "speed": "50"
+    },
+    {
+        "_id": "395",
+        "att": "86",
+        "def": "88",
+        "hp": "84",
+        "sp_att": "111",
+        "sp_def": "101",
+        "speed": "60"
+    },
+    {
+        "_id": "396",
+        "att": "55",
+        "def": "30",
+        "hp": "40",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "60"
+    },
+    {
+        "_id": "397",
+        "att": "75",
+        "def": "50",
+        "hp": "55",
+        "sp_att": "40",
+        "sp_def": "40",
+        "speed": "80"
+    },
+    {
+        "_id": "398",
+        "att": "120",
+        "def": "70",
+        "hp": "85",
+        "sp_att": "50",
+        "sp_def": "60",
+        "speed": "100"
+    },
+    {
+        "_id": "399",
+        "att": "45",
+        "def": "40",
+        "hp": "59",
+        "sp_att": "35",
+        "sp_def": "40",
+        "speed": "31"
+    },
+    {
+        "_id": "400",
+        "att": "85",
+        "def": "60",
+        "hp": "79",
+        "sp_att": "55",
+        "sp_def": "60",
+        "speed": "71"
+    },
+    {
+        "_id": "401",
+        "att": "25",
+        "def": "41",
+        "hp": "37",
+        "sp_att": "25",
+        "sp_def": "41",
+        "speed": "25"
+    },
+    {
+        "_id": "402",
+        "att": "85",
+        "def": "51",
+        "hp": "77",
+        "sp_att": "55",
+        "sp_def": "51",
+        "speed": "65"
+    },
+    {
+        "_id": "403",
+        "att": "65",
+        "def": "34",
+        "hp": "45",
+        "sp_att": "40",
+        "sp_def": "34",
+        "speed": "45"
+    },
+    {
+        "_id": "404",
+        "att": "85",
+        "def": "49",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "49",
+        "speed": "60"
+    },
+    {
+        "_id": "405",
+        "att": "120",
+        "def": "79",
+        "hp": "80",
+        "sp_att": "95",
+        "sp_def": "79",
+        "speed": "70"
+    },
+    {
+        "_id": "406",
+        "att": "30",
+        "def": "35",
+        "hp": "40",
+        "sp_att": "50",
+        "sp_def": "70",
+        "speed": "55"
+    },
+    {
+        "_id": "407",
+        "att": "70",
+        "def": "65",
+        "hp": "60",
+        "sp_att": "125",
+        "sp_def": "105",
+        "speed": "90"
+    },
+    {
+        "_id": "408",
+        "att": "125",
+        "def": "40",
+        "hp": "67",
+        "sp_att": "30",
+        "sp_def": "30",
+        "speed": "58"
+    },
+    {
+        "_id": "409",
+        "att": "165",
+        "def": "60",
+        "hp": "97",
+        "sp_att": "65",
+        "sp_def": "50",
+        "speed": "58"
+    },
+    {
+        "_id": "410",
+        "att": "42",
+        "def": "118",
+        "hp": "30",
+        "sp_att": "42",
+        "sp_def": "88",
+        "speed": "30"
+    },
+    {
+        "_id": "411",
+        "att": "52",
+        "def": "168",
+        "hp": "60",
+        "sp_att": "47",
+        "sp_def": "138",
+        "speed": "30"
+    },
+    {
+        "_id": "412",
+        "att": "29",
+        "def": "45",
+        "hp": "40",
+        "sp_att": "29",
+        "sp_def": "45",
+        "speed": "36"
+    },
+    {
+        "_id": "413",
+        "att": "59",
+        "def": "85",
+        "hp": "60",
+        "sp_att": "79",
+        "sp_def": "105",
+        "speed": "36"
+    },
+    {
+        "_id": "414",
+        "att": "94",
+        "def": "50",
+        "hp": "70",
+        "sp_att": "94",
+        "sp_def": "50",
+        "speed": "66"
+    },
+    {
+        "_id": "415",
+        "att": "30",
+        "def": "42",
+        "hp": "30",
+        "sp_att": "30",
+        "sp_def": "42",
+        "speed": "70"
+    },
+    {
+        "_id": "416",
+        "att": "80",
+        "def": "102",
+        "hp": "70",
+        "sp_att": "80",
+        "sp_def": "102",
+        "speed": "40"
+    },
+    {
+        "_id": "417",
+        "att": "45",
+        "def": "70",
+        "hp": "60",
+        "sp_att": "45",
+        "sp_def": "90",
+        "speed": "95"
+    },
+    {
+        "_id": "418",
+        "att": "65",
+        "def": "35",
+        "hp": "55",
+        "sp_att": "60",
+        "sp_def": "30",
+        "speed": "85"
+    },
+    {
+        "_id": "419",
+        "att": "105",
+        "def": "55",
+        "hp": "85",
+        "sp_att": "85",
+        "sp_def": "50",
+        "speed": "115"
+    },
+    {
+        "_id": "420",
+        "att": "35",
+        "def": "45",
+        "hp": "45",
+        "sp_att": "62",
+        "sp_def": "53",
+        "speed": "35"
+    },
+    {
+        "_id": "421",
+        "att": "60",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "87",
+        "sp_def": "78",
+        "speed": "85"
+    },
+    {
+        "_id": "422",
+        "att": "48",
+        "def": "48",
+        "hp": "76",
+        "sp_att": "57",
+        "sp_def": "62",
+        "speed": "34"
+    },
+    {
+        "_id": "423",
+        "att": "83",
+        "def": "68",
+        "hp": "111",
+        "sp_att": "92",
+        "sp_def": "85",
+        "speed": "39"
+    },
+    {
+        "_id": "424",
+        "att": "100",
+        "def": "66",
+        "hp": "75",
+        "sp_att": "60",
+        "sp_def": "66",
+        "speed": "115"
+    },
+    {
+        "_id": "425",
+        "att": "50",
+        "def": "34",
+        "hp": "90",
+        "sp_att": "60",
+        "sp_def": "44",
+        "speed": "70"
+    },
+    {
+        "_id": "426",
+        "att": "80",
+        "def": "44",
+        "hp": "150",
+        "sp_att": "90",
+        "sp_def": "54",
+        "speed": "80"
+    },
+    {
+        "_id": "427",
+        "att": "66",
+        "def": "44",
+        "hp": "55",
+        "sp_att": "44",
+        "sp_def": "56",
+        "speed": "85"
+    },
+    {
+        "_id": "428",
+        "att": "76",
+        "def": "84",
+        "hp": "65",
+        "sp_att": "54",
+        "sp_def": "96",
+        "speed": "105"
+    },
+    {
+        "_id": "429",
+        "att": "60",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "105",
+        "sp_def": "105",
+        "speed": "105"
+    },
+    {
+        "_id": "430",
+        "att": "125",
+        "def": "52",
+        "hp": "100",
+        "sp_att": "105",
+        "sp_def": "52",
+        "speed": "71"
+    },
+    {
+        "_id": "431",
+        "att": "55",
+        "def": "42",
+        "hp": "49",
+        "sp_att": "42",
+        "sp_def": "37",
+        "speed": "85"
+    },
+    {
+        "_id": "432",
+        "att": "82",
+        "def": "64",
+        "hp": "71",
+        "sp_att": "64",
+        "sp_def": "59",
+        "speed": "112"
+    },
+    {
+        "_id": "433",
+        "att": "30",
+        "def": "50",
+        "hp": "45",
+        "sp_att": "65",
+        "sp_def": "50",
+        "speed": "45"
+    },
+    {
+        "_id": "434",
+        "att": "63",
+        "def": "47",
+        "hp": "63",
+        "sp_att": "41",
+        "sp_def": "41",
+        "speed": "74"
+    },
+    {
+        "_id": "435",
+        "att": "93",
+        "def": "67",
+        "hp": "103",
+        "sp_att": "71",
+        "sp_def": "61",
+        "speed": "84"
+    },
+    {
+        "_id": "436",
+        "att": "24",
+        "def": "86",
+        "hp": "57",
+        "sp_att": "24",
+        "sp_def": "86",
+        "speed": "23"
+    },
+    {
+        "_id": "437",
+        "att": "89",
+        "def": "116",
+        "hp": "67",
+        "sp_att": "79",
+        "sp_def": "116",
+        "speed": "33"
+    },
+    {
+        "_id": "438",
+        "att": "80",
+        "def": "95",
+        "hp": "50",
+        "sp_att": "10",
+        "sp_def": "45",
+        "speed": "10"
+    },
+    {
+        "_id": "439",
+        "att": "25",
+        "def": "45",
+        "hp": "20",
+        "sp_att": "70",
+        "sp_def": "90",
+        "speed": "60"
+    },
+    {
+        "_id": "440",
+        "att": "5",
+        "def": "5",
+        "hp": "100",
+        "sp_att": "15",
+        "sp_def": "65",
+        "speed": "30"
+    },
+    {
+        "_id": "441",
+        "att": "65",
+        "def": "45",
+        "hp": "76",
+        "sp_att": "92",
+        "sp_def": "42",
+        "speed": "91"
+    },
+    {
+        "_id": "442",
+        "att": "92",
+        "def": "108",
+        "hp": "50",
+        "sp_att": "92",
+        "sp_def": "108",
+        "speed": "35"
+    },
+    {
+        "_id": "443",
+        "att": "70",
+        "def": "45",
+        "hp": "58",
+        "sp_att": "40",
+        "sp_def": "45",
+        "speed": "42"
+    },
+    {
+        "_id": "444",
+        "att": "90",
+        "def": "65",
+        "hp": "68",
+        "sp_att": "50",
+        "sp_def": "55",
+        "speed": "82"
+    },
+    {
+        "_id": "445",
+        "att": "130",
+        "def": "95",
+        "hp": "108",
+        "sp_att": "80",
+        "sp_def": "85",
+        "speed": "102"
+    },
+    {
+        "_id": "446",
+        "att": "85",
+        "def": "40",
+        "hp": "135",
+        "sp_att": "40",
+        "sp_def": "85",
+        "speed": "5"
+    },
+    {
+        "_id": "447",
+        "att": "70",
+        "def": "40",
+        "hp": "40",
+        "sp_att": "35",
+        "sp_def": "40",
+        "speed": "60"
+    },
+    {
+        "_id": "448",
+        "att": "110",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "115",
+        "sp_def": "70",
+        "speed": "90"
+    },
+    {
+        "_id": "449",
+        "att": "72",
+        "def": "78",
+        "hp": "68",
+        "sp_att": "38",
+        "sp_def": "42",
+        "speed": "32"
+    },
+    {
+        "_id": "450",
+        "att": "112",
+        "def": "118",
+        "hp": "108",
+        "sp_att": "68",
+        "sp_def": "72",
+        "speed": "47"
+    },
+    {
+        "_id": "451",
+        "att": "50",
+        "def": "90",
+        "hp": "40",
+        "sp_att": "30",
+        "sp_def": "55",
+        "speed": "65"
+    },
+    {
+        "_id": "452",
+        "att": "90",
+        "def": "110",
+        "hp": "70",
+        "sp_att": "60",
+        "sp_def": "75",
+        "speed": "95"
+    },
+    {
+        "_id": "453",
+        "att": "61",
+        "def": "40",
+        "hp": "48",
+        "sp_att": "61",
+        "sp_def": "40",
+        "speed": "50"
+    },
+    {
+        "_id": "454",
+        "att": "106",
+        "def": "65",
+        "hp": "83",
+        "sp_att": "86",
+        "sp_def": "65",
+        "speed": "85"
+    },
+    {
+        "_id": "455",
+        "att": "100",
+        "def": "72",
+        "hp": "74",
+        "sp_att": "90",
+        "sp_def": "72",
+        "speed": "46"
+    },
+    {
+        "_id": "456",
+        "att": "49",
+        "def": "56",
+        "hp": "49",
+        "sp_att": "49",
+        "sp_def": "61",
+        "speed": "66"
+    },
+    {
+        "_id": "457",
+        "att": "69",
+        "def": "76",
+        "hp": "69",
+        "sp_att": "69",
+        "sp_def": "86",
+        "speed": "91"
+    },
+    {
+        "_id": "458",
+        "att": "20",
+        "def": "50",
+        "hp": "45",
+        "sp_att": "60",
+        "sp_def": "120",
+        "speed": "50"
+    },
+    {
+        "_id": "459",
+        "att": "62",
+        "def": "50",
+        "hp": "60",
+        "sp_att": "62",
+        "sp_def": "60",
+        "speed": "40"
+    },
+    {
+        "_id": "460",
+        "att": "92",
+        "def": "75",
+        "hp": "90",
+        "sp_att": "92",
+        "sp_def": "85",
+        "speed": "60"
+    },
+    {
+        "_id": "461",
+        "att": "120",
+        "def": "65",
+        "hp": "70",
+        "sp_att": "45",
+        "sp_def": "85",
+        "speed": "125"
+    },
+    {
+        "_id": "462",
+        "att": "70",
+        "def": "115",
+        "hp": "70",
+        "sp_att": "130",
+        "sp_def": "90",
+        "speed": "60"
+    },
+    {
+        "_id": "463",
+        "att": "85",
+        "def": "95",
+        "hp": "110",
+        "sp_att": "80",
+        "sp_def": "95",
+        "speed": "50"
+    },
+    {
+        "_id": "464",
+        "att": "140",
+        "def": "130",
+        "hp": "115",
+        "sp_att": "55",
+        "sp_def": "55",
+        "speed": "40"
+    },
+    {
+        "_id": "465",
+        "att": "100",
+        "def": "125",
+        "hp": "100",
+        "sp_att": "110",
+        "sp_def": "50",
+        "speed": "50"
+    },
+    {
+        "_id": "466",
+        "att": "123",
+        "def": "67",
+        "hp": "75",
+        "sp_att": "95",
+        "sp_def": "85",
+        "speed": "95"
+    },
+    {
+        "_id": "467",
+        "att": "95",
+        "def": "67",
+        "hp": "75",
+        "sp_att": "125",
+        "sp_def": "95",
+        "speed": "83"
+    },
+    {
+        "_id": "468",
+        "att": "50",
+        "def": "95",
+        "hp": "85",
+        "sp_att": "120",
+        "sp_def": "115",
+        "speed": "80"
+    },
+    {
+        "_id": "469",
+        "att": "76",
+        "def": "86",
+        "hp": "86",
+        "sp_att": "116",
+        "sp_def": "56",
+        "speed": "95"
+    },
+    {
+        "_id": "470",
+        "att": "110",
+        "def": "130",
+        "hp": "65",
+        "sp_att": "60",
+        "sp_def": "65",
+        "speed": "95"
+    },
+    {
+        "_id": "471",
+        "att": "60",
+        "def": "110",
+        "hp": "65",
+        "sp_att": "130",
+        "sp_def": "95",
+        "speed": "65"
+    },
+    {
+        "_id": "472",
+        "att": "95",
+        "def": "125",
+        "hp": "75",
+        "sp_att": "45",
+        "sp_def": "75",
+        "speed": "95"
+    },
+    {
+        "_id": "473",
+        "att": "130",
+        "def": "80",
+        "hp": "110",
+        "sp_att": "70",
+        "sp_def": "60",
+        "speed": "80"
+    },
+    {
+        "_id": "474",
+        "att": "80",
+        "def": "70",
+        "hp": "85",
+        "sp_att": "135",
+        "sp_def": "75",
+        "speed": "90"
+    },
+    {
+        "_id": "475",
+        "att": "125",
+        "def": "65",
+        "hp": "68",
+        "sp_att": "65",
+        "sp_def": "115",
+        "speed": "80"
+    },
+    {
+        "_id": "476",
+        "att": "55",
+        "def": "145",
+        "hp": "60",
+        "sp_att": "75",
+        "sp_def": "150",
+        "speed": "40"
+    },
+    {
+        "_id": "477",
+        "att": "100",
+        "def": "135",
+        "hp": "45",
+        "sp_att": "65",
+        "sp_def": "135",
+        "speed": "45"
+    },
+    {
+        "_id": "478",
+        "att": "80",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "80",
+        "sp_def": "70",
+        "speed": "110"
+    },
+    {
+        "_id": "479",
+        "att": "50",
+        "def": "77",
+        "hp": "50",
+        "sp_att": "95",
+        "sp_def": "77",
+        "speed": "91"
+    },
+    {
+        "_id": "480",
+        "att": "75",
+        "def": "130",
+        "hp": "75",
+        "sp_att": "75",
+        "sp_def": "130",
+        "speed": "95"
+    },
+    {
+        "_id": "481",
+        "att": "105",
+        "def": "105",
+        "hp": "80",
+        "sp_att": "105",
+        "sp_def": "105",
+        "speed": "80"
+    },
+    {
+        "_id": "482",
+        "att": "125",
+        "def": "70",
+        "hp": "75",
+        "sp_att": "125",
+        "sp_def": "70",
+        "speed": "115"
+    },
+    {
+        "_id": "483",
+        "att": "120",
+        "def": "120",
+        "hp": "100",
+        "sp_att": "150",
+        "sp_def": "100",
+        "speed": "90"
+    },
+    {
+        "_id": "484",
+        "att": "120",
+        "def": "100",
+        "hp": "90",
+        "sp_att": "150",
+        "sp_def": "120",
+        "speed": "100"
+    },
+    {
+        "_id": "485",
+        "att": "90",
+        "def": "106",
+        "hp": "91",
+        "sp_att": "130",
+        "sp_def": "106",
+        "speed": "77"
+    },
+    {
+        "_id": "486",
+        "att": "160",
+        "def": "110",
+        "hp": "110",
+        "sp_att": "80",
+        "sp_def": "110",
+        "speed": "100"
+    },
+    {
+        "_id": "487",
+        "att": "100",
+        "def": "120",
+        "hp": "150",
+        "sp_att": "100",
+        "sp_def": "120",
+        "speed": "90"
+    },
+    {
+        "_id": "488",
+        "att": "70",
+        "def": "120",
+        "hp": "120",
+        "sp_att": "75",
+        "sp_def": "130",
+        "speed": "85"
+    },
+    {
+        "_id": "489",
+        "att": "80",
+        "def": "80",
+        "hp": "80",
+        "sp_att": "80",
+        "sp_def": "80",
+        "speed": "80"
+    },
+    {
+        "_id": "490",
+        "att": "100",
+        "def": "100",
+        "hp": "100",
+        "sp_att": "100",
+        "sp_def": "100",
+        "speed": "100"
+    },
+    {
+        "_id": "491",
+        "att": "90",
+        "def": "90",
+        "hp": "70",
+        "sp_att": "135",
+        "sp_def": "90",
+        "speed": "125"
+    },
+    {
+        "_id": "492",
+        "att": "100",
+        "def": "100",
+        "hp": "100",
+        "sp_att": "100",
+        "sp_def": "100",
+        "speed": "100"
+    },
+    {
+        "_id": "493",
+        "att": "120",
+        "def": "120",
+        "hp": "120",
+        "sp_att": "120",
+        "sp_def": "120",
+        "speed": "120"
+    },
+    {
+        "_id": "494",
+        "att": "100",
+        "def": "100",
+        "hp": "100",
+        "sp_att": "100",
+        "sp_def": "100",
+        "speed": "100"
+    },
+    {
+        "_id": "495",
+        "att": "45",
+        "def": "55",
+        "hp": "45",
+        "sp_att": "45",
+        "sp_def": "55",
+        "speed": "63"
+    },
+    {
+        "_id": "496",
+        "att": "60",
+        "def": "75",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "75",
+        "speed": "83"
+    },
+    {
+        "_id": "497",
+        "att": "75",
+        "def": "95",
+        "hp": "75",
+        "sp_att": "75",
+        "sp_def": "95",
+        "speed": "113"
+    },
+    {
+        "_id": "498",
+        "att": "63",
+        "def": "45",
+        "hp": "65",
+        "sp_att": "45",
+        "sp_def": "45",
+        "speed": "45"
+    },
+    {
+        "_id": "499",
+        "att": "96",
+        "def": "55",
+        "hp": "90",
+        "sp_att": "70",
+        "sp_def": "55",
+        "speed": "55"
+    },
+    {
+        "_id": "500",
+        "att": "123",
+        "def": "65",
+        "hp": "110",
+        "sp_att": "100",
+        "sp_def": "65",
+        "speed": "65"
+    },
+    {
+        "_id": "501",
+        "att": "55",
+        "def": "45",
+        "hp": "55",
+        "sp_att": "63",
+        "sp_def": "45",
+        "speed": "45"
+    },
+    {
+        "_id": "502",
+        "att": "75",
+        "def": "60",
+        "hp": "75",
+        "sp_att": "83",
+        "sp_def": "60",
+        "speed": "60"
+    },
+    {
+        "_id": "503",
+        "att": "100",
+        "def": "85",
+        "hp": "95",
+        "sp_att": "108",
+        "sp_def": "70",
+        "speed": "70"
+    },
+    {
+        "_id": "504",
+        "att": "55",
+        "def": "39",
+        "hp": "45",
+        "sp_att": "35",
+        "sp_def": "39",
+        "speed": "42"
+    },
+    {
+        "_id": "505",
+        "att": "85",
+        "def": "69",
+        "hp": "60",
+        "sp_att": "60",
+        "sp_def": "69",
+        "speed": "77"
+    },
+    {
+        "_id": "506",
+        "att": "60",
+        "def": "45",
+        "hp": "45",
+        "sp_att": "25",
+        "sp_def": "45",
+        "speed": "55"
+    },
+    {
+        "_id": "507",
+        "att": "80",
+        "def": "65",
+        "hp": "65",
+        "sp_att": "35",
+        "sp_def": "65",
+        "speed": "60"
+    },
+    {
+        "_id": "508",
+        "att": "110",
+        "def": "90",
+        "hp": "85",
+        "sp_att": "45",
+        "sp_def": "90",
+        "speed": "80"
+    },
+    {
+        "_id": "509",
+        "att": "50",
+        "def": "37",
+        "hp": "41",
+        "sp_att": "50",
+        "sp_def": "37",
+        "speed": "66"
+    },
+    {
+        "_id": "510",
+        "att": "88",
+        "def": "50",
+        "hp": "64",
+        "sp_att": "88",
+        "sp_def": "50",
+        "speed": "106"
+    },
+    {
+        "_id": "511",
+        "att": "53",
+        "def": "48",
+        "hp": "50",
+        "sp_att": "53",
+        "sp_def": "48",
+        "speed": "64"
+    },
+    {
+        "_id": "512",
+        "att": "98",
+        "def": "63",
+        "hp": "75",
+        "sp_att": "98",
+        "sp_def": "63",
+        "speed": "101"
+    },
+    {
+        "_id": "513",
+        "att": "53",
+        "def": "48",
+        "hp": "50",
+        "sp_att": "53",
+        "sp_def": "48",
+        "speed": "64"
+    },
+    {
+        "_id": "514",
+        "att": "98",
+        "def": "63",
+        "hp": "75",
+        "sp_att": "98",
+        "sp_def": "63",
+        "speed": "101"
+    },
+    {
+        "_id": "515",
+        "att": "53",
+        "def": "48",
+        "hp": "50",
+        "sp_att": "53",
+        "sp_def": "48",
+        "speed": "64"
+    },
+    {
+        "_id": "516",
+        "att": "98",
+        "def": "63",
+        "hp": "75",
+        "sp_att": "98",
+        "sp_def": "63",
+        "speed": "101"
+    },
+    {
+        "_id": "517",
+        "att": "25",
+        "def": "45",
+        "hp": "76",
+        "sp_att": "67",
+        "sp_def": "55",
+        "speed": "24"
+    },
+    {
+        "_id": "518",
+        "att": "55",
+        "def": "85",
+        "hp": "116",
+        "sp_att": "107",
+        "sp_def": "95",
+        "speed": "29"
+    },
+    {
+        "_id": "519",
+        "att": "55",
+        "def": "50",
+        "hp": "50",
+        "sp_att": "36",
+        "sp_def": "30",
+        "speed": "43"
+    },
+    {
+        "_id": "520",
+        "att": "77",
+        "def": "62",
+        "hp": "62",
+        "sp_att": "50",
+        "sp_def": "42",
+        "speed": "65"
+    },
+    {
+        "_id": "521",
+        "att": "115",
+        "def": "80",
+        "hp": "80",
+        "sp_att": "65",
+        "sp_def": "55",
+        "speed": "93"
+    },
+    {
+        "_id": "522",
+        "att": "60",
+        "def": "32",
+        "hp": "45",
+        "sp_att": "50",
+        "sp_def": "32",
+        "speed": "76"
+    },
+    {
+        "_id": "523",
+        "att": "100",
+        "def": "63",
+        "hp": "75",
+        "sp_att": "80",
+        "sp_def": "63",
+        "speed": "116"
+    },
+    {
+        "_id": "524",
+        "att": "75",
+        "def": "85",
+        "hp": "55",
+        "sp_att": "25",
+        "sp_def": "25",
+        "speed": "15"
+    },
+    {
+        "_id": "525",
+        "att": "105",
+        "def": "105",
+        "hp": "70",
+        "sp_att": "50",
+        "sp_def": "40",
+        "speed": "20"
+    },
+    {
+        "_id": "526",
+        "att": "135",
+        "def": "130",
+        "hp": "85",
+        "sp_att": "60",
+        "sp_def": "80",
+        "speed": "25"
+    },
+    {
+        "_id": "527",
+        "att": "45",
+        "def": "43",
+        "hp": "55",
+        "sp_att": "55",
+        "sp_def": "43",
+        "speed": "72"
+    },
+    {
+        "_id": "528",
+        "att": "57",
+        "def": "55",
+        "hp": "67",
+        "sp_att": "77",
+        "sp_def": "55",
+        "speed": "114"
+    },
+    {
+        "_id": "529",
+        "att": "85",
+        "def": "40",
+        "hp": "60",
+        "sp_att": "30",
+        "sp_def": "45",
+        "speed": "68"
+    },
+    {
+        "_id": "530",
+        "att": "135",
+        "def": "60",
+        "hp": "110",
+        "sp_att": "50",
+        "sp_def": "65",
+        "speed": "88"
+    },
+    {
+        "_id": "531",
+        "att": "60",
+        "def": "86",
+        "hp": "103",
+        "sp_att": "60",
+        "sp_def": "86",
+        "speed": "50"
+    },
+    {
+        "_id": "532",
+        "att": "80",
+        "def": "55",
+        "hp": "75",
+        "sp_att": "25",
+        "sp_def": "35",
+        "speed": "35"
+    },
+    {
+        "_id": "533",
+        "att": "105",
+        "def": "85",
+        "hp": "85",
+        "sp_att": "40",
+        "sp_def": "50",
+        "speed": "40"
+    },
+    {
+        "_id": "534",
+        "att": "140",
+        "def": "95",
+        "hp": "105",
+        "sp_att": "55",
+        "sp_def": "65",
+        "speed": "45"
+    },
+    {
+        "_id": "535",
+        "att": "50",
+        "def": "40",
+        "hp": "50",
+        "sp_att": "50",
+        "sp_def": "40",
+        "speed": "64"
+    },
+    {
+        "_id": "536",
+        "att": "65",
+        "def": "55",
+        "hp": "75",
+        "sp_att": "65",
+        "sp_def": "55",
+        "speed": "69"
+    },
+    {
+        "_id": "537",
+        "att": "95",
+        "def": "75",
+        "hp": "105",
+        "sp_att": "85",
+        "sp_def": "75",
+        "speed": "74"
+    },
+    {
+        "_id": "538",
+        "att": "100",
+        "def": "85",
+        "hp": "120",
+        "sp_att": "30",
+        "sp_def": "85",
+        "speed": "45"
+    },
+    {
+        "_id": "539",
+        "att": "125",
+        "def": "75",
+        "hp": "75",
+        "sp_att": "30",
+        "sp_def": "75",
+        "speed": "85"
+    },
+    {
+        "_id": "540",
+        "att": "53",
+        "def": "70",
+        "hp": "45",
+        "sp_att": "40",
+        "sp_def": "60",
+        "speed": "42"
+    },
+    {
+        "_id": "541",
+        "att": "63",
+        "def": "90",
+        "hp": "55",
+        "sp_att": "50",
+        "sp_def": "80",
+        "speed": "42"
+    },
+    {
+        "_id": "542",
+        "att": "103",
+        "def": "80",
+        "hp": "75",
+        "sp_att": "70",
+        "sp_def": "80",
+        "speed": "92"
+    },
+    {
+        "_id": "543",
+        "att": "45",
+        "def": "59",
+        "hp": "30",
+        "sp_att": "30",
+        "sp_def": "39",
+        "speed": "57"
+    },
+    {
+        "_id": "544",
+        "att": "55",
+        "def": "99",
+        "hp": "40",
+        "sp_att": "40",
+        "sp_def": "79",
+        "speed": "47"
+    },
+    {
+        "_id": "545",
+        "att": "100",
+        "def": "89",
+        "hp": "60",
+        "sp_att": "55",
+        "sp_def": "69",
+        "speed": "112"
+    },
+    {
+        "_id": "546",
+        "att": "27",
+        "def": "60",
+        "hp": "40",
+        "sp_att": "37",
+        "sp_def": "50",
+        "speed": "66"
+    },
+    {
+        "_id": "547",
+        "att": "67",
+        "def": "85",
+        "hp": "60",
+        "sp_att": "77",
+        "sp_def": "75",
+        "speed": "116"
+    },
+    {
+        "_id": "548",
+        "att": "35",
+        "def": "50",
+        "hp": "45",
+        "sp_att": "70",
+        "sp_def": "50",
+        "speed": "30"
+    },
+    {
+        "_id": "549",
+        "att": "60",
+        "def": "75",
+        "hp": "70",
+        "sp_att": "110",
+        "sp_def": "75",
+        "speed": "90"
+    },
+    {
+        "_id": "550",
+        "att": "92",
+        "def": "65",
+        "hp": "70",
+        "sp_att": "80",
+        "sp_def": "55",
+        "speed": "98"
+    },
+    {
+        "_id": "551",
+        "att": "72",
+        "def": "35",
+        "hp": "50",
+        "sp_att": "35",
+        "sp_def": "35",
+        "speed": "65"
+    },
+    {
+        "_id": "552",
+        "att": "82",
+        "def": "45",
+        "hp": "60",
+        "sp_att": "45",
+        "sp_def": "45",
+        "speed": "74"
+    },
+    {
+        "_id": "553",
+        "att": "117",
+        "def": "80",
+        "hp": "95",
+        "sp_att": "65",
+        "sp_def": "70",
+        "speed": "92"
+    },
+    {
+        "_id": "554",
+        "att": "90",
+        "def": "45",
+        "hp": "70",
+        "sp_att": "15",
+        "sp_def": "45",
+        "speed": "50"
+    },
+    {
+        "_id": "555",
+        "att": "140",
+        "def": "55",
+        "hp": "105",
+        "sp_att": "30",
+        "sp_def": "55",
+        "speed": "95"
+    },
+    {
+        "_id": "556",
+        "att": "86",
+        "def": "67",
+        "hp": "75",
+        "sp_att": "106",
+        "sp_def": "67",
+        "speed": "60"
+    },
+    {
+        "_id": "557",
+        "att": "65",
+        "def": "85",
+        "hp": "50",
+        "sp_att": "35",
+        "sp_def": "35",
+        "speed": "55"
+    },
+    {
+        "_id": "558",
+        "att": "95",
+        "def": "125",
+        "hp": "70",
+        "sp_att": "65",
+        "sp_def": "75",
+        "speed": "45"
+    },
+    {
+        "_id": "559",
+        "att": "75",
+        "def": "70",
+        "hp": "50",
+        "sp_att": "35",
+        "sp_def": "70",
+        "speed": "48"
+    },
+    {
+        "_id": "560",
+        "att": "90",
+        "def": "115",
+        "hp": "65",
+        "sp_att": "45",
+        "sp_def": "115",
+        "speed": "58"
+    },
+    {
+        "_id": "561",
+        "att": "58",
+        "def": "80",
+        "hp": "72",
+        "sp_att": "103",
+        "sp_def": "80",
+        "speed": "97"
+    },
+    {
+        "_id": "562",
+        "att": "30",
+        "def": "85",
+        "hp": "38",
+        "sp_att": "55",
+        "sp_def": "65",
+        "speed": "30"
+    },
+    {
+        "_id": "563",
+        "att": "50",
+        "def": "145",
+        "hp": "58",
+        "sp_att": "95",
+        "sp_def": "105",
+        "speed": "30"
+    },
+    {
+        "_id": "564",
+        "att": "78",
+        "def": "103",
+        "hp": "54",
+        "sp_att": "53",
+        "sp_def": "45",
+        "speed": "22"
+    },
+    {
+        "_id": "565",
+        "att": "108",
+        "def": "133",
+        "hp": "74",
+        "sp_att": "83",
+        "sp_def": "65",
+        "speed": "32"
+    },
+    {
+        "_id": "566",
+        "att": "112",
+        "def": "45",
+        "hp": "55",
+        "sp_att": "74",
+        "sp_def": "45",
+        "speed": "70"
+    },
+    {
+        "_id": "567",
+        "att": "140",
+        "def": "65",
+        "hp": "75",
+        "sp_att": "112",
+        "sp_def": "65",
+        "speed": "110"
+    },
+    {
+        "_id": "568",
+        "att": "50",
+        "def": "62",
+        "hp": "50",
+        "sp_att": "40",
+        "sp_def": "62",
+        "speed": "65"
+    },
+    {
+        "_id": "569",
+        "att": "95",
+        "def": "82",
+        "hp": "80",
+        "sp_att": "60",
+        "sp_def": "82",
+        "speed": "75"
+    },
+    {
+        "_id": "570",
+        "att": "65",
+        "def": "40",
+        "hp": "40",
+        "sp_att": "80",
+        "sp_def": "40",
+        "speed": "65"
+    },
+    {
+        "_id": "571",
+        "att": "105",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "120",
+        "sp_def": "60",
+        "speed": "105"
+    },
+    {
+        "_id": "572",
+        "att": "50",
+        "def": "40",
+        "hp": "55",
+        "sp_att": "40",
+        "sp_def": "40",
+        "speed": "75"
+    },
+    {
+        "_id": "573",
+        "att": "95",
+        "def": "60",
+        "hp": "75",
+        "sp_att": "65",
+        "sp_def": "60",
+        "speed": "115"
+    },
+    {
+        "_id": "574",
+        "att": "30",
+        "def": "50",
+        "hp": "45",
+        "sp_att": "55",
+        "sp_def": "65",
+        "speed": "45"
+    },
+    {
+        "_id": "575",
+        "att": "45",
+        "def": "70",
+        "hp": "60",
+        "sp_att": "75",
+        "sp_def": "85",
+        "speed": "55"
+    },
+    {
+        "_id": "576",
+        "att": "55",
+        "def": "95",
+        "hp": "70",
+        "sp_att": "95",
+        "sp_def": "110",
+        "speed": "65"
+    },
+    {
+        "_id": "577",
+        "att": "30",
+        "def": "40",
+        "hp": "45",
+        "sp_att": "105",
+        "sp_def": "50",
+        "speed": "20"
+    },
+    {
+        "_id": "578",
+        "att": "40",
+        "def": "50",
+        "hp": "65",
+        "sp_att": "125",
+        "sp_def": "60",
+        "speed": "30"
+    },
+    {
+        "_id": "579",
+        "att": "65",
+        "def": "75",
+        "hp": "110",
+        "sp_att": "125",
+        "sp_def": "85",
+        "speed": "30"
+    },
+    {
+        "_id": "580",
+        "att": "44",
+        "def": "50",
+        "hp": "62",
+        "sp_att": "44",
+        "sp_def": "50",
+        "speed": "55"
+    },
+    {
+        "_id": "581",
+        "att": "87",
+        "def": "63",
+        "hp": "75",
+        "sp_att": "87",
+        "sp_def": "63",
+        "speed": "98"
+    },
+    {
+        "_id": "582",
+        "att": "50",
+        "def": "50",
+        "hp": "36",
+        "sp_att": "65",
+        "sp_def": "60",
+        "speed": "44"
+    },
+    {
+        "_id": "583",
+        "att": "65",
+        "def": "65",
+        "hp": "51",
+        "sp_att": "80",
+        "sp_def": "75",
+        "speed": "59"
+    },
+    {
+        "_id": "584",
+        "att": "95",
+        "def": "85",
+        "hp": "71",
+        "sp_att": "110",
+        "sp_def": "95",
+        "speed": "79"
+    },
+    {
+        "_id": "585",
+        "att": "60",
+        "def": "50",
+        "hp": "60",
+        "sp_att": "40",
+        "sp_def": "50",
+        "speed": "75"
+    },
+    {
+        "_id": "586",
+        "att": "100",
+        "def": "70",
+        "hp": "80",
+        "sp_att": "60",
+        "sp_def": "70",
+        "speed": "95"
+    },
+    {
+        "_id": "587",
+        "att": "75",
+        "def": "60",
+        "hp": "55",
+        "sp_att": "75",
+        "sp_def": "60",
+        "speed": "103"
+    },
+    {
+        "_id": "588",
+        "att": "75",
+        "def": "45",
+        "hp": "50",
+        "sp_att": "40",
+        "sp_def": "45",
+        "speed": "60"
+    },
+    {
+        "_id": "589",
+        "att": "135",
+        "def": "105",
+        "hp": "70",
+        "sp_att": "60",
+        "sp_def": "105",
+        "speed": "20"
+    },
+    {
+        "_id": "590",
+        "att": "55",
+        "def": "45",
+        "hp": "69",
+        "sp_att": "55",
+        "sp_def": "55",
+        "speed": "15"
+    },
+    {
+        "_id": "591",
+        "att": "85",
+        "def": "70",
+        "hp": "114",
+        "sp_att": "85",
+        "sp_def": "80",
+        "speed": "30"
+    },
+    {
+        "_id": "592",
+        "att": "40",
+        "def": "50",
+        "hp": "55",
+        "sp_att": "65",
+        "sp_def": "85",
+        "speed": "40"
+    },
+    {
+        "_id": "593",
+        "att": "60",
+        "def": "70",
+        "hp": "100",
+        "sp_att": "85",
+        "sp_def": "105",
+        "speed": "60"
+    },
+    {
+        "_id": "594",
+        "att": "75",
+        "def": "80",
+        "hp": "165",
+        "sp_att": "40",
+        "sp_def": "45",
+        "speed": "65"
+    },
+    {
+        "_id": "595",
+        "att": "47",
+        "def": "50",
+        "hp": "50",
+        "sp_att": "57",
+        "sp_def": "50",
+        "speed": "65"
+    },
+    {
+        "_id": "596",
+        "att": "77",
+        "def": "60",
+        "hp": "70",
+        "sp_att": "97",
+        "sp_def": "60",
+        "speed": "108"
+    },
+    {
+        "_id": "597",
+        "att": "50",
+        "def": "91",
+        "hp": "44",
+        "sp_att": "24",
+        "sp_def": "86",
+        "speed": "10"
+    },
+    {
+        "_id": "598",
+        "att": "94",
+        "def": "131",
+        "hp": "74",
+        "sp_att": "54",
+        "sp_def": "116",
+        "speed": "20"
+    },
+    {
+        "_id": "599",
+        "att": "55",
+        "def": "70",
+        "hp": "40",
+        "sp_att": "45",
+        "sp_def": "60",
+        "speed": "30"
+    },
+    {
+        "_id": "600",
+        "att": "80",
+        "def": "95",
+        "hp": "60",
+        "sp_att": "70",
+        "sp_def": "85",
+        "speed": "50"
+    },
+    {
+        "_id": "601",
+        "att": "100",
+        "def": "115",
+        "hp": "60",
+        "sp_att": "70",
+        "sp_def": "85",
+        "speed": "90"
+    },
+    {
+        "_id": "602",
+        "att": "55",
+        "def": "40",
+        "hp": "35",
+        "sp_att": "45",
+        "sp_def": "40",
+        "speed": "60"
+    },
+    {
+        "_id": "603",
+        "att": "85",
+        "def": "70",
+        "hp": "65",
+        "sp_att": "75",
+        "sp_def": "70",
+        "speed": "40"
+    },
+    {
+        "_id": "604",
+        "att": "115",
+        "def": "80",
+        "hp": "85",
+        "sp_att": "105",
+        "sp_def": "80",
+        "speed": "50"
+    },
+    {
+        "_id": "605",
+        "att": "55",
+        "def": "55",
+        "hp": "55",
+        "sp_att": "85",
+        "sp_def": "55",
+        "speed": "30"
+    },
+    {
+        "_id": "606",
+        "att": "75",
+        "def": "75",
+        "hp": "75",
+        "sp_att": "125",
+        "sp_def": "95",
+        "speed": "40"
+    },
+    {
+        "_id": "607",
+        "att": "30",
+        "def": "55",
+        "hp": "50",
+        "sp_att": "65",
+        "sp_def": "55",
+        "speed": "20"
+    },
+    {
+        "_id": "608",
+        "att": "40",
+        "def": "60",
+        "hp": "60",
+        "sp_att": "95",
+        "sp_def": "60",
+        "speed": "55"
+    },
+    {
+        "_id": "609",
+        "att": "55",
+        "def": "90",
+        "hp": "60",
+        "sp_att": "145",
+        "sp_def": "90",
+        "speed": "80"
+    },
+    {
+        "_id": "610",
+        "att": "87",
+        "def": "60",
+        "hp": "46",
+        "sp_att": "30",
+        "sp_def": "40",
+        "speed": "57"
+    },
+    {
+        "_id": "611",
+        "att": "117",
+        "def": "70",
+        "hp": "66",
+        "sp_att": "40",
+        "sp_def": "50",
+        "speed": "67"
+    },
+    {
+        "_id": "612",
+        "att": "147",
+        "def": "90",
+        "hp": "76",
+        "sp_att": "60",
+        "sp_def": "70",
+        "speed": "97"
+    },
+    {
+        "_id": "613",
+        "att": "70",
+        "def": "40",
+        "hp": "55",
+        "sp_att": "60",
+        "sp_def": "40",
+        "speed": "40"
+    },
+    {
+        "_id": "614",
+        "att": "110",
+        "def": "80",
+        "hp": "95",
+        "sp_att": "70",
+        "sp_def": "80",
+        "speed": "50"
+    },
+    {
+        "_id": "615",
+        "att": "50",
+        "def": "30",
+        "hp": "70",
+        "sp_att": "95",
+        "sp_def": "135",
+        "speed": "105"
+    },
+    {
+        "_id": "616",
+        "att": "40",
+        "def": "85",
+        "hp": "50",
+        "sp_att": "40",
+        "sp_def": "65",
+        "speed": "25"
+    },
+    {
+        "_id": "617",
+        "att": "70",
+        "def": "40",
+        "hp": "80",
+        "sp_att": "100",
+        "sp_def": "60",
+        "speed": "145"
+    },
+    {
+        "_id": "618",
+        "att": "66",
+        "def": "84",
+        "hp": "109",
+        "sp_att": "81",
+        "sp_def": "99",
+        "speed": "32"
+    },
+    {
+        "_id": "619",
+        "att": "85",
+        "def": "50",
+        "hp": "45",
+        "sp_att": "55",
+        "sp_def": "50",
+        "speed": "65"
+    },
+    {
+        "_id": "620",
+        "att": "125",
+        "def": "60",
+        "hp": "65",
+        "sp_att": "95",
+        "sp_def": "60",
+        "speed": "105"
+    },
+    {
+        "_id": "621",
+        "att": "120",
+        "def": "90",
+        "hp": "77",
+        "sp_att": "60",
+        "sp_def": "90",
+        "speed": "48"
+    },
+    {
+        "_id": "622",
+        "att": "74",
+        "def": "50",
+        "hp": "59",
+        "sp_att": "35",
+        "sp_def": "50",
+        "speed": "35"
+    },
+    {
+        "_id": "623",
+        "att": "124",
+        "def": "80",
+        "hp": "89",
+        "sp_att": "55",
+        "sp_def": "80",
+        "speed": "55"
+    },
+    {
+        "_id": "624",
+        "att": "85",
+        "def": "70",
+        "hp": "45",
+        "sp_att": "40",
+        "sp_def": "40",
+        "speed": "60"
+    },
+    {
+        "_id": "625",
+        "att": "125",
+        "def": "100",
+        "hp": "65",
+        "sp_att": "60",
+        "sp_def": "70",
+        "speed": "70"
+    },
+    {
+        "_id": "626",
+        "att": "110",
+        "def": "95",
+        "hp": "95",
+        "sp_att": "40",
+        "sp_def": "95",
+        "speed": "55"
+    },
+    {
+        "_id": "627",
+        "att": "83",
+        "def": "50",
+        "hp": "70",
+        "sp_att": "37",
+        "sp_def": "50",
+        "speed": "60"
+    },
+    {
+        "_id": "628",
+        "att": "123",
+        "def": "75",
+        "hp": "100",
+        "sp_att": "57",
+        "sp_def": "75",
+        "speed": "80"
+    },
+    {
+        "_id": "629",
+        "att": "55",
+        "def": "75",
+        "hp": "70",
+        "sp_att": "45",
+        "sp_def": "65",
+        "speed": "60"
+    },
+    {
+        "_id": "630",
+        "att": "65",
+        "def": "105",
+        "hp": "110",
+        "sp_att": "55",
+        "sp_def": "95",
+        "speed": "80"
+    },
+    {
+        "_id": "631",
+        "att": "97",
+        "def": "66",
+        "hp": "85",
+        "sp_att": "105",
+        "sp_def": "66",
+        "speed": "65"
+    },
+    {
+        "_id": "632",
+        "att": "109",
+        "def": "112",
+        "hp": "58",
+        "sp_att": "48",
+        "sp_def": "48",
+        "speed": "109"
+    },
+    {
+        "_id": "633",
+        "att": "65",
+        "def": "50",
+        "hp": "52",
+        "sp_att": "45",
+        "sp_def": "50",
+        "speed": "38"
+    },
+    {
+        "_id": "634",
+        "att": "85",
+        "def": "70",
+        "hp": "72",
+        "sp_att": "65",
+        "sp_def": "70",
+        "speed": "58"
+    },
+    {
+        "_id": "635",
+        "att": "105",
+        "def": "90",
+        "hp": "92",
+        "sp_att": "125",
+        "sp_def": "90",
+        "speed": "98"
+    },
+    {
+        "_id": "636",
+        "att": "85",
+        "def": "55",
+        "hp": "55",
+        "sp_att": "50",
+        "sp_def": "55",
+        "speed": "60"
+    },
+    {
+        "_id": "637",
+        "att": "60",
+        "def": "65",
+        "hp": "85",
+        "sp_att": "135",
+        "sp_def": "105",
+        "speed": "100"
+    },
+    {
+        "_id": "638",
+        "att": "90",
+        "def": "129",
+        "hp": "91",
+        "sp_att": "90",
+        "sp_def": "72",
+        "speed": "108"
+    },
+    {
+        "_id": "639",
+        "att": "129",
+        "def": "90",
+        "hp": "91",
+        "sp_att": "72",
+        "sp_def": "90",
+        "speed": "108"
+    },
+    {
+        "_id": "640",
+        "att": "90",
+        "def": "72",
+        "hp": "91",
+        "sp_att": "90",
+        "sp_def": "129",
+        "speed": "108"
+    },
+    {
+        "_id": "641",
+        "att": "115",
+        "def": "70",
+        "hp": "79",
+        "sp_att": "125",
+        "sp_def": "80",
+        "speed": "111"
+    },
+    {
+        "_id": "642",
+        "att": "115",
+        "def": "70",
+        "hp": "79",
+        "sp_att": "125",
+        "sp_def": "80",
+        "speed": "111"
+    },
+    {
+        "_id": "643",
+        "att": "120",
+        "def": "100",
+        "hp": "100",
+        "sp_att": "150",
+        "sp_def": "120",
+        "speed": "90"
+    },
+    {
+        "_id": "644",
+        "att": "150",
+        "def": "120",
+        "hp": "100",
+        "sp_att": "120",
+        "sp_def": "100",
+        "speed": "90"
+    },
+    {
+        "_id": "645",
+        "att": "125",
+        "def": "90",
+        "hp": "89",
+        "sp_att": "115",
+        "sp_def": "80",
+        "speed": "101"
+    },
+    {
+        "_id": "646",
+        "att": "130",
+        "def": "90",
+        "hp": "125",
+        "sp_att": "130",
+        "sp_def": "90",
+        "speed": "95"
+    },
+    {
+        "_id": "647",
+        "att": "72",
+        "def": "90",
+        "hp": "91",
+        "sp_att": "129",
+        "sp_def": "90",
+        "speed": "108"
+    },
+    {
+        "_id": "648",
+        "att": "77",
+        "def": "77",
+        "hp": "100",
+        "sp_att": "128",
+        "sp_def": "128",
+        "speed": "90"
+    },
+    {
+        "_id": "649",
+        "att": "120",
+        "def": "95",
+        "hp": "71",
+        "sp_att": "120",
+        "sp_def": "95",
+        "speed": "99"
+    },
+    {
+        "_id": "650",
+        "att": "61",
+        "def": "65",
+        "hp": "56",
+        "sp_att": "48",
+        "sp_def": "45",
+        "speed": "38"
+    },
+    {
+        "_id": "651",
+        "att": "78",
+        "def": "95",
+        "hp": "61",
+        "sp_att": "56",
+        "sp_def": "58",
+        "speed": "57"
+    },
+    {
+        "_id": "652",
+        "att": "107",
+        "def": "122",
+        "hp": "88",
+        "sp_att": "74",
+        "sp_def": "75",
+        "speed": "64"
+    },
+    {
+        "_id": "653",
+        "att": "45",
+        "def": "40",
+        "hp": "40",
+        "sp_att": "62",
+        "sp_def": "60",
+        "speed": "60"
+    },
+    {
+        "_id": "654",
+        "att": "59",
+        "def": "58",
+        "hp": "59",
+        "sp_att": "90",
+        "sp_def": "70",
+        "speed": "73"
+    },
+    {
+        "_id": "655",
+        "att": "69",
+        "def": "72",
+        "hp": "75",
+        "sp_att": "114",
+        "sp_def": "100",
+        "speed": "104"
+    },
+    {
+        "_id": "656",
+        "att": "56",
+        "def": "40",
+        "hp": "41",
+        "sp_att": "62",
+        "sp_def": "44",
+        "speed": "71"
+    },
+    {
+        "_id": "657",
+        "att": "63",
+        "def": "52",
+        "hp": "54",
+        "sp_att": "83",
+        "sp_def": "56",
+        "speed": "97"
+    },
+    {
+        "_id": "658",
+        "att": "95",
+        "def": "67",
+        "hp": "72",
+        "sp_att": "103",
+        "sp_def": "71",
+        "speed": "122"
+    },
+    {
+        "_id": "659",
+        "att": "36",
+        "def": "38",
+        "hp": "38",
+        "sp_att": "32",
+        "sp_def": "36",
+        "speed": "57"
+    },
+    {
+        "_id": "660",
+        "att": "56",
+        "def": "77",
+        "hp": "85",
+        "sp_att": "50",
+        "sp_def": "77",
+        "speed": "78"
+    },
+    {
+        "_id": "661",
+        "att": "50",
+        "def": "43",
+        "hp": "45",
+        "sp_att": "40",
+        "sp_def": "38",
+        "speed": "62"
+    },
+    {
+        "_id": "662",
+        "att": "73",
+        "def": "55",
+        "hp": "62",
+        "sp_att": "56",
+        "sp_def": "52",
+        "speed": "84"
+    },
+    {
+        "_id": "663",
+        "att": "81",
+        "def": "71",
+        "hp": "78",
+        "sp_att": "74",
+        "sp_def": "69",
+        "speed": "126"
+    },
+    {
+        "_id": "664",
+        "att": "35",
+        "def": "40",
+        "hp": "38",
+        "sp_att": "27",
+        "sp_def": "25",
+        "speed": "35"
+    },
+    {
+        "_id": "665",
+        "att": "22",
+        "def": "60",
+        "hp": "45",
+        "sp_att": "27",
+        "sp_def": "30",
+        "speed": "29"
+    },
+    {
+        "_id": "666",
+        "att": "52",
+        "def": "50",
+        "hp": "80",
+        "sp_att": "90",
+        "sp_def": "50",
+        "speed": "89"
+    },
+    {
+        "_id": "667",
+        "att": "50",
+        "def": "58",
+        "hp": "62",
+        "sp_att": "73",
+        "sp_def": "54",
+        "speed": "72"
+    },
+    {
+        "_id": "668",
+        "att": "68",
+        "def": "72",
+        "hp": "86",
+        "sp_att": "109",
+        "sp_def": "66",
+        "speed": "106"
+    },
+    {
+        "_id": "669",
+        "att": "38",
+        "def": "39",
+        "hp": "44",
+        "sp_att": "61",
+        "sp_def": "79",
+        "speed": "42"
+    },
+    {
+        "_id": "670",
+        "att": "45",
+        "def": "47",
+        "hp": "54",
+        "sp_att": "75",
+        "sp_def": "98",
+        "speed": "52"
+    },
+    {
+        "_id": "671",
+        "att": "65",
+        "def": "68",
+        "hp": "78",
+        "sp_att": "112",
+        "sp_def": "154",
+        "speed": "75"
+    },
+    {
+        "_id": "672",
+        "att": "65",
+        "def": "48",
+        "hp": "66",
+        "sp_att": "62",
+        "sp_def": "57",
+        "speed": "52"
+    },
+    {
+        "_id": "673",
+        "att": "100",
+        "def": "62",
+        "hp": "123",
+        "sp_att": "97",
+        "sp_def": "81",
+        "speed": "68"
+    },
+    {
+        "_id": "674",
+        "att": "82",
+        "def": "62",
+        "hp": "67",
+        "sp_att": "46",
+        "sp_def": "48",
+        "speed": "43"
+    },
+    {
+        "_id": "675",
+        "att": "124",
+        "def": "78",
+        "hp": "95",
+        "sp_att": "69",
+        "sp_def": "71",
+        "speed": "58"
+    },
+    {
+        "_id": "676",
+        "att": "80",
+        "def": "60",
+        "hp": "75",
+        "sp_att": "65",
+        "sp_def": "90",
+        "speed": "102"
+    },
+    {
+        "_id": "677",
+        "att": "48",
+        "def": "54",
+        "hp": "62",
+        "sp_att": "63",
+        "sp_def": "60",
+        "speed": "68"
+    },
+    {
+        "_id": "678",
+        "att": "48",
+        "def": "76",
+        "hp": "74",
+        "sp_att": "83",
+        "sp_def": "81",
+        "speed": "104"
+    },
+    {
+        "_id": "679",
+        "att": "80",
+        "def": "100",
+        "hp": "45",
+        "sp_att": "35",
+        "sp_def": "37",
+        "speed": "28"
+    },
+    {
+        "_id": "680",
+        "att": "110",
+        "def": "150",
+        "hp": "59",
+        "sp_att": "45",
+        "sp_def": "49",
+        "speed": "35"
+    },
+    {
+        "_id": "681",
+        "att": "50",
+        "def": "150",
+        "hp": "60",
+        "sp_att": "50",
+        "sp_def": "150",
+        "speed": "60"
+    },
+    {
+        "_id": "682",
+        "att": "52",
+        "def": "60",
+        "hp": "78",
+        "sp_att": "63",
+        "sp_def": "65",
+        "speed": "23"
+    },
+    {
+        "_id": "683",
+        "att": "72",
+        "def": "72",
+        "hp": "101",
+        "sp_att": "99",
+        "sp_def": "89",
+        "speed": "29"
+    },
+    {
+        "_id": "684",
+        "att": "48",
+        "def": "66",
+        "hp": "62",
+        "sp_att": "59",
+        "sp_def": "57",
+        "speed": "49"
+    },
+    {
+        "_id": "685",
+        "att": "80",
+        "def": "86",
+        "hp": "82",
+        "sp_att": "85",
+        "sp_def": "75",
+        "speed": "72"
+    },
+    {
+        "_id": "686",
+        "att": "54",
+        "def": "53",
+        "hp": "53",
+        "sp_att": "37",
+        "sp_def": "46",
+        "speed": "45"
+    },
+    {
+        "_id": "687",
+        "att": "92",
+        "def": "88",
+        "hp": "86",
+        "sp_att": "68",
+        "sp_def": "75",
+        "speed": "73"
+    },
+    {
+        "_id": "688",
+        "att": "52",
+        "def": "67",
+        "hp": "42",
+        "sp_att": "39",
+        "sp_def": "56",
+        "speed": "50"
+    },
+    {
+        "_id": "689",
+        "att": "105",
+        "def": "115",
+        "hp": "72",
+        "sp_att": "54",
+        "sp_def": "86",
+        "speed": "68"
+    },
+    {
+        "_id": "690",
+        "att": "60",
+        "def": "60",
+        "hp": "50",
+        "sp_att": "60",
+        "sp_def": "60",
+        "speed": "30"
+    },
+    {
+        "_id": "691",
+        "att": "75",
+        "def": "90",
+        "hp": "65",
+        "sp_att": "97",
+        "sp_def": "123",
+        "speed": "44"
+    },
+    {
+        "_id": "692",
+        "att": "53",
+        "def": "62",
+        "hp": "50",
+        "sp_att": "58",
+        "sp_def": "63",
+        "speed": "44"
+    },
+    {
+        "_id": "693",
+        "att": "73",
+        "def": "88",
+        "hp": "71",
+        "sp_att": "120",
+        "sp_def": "89",
+        "speed": "59"
+    },
+    {
+        "_id": "694",
+        "att": "38",
+        "def": "33",
+        "hp": "44",
+        "sp_att": "61",
+        "sp_def": "43",
+        "speed": "70"
+    },
+    {
+        "_id": "695",
+        "att": "55",
+        "def": "52",
+        "hp": "62",
+        "sp_att": "109",
+        "sp_def": "94",
+        "speed": "109"
+    },
+    {
+        "_id": "696",
+        "att": "89",
+        "def": "77",
+        "hp": "58",
+        "sp_att": "45",
+        "sp_def": "45",
+        "speed": "48"
+    },
+    {
+        "_id": "697",
+        "att": "121",
+        "def": "119",
+        "hp": "82",
+        "sp_att": "69",
+        "sp_def": "59",
+        "speed": "71"
+    },
+    {
+        "_id": "698",
+        "att": "59",
+        "def": "50",
+        "hp": "77",
+        "sp_att": "67",
+        "sp_def": "63",
+        "speed": "46"
+    },
+    {
+        "_id": "699",
+        "att": "77",
+        "def": "72",
+        "hp": "123",
+        "sp_att": "99",
+        "sp_def": "92",
+        "speed": "58"
+    },
+    {
+        "_id": "700",
+        "att": "65",
+        "def": "65",
+        "hp": "95",
+        "sp_att": "110",
+        "sp_def": "130",
+        "speed": "60"
+    },
+    {
+        "_id": "701",
+        "att": "92",
+        "def": "75",
+        "hp": "78",
+        "sp_att": "74",
+        "sp_def": "63",
+        "speed": "118"
+    },
+    {
+        "_id": "702",
+        "att": "58",
+        "def": "57",
+        "hp": "67",
+        "sp_att": "81",
+        "sp_def": "67",
+        "speed": "101"
+    },
+    {
+        "_id": "703",
+        "att": "50",
+        "def": "150",
+        "hp": "50",
+        "sp_att": "50",
+        "sp_def": "150",
+        "speed": "50"
+    },
+    {
+        "_id": "704",
+        "att": "50",
+        "def": "35",
+        "hp": "45",
+        "sp_att": "55",
+        "sp_def": "75",
+        "speed": "40"
+    },
+    {
+        "_id": "705",
+        "att": "75",
+        "def": "53",
+        "hp": "68",
+        "sp_att": "83",
+        "sp_def": "113",
+        "speed": "60"
+    },
+    {
+        "_id": "706",
+        "att": "100",
+        "def": "70",
+        "hp": "90",
+        "sp_att": "110",
+        "sp_def": "150",
+        "speed": "80"
+    },
+    {
+        "_id": "707",
+        "att": "80",
+        "def": "91",
+        "hp": "57",
+        "sp_att": "80",
+        "sp_def": "87",
+        "speed": "75"
+    },
+    {
+        "_id": "708",
+        "att": "70",
+        "def": "48",
+        "hp": "43",
+        "sp_att": "50",
+        "sp_def": "60",
+        "speed": "38"
+    },
+    {
+        "_id": "709",
+        "att": "110",
+        "def": "76",
+        "hp": "85",
+        "sp_att": "65",
+        "sp_def": "82",
+        "speed": "56"
+    },
+    {
+        "_id": "710",
+        "att": "66",
+        "def": "70",
+        "hp": "49",
+        "sp_att": "44",
+        "sp_def": "55",
+        "speed": "51"
+    },
+    {
+        "_id": "711",
+        "att": "90",
+        "def": "122",
+        "hp": "65",
+        "sp_att": "58",
+        "sp_def": "75",
+        "speed": "84"
+    },
+    {
+        "_id": "712",
+        "att": "69",
+        "def": "85",
+        "hp": "55",
+        "sp_att": "32",
+        "sp_def": "35",
+        "speed": "28"
+    },
+    {
+        "_id": "713",
+        "att": "117",
+        "def": "184",
+        "hp": "95",
+        "sp_att": "44",
+        "sp_def": "46",
+        "speed": "28"
+    },
+    {
+        "_id": "714",
+        "att": "30",
+        "def": "35",
+        "hp": "40",
+        "sp_att": "45",
+        "sp_def": "40",
+        "speed": "55"
+    },
+    {
+        "_id": "715",
+        "att": "70",
+        "def": "80",
+        "hp": "85",
+        "sp_att": "97",
+        "sp_def": "80",
+        "speed": "123"
+    },
+    {
+        "_id": "716",
+        "att": "131",
+        "def": "95",
+        "hp": "126",
+        "sp_att": "131",
+        "sp_def": "98",
+        "speed": "99"
+    },
+    {
+        "_id": "717",
+        "att": "131",
+        "def": "95",
+        "hp": "126",
+        "sp_att": "131",
+        "sp_def": "98",
+        "speed": "99"
+    },
+    {
+        "_id": "718",
+        "att": "100",
+        "def": "121",
+        "hp": "108",
+        "sp_att": "81",
+        "sp_def": "95",
+        "speed": "95"
+    },
+    {
+        "_id": "719",
+        "att": "100",
+        "def": "150",
+        "hp": "50",
+        "sp_att": "100",
+        "sp_def": "150",
+        "speed": "50"
+    },
+    {
+        "_id": "720",
+        "att": "110",
+        "def": "60",
+        "hp": "80",
+        "sp_att": "150",
+        "sp_def": "130",
+        "speed": "70"
+    },
+    {
+        "_id": "721",
+        "att": "110",
+        "def": "120",
+        "hp": "80",
+        "sp_att": "130",
+        "sp_def": "90",
+        "speed": "70"
     },
     {
         "_id": "10033",
         "att": "100",
         "def": "123",
         "hp": "80",
-        "name": "Mega Venusaur",
         "sp_att": "122",
         "sp_def": "120",
         "speed": "80"
@@ -1524,7 +6493,6 @@
         "att": "130",
         "def": "111",
         "hp": "78",
-        "name": "Mega Charizard X",
         "sp_att": "130",
         "sp_def": "85",
         "speed": "100"
@@ -1534,7 +6502,6 @@
         "att": "104",
         "def": "78",
         "hp": "78",
-        "name": "Mega Charizard Y",
         "sp_att": "159",
         "sp_def": "115",
         "speed": "100"
@@ -1544,7 +6511,6 @@
         "att": "103",
         "def": "120",
         "hp": "79",
-        "name": "Mega Blastoise",
         "sp_att": "135",
         "sp_def": "115",
         "speed": "78"
@@ -1554,7 +6520,6 @@
         "att": "50",
         "def": "65",
         "hp": "55",
-        "name": "Mega Alakazam",
         "sp_att": "175",
         "sp_def": "95",
         "speed": "150"
@@ -1564,7 +6529,6 @@
         "att": "65",
         "def": "80",
         "hp": "60",
-        "name": "Mega Gengar",
         "sp_att": "170",
         "sp_def": "95",
         "speed": "130"
@@ -1574,7 +6538,6 @@
         "att": "125",
         "def": "100",
         "hp": "105",
-        "name": "Mega Kangaskhan",
         "sp_att": "60",
         "sp_def": "100",
         "speed": "100"
@@ -1584,7 +6547,6 @@
         "att": "155",
         "def": "120",
         "hp": "65",
-        "name": "Mega Pinsir",
         "sp_att": "65",
         "sp_def": "90",
         "speed": "105"
@@ -1594,7 +6556,6 @@
         "att": "155",
         "def": "109",
         "hp": "95",
-        "name": "Mega Gyarados",
         "sp_att": "70",
         "sp_def": "130",
         "speed": "81"
@@ -1604,7 +6565,6 @@
         "att": "135",
         "def": "85",
         "hp": "80",
-        "name": "Mega Aerodactyl",
         "sp_att": "70",
         "sp_def": "95",
         "speed": "150"
@@ -1614,7 +6574,6 @@
         "att": "190",
         "def": "100",
         "hp": "106",
-        "name": "Mega Mewtwo X",
         "sp_att": "154",
         "sp_def": "100",
         "speed": "130"
@@ -1624,7 +6583,6 @@
         "att": "150",
         "def": "70",
         "hp": "106",
-        "name": "Mega Mewtwo Y",
         "sp_att": "194",
         "sp_def": "120",
         "speed": "140"
@@ -1634,7 +6592,6 @@
         "att": "95",
         "def": "105",
         "hp": "90",
-        "name": "Mega Ampharos",
         "sp_att": "165",
         "sp_def": "100",
         "speed": "45"
@@ -1644,7 +6601,6 @@
         "att": "150",
         "def": "140",
         "hp": "70",
-        "name": "Mega Scizor",
         "sp_att": "65",
         "sp_def": "100",
         "speed": "75"
@@ -1654,7 +6610,6 @@
         "att": "185",
         "def": "115",
         "hp": "80",
-        "name": "Mega Heracross",
         "sp_att": "40",
         "sp_def": "105",
         "speed": "75"
@@ -1664,7 +6619,6 @@
         "att": "90",
         "def": "90",
         "hp": "75",
-        "name": "Mega Houndoom",
         "sp_att": "140",
         "sp_def": "90",
         "speed": "115"
@@ -1674,7 +6628,6 @@
         "att": "164",
         "def": "150",
         "hp": "100",
-        "name": "Mega Tyranitar",
         "sp_att": "95",
         "sp_def": "120",
         "speed": "71"
@@ -1684,7 +6637,6 @@
         "att": "160",
         "def": "80",
         "hp": "80",
-        "name": "Mega Blaziken",
         "sp_att": "130",
         "sp_def": "80",
         "speed": "100"
@@ -1694,7 +6646,6 @@
         "att": "85",
         "def": "65",
         "hp": "68",
-        "name": "Mega Gardevoir",
         "sp_att": "165",
         "sp_def": "135",
         "speed": "100"
@@ -1704,7 +6655,6 @@
         "att": "105",
         "def": "125",
         "hp": "50",
-        "name": "Mega Mawile",
         "sp_att": "55",
         "sp_def": "95",
         "speed": "50"
@@ -1714,7 +6664,6 @@
         "att": "140",
         "def": "230",
         "hp": "70",
-        "name": "Mega Aggron",
         "sp_att": "60",
         "sp_def": "80",
         "speed": "50"
@@ -1724,7 +6673,6 @@
         "att": "100",
         "def": "85",
         "hp": "60",
-        "name": "Mega Medicham",
         "sp_att": "80",
         "sp_def": "85",
         "speed": "100"
@@ -1734,7 +6682,6 @@
         "att": "75",
         "def": "80",
         "hp": "70",
-        "name": "Mega Manectric",
         "sp_att": "135",
         "sp_def": "80",
         "speed": "135"
@@ -1744,7 +6691,6 @@
         "att": "165",
         "def": "75",
         "hp": "64",
-        "name": "Mega Banette",
         "sp_att": "93",
         "sp_def": "83",
         "speed": "75"
@@ -1754,59 +6700,233 @@
         "att": "150",
         "def": "60",
         "hp": "65",
-        "name": "Mega Absol",
         "sp_att": "115",
         "sp_def": "60",
         "speed": "115"
     },
     {
         "_id": "10058",
-        "att": "100",
-        "def": "120",
-        "hp": "80",
-        "name": "Mega Latias",
-        "sp_att": "140",
-        "sp_def": "150",
-        "speed": "110"
-    },
-    {
-        "_id": "10059",
-        "att": "130",
-        "def": "100",
-        "hp": "80",
-        "name": "Mega Latios",
-        "sp_att": "160",
-        "sp_def": "120",
-        "speed": "110"
-    },
-    {
-        "_id": "10060",
         "att": "170",
         "def": "115",
         "hp": "108",
-        "name": "Mega Garchomp",
         "sp_att": "120",
         "sp_def": "95",
         "speed": "92"
     },
     {
-        "_id": "10061",
+        "_id": "10059",
         "att": "145",
         "def": "88",
         "hp": "70",
-        "name": "Mega Lucario",
         "sp_att": "140",
         "sp_def": "70",
         "speed": "112"
     },
     {
-        "_id": "10062",
+        "_id": "10060",
         "att": "132",
         "def": "105",
         "hp": "90",
-        "name": "Mega Abomasnow",
         "sp_att": "132",
         "sp_def": "105",
         "speed": "30"
+    },
+    {
+        "_id": "10061",
+        "att": "110",
+        "def": "75",
+        "hp": "70",
+        "sp_att": "145",
+        "sp_def": "85",
+        "speed": "145"
+    },
+    {
+        "_id": "10062",
+        "att": "150",
+        "def": "110",
+        "hp": "100",
+        "sp_att": "95",
+        "sp_def": "110",
+        "speed": "70"
+    },
+    {
+        "_id": "10063",
+        "att": "100",
+        "def": "120",
+        "hp": "80",
+        "sp_att": "140",
+        "sp_def": "150",
+        "speed": "110"
+    },
+    {
+        "_id": "10064",
+        "att": "130",
+        "def": "100",
+        "hp": "80",
+        "sp_att": "160",
+        "sp_def": "120",
+        "speed": "110"
+    },
+    {
+        "_id": "10065",
+        "att": "150",
+        "def": "90",
+        "hp": "100",
+        "sp_att": "180",
+        "sp_def": "160",
+        "speed": "90"
+    },
+    {
+        "_id": "10066",
+        "att": "180",
+        "def": "160",
+        "hp": "100",
+        "sp_att": "150",
+        "sp_def": "90",
+        "speed": "90"
+    },
+    {
+        "_id": "10067",
+        "att": "160",
+        "def": "110",
+        "hp": "50",
+        "sp_att": "160",
+        "sp_def": "110",
+        "speed": "110"
+    },
+    {
+        "_id": "10068",
+        "att": "75",
+        "def": "180",
+        "hp": "95",
+        "sp_att": "130",
+        "sp_def": "80",
+        "speed": "30"
+    },
+    {
+        "_id": "10069",
+        "att": "85",
+        "def": "125",
+        "hp": "50",
+        "sp_att": "85",
+        "sp_def": "115",
+        "speed": "20"
+    },
+    {
+        "_id": "10070",
+        "att": "110",
+        "def": "110",
+        "hp": "75",
+        "sp_att": "110",
+        "sp_def": "105",
+        "speed": "80"
+    },
+    {
+        "_id": "10071",
+        "att": "145",
+        "def": "130",
+        "hp": "95",
+        "sp_att": "120",
+        "sp_def": "90",
+        "speed": "120"
+    },
+    {
+        "_id": "10072",
+        "att": "145",
+        "def": "150",
+        "hp": "80",
+        "sp_att": "105",
+        "sp_def": "110",
+        "speed": "110"
+    },
+    {
+        "_id": "10073",
+        "att": "136",
+        "def": "94",
+        "hp": "65",
+        "sp_att": "54",
+        "sp_def": "96",
+        "speed": "135"
+    },
+    {
+        "_id": "10074",
+        "att": "60",
+        "def": "126",
+        "hp": "103",
+        "sp_att": "80",
+        "sp_def": "126",
+        "speed": "50"
+    },
+    {
+        "_id": "10075",
+        "att": "165",
+        "def": "95",
+        "hp": "68",
+        "sp_att": "65",
+        "sp_def": "115",
+        "speed": "110"
+    },
+    {
+        "_id": "10076",
+        "att": "140",
+        "def": "70",
+        "hp": "70",
+        "sp_att": "110",
+        "sp_def": "65",
+        "speed": "105"
+    },
+    {
+        "_id": "10077",
+        "att": "125",
+        "def": "230",
+        "hp": "75",
+        "sp_att": "55",
+        "sp_def": "95",
+        "speed": "30"
+    },
+    {
+        "_id": "10078",
+        "att": "80",
+        "def": "80",
+        "hp": "83",
+        "sp_att": "135",
+        "sp_def": "80",
+        "speed": "121"
+    },
+    {
+        "_id": "10079",
+        "att": "120",
+        "def": "80",
+        "hp": "80",
+        "sp_att": "120",
+        "sp_def": "80",
+        "speed": "100"
+    },
+    {
+        "_id": "10080",
+        "att": "180",
+        "def": "100",
+        "hp": "105",
+        "sp_att": "180",
+        "sp_def": "100",
+        "speed": "115"
+    },
+    {
+        "_id": "10081",
+        "att": "120",
+        "def": "100",
+        "hp": "70",
+        "sp_att": "145",
+        "sp_def": "105",
+        "speed": "20"
+    },
+    {
+        "_id": "10082",
+        "att": "150",
+        "def": "40",
+        "hp": "65",
+        "sp_att": "15",
+        "sp_def": "80",
+        "speed": "145"
     }
 ]

@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "1",
+        "learnMoveBy": "Level"
+    },
+    {
+        "_id": "2",
+        "learnMoveBy": "Egg"
+    },
+    {
+        "_id": "3",
+        "learnMoveBy": "Tutor"
+    },
+    {
+        "_id": "4",
+        "learnMoveBy": "Machine"
+    }
+]

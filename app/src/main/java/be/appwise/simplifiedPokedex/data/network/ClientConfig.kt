@@ -5,7 +5,7 @@ import okhttp3.OkHttpClient
 import java.util.concurrent.TimeUnit
 
 class ClientConfig(
-        val rootUrl: HttpUrl = HttpUrl.parse("https://pokeapi.co/api/v2/")!!,
+        val rootUrl: HttpUrl = HttpUrl.parse("https://raw.githubusercontent.com/ShaHar91/Simplified-Pokedex/master/json/")!!,
         val okHttpConfig: OkHttpClient.Builder.() -> OkHttpClient.Builder = {
             retryOnConnectionFailure(false)
             connectTimeout(30, TimeUnit.SECONDS)

@@ -37,7 +37,21 @@ class SplashActivity : AppCompatActivity() {
         val mDb = SimplifiedPokedexDatabase.getInstance(this)
 
         val rxPoke = RxPokeApiClient()
-//
+
+        val pokeList = rxPoke.getPokemon()
+
+        val disposable = pokeList
+            .subscribeOn(Schedulers.io())
+            .subscribe({
+                mDb?.pokemonDao()?.insertAll(it)
+            }, {
+                it.printStackTrace()
+            }, {
+                Hawk.put(Constants.DATABASE_BEEN_SYNCED, true)
+
+                startActivity(MainActivity.newIntent(this))
+                finish()
+            })
 //        val pokeList = rxPoke.getPokemonList(20, 20)
 //
 //        val disposable = pokeList

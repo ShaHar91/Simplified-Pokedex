@@ -1,0 +1,3668 @@
+[
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "1",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "1",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "1",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "1",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "2",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "2",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "2",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "2",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "3",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "3",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "3",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "3",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "4",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "4",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "4",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "4",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "5",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "5",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "5",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "5",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "6",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "6",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "6",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "6",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "7",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "7",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "7",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "7",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "8",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "8",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "8",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "8",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "9",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "9",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "9",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "9",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "10",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "10",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "10",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "10",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "11",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "11",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "11",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "11",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "12",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "12",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "12",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "12",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "13",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "13",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "13",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "13",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "14",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "14",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "14",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "14",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "15",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "15",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "15",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "15",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "16",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "16",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "16",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "16",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "17",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "17",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "17",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "17",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "17",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "18",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "18",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "18",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "18",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "18",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "19",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "19",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "19",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "19",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "19",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "20",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "20",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "20",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "20",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "20",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "21",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "21",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "21",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "21",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "21",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "22",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "22",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "22",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "22",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "22",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "23",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "23",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "23",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "23",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "23",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "24",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "24",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "24",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "24",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "24",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "25",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "25",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "25",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "25",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "25",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "26",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "26",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "26",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "26",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "26",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "27",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "27",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "27",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "27",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "27",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "28",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "28",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "28",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "28",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "28",
+        "name": "Holdable"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "28",
+        "name": "Underground"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "29",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "29",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "29",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "29",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "29",
+        "name": "Holdable"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "29",
+        "name": "Underground"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "30",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "30",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "30",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "30",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "30",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "31",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "31",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "31",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "31",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "31",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "32",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "32",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "32",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "32",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "32",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "33",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "33",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "33",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "33",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "33",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "34",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "34",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "34",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "34",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "34",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "35",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "35",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "35",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "35",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "35",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "36",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "36",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "36",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "36",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "36",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "37",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "37",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "37",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "37",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "37",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "38",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "38",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "38",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "38",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "38",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "39",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "39",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "39",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "39",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "39",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "40",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "40",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "40",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "40",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "40",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "41",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "41",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "41",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "41",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "41",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "42",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "42",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "42",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "42",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "42",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "43",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "43",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "43",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "43",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "43",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "44",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "44",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "44",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "44",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "44",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "45",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "45",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "45",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "45",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "45",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "46",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "46",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "46",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "46",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "46",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "47",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "47",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "47",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "47",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "47",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "48",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "48",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "48",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "48",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "48",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "49",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "49",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "49",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "49",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "49",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "50",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "50",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "50",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "50",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "50",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "51",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "51",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "51",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "51",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "51",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "52",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "52",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "52",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "52",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "52",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "53",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "53",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "53",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "53",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "53",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "54",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "54",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "54",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "54",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "54",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "55",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "55",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "55",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "55",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "56",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "56",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "56",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "56",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "57",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "57",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "57",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "57",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "58",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "58",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "58",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "58",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "59",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "59",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "59",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "59",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "60",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "60",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "60",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "60",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "61",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "61",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "61",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "61",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "62",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "62",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "62",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "62",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "63",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "63",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "63",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "63",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "64",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "64",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "64",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "64",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "65",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "65",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "65",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "65",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "65",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "66",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "66",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "66",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "66",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "67",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "67",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable in battle",
+        "item_flag_id": "4",
+        "item_id": "67",
+        "name": "Usable_in_battle"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "67",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "68",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "68",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "68",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "68",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "69",
+        "name": "Countable"
+    },
+    {
+        "description": "Consumed when used",
+        "item_flag_id": "2",
+        "item_id": "69",
+        "name": "Consumable"
+    },
+    {
+        "description": "Usable outside battle",
+        "item_flag_id": "3",
+        "item_id": "69",
+        "name": "Usable_overworld"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "69",
+        "name": "Holdable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "70",
+        "name": "Countable"
+    },
+    {
+        "description": "Has a count in the bag",
+        "item_flag_id": "1",
+        "item_id": "71",
+        "name": "Countable"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "72",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "73",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "74",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "75",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "80",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "81",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "82",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "83",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "84",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "85",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "91",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "93",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "99",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "100",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "101",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "102",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "103",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "104",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "105",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "106",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "110",
+        "name": "Underground"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "111",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "112",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "113",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "126",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "127",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "128",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "129",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "130",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "131",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "132",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "133",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "134",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "135",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "136",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "137",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "138",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "139",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "140",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "161",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "162",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "163",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "164",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "165",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "166",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "167",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "168",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "169",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "170",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "171",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "172",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "173",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "174",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "175",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "176",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "177",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "178",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "179",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "180",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "181",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "182",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "183",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "184",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "185",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "186",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "187",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "188",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "189",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "190",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "190",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "191",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "191",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "192",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "192",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "193",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "193",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "194",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "194",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "195",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "195",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "196",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "196",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "197",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "197",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "198",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "198",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "199",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "199",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "200",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "200",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "201",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "202",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "203",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "204",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "205",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "205",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "206",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "206",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "206",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "207",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "207",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "208",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "208",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "209",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "209",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "210",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "210",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "211",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "211",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "213",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "214",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "214",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "215",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "215",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "215",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "216",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "216",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "217",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "217",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "218",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "218",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "219",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "219",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "220",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "220",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "221",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "221",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "222",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "222",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "223",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "223",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "224",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "224",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "225",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "225",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "226",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "226",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "227",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "227",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "228",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "228",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "230",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "230",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "231",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "231",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "232",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "232",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "233",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "234",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "235",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "236",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "237",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "238",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "239",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "240",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "241",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "242",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "242",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "243",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "243",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "244",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "244",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "245",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "245",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "246",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "246",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "246",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "247",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "247",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "248",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "248",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "249",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "249",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "250",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "250",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "251",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "252",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "252",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "253",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "253",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "254",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "254",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "255",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "255",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "255",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "256",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "256",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "257",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "257",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "258",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "258",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "259",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "259",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "259",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "260",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "260",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "260",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "261",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "261",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "261",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "262",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "262",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "262",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "263",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "263",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "264",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "264",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "265",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "265",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "266",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "266",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "267",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "267",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "268",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "268",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "269",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "269",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "270",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "270",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "271",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "271",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "272",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "272",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "273",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "273",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "274",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "274",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "275",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "275",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "275",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "276",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "276",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "276",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "277",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "277",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "277",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "278",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "278",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "278",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "279",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "279",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "279",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "280",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "280",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "280",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "281",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "281",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "281",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "282",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "282",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "282",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "283",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "283",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "283",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "284",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "284",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "284",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "285",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "285",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "285",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "286",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "286",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "286",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "287",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "287",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "287",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "288",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "288",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "288",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "289",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "289",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "289",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "290",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "290",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Appears in Sinnoh Underground",
+        "item_flag_id": "8",
+        "item_id": "290",
+        "name": "Underground"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "291",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "291",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "292",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "292",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "293",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "293",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "294",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "294",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "295",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "295",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "296",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "296",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "297",
+        "name": "Holdable"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "303",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "303",
+        "name": "Holdable_active"
+    },
+    {
+        "description": "Can be held by a Pokémon",
+        "item_flag_id": "5",
+        "item_id": "304",
+        "name": "Holdable"
+    },
+    {
+        "description": "Usable by a Pokémon when held",
+        "item_flag_id": "7",
+        "item_id": "304",
+        "name": "Holdable_active"
+    }
+]

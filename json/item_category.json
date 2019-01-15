@@ -1,0 +1,222 @@
+[
+    {
+        "_id": "1",
+        "name": "Stat boosts",
+        "pocket_id": "7"
+    },
+    {
+        "_id": "2",
+        "name": "Effort drop",
+        "pocket_id": "5"
+    },
+    {
+        "_id": "3",
+        "name": "Medicine",
+        "pocket_id": "5"
+    },
+    {
+        "_id": "4",
+        "name": "Other",
+        "pocket_id": "5"
+    },
+    {
+        "_id": "5",
+        "name": "In a pinch",
+        "pocket_id": "5"
+    },
+    {
+        "_id": "6",
+        "name": "Picky healing",
+        "pocket_id": "5"
+    },
+    {
+        "_id": "7",
+        "name": "Type protection",
+        "pocket_id": "5"
+    },
+    {
+        "_id": "8",
+        "name": "Baking only",
+        "pocket_id": "5"
+    },
+    {
+        "_id": "9",
+        "name": "Collectibles",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "10",
+        "name": "Evolution",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "11",
+        "name": "Spelunking",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "12",
+        "name": "Held items",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "13",
+        "name": "Choice",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "14",
+        "name": "Effort training",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "15",
+        "name": "Bad held items",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "16",
+        "name": "Training",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "17",
+        "name": "Plates",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "18",
+        "name": "Species-specific",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "19",
+        "name": "Type enhancement",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "20",
+        "name": "Event items",
+        "pocket_id": "8"
+    },
+    {
+        "_id": "21",
+        "name": "Gameplay",
+        "pocket_id": "8"
+    },
+    {
+        "_id": "22",
+        "name": "Plot advancement",
+        "pocket_id": "8"
+    },
+    {
+        "_id": "23",
+        "name": "Unused",
+        "pocket_id": "8"
+    },
+    {
+        "_id": "24",
+        "name": "Loot",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "25",
+        "name": "All mail",
+        "pocket_id": "6"
+    },
+    {
+        "_id": "26",
+        "name": "Vitamins",
+        "pocket_id": "2"
+    },
+    {
+        "_id": "27",
+        "name": "Healing",
+        "pocket_id": "2"
+    },
+    {
+        "_id": "28",
+        "name": "PP recovery",
+        "pocket_id": "2"
+    },
+    {
+        "_id": "29",
+        "name": "Revival",
+        "pocket_id": "2"
+    },
+    {
+        "_id": "30",
+        "name": "Status cures",
+        "pocket_id": "2"
+    },
+    {
+        "_id": "32",
+        "name": "Mulch",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "33",
+        "name": "Special balls",
+        "pocket_id": "3"
+    },
+    {
+        "_id": "34",
+        "name": "Standard balls",
+        "pocket_id": "3"
+    },
+    {
+        "_id": "35",
+        "name": "Dex completion",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "36",
+        "name": "Scarves",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "37",
+        "name": "All machines",
+        "pocket_id": "4"
+    },
+    {
+        "_id": "38",
+        "name": "Flutes",
+        "pocket_id": "7"
+    },
+    {
+        "_id": "39",
+        "name": "Apricorn balls",
+        "pocket_id": "3"
+    },
+    {
+        "_id": "40",
+        "name": "Apricorn Box",
+        "pocket_id": "8"
+    },
+    {
+        "_id": "41",
+        "name": "Data Cards",
+        "pocket_id": "8"
+    },
+    {
+        "_id": "42",
+        "name": "Jewels",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "43",
+        "name": "Miracle Shooter",
+        "pocket_id": "7"
+    },
+    {
+        "_id": "44",
+        "name": "Mega Stones",
+        "pocket_id": "1"
+    },
+    {
+        "_id": "10001",
+        "name": "X/Y unknown",
+        "pocket_id": "8"
+    }
+]

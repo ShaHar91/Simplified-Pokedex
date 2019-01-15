@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "Items",
+        "_id": "1"
+    },
+    {
+        "Name": "Medicine",
+        "_id": "2"
+    },
+    {
+        "Name": "Poké Balls",
+        "_id": "3"
+    },
+    {
+        "Name": "TMs and HMs",
+        "_id": "4"
+    },
+    {
+        "Name": "Berries",
+        "_id": "5"
+    },
+    {
+        "Name": "Mail",
+        "_id": "6"
+    },
+    {
+        "Name": "Battle Items",
+        "_id": "7"
+    },
+    {
+        "Name": "Key Items",
+        "_id": "8"
+    }
+]

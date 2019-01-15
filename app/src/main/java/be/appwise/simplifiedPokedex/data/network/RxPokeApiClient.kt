@@ -7,7 +7,7 @@ class RxPokeApiClient(
 
     // region Pokemon
 
-    override fun getPokemon(id: Int) = service.getPokemon(id)
+    override fun getPokemon() = service.getPokemon()
 
     // endregion Pokemon
 }

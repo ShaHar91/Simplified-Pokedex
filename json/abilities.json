@@ -1502,5 +1502,29 @@
         "name": "Zen Mode",
         "overworld": "/",
         "short_description": "Your form will change when in a pinch."
+    },
+    {
+        "_id": "189",
+        "description": "Creates the Strong Winds weather. This lasts until the Pokémon exits battle, and weakens moves used on Flying-type Pokémon that would be Super Effective",
+        "nPokemons": "",
+        "name": "Delta Stream",
+        "overworld": "",
+        "short_description": "The Pokémon makes it very windy if it is in battle."
+    },
+    {
+        "_id": "190",
+        "description": "Creates the Strong Sun weather. This lasts until the Pokémon exits battle, and renders Water-type moves useless",
+        "nPokemons": "",
+        "name": "Desolate Land",
+        "overworld": "",
+        "short_description": "The Pokémon makes it very sunny if it is in battle."
+    },
+    {
+        "_id": "191",
+        "description": "Creates the Heavy Rain weather. This lasts until the Pokémon exits battle, and renders Fire-type moves useless",
+        "nPokemons": "",
+        "name": "Primordial Sea",
+        "overworld": "",
+        "short_description": "The Pokémon makes it heavily rain if it is in battle."
     }
 ]
