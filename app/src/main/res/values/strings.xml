@@ -2,13 +2,5 @@
     <string name="app_name">Simplified-Pokedex</string>
 
     <!-- Server error-->
-    <string name="internet_connection_error">Kijk na of je een werkende netwerkverbinding hebt.</string>
-    <string name="internet_connection_error_send">Er is geen connectie tot het internet, data kan niet verzonden worden.</string>
-    <string name="server_error_delete">Er ging iets mis bij de server, data kan niet verwijderd worden.</string>
-    <string name="server_error_splash">Gegevens konden niet geladen worden. Check je internet verbinding en probeer opnieuw.</string>
-    <string name="server_error_500">Er ging iets mis bij de server. Probeer het later opnieuw.</string>
-    <string name="server_error_404">Gelieve je internet connectie na te kijken.</string>
-    <string name="server_error_401">De gebruikersgegevens waren incorrect.</string>
-    <string name="server_error_400">De ingegeven code is foutief of niet meer in gebruik.</string>
 
 </resources>

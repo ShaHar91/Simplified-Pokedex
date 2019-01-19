@@ -2,7 +2,7 @@ package be.appwise.simplifiedPokedex
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.support.multidex.MultiDexApplication
+import androidx.multidex.MultiDexApplication
 import com.orhanobut.hawk.Hawk
 
 class MyApplication : MultiDexApplication() {

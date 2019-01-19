@@ -1,7 +1,7 @@
 package be.appwise.simplifiedPokedex.data.model
 
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
 //TODO: look at @Embedded
 @Entity(tableName = "pokemon")
@@ -27,8 +27,8 @@ data class Pokemon(
     val description_y: String?,
     val location_x: String?,
     val location_y: String?,
-    val isMega: Int,
-    val isAlternate: Int,
+    val isMega: String,
+    val isAlternate: String,
     val notes: String?,
     val hasMega: Int
 )

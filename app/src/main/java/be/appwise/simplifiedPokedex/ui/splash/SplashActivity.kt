@@ -1,7 +1,7 @@
 package be.appwise.simplifiedPokedex.ui.splash
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import be.appwise.simplifiedPokedex.Constants
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase

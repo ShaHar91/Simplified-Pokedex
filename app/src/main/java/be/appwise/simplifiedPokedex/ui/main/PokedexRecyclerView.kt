@@ -1,12 +1,14 @@
 package be.appwise.simplifiedPokedex.ui.main
 
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.model.Pokemon
+import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.list_item_pokedex.view.*
+
 
 class PokedexRecyclerView(private val myDataset: List<Pokemon>) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
@@ -16,7 +18,16 @@ class PokedexRecyclerView(private val myDataset: List<Pokemon>) :
     // Each data item is just a string in this case that is shown in a TextView.
     class MyViewHolder(val holder: View) : RecyclerView.ViewHolder(holder) {
         fun onBind(pokemon: Pokemon) {
+            val str = String.format("%03d", pokemon.nat_dex)
+
+
+            Glide.with(holder).load("https://www.serebii.net/pokedex-xy/icon/${str}.png").into(holder.ivPokemonIcon)
+            holder.ivPokemonIcon
+            holder.tvPokemonNatNumber.text = pokemon.isMega.toString()
             holder.tvPokemonName.text = pokemon.name
+            holder.btnType1.text = pokemon.type1
+            holder.btnType2.text = pokemon.type2
+
         }
     }
 

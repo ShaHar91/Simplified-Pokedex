@@ -1,10 +1,10 @@
 package be.appwise.simplifiedPokedex.data.dao
 
-import android.arch.persistence.room.Dao
-import android.arch.persistence.room.Insert
-import android.arch.persistence.room.OnConflictStrategy.REPLACE
-import android.arch.persistence.room.Query
-import android.arch.persistence.room.Transaction
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy.REPLACE
+import androidx.room.Query
+import androidx.room.Transaction
 import be.appwise.simplifiedPokedex.data.model.Pokemon
 
 @Dao
@@ -19,7 +19,7 @@ interface PokemonDao {
     fun deleteAll()
 
     @Transaction
-    fun updateData(pokemons: List<Pokemon>){
+    fun updateData(pokemons: List<Pokemon>) {
         insertAll(pokemons)
     }
 
