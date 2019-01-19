@@ -27,8 +27,8 @@ data class Pokemon(
     val description_y: String?,
     val location_x: String?,
     val location_y: String?,
-    val isMega: String,
-    val isAlternate: String,
+    val is_mega: Int,
+    val is_alternate: Int,
     val notes: String?,
     val hasMega: Int
 )

@@ -23,11 +23,10 @@ class PokedexRecyclerView(private val myDataset: List<Pokemon>) :
 
             Glide.with(holder).load("https://www.serebii.net/pokedex-xy/icon/${str}.png").into(holder.ivPokemonIcon)
             holder.ivPokemonIcon
-            holder.tvPokemonNatNumber.text = pokemon.isMega.toString()
+            holder.tvPokemonNatNumber.text = str + pokemon.is_mega + " " + pokemon.is_alternate
             holder.tvPokemonName.text = pokemon.name
             holder.btnType1.text = pokemon.type1
             holder.btnType2.text = pokemon.type2
-
         }
     }
 

@@ -9,8 +9,8 @@ import be.appwise.simplifiedPokedex.data.model.Pokemon
 
 @Dao
 interface PokemonDao {
-    @Query("SELECT * from pokemon")
-    fun getAll(): List<Pokemon>
+    @Query("SELECT * from pokemon where is_alternate = 0 and is_mega = 0")
+    fun getAll(/*isAlternate: String = "0", isMega: String = "0"*/): List<Pokemon>
 
     @Insert(onConflict = REPLACE)
     fun insert(pokemon: Pokemon)
