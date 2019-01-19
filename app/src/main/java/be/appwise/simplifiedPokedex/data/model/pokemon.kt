@@ -1,5 +1,6 @@
 package be.appwise.simplifiedPokedex.data.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
@@ -18,7 +19,7 @@ data class Pokemon(
     val height: String?,
     val weight: String?,
     val gender_spread: String?,
-    val evYield: String?,
+    val ev_yield: String?,
     val egg_steps: String,
     val base_happiness: String?,
     val capture_rate: String?,
@@ -30,5 +31,5 @@ data class Pokemon(
     val is_mega: Int,
     val is_alternate: Int,
     val notes: String?,
-    val hasMega: Int
+    val has_mega: Int
 )
