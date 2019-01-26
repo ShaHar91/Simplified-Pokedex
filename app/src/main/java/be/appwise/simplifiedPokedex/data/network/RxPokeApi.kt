@@ -5,4 +5,8 @@ import io.reactivex.Observable
 
 interface RxPokeApi {
     fun getPokemon(): Observable<List<Pokemon>>
+
+    fun getBaseStat(): Observable<List<BaseStat>>
+
+    fun getMatchUps(): Observable<List<MatchUp>>
 }

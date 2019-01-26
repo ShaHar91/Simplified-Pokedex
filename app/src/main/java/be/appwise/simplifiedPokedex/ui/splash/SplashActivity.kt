@@ -5,19 +5,19 @@ import androidx.appcompat.app.AppCompatActivity
 import be.appwise.simplifiedPokedex.Constants
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
-import be.appwise.simplifiedPokedex.data.model.Pokemon
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiClient
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
 import com.orhanobut.hawk.Hawk
-import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_splash.*
 
-//TODO: get each json file from this github, after each file, increment the progressBar, only do this once in a while
 class SplashActivity : AppCompatActivity() {
+    companion object {
+        private const val COUNT_OF_STEPS = 3
+    }
+
     private val compositeDisposable: CompositeDisposable = CompositeDisposable()
-    private val pokemonList: ArrayList<Pokemon> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,6 +29,8 @@ class SplashActivity : AppCompatActivity() {
 //            startActivity(MainActivity.newIntent(this))
 //            finish()
 //        }
+
+        initializeProgressBars(COUNT_OF_STEPS)
     }
 
     private fun getAllSeparatePokemons() {
@@ -36,48 +38,36 @@ class SplashActivity : AppCompatActivity() {
 
         val rxPoke = RxPokeApiClient()
 
-        val pokeList = rxPoke.getPokemon()
+        val disposable = rxPoke.getPokemon()
+            .subscribeOn(Schedulers.io())
+            .switchMap {
+                mDb?.pokemonDao()?.insertAll(it)
 
-        val disposable = pokeList
+                addStepToProgress()
+
+                return@switchMap rxPoke.getBaseStat()
+            }
+            .subscribeOn(Schedulers.io())
+            .switchMap {
+                mDb?.baseStatDao()?.insertAll(it)
+
+                addStepToProgress()
+
+                return@switchMap rxPoke.getMatchUps()
+            }
             .subscribeOn(Schedulers.io())
             .subscribe({
-                mDb?.pokemonDao()?.insertAll(it)
+                mDb?.matchUpDao()?.insertAll(it)
+
+                addStepToProgress()
             }, {
                 it.printStackTrace()
             }, {
-                //                Hawk.put(Constants.DATABASE_BEEN_SYNCED, true)
+                Hawk.put(Constants.DATABASE_BEEN_SYNCED, true)
 
                 startActivity(MainActivity.newIntent(this))
                 finish()
             })
-//        val pokeList = rxPoke.getPokemonList(20, 20)
-//
-//        val disposable = pokeList
-//            .subscribeOn(Schedulers.io())
-//            .switchMap {
-//                initializeProgressBars(it.results.size)
-//
-//                return@switchMap Observable.fromIterable(it.results)
-//            }
-//            .switchMap {
-//                return@switchMap rxPoke.getPokemon(it.id)
-//            }
-//            .subscribeOn(Schedulers.io())
-//            .subscribe({
-//                pokemonList.add(it)
-////                    mDb?.pokemonDao()?.insert(it)
-//
-//                addStepToProgress()
-//            }, {
-//                it.printStackTrace()
-//            }, {
-//                mDb?.pokemonDao()?.updateData(pokemonList)
-//
-//                Hawk.put(Constants.DATABASE_BEEN_SYNCED, true)
-//
-//                startActivity(MainActivity.newIntent(this))
-//                finish()
-//            })
 
         compositeDisposable.add(disposable)
     }
