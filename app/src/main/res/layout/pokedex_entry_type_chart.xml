@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                      xmlns:tools="http://schemas.android.com/tools"
+                      android:id="@+id/typesScrollView"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <!-- <TextView
+                                    android:id="@+id/tvType1"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:textColor="@android:color/white"
+                                    android:background="@drawable/button_border_fight"
+                                    android:layout_alignParentStart="true"
+                                    android:layout_margin="2dp"
+                                    android:textAllCaps="false"
+                                    android:layout_width="70dp"
+                                    tools:text="Fighting"
+                                    android:layout_height="35dp"/>-->
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_normal"
+                    android:text="@string/normal"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_fire"
+                    android:text="@string/fire"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_ice"
+                    android:text="@string/ice"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_water"
+                    android:text="@string/water"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_electric"
+                    android:text="@string/electric"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_grass"
+                    android:text="@string/grass"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_fight"
+                    android:text="@string/fight"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_poison"
+                    android:text="@string/poison"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_ground"
+                    android:text="@string/ground"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp">
+
+            <TextView
+                    android:id="@+id/normalTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/fireTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/waterTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/electricTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/grassTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/iceTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/fightTv"
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/poisonTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/groundTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_flying"
+                    android:text="@string/flying"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_psychic"
+                    android:text="@string/psychic"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_bug"
+                    android:text="@string/bug"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_rock"
+                    android:text="@string/rock"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_ghost"
+                    android:text="@string/ghost"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_dragon"
+                    android:text="@string/dragon"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_dark"
+                    android:text="@string/dark"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_steel"
+                    android:text="@string/steel"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+
+            <TextView
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_border_fairy"
+                    android:text="@string/fairy"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5dp">
+
+            <TextView
+                    android:id="@+id/flyingTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/psychicTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/bugTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/rockTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/ghostTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/dragonTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/darkTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/steelTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+
+            <TextView
+                    android:id="@+id/fairyTv"
+                    android:layout_height="35dp"
+                    android:layout_width="70dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</HorizontalScrollView>
