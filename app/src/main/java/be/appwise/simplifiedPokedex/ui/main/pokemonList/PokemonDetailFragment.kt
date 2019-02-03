@@ -1,13 +1,16 @@
 package be.appwise.simplifiedPokedex.ui.main.pokemonList
 
 import android.graphics.Color
+import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
@@ -18,19 +21,23 @@ import be.appwise.simplifiedPokedex.data.model.MatchUp
 import be.appwise.simplifiedPokedex.data.model.Pokemon
 import be.appwise.simplifiedPokedex.extensions.gone
 import be.appwise.simplifiedPokedex.extensions.visible
-import be.appwise.simplifiedPokedex.ui.main.MainActivity
+import be.appwise.simplifiedPokedex.ui.utils.CommonUtils
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.DataSource
+import com.bumptech.glide.load.engine.GlideException
+import com.bumptech.glide.request.RequestListener
+import com.bumptech.glide.request.target.Target
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.pokedex_entry_type_chart.*
-import kotlinx.android.synthetic.main.pokemon_detail.*
+import kotlinx.android.synthetic.main.fragment_pokemon_detail.*
 
 class PokemonDetailFragment : Fragment() {
     companion object {
         const val TAG = "PokemonDetailFragment"
-        const val POKEMON_ID_KEY = "pokemonId"
+        const val POKEMON_ID_KEY = "mPokemonId"
 
         fun newInstance(pokemonId: Int): PokemonDetailFragment {
             val fragment = PokemonDetailFragment()
@@ -42,28 +49,27 @@ class PokemonDetailFragment : Fragment() {
     }
 
     private var compositeDisposable = CompositeDisposable()
-    private lateinit var parentActivity: MainActivity
-    private var pokemon: Pokemon? = null
-    private var pokemonBaseStat: BaseStat? = null
-    private var pokemonMatchUp: MatchUp? = null
+    private lateinit var parentActivity: AppCompatActivity
+    private var mPokemon: Pokemon? = null
+    private var mPokemonBaseStat: BaseStat? = null
+    private var mPokemonMatchUp: MatchUp? = null
+    private var mPokemonId: Int? = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        parentActivity = activity as MainActivity
+        parentActivity = activity as AppCompatActivity
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val rootView = inflater.inflate(R.layout.pokemon_detail, container, false)
-
-        val pokemonId = arguments?.getInt(POKEMON_ID_KEY, 0)
-
-        fetchPokemonById(pokemonId!!)
-
-        return rootView
+        return inflater.inflate(R.layout.fragment_pokemon_detail, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        mPokemonId = arguments?.getInt(POKEMON_ID_KEY, 0)
+
+        fetchPokemonById(mPokemonId ?: 1)
 
         initializeOnClicks()
     }
@@ -74,6 +80,16 @@ class PokemonDetailFragment : Fragment() {
         }
         descriptionTbtn.setOnCheckedChangeListener { _, isChecked ->
             hideOrShow(isChecked, descriptionLayout)
+        }
+
+        nextIv.setOnClickListener {
+            mPokemonId = mPokemonId?.plus(1)
+            fetchPokemonById(mPokemonId ?: 1)
+        }
+
+        previousIv.setOnClickListener {
+            mPokemonId = mPokemonId?.minus(1)
+            fetchPokemonById(mPokemonId ?: 1)
         }
     }
 
@@ -92,22 +108,22 @@ class PokemonDetailFragment : Fragment() {
         }
             .subscribeOn(Schedulers.io())
             .switchMap {
-                pokemon = it
+                mPokemon = it
 
                 return@switchMap Observable.fromCallable { mDb?.baseStatDao()?.getBaseStatById(pokemonId) }
             }
             .subscribeOn(Schedulers.io())
             .switchMap {
-                pokemonBaseStat = it
+                mPokemonBaseStat = it
 
                 return@switchMap Observable.fromCallable {
-                    mDb?.matchUpDao()?.getMatchUpForTypes(pokemon?.type1, pokemon?.type2)
+                    mDb?.matchUpDao()?.getMatchUpForTypes(mPokemon?.type1, mPokemon?.type2)
                 }
             }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
-                pokemonMatchUp = it
+                mPokemonMatchUp = it
             }, {
                 it.printStackTrace()
             }, {
@@ -118,62 +134,77 @@ class PokemonDetailFragment : Fragment() {
     }
 
     private fun fillInLayout() {
-
         Glide.with(this)
-            .load("https://www.serebii.net/xy/pokemon/${getCorrectNationalDexNotation(pokemon?.nat_dex)}.png")
+            .load("https://www.serebii.net/xy/pokemon/${CommonUtils.getCorrectNationalDexNotation(mPokemon?.nat_dex)}.png")
             .into(pokeDrawable)
-        Glide.with(this).load("https://www.serebii.net/Shiny/XY/${getCorrectNationalDexNotation(pokemon?.nat_dex)}.png")
+        Glide.with(this)
+            .load("https://www.serebii.net/Shiny/XY/${CommonUtils.getCorrectNationalDexNotation(mPokemon?.nat_dex)}.png")
             .into(pokeDrawable2)
 
-        Glide.with(this)
-            .load("https://www.serebii.net/pokedex-xy/icon/${getCorrectNationalDexNotation(pokemon?.nat_dex?.minus(1))}.png")
-            .into(previousIv)
-        Glide.with(this)
-            .load("https://www.serebii.net/pokedex-xy/icon/${getCorrectNationalDexNotation(pokemon?.nat_dex?.plus(1))}.png")
-            .into(nextIv)
+        loadIconWithGlideWithListener(mPokemon?.nat_dex?.minus(1), previousIv)
+        loadIconWithGlideWithListener(mPokemon?.nat_dex?.plus(1), nextIv)
 
-        setTypeBackground(pokemon?.type1, tvType1)
-        setTypeBackground(pokemon?.type2, tvType2)
+        setTypeBackground(mPokemon?.type1, tvType1)
+        setTypeBackground(mPokemon?.type2, tvType2)
 
-        dex_natNoTv.text = "${pokemon?.nat_dex}"
-        dex_speciesTv.text = pokemon?.species
-        gender_dexTv.text = pokemon?.gender_spread
-        height_dexTv.text = pokemon?.height
-        weight_dexTv.text = pokemon?.weight
-        name_dexTv.text = pokemon?.name
+        dex_natNoTv.text = "${mPokemon?.nat_dex}"
+        dex_speciesTv.text = mPokemon?.species
+        gender_dexTv.text = mPokemon?.gender_spread
+        height_dexTv.text = mPokemon?.height
+        weight_dexTv.text = mPokemon?.weight
+        name_dexTv.text = mPokemon?.name
 
-        descriptionXTv.text = pokemon?.description_x
-        descriptionYTv.text = pokemon?.description_y
-        locationXTv.text = pokemon?.location_x
-        locationYTv.text = pokemon?.location_y
+        descriptionXTv.text = mPokemon?.description_x
+        descriptionYTv.text = mPokemon?.description_y
+        locationXTv.text = mPokemon?.location_x
+        locationYTv.text = mPokemon?.location_y
 
-        fillProgressBar(hpProgressBar, "Hp: ", "${pokemonBaseStat?.hp}")
-        fillProgressBar(attProgressBar, "Att: ", "${pokemonBaseStat?.att}")
-        fillProgressBar(defProgressBar, "Def: ", "${pokemonBaseStat?.def}")
-        fillProgressBar(spAttProgressBar, "Sp Att: ", "${pokemonBaseStat?.sp_att}")
-        fillProgressBar(spDefProgressBar, "Sp Def: ", "${pokemonBaseStat?.sp_def}")
-        fillProgressBar(speedProgressBar, "Speed: ", "${pokemonBaseStat?.speed}")
+        fillProgressBar(hpProgressBar, "Hp: ", "${mPokemonBaseStat?.hp}")
+        fillProgressBar(attProgressBar, "Att: ", "${mPokemonBaseStat?.att}")
+        fillProgressBar(defProgressBar, "Def: ", "${mPokemonBaseStat?.def}")
+        fillProgressBar(spAttProgressBar, "Sp Att: ", "${mPokemonBaseStat?.sp_att}")
+        fillProgressBar(spDefProgressBar, "Sp Def: ", "${mPokemonBaseStat?.sp_def}")
+        fillProgressBar(speedProgressBar, "Speed: ", "${mPokemonBaseStat?.speed}")
 
-        setTextAndColor(bugTv, pokemonMatchUp?.bug)
-        setTextAndColor(darkTv, pokemonMatchUp?.dark)
-        setTextAndColor(dragonTv, pokemonMatchUp?.dragon)
-        setTextAndColor(electricTv, pokemonMatchUp?.electric)
-        setTextAndColor(fairyTv, pokemonMatchUp?.fairy)
-        setTextAndColor(fightTv, pokemonMatchUp?.fight)
-        setTextAndColor(fireTv, pokemonMatchUp?.fire)
-        setTextAndColor(flyingTv, pokemonMatchUp?.flying)
-        setTextAndColor(ghostTv, pokemonMatchUp?.ghost)
-        setTextAndColor(grassTv, pokemonMatchUp?.grass)
-        setTextAndColor(groundTv, pokemonMatchUp?.ground)
-        setTextAndColor(iceTv, pokemonMatchUp?.ice)
-        setTextAndColor(normalTv, pokemonMatchUp?.normal)
-        setTextAndColor(poisonTv, pokemonMatchUp?.poison)
-        setTextAndColor(psychicTv, pokemonMatchUp?.psychic)
-        setTextAndColor(rockTv, pokemonMatchUp?.rock)
-        setTextAndColor(steelTv, pokemonMatchUp?.steel)
-        setTextAndColor(waterTv, pokemonMatchUp?.water)
+        setTextAndColor(bugTv, mPokemonMatchUp?.bug)
+        setTextAndColor(darkTv, mPokemonMatchUp?.dark)
+        setTextAndColor(dragonTv, mPokemonMatchUp?.dragon)
+        setTextAndColor(electricTv, mPokemonMatchUp?.electric)
+        setTextAndColor(fairyTv, mPokemonMatchUp?.fairy)
+        setTextAndColor(fightTv, mPokemonMatchUp?.fight)
+        setTextAndColor(fireTv, mPokemonMatchUp?.fire)
+        setTextAndColor(flyingTv, mPokemonMatchUp?.flying)
+        setTextAndColor(ghostTv, mPokemonMatchUp?.ghost)
+        setTextAndColor(grassTv, mPokemonMatchUp?.grass)
+        setTextAndColor(groundTv, mPokemonMatchUp?.ground)
+        setTextAndColor(iceTv, mPokemonMatchUp?.ice)
+        setTextAndColor(normalTv, mPokemonMatchUp?.normal)
+        setTextAndColor(poisonTv, mPokemonMatchUp?.poison)
+        setTextAndColor(psychicTv, mPokemonMatchUp?.psychic)
+        setTextAndColor(rockTv, mPokemonMatchUp?.rock)
+        setTextAndColor(steelTv, mPokemonMatchUp?.steel)
+        setTextAndColor(waterTv, mPokemonMatchUp?.water)
     }
 
+    private fun loadIconWithGlideWithListener(natDex: Int?, imageView: ImageView) {
+        Glide.with(this)
+            .load("https://www.serebii.net/pokedex-xy/icon/${CommonUtils.getCorrectNationalDexNotation(natDex)}.png")
+            .listener(object : RequestListener<Drawable> {
+                override fun onLoadFailed(
+                    e: GlideException?, model: Any?, target: Target<Drawable>?, isFirstResource: Boolean
+                ): Boolean {
+                    imageView.gone()
+                    return false
+                }
+
+                override fun onResourceReady(
+                    resource: Drawable?, model: Any?, target: Target<Drawable>?,
+                    dataSource: DataSource?, isFirstResource: Boolean
+                ): Boolean {
+                    return false
+                }
+            }).into(imageView)
+    }
 
     private fun setTextAndColor(textView: TextView, data: String?) {
         textView.text = data
@@ -213,10 +244,6 @@ class PokemonDetailFragment : Fragment() {
                 else -> textView.setBackgroundColor(Color.TRANSPARENT)
             }
         }
-    }
-
-    private fun getCorrectNationalDexNotation(nat_dex: Int?): String {
-        return String.format("%03d", nat_dex)
     }
 
     private fun setTypeBackground(type: String?, typeBtn: TextView) {

@@ -112,4 +112,6 @@ dependencies {
 
     // bottom bar
     implementation 'com.aurelhubert:ahbottomnavigation:2.1.0'
+
+    implementation 'androidx.preference:preference:1.0.0'
 }

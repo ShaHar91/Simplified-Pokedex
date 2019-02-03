@@ -10,9 +10,10 @@ import be.appwise.simplifiedPokedex.extensions.typeBackground
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.list_item_pokedex.view.*
 import android.graphics.Color
+import be.appwise.simplifiedPokedex.ui.utils.CommonUtils
 
 
-class PokedexRecyclerView(private val myDataset: List<Pokemon>) :
+class PokedexRecyclerView(private val myDataset: List<Pokemon>, private val listener: (Pokemon, Int, View) -> Unit) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
@@ -20,7 +21,7 @@ class PokedexRecyclerView(private val myDataset: List<Pokemon>) :
     // Each data item is just a string in this case that is shown in a TextView.
     class MyViewHolder(private val holder: View) : RecyclerView.ViewHolder(holder) {
         fun onBind(pokemon: Pokemon, position: Int, listener: (Pokemon, Int, View) -> Unit) {
-            val str = String.format("%03d", pokemon.nat_dex)
+            val str = CommonUtils.getCorrectNationalDexNotation(pokemon.nat_dex)
 
             holder.setOnClickListener {
                 listener(pokemon, position, holder)
@@ -48,7 +49,7 @@ class PokedexRecyclerView(private val myDataset: List<Pokemon>) :
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
         if (holder is MyViewHolder) {
-            holder.onBind(myDataset[position])
+            holder.onBind(myDataset[position], position, listener)
         }
     }
 

@@ -2,17 +2,20 @@ package be.appwise.simplifiedPokedex.ui.splash
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.preference.PreferenceManager
 import be.appwise.simplifiedPokedex.Constants
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiClient
+import be.appwise.simplifiedPokedex.extensions.visible
+import be.appwise.simplifiedPokedex.ui.base.BaseActivity
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
 import com.orhanobut.hawk.Hawk
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_splash.*
 
-class SplashActivity : AppCompatActivity() {
+class SplashActivity : BaseActivity() {
     companion object {
         private const val COUNT_OF_STEPS = 3
     }
@@ -23,12 +26,15 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-//        if (!Hawk.get<Boolean>(Constants.DATABASE_BEEN_SYNCED, false)) {
+        val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
+        val name = sharedPreferences.getString("preference_name", "")
+
+        if (!name.isNullOrEmpty()) {
+            tvWelcomeText.visible()
+            tvWelcomeText.text = "Welcome back $name"
+        }
+
         getAllSeparatePokemons()
-//        } else {
-//            startActivity(MainActivity.newIntent(this))
-//            finish()
-//        }
 
         initializeProgressBars(COUNT_OF_STEPS)
     }
