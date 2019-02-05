@@ -9,16 +9,32 @@
         android:orientation="horizontal"
         android:showDividers="middle">
 
+    <androidx.appcompat.widget.SearchView
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/svPokemonList"
+            app:iconifiedByDefault="false"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="350dp"
+            app:queryHint="Pokemon Name"
+            android:layout_height="wrap_content"/>
+
     <androidx.recyclerview.widget.RecyclerView
             xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/pokemon_list"
+            android:fadingEdge="horizontal"
+            android:splitMotionEvents="false"
+            android:fadingEdgeLength="35dp"
+            android:requiresFadingEdge="vertical"
             app:layout_constraintEnd_toStartOf="@id/pokemon_detail_container"
             android:choiceMode="singleChoice"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:id="@+id/pokemon_list"
+            android:layout_marginTop="8dp"
             android:name="be.appwise.simplifiedPokedex.ui.masterDetail.PokemonListFragment"
             android:layout_width="350dp"
-            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@id/svPokemonList"
+            android:layout_height="0dp"
             tools:context="be.appwise.simplifiedPokedex.ui.masterDetail.PokemonListActivity"
             tools:listitem="@layout/list_item_pokedex"/>
 

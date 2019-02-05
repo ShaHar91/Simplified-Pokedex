@@ -1,17 +1,13 @@
 package be.appwise.simplifiedPokedex.ui.main.pokemonList
 
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.content.Context
-import android.view.Menu
-import android.view.MenuItem
-import androidx.appcompat.app.AppCompatActivity
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.extensions.replaceFragment
-import be.appwise.simplifiedPokedex.ui.base.BaseActivity
-import be.appwise.simplifiedPokedex.ui.main.MainActivity
+import com.afollestad.aesthetic.AestheticActivity
 
-class PokemonDetailActivity : BaseActivity() {
+class PokemonDetailActivity : AestheticActivity() {
     companion object {
         const val POKEMON_ID = "pokemonID"
 

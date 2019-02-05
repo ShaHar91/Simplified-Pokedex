@@ -5,27 +5,28 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.ListView
+import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.model.Pokemon
 import be.appwise.simplifiedPokedex.extensions.replaceFragment
-import be.appwise.simplifiedPokedex.ui.base.BaseActivity
-import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailActivity
-
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokedexRecyclerView
+import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailActivity
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailFragment
 import be.appwise.simplifiedPokedex.ui.settings.SettingsActivity
+import com.afollestad.aesthetic.AestheticActivity
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
+import jp.wasabeef.recyclerview.adapters.AlphaInAnimationAdapter
 import kotlinx.android.synthetic.main.activity_pokemon_list.*
+import java.util.*
 
-class MainActivity : BaseActivity() {
+class MainActivity : AestheticActivity() {
     companion object {
         const val SELECTED_KEY = "selected_position"
 
@@ -35,9 +36,11 @@ class MainActivity : BaseActivity() {
     }
 
     private var twoPane: Boolean = false
-    private var pokemonList: List<Pokemon>? = null
+    private var pokemonList: List<Pokemon> = emptyList()
     private var compositeDisposable = CompositeDisposable()
     private var mPosition = ListView.INVALID_POSITION
+    private var timer = Timer()
+    private lateinit var mAdapter: PokedexRecyclerView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,6 +53,28 @@ class MainActivity : BaseActivity() {
         if (pokemon_detail_container != null) {
             twoPane = true
         }
+
+        svPokemonList.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+            override fun onQueryTextSubmit(query: String?): Boolean {
+                mAdapter.filter.filter(query)
+
+                return true
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+
+                timer.cancel()
+                timer = Timer()
+                timer.schedule(object : TimerTask() {
+                    override fun run() {
+                        runOnUiThread {
+                            mAdapter.filter.filter(newText)
+                        }
+                    }
+                }, 500)
+                return true
+            }
+        })
 
         fetchDataFromDb()
     }
@@ -67,7 +92,7 @@ class MainActivity : BaseActivity() {
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
-                pokemonList = it
+                pokemonList = it ?: emptyList()
             }, {
                 it.printStackTrace()
             }, {
@@ -78,37 +103,38 @@ class MainActivity : BaseActivity() {
     }
 
     private fun fillInAdapter() {
-        if (pokemonList != null) {
-            pokemon_list.apply {
-                adapter =
-                        PokedexRecyclerView(pokemonList as List<Pokemon>) { pokemon, position, _ ->
-                            if (twoPane) {
-                                replaceFragment(
-                                    PokemonDetailFragment.newInstance(pokemon._id!!),
-                                    false,
-                                    PokemonDetailFragment.TAG,
-                                    R.id.pokemon_detail_container
-                                )
-                            } else {
-                                startActivity(
-                                    PokemonDetailActivity.newIntent(
-                                        this@MainActivity,
-                                        pokemon._id!!
-                                    )
-                                )
-                            }
-                            mPosition = position
-                        }
+        mAdapter = PokedexRecyclerView(pokemonList) { pokemon, position, _ ->
+            if (twoPane) {
+                replaceFragment(
+                    PokemonDetailFragment.newInstance(pokemon._id!!),
+                    false,
+                    PokemonDetailFragment.TAG,
+                    R.id.pokemon_detail_container
+                )
+            } else {
+                startActivity(
+                    PokemonDetailActivity.newIntent(
+                        this@MainActivity,
+                        pokemon._id!!
+                    )
+                )
+            }
+            mPosition = position
+        }
 
-                layoutManager = LinearLayoutManager(this@MainActivity)
-                setHasFixedSize(true)
-                addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
+        pokemon_list.apply {
+            adapter =
+                    AlphaInAnimationAdapter(mAdapter).apply {
+                        setFirstOnly(false)
+                        setDuration(100)
+                    }
 
-                itemAnimator = null
+            layoutManager = LinearLayoutManager(this@MainActivity)
+            setHasFixedSize(true)
+            addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
 
-                if (mPosition != ListView.INVALID_POSITION) {
-                    scrollToPosition(mPosition)
-                }
+            if (mPosition != ListView.INVALID_POSITION) {
+                scrollToPosition(mPosition)
             }
         }
     }

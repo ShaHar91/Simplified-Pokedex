@@ -4,6 +4,7 @@ import android.graphics.Color
 import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.text.TextUtils
+import android.transition.TransitionManager
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -94,6 +95,7 @@ class PokemonDetailFragment : Fragment() {
     }
 
     private fun hideOrShow(isChecked: Boolean, locationLayout: LinearLayout?) {
+        TransitionManager.beginDelayedTransition(dexScroll)
         if (isChecked) {
             locationLayout?.visible()
         } else {
@@ -201,6 +203,7 @@ class PokemonDetailFragment : Fragment() {
                     resource: Drawable?, model: Any?, target: Target<Drawable>?,
                     dataSource: DataSource?, isFirstResource: Boolean
                 ): Boolean {
+                    imageView.visible()
                     return false
                 }
             }).into(imageView)

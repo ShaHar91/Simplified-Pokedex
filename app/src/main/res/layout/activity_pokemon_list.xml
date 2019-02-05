@@ -6,10 +6,26 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent">
 
+    <androidx.appcompat.widget.SearchView
+            android:id="@+id/svPokemonList"
+            app:iconifiedByDefault="false"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            app:queryHint="Pokemon Name"
+            android:layout_height="wrap_content"/>
+
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/pokemon_list"
+            android:layout_marginTop="8dp"
+            android:splitMotionEvents="false"
             android:name="be.appwise.simplifiedPokedex.ui.masterDetail.PokemonListFragment"
+            android:fadingEdge="horizontal"
+            android:fadingEdgeLength="35dp"
+            android:requiresFadingEdge="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@id/svPokemonList"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="0dp"
             tools:listitem="@layout/list_item_pokedex"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

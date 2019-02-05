@@ -1,21 +1,22 @@
 package be.appwise.simplifiedPokedex.ui.splash
 
+import android.graphics.Color
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
 import be.appwise.simplifiedPokedex.Constants
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiClient
 import be.appwise.simplifiedPokedex.extensions.visible
-import be.appwise.simplifiedPokedex.ui.base.BaseActivity
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
+import com.afollestad.aesthetic.Aesthetic
+import com.afollestad.aesthetic.AestheticActivity
 import com.orhanobut.hawk.Hawk
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_splash.*
 
-class SplashActivity : BaseActivity() {
+class SplashActivity : AestheticActivity() {
     companion object {
         private const val COUNT_OF_STEPS = 3
     }
@@ -37,6 +38,20 @@ class SplashActivity : BaseActivity() {
         getAllSeparatePokemons()
 
         initializeProgressBars(COUNT_OF_STEPS)
+
+        // If we haven't set any defaults, do that now
+        if (Aesthetic.isFirstTime) {
+            Aesthetic.config {
+                activityTheme(R.style.AppTheme)
+                textColorPrimary(res = R.color.text_color_primary)
+                textColorSecondary(res = R.color.text_color_secondary)
+                colorPrimary(res = R.color.md_white)
+                colorAccent(res = R.color.md_blue)
+                colorStatusBarAuto()
+                colorNavigationBarAuto()
+                textColorPrimary(Color.BLACK)
+            }
+        }
     }
 
     private fun getAllSeparatePokemons() {

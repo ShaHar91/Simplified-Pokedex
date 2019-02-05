@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_theme_titles">
-        <item>Default</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Purple</item>
         <item>Blue</item>
+        <item>Green</item>
+        <item>White</item>
     </string-array>
 </resources>

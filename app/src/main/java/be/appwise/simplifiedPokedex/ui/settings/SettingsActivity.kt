@@ -2,15 +2,13 @@ package be.appwise.simplifiedPokedex.ui.settings
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.core.app.NavUtils
 import be.appwise.simplifiedPokedex.R
-import be.appwise.simplifiedPokedex.extensions.replaceFragment
-import be.appwise.simplifiedPokedex.ui.base.BaseActivity
+import com.afollestad.aesthetic.AestheticActivity
 
-class SettingsActivity : BaseActivity() {
+class SettingsActivity : AestheticActivity() {
     companion object {
         fun newIntent(context: Context): Intent {
             return Intent(context, SettingsActivity::class.java)
