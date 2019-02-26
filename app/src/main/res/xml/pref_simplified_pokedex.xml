@@ -12,7 +12,7 @@
             app:iconSpaceReserved="false"/>
 
     <ListPreference
-            android:defaultValue="Black"
+            android:defaultValue="White"
             android:entries="@array/pref_theme_titles"
             android:entryValues="@array/pref_theme_titles"
             app:iconSpaceReserved="false"

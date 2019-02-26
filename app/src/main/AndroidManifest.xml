@@ -4,6 +4,7 @@
           package="be.appwise.simplifiedPokedex">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
             android:name=".MyApplication"
@@ -30,7 +31,7 @@
         <activity
                 android:name=".ui.main.MainActivity"
                 android:label="Simplified Pokedex"
-                android:launchMode="singleTop"/>
+                android:launchMode="singleInstance"/>
         <activity android:name=".ui.splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -38,6 +39,20 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+
+        <!--<receiver-->
+        <!--android:name=".broadcasts.NotificationBroadcastReceiver"-->
+        <!--android:permission="com.google.android.c2dm.permission.SEND">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.google.android.c2dm.intent.RECEIVE"/>-->
+        <!--<category android:name="be.appmax.cubigo"/>-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <service
+                android:name=".services.NotificationIntentService"
+                android:exported="false"
+                android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
 
 </manifest>

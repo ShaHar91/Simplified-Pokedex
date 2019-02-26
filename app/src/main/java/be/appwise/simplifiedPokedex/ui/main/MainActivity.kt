@@ -1,8 +1,12 @@
 package be.appwise.simplifiedPokedex.ui.main
 
+import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ListView
@@ -13,11 +17,14 @@ import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.model.Pokemon
 import be.appwise.simplifiedPokedex.extensions.replaceFragment
+import be.appwise.simplifiedPokedex.services.NotificationIntentService
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokedexRecyclerView
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailActivity
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailFragment
 import be.appwise.simplifiedPokedex.ui.settings.SettingsActivity
 import com.afollestad.aesthetic.AestheticActivity
+import com.afollestad.materialdialogs.MaterialDialog
+import com.afollestad.materialdialogs.customview.customView
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -29,6 +36,7 @@ import java.util.*
 class MainActivity : AestheticActivity() {
     companion object {
         const val SELECTED_KEY = "selected_position"
+        const val SELECTED_ID = "selected_id"
 
         fun newIntent(context: Context): Intent {
             return Intent(context, MainActivity::class.java)
@@ -39,6 +47,7 @@ class MainActivity : AestheticActivity() {
     private var pokemonList: List<Pokemon> = emptyList()
     private var compositeDisposable = CompositeDisposable()
     private var mPosition = ListView.INVALID_POSITION
+    private var mSelectedId = 1
     private var timer = Timer()
     private lateinit var mAdapter: PokedexRecyclerView
 
@@ -46,12 +55,29 @@ class MainActivity : AestheticActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pokemon_list)
 
+        if (intent?.hasExtra("rating") == true) {
+            MaterialDialog(this).show{
+                customView(R.layout.custom_dialog_view)
+                window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+            }
+        }
+
         if (savedInstanceState != null && savedInstanceState.containsKey(SELECTED_KEY)) {
             mPosition = savedInstanceState.getInt(SELECTED_KEY)
+            mSelectedId = savedInstanceState.getInt(SELECTED_ID)
         }
 
         if (pokemon_detail_container != null) {
             twoPane = true
+
+            if (savedInstanceState != null && savedInstanceState.containsKey(SELECTED_ID)) {
+                replaceFragment(
+                    PokemonDetailFragment.newInstance(savedInstanceState.getInt(SELECTED_ID, 1)),
+                    false,
+                    PokemonDetailFragment.TAG,
+                    R.id.pokemon_detail_container
+                )
+            }
         }
 
         svPokemonList.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
@@ -81,6 +107,7 @@ class MainActivity : AestheticActivity() {
 
     override fun onSaveInstanceState(outState: Bundle?) {
         outState?.putInt(SELECTED_KEY, mPosition)
+        outState?.putInt(SELECTED_ID, mSelectedId)
         super.onSaveInstanceState(outState)
     }
 
@@ -120,14 +147,15 @@ class MainActivity : AestheticActivity() {
                 )
             }
             mPosition = position
+            mSelectedId = pokemon._id
         }
 
         pokemon_list.apply {
             adapter =
-                    AlphaInAnimationAdapter(mAdapter).apply {
-                        setFirstOnly(false)
-                        setDuration(100)
-                    }
+                AlphaInAnimationAdapter(mAdapter).apply {
+                    setFirstOnly(false)
+                    setDuration(100)
+                }
 
             layoutManager = LinearLayoutManager(this@MainActivity)
             setHasFixedSize(true)
@@ -155,6 +183,9 @@ class MainActivity : AestheticActivity() {
         }
 
     override fun onDestroy() {
+        val comp = ComponentName(this.packageName, MainActivity::class.java.name)
+        NotificationIntentService.enqueueWork(this, (intent.setComponent(comp)))
+
         compositeDisposable.dispose()
         compositeDisposable.clear()
         SimplifiedPokedexDatabase.destroyInstance()

@@ -7,6 +7,7 @@ import be.appwise.simplifiedPokedex.Constants
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiClient
+import be.appwise.simplifiedPokedex.extensions.isNetworkAvailable
 import be.appwise.simplifiedPokedex.extensions.visible
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
 import com.afollestad.aesthetic.Aesthetic
@@ -23,6 +24,7 @@ class SplashActivity : AestheticActivity() {
 
     private val compositeDisposable: CompositeDisposable = CompositeDisposable()
 
+    //TODO: if no internet available, go on to the MainActivity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
@@ -35,7 +37,12 @@ class SplashActivity : AestheticActivity() {
             tvWelcomeText.text = "Welcome back $name"
         }
 
-        getAllSeparatePokemons()
+        if (isNetworkAvailable()){
+            getAllSeparatePokemons()
+        }else{
+            startActivity(MainActivity.newIntent(this))
+            finish()
+        }
 
         initializeProgressBars(COUNT_OF_STEPS)
 
@@ -84,8 +91,6 @@ class SplashActivity : AestheticActivity() {
             }, {
                 it.printStackTrace()
             }, {
-                Hawk.put(Constants.DATABASE_BEEN_SYNCED, true)
-
                 startActivity(MainActivity.newIntent(this))
                 finish()
             })

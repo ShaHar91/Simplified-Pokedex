@@ -2,12 +2,14 @@ package be.appwise.simplifiedPokedex.extensions
 
 import android.app.Activity
 import android.content.Context
+import android.net.ConnectivityManager
 import android.util.DisplayMetrics
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import androidx.core.content.ContextCompat.getSystemService
 import androidx.fragment.app.Fragment
 import be.appwise.simplifiedPokedex.R
 
@@ -55,4 +57,15 @@ fun Activity.screenHeight(): Int {
 
 fun Activity.color(resId: Int): Int {
     return ContextCompat.getColor(this, resId)
+}
+
+/**
+ * check if there is an internet connection or not
+ *
+ * @return the a connection state
+ */
+fun Activity.isNetworkAvailable(): Boolean {
+    val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+    val activeNetworkInfo = connectivityManager.activeNetworkInfo
+    return activeNetworkInfo != null && activeNetworkInfo.isConnected
 }

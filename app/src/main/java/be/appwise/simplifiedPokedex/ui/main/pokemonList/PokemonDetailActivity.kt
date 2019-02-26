@@ -2,6 +2,7 @@ package be.appwise.simplifiedPokedex.ui.main.pokemonList
 
 import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.extensions.replaceFragment
@@ -20,6 +21,16 @@ class PokemonDetailActivity : AestheticActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        if (savedInstanceState != null && savedInstanceState.containsKey("previous_orientation") &&
+            savedInstanceState.getInt("previous_orientation", -100) == Configuration.ORIENTATION_PORTRAIT
+        ) {
+            val orientation = resources.configuration.orientation
+            if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
+                finish()
+            }
+        }
+
         setContentView(R.layout.activity_pokemon_detail)
 
         // Show the Up button in the action bar.
@@ -32,5 +43,12 @@ class PokemonDetailActivity : AestheticActivity() {
             PokemonDetailFragment.TAG,
             R.id.pokemon_detail_container
         )
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        val orientation = resources.configuration.orientation
+
+        outState.putInt("previous_orientation", orientation)
+        super.onSaveInstanceState(outState)
     }
 }
