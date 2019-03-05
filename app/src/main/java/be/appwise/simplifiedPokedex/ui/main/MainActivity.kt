@@ -10,6 +10,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ListView
+import android.widget.TextView
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -55,12 +56,7 @@ class MainActivity : AestheticActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pokemon_list)
 
-        if (intent?.hasExtra("rating") == true) {
-            MaterialDialog(this).show{
-                customView(R.layout.custom_dialog_view)
-                window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-            }
-        }
+        showRatingDialog(intent)
 
         if (savedInstanceState != null && savedInstanceState.containsKey(SELECTED_KEY)) {
             mPosition = savedInstanceState.getInt(SELECTED_KEY)
@@ -103,6 +99,29 @@ class MainActivity : AestheticActivity() {
         })
 
         fetchDataFromDb()
+    }
+
+    private fun showRatingDialog(intent: Intent?) {
+        Log.d("hasRating", "does have rating: " + intent?.hasExtra("rating"))
+
+        if (intent?.hasExtra("rating") == true) {
+            MaterialDialog(this).show {
+                customView(R.layout.custom_dialog_view)
+                window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+                val dialogOk = findViewById<TextView>(R.id.tvDialogOk)
+                val dialogCancel = findViewById<TextView>(R.id.tvDialogCancel)
+
+                dialogOk.setOnClickListener {
+                    intent.removeExtra("rating")
+                    dismiss()
+                }
+
+                dialogCancel.setOnClickListener {
+                    intent.removeExtra("rating")
+                    dismiss()
+                }
+            }
+        }
     }
 
     override fun onSaveInstanceState(outState: Bundle?) {
@@ -190,5 +209,10 @@ class MainActivity : AestheticActivity() {
         compositeDisposable.clear()
         SimplifiedPokedexDatabase.destroyInstance()
         super.onDestroy()
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        showRatingDialog(intent)
     }
 }

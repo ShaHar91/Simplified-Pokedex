@@ -42,6 +42,9 @@
         <TextView
                 android:id="@+id/tvDialogOk"
                 android:layout_width="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/rbStarRating"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +55,9 @@
         <TextView
                 android:id="@+id/tvDialogCancel"
                 android:layout_width="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/rbStarRating"
                 app:layout_constraintEnd_toStartOf="@id/tvDialogOk"

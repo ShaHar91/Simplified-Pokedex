@@ -23,6 +23,7 @@
         <activity
                 android:name=".ui.main.pokemonList.PokemonDetailActivity"
                 android:label="@string/title_item_detail"
+                android:launchMode="singleInstance"
                 android:parentActivityName=".ui.main.MainActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
