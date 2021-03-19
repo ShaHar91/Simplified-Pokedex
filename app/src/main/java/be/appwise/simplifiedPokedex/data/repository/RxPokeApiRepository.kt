@@ -1,9 +1,9 @@
-package be.appwise.simplifiedPokedex.data.network
+package be.appwise.simplifiedPokedex.data.repository
 
 import be.appwise.simplifiedPokedex.data.model.*
 import io.reactivex.Observable
 
-interface RxPokeApi {
+interface RxPokeApiRepository {
     fun getPokemon(): Observable<List<Pokemon>>
 
     fun getBaseStat(): Observable<List<BaseStat>>

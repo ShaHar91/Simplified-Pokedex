@@ -3,16 +3,14 @@ package be.appwise.simplifiedPokedex.ui.splash
 import android.graphics.Color
 import android.os.Bundle
 import androidx.preference.PreferenceManager
-import be.appwise.simplifiedPokedex.Constants
+import be.appwise.simplifiedPokedex.MyApplication
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
-import be.appwise.simplifiedPokedex.data.network.RxPokeApiClient
 import be.appwise.simplifiedPokedex.extensions.isNetworkAvailable
 import be.appwise.simplifiedPokedex.extensions.visible
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
 import com.afollestad.aesthetic.Aesthetic
 import com.afollestad.aesthetic.AestheticActivity
-import com.orhanobut.hawk.Hawk
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_splash.*
@@ -64,7 +62,7 @@ class SplashActivity : AestheticActivity() {
     private fun getAllSeparatePokemons() {
         val mDb = SimplifiedPokedexDatabase.getInstance(this)
 
-        val rxPoke = RxPokeApiClient()
+        val rxPoke = MyApplication.rxPokeApiImpl
 
         val disposable = rxPoke.getPokemon()
             .subscribeOn(Schedulers.io())

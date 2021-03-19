@@ -124,9 +124,9 @@ class MainActivity : AestheticActivity() {
         }
     }
 
-    override fun onSaveInstanceState(outState: Bundle?) {
-        outState?.putInt(SELECTED_KEY, mPosition)
-        outState?.putInt(SELECTED_ID, mSelectedId)
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.putInt(SELECTED_KEY, mPosition)
+        outState.putInt(SELECTED_ID, mSelectedId)
         super.onSaveInstanceState(outState)
     }
 

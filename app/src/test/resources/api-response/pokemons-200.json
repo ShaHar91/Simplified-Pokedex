@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "1",
+    "base_happiness": "70",
+    "capture_rate": "45",
+    "description_x": "A strange seed was planted on its back at birth. The plant sprouts and grows with his Pokémon.",
+    "description_y": "For some time after its birth, it grows by gaining nourishment from the seed on its back.",
+    "egg_group1": "Monster",
+    "egg_group2": "Grass",
+    "egg_steps": "5120",
+    "ev_yield": "1 Sp. Attack Point(s)",
+    "gender_spread": "87,5% ♂\n12,5% ♀",
+    "growth": "Medium Slow",
+    "has_mega": "0",
+    "height": "2'04\"\n0,7 m",
+    "is_alternate": 0,
+    "is_mega": 0,
+    "location_x": "Lumiose City - Professor Sycamore",
+    "location_y": "Lumiose City - Professor Sycamore",
+    "name": "Bulbasaur",
+    "nat_dex": "1",
+    "notes": "",
+    "species": "Seed",
+    "type1": "Grass",
+    "type2": "Poison",
+    "weight": "15,2 lbs\n6,9 kg"
+  }
+]

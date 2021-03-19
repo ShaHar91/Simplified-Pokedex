@@ -12,6 +12,14 @@ def versionPatch = 0
 def versionBuild = 1
 
 android {
+    signingConfigs {
+        simplifyPokedexSigning {
+        storeFile file('/Users/christianobolla/Desktop/Older projects/Simplified-Pokedex/keystore/simplified-pokedex')
+            storePassword 'S1mpl1f1ed-pokede%'
+            keyPassword 'S1mpl1f1ed-pokede%'
+            keyAlias 'simplified-pokedex'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "be.appwise.simplifiedPokedex"
@@ -33,15 +41,21 @@ android {
 
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
+            dimension 'env'
+            signingConfig signingConfigs.simplifyPokedexSigning
         }
         prod {
             buildConfigField "String", "API_HOST", "\"https://pokeapi.co/api/v2/\""
+            dimension 'env'
+            signingConfig signingConfigs.simplifyPokedexSigning
         }
         stg {
             buildConfigField "String", "API_HOST", "\"https://pokeapi.co/api/v2/\""
 
             applicationIdSuffix ".stg"
             versionNameSuffix "-stg"
+            dimension 'env'
+            signingConfig signingConfigs.simplifyPokedexSigning
         }
     }
 
@@ -54,6 +68,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    flavorDimensions 'env'
     /**
      * Fix build filenames
      * add flavor, version name and code to final apk file
@@ -121,4 +136,7 @@ dependencies {
     implementation 'com.afollestad:aesthetic:1.0.0-beta05'
 
     implementation 'com.afollestad.material-dialogs:core:2.0.2'
+
+    debugImplementation "com.github.donfuxx:Mockinizer:1.6.0"
+    implementation "com.squareup.okhttp3:mockwebserver:4.0.1"
 }
