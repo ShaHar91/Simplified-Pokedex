@@ -31,4 +31,8 @@ object ClientConfig : IClientConfig {
             .client(okHttpConfig().build())
             .build()
     }
+
+    override fun <T> getService(service: Class<T>): T {
+        return retrofitConfig().create(service)
+    }
 }

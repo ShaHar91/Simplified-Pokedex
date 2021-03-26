@@ -1,5 +1,6 @@
 package be.appwise.simplifiedPokedex.data.dao
 
+import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy.REPLACE
@@ -28,4 +29,14 @@ interface PokemonDao {
 
     @Insert(onConflict = REPLACE)
     fun insertAll(pokemons: List<Pokemon>)
+
+
+    @Insert(onConflict = REPLACE)
+    suspend fun insertList(pokemons: List<Pokemon>)
+
+    @Query("SELECT * from pokemon where is_alternate = 0 and is_mega = 0")
+    fun getAllLive(/*isAlternate: String = "0", isMega: String = "0"*/): LiveData<List<Pokemon>>
+
+    @Query("SELECT * from pokemon where _id = :id")
+    fun getPokemonByIdLive(id: Int): LiveData<Pokemon>
 }

@@ -104,7 +104,7 @@ class PokemonDetailFragment : Fragment() {
     }
 
     private fun fetchPokemonById(pokemonId: Int) {
-        val mDb = SimplifiedPokedexDatabase.getInstance(parentActivity)
+        val mDb = SimplifiedPokedexDatabase.getDatabase(parentActivity)
         val disposable = Observable.fromCallable {
             mDb?.pokemonDao()?.getPokemonById(pokemonId)
         }

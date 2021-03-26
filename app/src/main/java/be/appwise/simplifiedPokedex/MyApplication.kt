@@ -3,6 +3,7 @@ package be.appwise.simplifiedPokedex
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.multidex.MultiDexApplication
+import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.network.ClientConfig
 import be.appwise.simplifiedPokedex.data.network.IClientConfig
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiService
@@ -20,9 +21,9 @@ class MyApplication : MultiDexApplication() {
         }
 
         val clientConfig: IClientConfig by lazy { ClientConfig }
-        val retrofitConfig: Retrofit by lazy { clientConfig.retrofitConfig() }
-        val rxPokeApiImpl: RxPokeApiRepositoryImpl by lazy {
-            RxPokeApiRepositoryImpl(retrofitConfig.create(RxPokeApiService::class.java))
+        val service: RxPokeApiService by lazy { clientConfig.getService(RxPokeApiService::class.java) }
+        val pokedexDatabase: SimplifiedPokedexDatabase by lazy {
+            SimplifiedPokedexDatabase.getDatabase(getContext())
         }
     }
 

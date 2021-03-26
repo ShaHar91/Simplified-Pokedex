@@ -132,7 +132,7 @@ class MainActivity : AestheticActivity() {
 
     private fun fetchDataFromDb() {
         val disposable = Observable.fromCallable {
-            val mDb = SimplifiedPokedexDatabase.getInstance(this)
+            val mDb = SimplifiedPokedexDatabase.getDatabase(this)
             mDb?.pokemonDao()?.getAll()
         }
             .subscribeOn(Schedulers.io())

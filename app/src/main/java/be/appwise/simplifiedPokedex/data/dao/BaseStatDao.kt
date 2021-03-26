@@ -1,5 +1,6 @@
 package be.appwise.simplifiedPokedex.data.dao
 
+import androidx.lifecycle.LiveData
 import androidx.room.*
 import be.appwise.simplifiedPokedex.data.model.BaseStat
 
@@ -21,4 +22,12 @@ interface BaseStatDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAll(baseStats: List<BaseStat>)
+
+
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertList(baseStats: List<BaseStat>)
+
+    @Query("SELECT * from base_stat where _id = :id")
+    fun getBaseStatByIdLive(id: Int): LiveData<BaseStat>
 }

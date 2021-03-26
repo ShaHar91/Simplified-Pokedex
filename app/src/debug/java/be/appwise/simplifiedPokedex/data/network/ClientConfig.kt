@@ -46,6 +46,10 @@ object ClientConfig: IClientConfig{
             .build()
     }
 
+    override fun <T> getService(service: Class<T>): T {
+        return retrofitConfig().create(service)
+    }
+
     private val mocks: Map<RequestFilter, MockResponse> = mapOf(
         RequestFilter("/ShaHar91/Simplified-Pokedex/master/json/pokemon.json") to MockResponse().apply {
             setResponseCode(200)

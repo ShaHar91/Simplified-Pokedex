@@ -1,9 +1,9 @@
 package be.appwise.simplifiedPokedex.data
 
+import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import android.content.Context
 import be.appwise.simplifiedPokedex.data.dao.BaseStatDao
 import be.appwise.simplifiedPokedex.data.dao.MatchUpDao
 import be.appwise.simplifiedPokedex.data.dao.PokemonDao
@@ -18,17 +18,21 @@ abstract class SimplifiedPokedexDatabase : RoomDatabase() {
     abstract fun matchUpDao(): MatchUpDao
 
     companion object {
+        @Volatile
         private var INSTANCE: SimplifiedPokedexDatabase? = null
-        fun getInstance(context: Context): SimplifiedPokedexDatabase? {
-            if (INSTANCE == null) {
-                synchronized(SimplifiedPokedexDatabase::class) {
-                    INSTANCE = Room.databaseBuilder(
+
+        fun getDatabase(context: Context): SimplifiedPokedexDatabase {
+            // if the INSTANCE is not null, then return it,
+            // if it is, then create the database
+            return INSTANCE ?: synchronized(this) {
+                val instance =
+                    Room.databaseBuilder(
                         context.applicationContext,
                         SimplifiedPokedexDatabase::class.java, "simplified_pokedex.db"
                     ).build()
-                }
+                INSTANCE = instance
+                instance
             }
-            return INSTANCE
         }
 
         fun destroyInstance() {
