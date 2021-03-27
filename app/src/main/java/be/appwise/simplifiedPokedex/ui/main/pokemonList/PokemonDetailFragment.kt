@@ -22,7 +22,7 @@ import be.appwise.simplifiedPokedex.data.model.MatchUp
 import be.appwise.simplifiedPokedex.data.model.Pokemon
 import be.appwise.simplifiedPokedex.extensions.gone
 import be.appwise.simplifiedPokedex.extensions.visible
-import be.appwise.simplifiedPokedex.ui.utils.CommonUtils
+import be.appwise.simplifiedPokedex.utils.CommonUtils
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
 import com.bumptech.glide.load.engine.GlideException

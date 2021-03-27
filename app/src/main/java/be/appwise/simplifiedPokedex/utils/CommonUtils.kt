@@ -1,4 +1,4 @@
-package be.appwise.simplifiedPokedex.ui.utils
+package be.appwise.simplifiedPokedex.utils
 
 object CommonUtils {
     fun getCorrectNationalDexNotation(nat_dex: Int?): String {

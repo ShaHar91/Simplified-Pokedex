@@ -4,11 +4,11 @@ import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.extensions.replaceFragment
-import com.afollestad.aesthetic.AestheticActivity
 
-class PokemonDetailActivity : AestheticActivity() {
+class PokemonDetailActivity : AppCompatActivity() {
     companion object {
         const val POKEMON_ID = "pokemonID"
 
@@ -23,7 +23,10 @@ class PokemonDetailActivity : AestheticActivity() {
         super.onCreate(savedInstanceState)
 
         if (savedInstanceState != null && savedInstanceState.containsKey("previous_orientation") &&
-            savedInstanceState.getInt("previous_orientation", -100) == Configuration.ORIENTATION_PORTRAIT
+            savedInstanceState.getInt(
+                "previous_orientation",
+                -100
+            ) == Configuration.ORIENTATION_PORTRAIT
         ) {
             val orientation = resources.configuration.orientation
             if (orientation == Configuration.ORIENTATION_LANDSCAPE) {

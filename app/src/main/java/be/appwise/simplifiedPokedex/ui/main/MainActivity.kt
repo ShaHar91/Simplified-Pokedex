@@ -12,25 +12,22 @@ import android.view.MenuItem
 import android.widget.ListView
 import android.widget.TextView
 import androidx.appcompat.widget.SearchView
-import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.LinearLayoutManager
+import be.appwise.core.extensions.view.setupRecyclerView
+import be.appwise.core.ui.base.BaseVMActivity
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.extensions.replaceFragment
-import be.appwise.simplifiedPokedex.extensions.snackBar
 import be.appwise.simplifiedPokedex.services.NotificationIntentService
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokedexRecyclerView
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailActivity
 import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailFragment
 import be.appwise.simplifiedPokedex.ui.settings.SettingsActivity
-import com.afollestad.aesthetic.AestheticActivity
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.customview.customView
 import jp.wasabeef.recyclerview.adapters.AlphaInAnimationAdapter
 import kotlinx.android.synthetic.main.activity_pokemon_list.*
 import java.util.*
 
-class MainActivity : AestheticActivity() {
+class MainActivity : BaseVMActivity<MainViewModel>() {
     companion object {
         const val SELECTED_KEY = "selected_position"
         const val SELECTED_ID = "selected_id"
@@ -40,7 +37,8 @@ class MainActivity : AestheticActivity() {
         }
     }
 
-    private lateinit var viewModel: MainViewModel
+    override fun getViewModel() = MainViewModel::class.java
+
     private var twoPane: Boolean = false
     private var mPosition = ListView.INVALID_POSITION
     private var mSelectedId = 1
@@ -60,14 +58,9 @@ class MainActivity : AestheticActivity() {
         mSelectedId = pokemon._id
     }
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_pokemon_list)
-
-        viewModel = ViewModelProvider(this).get(MainViewModel::class.java).apply {
-            setDefaultExceptionHandler(::onError)
-        }
 
         showRatingDialog(intent)
 
@@ -116,15 +109,11 @@ class MainActivity : AestheticActivity() {
 
     private fun initializeAdapter() {
         pokemon_list.apply {
-            adapter =
-                AlphaInAnimationAdapter(mAdapter).apply {
-                    setFirstOnly(false)
-                    setDuration(100)
-                }
-
-            layoutManager = LinearLayoutManager(this@MainActivity)
-            setHasFixedSize(true)
-            addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
+            setupRecyclerView()
+            adapter = AlphaInAnimationAdapter(mAdapter).apply {
+                setFirstOnly(false)
+                setDuration(100)
+            }
 
             if (mPosition != ListView.INVALID_POSITION) {
                 scrollToPosition(mPosition)
@@ -148,8 +137,6 @@ class MainActivity : AestheticActivity() {
     }
 
     private fun showRatingDialog(intent: Intent?) {
-        Log.d("hasRating", "does have rating: " + intent?.hasExtra("rating"))
-
         if (intent?.hasExtra("rating") == true) {
             MaterialDialog(this).show {
                 customView(R.layout.custom_dialog_view)
@@ -186,10 +173,5 @@ class MainActivity : AestheticActivity() {
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)
         showRatingDialog(intent)
-    }
-
-    private fun onError(throwable: Throwable) {
-        snackBar(throwable.message ?: "Something went wrong")
-        Log.e("SplashActivity", throwable.message ?: "", throwable)
     }
 }

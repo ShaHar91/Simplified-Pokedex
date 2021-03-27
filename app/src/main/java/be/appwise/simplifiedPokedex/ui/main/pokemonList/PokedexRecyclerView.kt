@@ -9,11 +9,9 @@ import be.appwise.simplifiedPokedex.data.model.Pokemon
 import be.appwise.simplifiedPokedex.extensions.typeBackground
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.list_item_pokedex.view.*
-import android.widget.Filter
-import android.widget.Filterable
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
-import be.appwise.simplifiedPokedex.ui.utils.CommonUtils
+import be.appwise.simplifiedPokedex.utils.CommonUtils
 
 class PokedexRecyclerView(private val listener: (Pokemon, Int, View) -> Unit) :
     ListAdapter<Pokemon, RecyclerView.ViewHolder>(PokemonDiffCallback()) {

@@ -3,13 +3,11 @@ package be.appwise.simplifiedPokedex
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.multidex.MultiDexApplication
+import be.appwise.core.core.CoreApp
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.network.ClientConfig
 import be.appwise.simplifiedPokedex.data.network.IClientConfig
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiService
-import be.appwise.simplifiedPokedex.data.repository.RxPokeApiRepositoryImpl
-import com.orhanobut.hawk.Hawk
-import retrofit2.Retrofit
 
 class MyApplication : MultiDexApplication() {
     companion object {
@@ -32,8 +30,9 @@ class MyApplication : MultiDexApplication() {
 
         mContext = this
 
-        // Initialize Hawk
-        Hawk.init(this).build()
+//        CoreApp.init(this)
+//            .initializeErrorActivity(BuildConfig.DEBUG)
+//            .initializeLogger()
+//            .build()
     }
-
 }
