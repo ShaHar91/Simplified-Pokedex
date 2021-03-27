@@ -1,12 +1,15 @@
 package be.appwise.simplifiedPokedex.data.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import be.appwise.core.data.base.BaseEntity
 
 @Entity(tableName = "match_up")
 data class MatchUp(
     @PrimaryKey(autoGenerate = true)
-    val _id: Int?,
+    @ColumnInfo(name = "_id")
+    override val id: Int,
     val bug: String,
     val dark: String,
     val dragon: String,
@@ -27,4 +30,4 @@ data class MatchUp(
     val type1: String,
     val type2: String,
     val water: String
-)
+): BaseEntity()

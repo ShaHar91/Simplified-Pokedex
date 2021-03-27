@@ -1,12 +1,15 @@
 package be.appwise.simplifiedPokedex.data.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import be.appwise.core.data.base.BaseEntity
 
 @Entity(tableName = "pokemon")
 data class Pokemon(
     @PrimaryKey(autoGenerate = true)
-    val _id: Int?,
+    @ColumnInfo(name = "_id")
+    override val id: Int,
     val name: String,
     val nat_dex: Int,
     val species: String,
@@ -30,4 +33,4 @@ data class Pokemon(
     val is_alternate: Int,
     val notes: String?,
     val has_mega: Int
-)
+): BaseEntity()

@@ -6,7 +6,6 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ListView
@@ -45,17 +44,17 @@ class MainActivity : BaseVMActivity<MainViewModel>() {
 
     private var mAdapter: PokedexRecyclerView = PokedexRecyclerView { pokemon, position, _ ->
         if (twoPane) {
-            openDetailFragment(pokemon._id!!)
+            openDetailFragment(pokemon.id)
         } else {
             startActivity(
                 PokemonDetailActivity.newIntent(
                     this@MainActivity,
-                    pokemon._id!!
+                    pokemon.id
                 )
             )
         }
         mPosition = position
-        mSelectedId = pokemon._id
+        mSelectedId = pokemon.id
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
