@@ -1,4 +1,4 @@
-package be.appwise.simplifiedPokedex.ui.main.pokemonList
+package be.appwise.simplifiedPokedex.ui.main.detail
 
 import android.content.Context
 import android.content.Intent

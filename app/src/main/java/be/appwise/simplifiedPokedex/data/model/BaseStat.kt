@@ -4,10 +4,12 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import be.appwise.core.data.base.BaseEntity
+import com.google.gson.annotations.SerializedName
 
 @Entity(tableName = "base_stat")
 data class BaseStat(
     @PrimaryKey(autoGenerate = true)
+    @SerializedName("_id")
     @ColumnInfo(name = "_id")
     override val id: Int,
     val att: Int,

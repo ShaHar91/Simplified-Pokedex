@@ -4,10 +4,12 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import be.appwise.core.data.base.BaseEntity
+import com.google.gson.annotations.SerializedName
 
 @Entity(tableName = "match_up")
 data class MatchUp(
     @PrimaryKey(autoGenerate = true)
+    @SerializedName("_id")
     @ColumnInfo(name = "_id")
     override val id: Int,
     val bug: String,

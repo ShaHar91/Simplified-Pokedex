@@ -8,7 +8,7 @@ import be.appwise.simplifiedPokedex.data.model.BaseStat
 @Dao
 abstract class BaseStatDao : BaseRoomDao<BaseStat>("base_stat") {
     @Query("SELECT * from base_stat where _id = :id")
-    abstract fun getBaseStatById(id: Int): BaseStat
+    abstract suspend fun getBaseStatById(id: Int): BaseStat
 
     @Query("DELETE from base_stat")
     abstract fun deleteAll()

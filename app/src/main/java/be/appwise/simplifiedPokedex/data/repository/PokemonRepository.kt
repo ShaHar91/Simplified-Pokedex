@@ -17,4 +17,6 @@ object PokemonRepository {
     }
 
     fun getPokemonsByQuery(query: String) = pokemonDao.findPokemonsByQueryLive(query)
+
+    suspend fun getPokemonById(pokemonId: Int) = pokemonDao.getPokemonById(pokemonId)
 }

@@ -1,4 +1,4 @@
-package be.appwise.simplifiedPokedex.ui.main.pokemonList
+package be.appwise.simplifiedPokedex.ui.main.adapter
 
 import android.view.LayoutInflater
 import android.view.View

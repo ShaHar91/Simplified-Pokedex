@@ -16,4 +16,6 @@ object BaseStatRepository {
 
         insertAllBaseStats(baseStats)
     }
+
+    suspend fun getBaseStatsByPokemonId(pokemonId: Int) = baseStatDao.getBaseStatById(pokemonId)
 }

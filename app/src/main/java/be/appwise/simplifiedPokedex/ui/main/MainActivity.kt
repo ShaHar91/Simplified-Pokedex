@@ -16,9 +16,9 @@ import be.appwise.core.ui.base.BaseVMActivity
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.extensions.replaceFragment
 import be.appwise.simplifiedPokedex.services.NotificationIntentService
-import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokedexRecyclerView
-import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailActivity
-import be.appwise.simplifiedPokedex.ui.main.pokemonList.PokemonDetailFragment
+import be.appwise.simplifiedPokedex.ui.main.adapter.PokedexRecyclerView
+import be.appwise.simplifiedPokedex.ui.main.detail.PokemonDetailActivity
+import be.appwise.simplifiedPokedex.ui.main.detail.PokemonDetailFragment
 import be.appwise.simplifiedPokedex.ui.settings.SettingsActivity
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.customview.customView

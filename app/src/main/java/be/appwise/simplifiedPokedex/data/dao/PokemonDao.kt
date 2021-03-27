@@ -14,7 +14,7 @@ abstract class PokemonDao : BaseRoomDao<Pokemon>("pokemon") {
     abstract fun getAll(/*isAlternate: String = "0", isMega: String = "0"*/): List<Pokemon>
 
     @Query("SELECT * from pokemon where _id = :id")
-    abstract fun getPokemonById(id: Int): Pokemon
+    abstract suspend fun getPokemonById(id: Int): Pokemon
 
     @Insert(onConflict = REPLACE)
     abstract fun insertAll(pokemons: List<Pokemon>)

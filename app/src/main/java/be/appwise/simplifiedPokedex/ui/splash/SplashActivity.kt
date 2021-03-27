@@ -1,14 +1,10 @@
 package be.appwise.simplifiedPokedex.ui.splash
 
 import android.os.Bundle
-import android.util.Log
-import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
 import androidx.preference.PreferenceManager
 import be.appwise.core.ui.base.BaseVMActivity
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.extensions.isNetworkAvailable
-import be.appwise.simplifiedPokedex.extensions.snackBar
 import be.appwise.simplifiedPokedex.extensions.visible
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_splash.*
