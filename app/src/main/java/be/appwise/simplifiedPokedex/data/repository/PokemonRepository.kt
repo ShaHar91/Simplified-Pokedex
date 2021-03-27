@@ -15,4 +15,6 @@ object PokemonRepository {
 
         insertAllPokemons(pokemons)
     }
+
+    fun getPokemonsByQuery(query: String) = pokemonDao.findPokemonsByQueryLive(query)
 }

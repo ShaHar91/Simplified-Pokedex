@@ -11,38 +11,12 @@ import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.list_item_pokedex.view.*
 import android.widget.Filter
 import android.widget.Filterable
+import androidx.recyclerview.widget.DiffUtil
+import androidx.recyclerview.widget.ListAdapter
 import be.appwise.simplifiedPokedex.ui.utils.CommonUtils
 
-class PokedexRecyclerView(private var myDataset: List<Pokemon>, private val listener: (Pokemon, Int, View) -> Unit) :
-    RecyclerView.Adapter<RecyclerView.ViewHolder>(), Filterable {
-    private var filteredData: List<Pokemon>
-
-    init {
-        filteredData = myDataset
-    }
-
-    override fun getFilter(): Filter {
-        return object : Filter() {
-            override fun performFiltering(constraint: CharSequence?): FilterResults {
-                val charString = constraint.toString()
-                filteredData = if (charString.isEmpty()) {
-                    myDataset
-                } else {
-                    myDataset.filter { it.name.contains(charString, true) }
-                }
-
-                val filterResults = FilterResults()
-                filterResults.values = filteredData
-                return filterResults
-            }
-
-            override fun publishResults(constraint: CharSequence?, results: FilterResults?) {
-                filteredData = results?.values as List<Pokemon>
-
-                notifyDataSetChanged()
-            }
-        }
-    }
+class PokedexRecyclerView(private val listener: (Pokemon, Int, View) -> Unit) :
+    ListAdapter<Pokemon, RecyclerView.ViewHolder>(PokemonDiffCallback()) {
 
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
@@ -78,10 +52,17 @@ class PokedexRecyclerView(private var myDataset: List<Pokemon>, private val list
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
         if (holder is MyViewHolder) {
-            holder.onBind(filteredData[position], position, listener)
+            holder.onBind(getItem(position), position, listener)
         }
     }
+}
 
-    // Return the size of your dataset (invoked by the layout manager)
-    override fun getItemCount() = filteredData.size
+class PokemonDiffCallback: DiffUtil.ItemCallback<Pokemon>() {
+    override fun areItemsTheSame(oldItem: Pokemon, newItem: Pokemon): Boolean {
+        return oldItem == newItem
+    }
+
+    override fun areContentsTheSame(oldItem: Pokemon, newItem: Pokemon): Boolean {
+        return oldItem == newItem
+    }
 }

@@ -17,26 +17,15 @@ interface PokemonDao {
     fun getPokemonById(id: Int): Pokemon
 
     @Insert(onConflict = REPLACE)
-    fun insert(pokemon: Pokemon)
-
-    @Query("DELETE from pokemon")
-    fun deleteAll()
-
-    @Transaction
-    fun updateData(pokemons: List<Pokemon>) {
-        insertAll(pokemons)
-    }
-
-    @Insert(onConflict = REPLACE)
     fun insertAll(pokemons: List<Pokemon>)
 
 
     @Insert(onConflict = REPLACE)
     suspend fun insertList(pokemons: List<Pokemon>)
 
-    @Query("SELECT * from pokemon where is_alternate = 0 and is_mega = 0")
-    fun getAllLive(/*isAlternate: String = "0", isMega: String = "0"*/): LiveData<List<Pokemon>>
-
     @Query("SELECT * from pokemon where _id = :id")
     fun getPokemonByIdLive(id: Int): LiveData<Pokemon>
+
+    @Query("SELECT * FROM pokemon where name LIKE '%' || :query || '%' and is_alternate = 0 and is_mega = 0")
+    fun findPokemonsByQueryLive(query: String): LiveData<List<Pokemon>>
 }
