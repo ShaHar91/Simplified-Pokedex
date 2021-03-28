@@ -5,8 +5,8 @@ import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import be.appwise.core.extensions.activity.replaceFragment
 import be.appwise.simplifiedPokedex.R
-import be.appwise.simplifiedPokedex.extensions.replaceFragment
 
 class PokemonDetailActivity : AppCompatActivity() {
     companion object {

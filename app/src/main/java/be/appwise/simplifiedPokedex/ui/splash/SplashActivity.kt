@@ -2,10 +2,10 @@ package be.appwise.simplifiedPokedex.ui.splash
 
 import android.os.Bundle
 import androidx.preference.PreferenceManager
+import be.appwise.core.extensions.activity.isNetworkAvailable
+import be.appwise.core.extensions.view.show
 import be.appwise.core.ui.base.BaseVMActivity
 import be.appwise.simplifiedPokedex.R
-import be.appwise.simplifiedPokedex.extensions.isNetworkAvailable
-import be.appwise.simplifiedPokedex.extensions.visible
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_splash.*
 
@@ -20,7 +20,7 @@ class SplashActivity : BaseVMActivity<SplashViewModel>() {
         val name = sharedPreferences.getString("preference_name", "")
 
         if (!name.isNullOrEmpty()) {
-            tvWelcomeText.visible()
+            tvWelcomeText.show()
             tvWelcomeText.text = "Welcome back $name"
         }
 

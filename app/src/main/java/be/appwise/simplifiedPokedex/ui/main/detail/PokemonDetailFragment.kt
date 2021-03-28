@@ -13,14 +13,14 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
+import be.appwise.core.extensions.view.hide
+import be.appwise.core.extensions.view.show
 import be.appwise.core.ui.base.BaseVMFragment
 import be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.model.BaseStat
 import be.appwise.simplifiedPokedex.data.model.MatchUp
 import be.appwise.simplifiedPokedex.data.model.Pokemon
-import be.appwise.simplifiedPokedex.extensions.gone
-import be.appwise.simplifiedPokedex.extensions.visible
 import be.appwise.simplifiedPokedex.utils.CommonUtils
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
@@ -145,9 +145,9 @@ class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
     private fun hideOrShow(isChecked: Boolean, locationLayout: LinearLayout?) {
         TransitionManager.beginDelayedTransition(dexScroll)
         if (isChecked) {
-            locationLayout?.visible()
+            locationLayout?.show()
         } else {
-            locationLayout?.gone()
+            locationLayout?.hide()
         }
     }
 
@@ -189,7 +189,7 @@ class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
                     target: Target<Drawable>?,
                     isFirstResource: Boolean
                 ): Boolean {
-                    imageView.gone()
+                    imageView.hide()
                     return false
                 }
 
@@ -197,7 +197,7 @@ class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
                     resource: Drawable?, model: Any?, target: Target<Drawable>?,
                     dataSource: DataSource?, isFirstResource: Boolean
                 ): Boolean {
-                    imageView.visible()
+                    imageView.show()
                     return false
                 }
             }).into(imageView)

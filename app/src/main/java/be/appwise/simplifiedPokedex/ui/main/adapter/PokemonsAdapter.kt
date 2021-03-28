@@ -16,27 +16,6 @@ import be.appwise.simplifiedPokedex.utils.CommonUtils
 class PokedexRecyclerView(private val listener: (Pokemon, Int, View) -> Unit) :
     ListAdapter<Pokemon, RecyclerView.ViewHolder>(PokemonDiffCallback()) {
 
-    // Provide a reference to the views for each data item
-    // Complex data items may need more than one view per item, and
-    // you provide access to all the views for a data item in a view holder.
-    // Each data item is just a string in this case that is shown in a TextView.
-    class MyViewHolder(private val holder: View) : RecyclerView.ViewHolder(holder) {
-        fun onBind(pokemon: Pokemon, position: Int, listener: (Pokemon, Int, View) -> Unit) {
-            val str = CommonUtils.getCorrectNationalDexNotation(pokemon.nat_dex)
-
-            holder.setOnClickListener {
-                listener(pokemon, position, holder)
-            }
-
-            Glide.with(holder).load("https://www.serebii.net/pokedex-xy/icon/$str.png").into(holder.ivPokemonIcon)
-            holder.ivPokemonIcon
-            holder.tvPokemonNatNumber.text = str
-            holder.tvPokemonName.text = pokemon.name
-            holder.tvType1.typeBackground(pokemon.type1)
-            holder.tvType2.typeBackground(pokemon.type2)
-        }
-    }
-
     // Create new views (invoked by the layout manager)
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -51,6 +30,23 @@ class PokedexRecyclerView(private val listener: (Pokemon, Int, View) -> Unit) :
         // - replace the contents of the view with that element
         if (holder is MyViewHolder) {
             holder.onBind(getItem(position), position, listener)
+        }
+    }
+
+    inner class MyViewHolder(private val holder: View) : RecyclerView.ViewHolder(holder) {
+        fun onBind(pokemon: Pokemon, position: Int, listener: (Pokemon, Int, View) -> Unit) {
+            val str = CommonUtils.getCorrectNationalDexNotation(pokemon.nat_dex)
+
+            holder.setOnClickListener {
+                listener(pokemon, position, holder)
+            }
+
+            Glide.with(holder).load("https://www.serebii.net/pokedex-xy/icon/$str.png").into(holder.ivPokemonIcon)
+            holder.ivPokemonIcon
+            holder.tvPokemonNatNumber.text = str
+            holder.tvPokemonName.text = pokemon.name
+            holder.tvType1.typeBackground(pokemon.type1)
+            holder.tvType2.typeBackground(pokemon.type2)
         }
     }
 }

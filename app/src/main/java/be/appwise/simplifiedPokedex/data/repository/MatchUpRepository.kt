@@ -1,12 +1,11 @@
 package be.appwise.simplifiedPokedex.data.repository
 
 import be.appwise.simplifiedPokedex.MyApplication
+import be.appwise.simplifiedPokedex.data.dao.MatchUpDao
 import be.appwise.simplifiedPokedex.data.model.MatchUp
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiService
 
-object MatchUpRepository {
-    private val matchUpDao = MyApplication.pokedexDatabase.matchUpDao()
-    private val service: RxPokeApiService = MyApplication.service
+class MatchUpRepository(private val matchUpDao: MatchUpDao, private val service: RxPokeApiService) {
 
     private suspend fun insertAllMatchUps(matchUps: List<MatchUp>) = matchUpDao.insertList(matchUps)
 
@@ -16,5 +15,6 @@ object MatchUpRepository {
         insertAllMatchUps(matchUps)
     }
 
-    suspend fun getMatchUpForTypesLive(type1: String?, type2: String?) = matchUpDao.getMatchUpForTypesLive(type1, type2)
+    suspend fun getMatchUpForTypesLive(type1: String?, type2: String?) =
+        matchUpDao.getMatchUpForTypesLive(type1, type2)
 }

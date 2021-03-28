@@ -11,10 +11,10 @@ import android.view.MenuItem
 import android.widget.ListView
 import android.widget.TextView
 import androidx.appcompat.widget.SearchView
+import be.appwise.core.extensions.activity.replaceFragment
 import be.appwise.core.extensions.view.setupRecyclerView
 import be.appwise.core.ui.base.BaseVMActivity
 import be.appwise.simplifiedPokedex.R
-import be.appwise.simplifiedPokedex.extensions.replaceFragment
 import be.appwise.simplifiedPokedex.services.NotificationIntentService
 import be.appwise.simplifiedPokedex.ui.main.adapter.PokedexRecyclerView
 import be.appwise.simplifiedPokedex.ui.main.detail.PokemonDetailActivity
