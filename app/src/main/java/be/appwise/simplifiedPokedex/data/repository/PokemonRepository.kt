@@ -1,12 +1,11 @@
 package be.appwise.simplifiedPokedex.data.repository
 
 import be.appwise.simplifiedPokedex.MyApplication
+import be.appwise.simplifiedPokedex.data.dao.PokemonDao
 import be.appwise.simplifiedPokedex.data.model.Pokemon
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiService
 
-object PokemonRepository {
-    private val pokemonDao = MyApplication.pokedexDatabase.pokemonDao()
-    private val service: RxPokeApiService = MyApplication.service
+class PokemonRepository(private val pokemonDao: PokemonDao, private val service: RxPokeApiService) {
 
     private suspend fun insertAllPokemons(pokemons: List<Pokemon>) = pokemonDao.insertList(pokemons)
 

@@ -76,6 +76,10 @@ class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
             pokemonBaseStat.observe(viewLifecycleOwner, Observer {
                 fillInBaseStatDetails(it)
             })
+
+            pokemonMatchUp.observe(viewLifecycleOwner, Observer {
+                fillInMatchUpDetails(it)
+            })
         }
     }
 
@@ -147,36 +151,8 @@ class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
         }
     }
 
-    private fun fetchPokemonById(pokemonId: Int) {
-//       Observable.fromCallable {
-//            mDb.pokemonDao().getPokemonById(pokemonId)
-//        }
-//            .subscribeOn(Schedulers.io())
-//            .switchMap {
-//                mPokemon = it
-//
-//                return@switchMap Observable.fromCallable { mDb.baseStatDao().getBaseStatById(pokemonId) }
-//            }
-//            .subscribeOn(Schedulers.io())
-//            .switchMap {
-//                mPokemonBaseStat = it
-//
-//                return@switchMap Observable.fromCallable {
-//                    mDb.matchUpDao().getMatchUpForTypes(mPokemon?.type1, mPokemon?.type2)
-//                }
-//            }
-//            .subscribeOn(Schedulers.io())
-//            .observeOn(AndroidSchedulers.mainThread())
-//            .subscribe({
-//                mPokemonMatchUp = it
-//            }, {
-//                it.printStackTrace()
-//            }, {
-//                fillInLayout()
-//            })
-    }
-
     private fun fillInMatchUpDetails(matchUp: MatchUp) {
+        // TODO: when possible, create a GridLayout for this!!
         setTextAndColor(bugTv, matchUp.bug)
         setTextAndColor(darkTv, matchUp.dark)
         setTextAndColor(dragonTv, matchUp.dragon)

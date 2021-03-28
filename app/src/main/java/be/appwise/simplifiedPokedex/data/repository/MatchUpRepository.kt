@@ -15,4 +15,6 @@ object MatchUpRepository {
 
         insertAllMatchUps(matchUps)
     }
+
+    suspend fun getMatchUpForTypesLive(type1: String?, type2: String?) = matchUpDao.getMatchUpForTypesLive(type1, type2)
 }

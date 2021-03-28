@@ -3,11 +3,11 @@ package be.appwise.simplifiedPokedex.ui.main
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
 import be.appwise.core.ui.base.BaseViewModel
-import be.appwise.simplifiedPokedex.data.repository.PokemonRepository
+import be.appwise.simplifiedPokedex.MyApplication
 
 class MainViewModel : BaseViewModel() {
     private val _searchQuery = MutableLiveData<String>().apply { value = "" }
     fun setQuery(query: String) = _searchQuery.postValue(query)
     val pokemons =
-        Transformations.switchMap(_searchQuery) { PokemonRepository.getPokemonsByQuery(it) }
+        Transformations.switchMap(_searchQuery) { MyApplication.pokemonRepository.getPokemonsByQuery(it) }
 }

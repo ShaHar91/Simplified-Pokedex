@@ -21,5 +21,5 @@ abstract class MatchUpDao: BaseRoomDao<MatchUp>("match_up") {
     abstract suspend fun insertList(matchUps: List<MatchUp>)
 
     @Query("SELECT * from match_up where type1 = :type1 and type2 = :type2")
-    abstract fun getMatchUpForTypesLive(type1: String?, type2: String?): LiveData<MatchUp>
+    abstract suspend fun getMatchUpForTypesLive(type1: String?, type2: String?): MatchUp
 }

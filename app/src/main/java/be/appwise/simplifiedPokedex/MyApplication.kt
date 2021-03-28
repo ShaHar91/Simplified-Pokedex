@@ -3,11 +3,11 @@ package be.appwise.simplifiedPokedex
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.multidex.MultiDexApplication
-import be.appwise.core.core.CoreApp
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
 import be.appwise.simplifiedPokedex.data.network.ClientConfig
 import be.appwise.simplifiedPokedex.data.network.IClientConfig
 import be.appwise.simplifiedPokedex.data.network.RxPokeApiService
+import be.appwise.simplifiedPokedex.data.repository.PokemonRepository
 
 class MyApplication : MultiDexApplication() {
     companion object {
@@ -22,6 +22,10 @@ class MyApplication : MultiDexApplication() {
         val service: RxPokeApiService by lazy { clientConfig.getService(RxPokeApiService::class.java) }
         val pokedexDatabase: SimplifiedPokedexDatabase by lazy {
             SimplifiedPokedexDatabase.getDatabase(getContext())
+        }
+
+        val pokemonRepository: PokemonRepository by lazy {
+            PokemonRepository(pokedexDatabase.pokemonDao(), service)
         }
     }
 
