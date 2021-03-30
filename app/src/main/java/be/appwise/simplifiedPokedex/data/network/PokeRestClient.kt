@@ -1,6 +1,7 @@
 package be.appwise.simplifiedPokedex.data.network
 
 import be.appwise.core.networking.base.BaseRestClient
+import be.appwise.simplifiedPokedex.BuildConfig
 import com.appham.mockinizer.RequestFilter
 import com.appham.mockinizer.mockinize
 import okhttp3.OkHttpClient
@@ -8,12 +9,13 @@ import okhttp3.logging.HttpLoggingInterceptor
 import okhttp3.mockwebserver.MockResponse
 import java.util.concurrent.TimeUnit
 
-object PokeRestClient: BaseRestClient<NetworkService>() {
+object PokeRestClient : BaseRestClient<NetworkService>() {
     override val apiService = NetworkService::class.java
     override val protectedClient = false
     override fun enableBagelInterceptor() = true
 
-    override fun getBaseUrl() = "https://raw.githubusercontent.com/ShaHar91/Simplified-Pokedex/master/json/"
+    override fun getBaseUrl() =
+        "https://raw.githubusercontent.com/ShaHar91/Simplified-Pokedex/master/json/"
 
     override fun createHttpClient(): OkHttpClient {
         val logging = HttpLoggingInterceptor()
@@ -21,11 +23,15 @@ object PokeRestClient: BaseRestClient<NetworkService>() {
 
         return OkHttpClient.Builder()
             .addInterceptor(logging)
-            .mockinize(mocks)
             .retryOnConnectionFailure(false)
             .connectTimeout(30, TimeUnit.SECONDS)
             .readTimeout(30, TimeUnit.SECONDS)
-            .writeTimeout(30, TimeUnit.SECONDS).build()
+            .writeTimeout(30, TimeUnit.SECONDS)
+            .apply {
+                if (BuildConfig.DEBUG) {
+                    mockinize(mocks)
+                }
+            }.build()
     }
 
     private val mocks: Map<RequestFilter, MockResponse> = mapOf(
