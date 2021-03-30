@@ -25,7 +25,11 @@ class SplashActivity : BaseVMActivity<SplashViewModel>() {
         }
 
         if (isNetworkAvailable()) {
-            viewModel.getAllData {
+            viewModel.getAllData({
+                runOnUiThread {
+                    progressBar.progress = it
+                }
+            }) {
                 startActivity(MainActivity.newIntent(this))
                 finish()
             }

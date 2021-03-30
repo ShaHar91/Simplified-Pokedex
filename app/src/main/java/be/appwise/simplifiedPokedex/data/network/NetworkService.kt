@@ -6,7 +6,7 @@ import be.appwise.simplifiedPokedex.data.model.Pokemon
 import retrofit2.Call
 import retrofit2.http.GET
 
-interface RxPokeApiService {
+interface NetworkService {
 
     @GET("pokemon.json")
     fun getAllPokemons(): Call<List<Pokemon>>

@@ -3,10 +3,11 @@ package be.appwise.simplifiedPokedex
 import android.annotation.SuppressLint
 import android.content.Context
 import androidx.multidex.MultiDexApplication
+import be.appwise.core.core.CoreApp
+import be.appwise.core.networking.Networking
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
-import be.appwise.simplifiedPokedex.data.network.ClientConfig
-import be.appwise.simplifiedPokedex.data.network.IClientConfig
-import be.appwise.simplifiedPokedex.data.network.RxPokeApiService
+import be.appwise.simplifiedPokedex.data.network.NetworkService
+import be.appwise.simplifiedPokedex.data.network.PokeRestClient
 import be.appwise.simplifiedPokedex.data.repository.BaseStatRepository
 import be.appwise.simplifiedPokedex.data.repository.MatchUpRepository
 import be.appwise.simplifiedPokedex.data.repository.PokemonRepository
@@ -20,8 +21,7 @@ class MyApplication : MultiDexApplication() {
             return mContext
         }
 
-        val clientConfig: IClientConfig by lazy { ClientConfig }
-        private val service: RxPokeApiService by lazy { clientConfig.getService(RxPokeApiService::class.java) }
+        private val service: NetworkService by lazy { PokeRestClient.getService }
         private val pokedexDatabase: SimplifiedPokedexDatabase by lazy {
             SimplifiedPokedexDatabase.getDatabase(getContext())
         }
@@ -44,9 +44,15 @@ class MyApplication : MultiDexApplication() {
 
         mContext = this
 
-//        CoreApp.init(this)
-//            .initializeErrorActivity(BuildConfig.DEBUG)
-//            .initializeLogger()
-//            .build()
+        Networking.Builder()
+            .registerBagelService(this)
+            .setPackageName(packageName)
+            .setAppName(getString(R.string.app_name))
+            .setVersionCode(BuildConfig.VERSION_CODE.toString())
+            .setVersionName(BuildConfig.VERSION_NAME)
+            .build()
+
+        CoreApp.init(this)
+            .build()
     }
 }

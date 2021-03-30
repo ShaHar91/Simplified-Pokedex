@@ -1,23 +1,21 @@
 package be.appwise.simplifiedPokedex.data.network
 
+import be.appwise.core.networking.base.BaseRestClient
 import com.appham.mockinizer.RequestFilter
 import com.appham.mockinizer.mockinize
-import com.google.gson.FieldNamingPolicy
-import com.google.gson.GsonBuilder
-import okhttp3.HttpUrl
-import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import okhttp3.mockwebserver.MockResponse
-import retrofit2.Retrofit
-import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-object ClientConfig: IClientConfig{
-    override var getBaseUrl: HttpUrl =
-        "https://raw.githubusercontent.com/ShaHar91/Simplified-Pokedex/master/json/".toHttpUrl()
+object PokeRestClient: BaseRestClient<NetworkService>() {
+    override val apiService = NetworkService::class.java
+    override val protectedClient = false
+    override fun enableBagelInterceptor() = true
 
-    override fun okHttpConfig(): OkHttpClient.Builder {
+    override fun getBaseUrl() = "https://raw.githubusercontent.com/ShaHar91/Simplified-Pokedex/master/json/"
+
+    override fun createHttpClient(): OkHttpClient {
         val logging = HttpLoggingInterceptor()
         logging.level = HttpLoggingInterceptor.Level.BODY
 
@@ -27,25 +25,7 @@ object ClientConfig: IClientConfig{
             .retryOnConnectionFailure(false)
             .connectTimeout(30, TimeUnit.SECONDS)
             .readTimeout(30, TimeUnit.SECONDS)
-            .writeTimeout(30, TimeUnit.SECONDS)
-    }
-
-    override fun retrofitConfig(): Retrofit {
-        return Retrofit.Builder()
-            .baseUrl(getBaseUrl)
-            .addConverterFactory(
-                GsonConverterFactory.create(
-                    GsonBuilder().apply {
-                        setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
-                    }.create()
-                )
-            )
-            .client(okHttpConfig().build())
-            .build()
-    }
-
-    override fun <T> getService(service: Class<T>): T {
-        return retrofitConfig().create(service)
+            .writeTimeout(30, TimeUnit.SECONDS).build()
     }
 
     private val mocks: Map<RequestFilter, MockResponse> = mapOf(
