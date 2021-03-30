@@ -16,7 +16,7 @@ import androidx.lifecycle.Observer
 import be.appwise.core.extensions.view.hide
 import be.appwise.core.extensions.view.show
 import be.appwise.core.ui.base.BaseVMFragment
-import be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
+import be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.model.BaseStat
 import be.appwise.simplifiedPokedex.data.model.MatchUp

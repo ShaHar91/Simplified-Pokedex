@@ -1,4 +1,4 @@
-package be.appwise.simplifiedPokedex.CustomViews;
+package be.appwise.simplifiedPokedex.ui.customViews;
 
 
 import android.content.Context;

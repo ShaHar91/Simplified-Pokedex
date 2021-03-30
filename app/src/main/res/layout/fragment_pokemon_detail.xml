@@ -473,7 +473,7 @@
                             android:text="@string/base_stats"
                             android:textStyle="bold"/>
 
-                    <be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
+                    <be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
                             android:id="@+id/hpProgressBar"
                             style="?android:attr/progressBarStyleHorizontal"
                             android:layout_width="118dp"
@@ -484,7 +484,7 @@
                             android:progressDrawable="@drawable/progressbar"
                             app:textSize="14sp"/>
 
-                    <be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
+                    <be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
                             android:id="@+id/attProgressBar"
                             style="?android:attr/progressBarStyleHorizontal"
                             android:layout_width="118dp"
@@ -495,7 +495,7 @@
                             android:progressDrawable="@drawable/progressbar"
                             app:textSize="14sp"/>
 
-                    <be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
+                    <be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
                             android:id="@+id/defProgressBar"
                             style="?android:attr/progressBarStyleHorizontal"
                             android:layout_width="118dp"
@@ -506,7 +506,7 @@
                             android:progressDrawable="@drawable/progressbar"
                             app:textSize="14sp"/>
 
-                    <be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
+                    <be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
                             android:id="@+id/spAttProgressBar"
                             style="?android:attr/progressBarStyleHorizontal"
                             android:layout_width="118dp"
@@ -517,7 +517,7 @@
                             android:progressDrawable="@drawable/progressbar"
                             app:textSize="14sp"/>
 
-                    <be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
+                    <be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
                             android:id="@+id/spDefProgressBar"
                             style="?android:attr/progressBarStyleHorizontal"
                             android:layout_width="118dp"
@@ -528,7 +528,7 @@
                             android:progressDrawable="@drawable/progressbar"
                             app:textSize="14sp"/>
 
-                    <be.appwise.simplifiedPokedex.CustomViews.TextProgressBar
+                    <be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
                             android:id="@+id/speedProgressBar"
                             style="?android:attr/progressBarStyleHorizontal"
                             android:layout_width="118dp"
