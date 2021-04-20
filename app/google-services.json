@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "851673044303",
+    "project_id": "simplifiedpokedex",
+    "storage_bucket": "simplifiedpokedex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851673044303:android:398350f3dcc0db763fe13a",
+        "android_client_info": {
+          "package_name": "be.appwise.simplifiedPokedex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851673044303-3qkij0t2h7nci09e1v95nb63gg1mhh9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_yVisclCjji5fKvDKr0WJRrp0LehVYRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851673044303-3qkij0t2h7nci09e1v95nb63gg1mhh9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851673044303:android:2aa9fea4af9b61b33fe13a",
+        "android_client_info": {
+          "package_name": "be.appwise.simplifiedPokedex.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851673044303-3qkij0t2h7nci09e1v95nb63gg1mhh9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_yVisclCjji5fKvDKr0WJRrp0LehVYRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851673044303-3qkij0t2h7nci09e1v95nb63gg1mhh9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851673044303:android:e72ed82ad4fd34d03fe13a",
+        "android_client_info": {
+          "package_name": "be.appwise.simplifiedPokedex.stg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851673044303-3qkij0t2h7nci09e1v95nb63gg1mhh9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_yVisclCjji5fKvDKr0WJRrp0LehVYRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851673044303-3qkij0t2h7nci09e1v95nb63gg1mhh9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

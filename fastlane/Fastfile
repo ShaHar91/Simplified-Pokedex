@@ -1,0 +1,83 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Submit a new devdebug Build to Firebase"
+  lane :development do
+    gradle(task: "connectedDevDebugAndroidTest")
+    gradle(task: "clean")
+    gradle(task: "assembleDevDebug")
+    firebase_app_distribution(
+              app: CredentialsManager::AppfileConfig.try_fetch_value(:firebase_app_id),
+              testers: CredentialsManager::AppfileConfig.try_fetch_value(:testers),
+              release_notes: CredentialsManager::AppfileConfig.try_fetch_value(:releaseNotes)
+          )
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+  desc "Submit a new stagdebug Build to Firebase"
+  lane :staging do
+    gradle(task: "connectedStgDebugAndroidTest")
+    gradle(task: "clean")
+    gradle(task: "assembleStgDebug")
+    firebase_app_distribution(
+              app: CredentialsManager::AppfileConfig.try_fetch_value(:firebase_app_id),
+              testers: CredentialsManager::AppfileConfig.try_fetch_value(:testers),
+              release_notes: CredentialsManager::AppfileConfig.try_fetch_value(:releaseNotes)
+          )
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+  desc "Submit a new stagdebug Build to Firebase"
+  lane :subscription do
+    gradle(task: "connectedSubDebugAndroidTest clean assembleSubDebug")
+    firebase_app_distribution(
+              app: CredentialsManager::AppfileConfig.try_fetch_value(:firebase_app_id),
+              testers: CredentialsManager::AppfileConfig.try_fetch_value(:testers),
+              release_notes: CredentialsManager::AppfileConfig.try_fetch_value(:releaseNotes)
+          )
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+  desc "Submit a new prodRelease Build to Firebase"
+  lane :production do
+    gradle(task: "connectedProdDebugAndroidTest clean assembleProdRelease")
+    firebase_app_distribution(
+              app: CredentialsManager::AppfileConfig.try_fetch_value(:firebase_app_id),
+              testers: CredentialsManager::AppfileConfig.try_fetch_value(:testers),
+              release_notes: CredentialsManager::AppfileConfig.try_fetch_value(:releaseNotes)
+          )
+
+    # sh "your_script.sh"
+    # You can also use other beta testing services here
+  end
+
+
+  desc "Deploy a new version to the Google Play"
+  lane :deploybundle do
+    gradle(task: "bundle",
+          flavor: "prod",
+            build_type: "Release")
+
+    upload_to_play_store(
+      track: 'internal',
+      skip_upload_apk: 'true'
+    )
+  end
+end

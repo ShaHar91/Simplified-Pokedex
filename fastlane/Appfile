@@ -1,0 +1,29 @@
+json_key_file("gc_fastlane_keys.json") # Path to the json secret file
+package_name("be.appwise.simplifiedPokedex") # e.g. com.krausefx.app
+
+# Environment settings for sentry
+# lane specific settings
+for_platform :android do
+
+	## was from the time before dev,stag,prod --> only debug en prod (staging env and production env)
+  for_lane :development do
+  	##can be found in Firebase console under project settings
+    setter(:firebase_app_id, '1:851673044303:android:2aa9fea4af9b61b33fe13a')
+    setter(:testers, 'test@appwise.be')
+    setter(:releaseNotes, 'Dit is een firebase development versie')
+
+  end
+
+  ##has no "staging build"
+  for_lane :staging do
+    setter(:firebase_app_id, '1:851673044303:android:e72ed82ad4fd34d03fe13a')
+    setter(:testers, 'test@appwise.be')
+    setter(:releaseNotes, 'Dit is een firebase staging versie')
+  end
+
+  for_lane :production do
+    setter(:firebase_app_id, '1:851673044303:android:398350f3dcc0db763fe13a')
+    setter(:testers, 'test@appwise.be')
+    setter(:releaseNotes, 'Dit is een firebase release versie')
+  end
+end

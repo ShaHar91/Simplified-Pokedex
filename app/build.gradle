@@ -1,25 +1,34 @@
+plugins {
+    id 'com.gladed.androidgitversion' version '0.4.14'
+}
+
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
-
 apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.gms.google-services'
 
-def versionMajor = 0
-def versionMinor = 0
-def versionPatch = 0
-def versionBuild = 1
+androidGitVersion {
+    codeFormat 'MNNPPPBBB'
+    format "%tag%%.count%%-dirty%"
+    if (System.getenv('CI') == null) {
+        format "%tag%%.count%%-dirty%"
+    } else {
+        //if it's a CI build ignore dirty because bundle execute demands bundler/gems to be up to date (forces it server-side) --> gemlock always changed
+        format "%tag%%.count%"
+    }
+    //when their are uncommitted changes add dirty to version name
+    untrackedIsDirty = true
+}
+
+/**
+ * Check if a signing.gradle file exists and import it
+ */
+if (file(rootProject.projectDir.getAbsolutePath() + '/signing.gradle').exists()) {
+    apply from: rootProject.projectDir.getAbsolutePath() + '/signing.gradle'
+}
 
 android {
-    signingConfigs {
-        simplifyPokedexSigning {
-        storeFile file('/Users/christianobolla/Desktop/Older projects/Simplified-Pokedex/keystore/simplified-pokedex')
-            storePassword 'S1mpl1f1ed-pokede%'
-            keyPassword 'S1mpl1f1ed-pokede%'
-            keyAlias 'simplified-pokedex'
-        }
-    }
     compileSdkVersion 29
     defaultConfig {
         applicationId "be.appwise.simplifiedPokedex"
@@ -30,8 +39,8 @@ android {
         flavorDimensions "versionCode"
 
         // generate versionCode and versionName from defined major, minor, versionPatch, versionBuild
-        versionCode versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
-        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+        versionName androidGitVersion.name()
+        versionCode androidGitVersion.code()
         vectorDrawables.setUseSupportLibrary(true)
     }
 
@@ -42,12 +51,12 @@ android {
             applicationIdSuffix ".dev"
             versionNameSuffix "-dev"
             dimension 'env'
-            signingConfig signingConfigs.simplifyPokedexSigning
+            signingConfig signingConfigs.release
         }
         prod {
             buildConfigField "String", "API_HOST", "\"https://pokeapi.co/api/v2/\""
             dimension 'env'
-            signingConfig signingConfigs.simplifyPokedexSigning
+            signingConfig signingConfigs.release
         }
         stg {
             buildConfigField "String", "API_HOST", "\"https://pokeapi.co/api/v2/\""
@@ -55,7 +64,7 @@ android {
             applicationIdSuffix ".stg"
             versionNameSuffix "-stg"
             dimension 'env'
-            signingConfig signingConfigs.simplifyPokedexSigning
+            signingConfig signingConfigs.release
         }
     }
 
@@ -123,4 +132,8 @@ dependencies {
     androidTestImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.2.1"
 
     implementation 'com.github.appwise-labs:AndroidCore:7ffe187693'
+
+    implementation platform('com.google.firebase:firebase-bom:27.0.0')
+
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 }
