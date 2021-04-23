@@ -1,14 +1,13 @@
 package be.appwise.simplifiedPokedex.data.repository
 
 import be.appwise.core.data.base.BaseRepository
-import be.appwise.simplifiedPokedex.MyApplication
 import be.appwise.simplifiedPokedex.data.dao.BaseStatDao
 import be.appwise.simplifiedPokedex.data.model.BaseStat
-import be.appwise.simplifiedPokedex.data.network.NetworkService
+import be.appwise.simplifiedPokedex.data.network.BaseStatNetworkService
 
 class BaseStatRepository(
     private val baseStatDao: BaseStatDao,
-    private val service: NetworkService
+    private val service: BaseStatNetworkService
 ): BaseRepository() {
 
     private suspend fun insertAllBaseStats(baseStats: List<BaseStat>) =

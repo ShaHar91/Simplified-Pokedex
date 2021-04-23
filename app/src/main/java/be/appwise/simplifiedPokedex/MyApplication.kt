@@ -6,7 +6,6 @@ import androidx.multidex.MultiDexApplication
 import be.appwise.core.core.CoreApp
 import be.appwise.core.networking.Networking
 import be.appwise.simplifiedPokedex.data.SimplifiedPokedexDatabase
-import be.appwise.simplifiedPokedex.data.network.NetworkService
 import be.appwise.simplifiedPokedex.data.network.PokeRestClient
 import be.appwise.simplifiedPokedex.data.repository.BaseStatRepository
 import be.appwise.simplifiedPokedex.data.repository.MatchUpRepository
@@ -21,21 +20,21 @@ class MyApplication : MultiDexApplication() {
             return mContext
         }
 
-        private val service: NetworkService by lazy { PokeRestClient.getService }
+//        private val service: NetworkService by lazy { PokeRestClient.getService }
         private val pokedexDatabase: SimplifiedPokedexDatabase by lazy {
             SimplifiedPokedexDatabase.getDatabase(getContext())
         }
 
         val pokemonRepository: PokemonRepository by lazy {
-            PokemonRepository(pokedexDatabase.pokemonDao(), service)
+            PokemonRepository(pokedexDatabase.pokemonDao(), PokeRestClient.pokemonService)
         }
 
         val matchUpRepository: MatchUpRepository by lazy {
-            MatchUpRepository(pokedexDatabase.matchUpDao(), service)
+            MatchUpRepository(pokedexDatabase.matchUpDao(), PokeRestClient.matchUpService)
         }
 
         val baseStatRepository: BaseStatRepository by lazy {
-            BaseStatRepository(pokedexDatabase.baseStatDao(), service)
+            BaseStatRepository(pokedexDatabase.baseStatDao(), PokeRestClient.baseStatService)
         }
     }
 

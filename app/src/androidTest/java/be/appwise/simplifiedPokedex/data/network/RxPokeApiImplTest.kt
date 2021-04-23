@@ -25,7 +25,7 @@ class RxPokeApiImplTest {
 
     private val mockWebServer = MockWebServer()
 
-    private val service = PokeRestClientMock.apply { mockBaseUrl = mockWebServer.url("/").toString() }.getService
+    private val service = PokeRestClientMock.apply { mockBaseUrl = mockWebServer.url("/").toString() }.pokemonService
     private lateinit var database: SimplifiedPokedexDatabase
     private lateinit var pokemonDao: PokemonDao
     private lateinit var pokemonRepository: PokemonRepository
