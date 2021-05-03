@@ -52,6 +52,7 @@ class MyApplication : MultiDexApplication() {
             .build()
 
         CoreApp.init(this)
+            .initializeLogger("SimplifiedPokedex", BuildConfig.DEBUG)
             .build()
     }
 }
