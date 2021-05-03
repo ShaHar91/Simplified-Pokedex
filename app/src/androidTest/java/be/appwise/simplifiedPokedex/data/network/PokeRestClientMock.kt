@@ -1,9 +1,8 @@
 package be.appwise.simplifiedPokedex.data.network
 
 import be.appwise.core.networking.base.BaseRestClient
-import be.appwise.core.networking.base.BaseSimpleRestClient
 
-object PokeRestClientMock: BaseSimpleRestClient() {
+object PokeRestClientMock: BaseRestClient() {
     var mockBaseUrl = "/"
 
     val pokemonService: PokemonNetworkService by lazy {

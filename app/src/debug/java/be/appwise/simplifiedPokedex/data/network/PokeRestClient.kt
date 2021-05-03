@@ -1,8 +1,8 @@
 package be.appwise.simplifiedPokedex.data.network
 
-import be.appwise.core.networking.base.BaseSimpleRestClient
+import be.appwise.core.networking.base.BaseRestClient
 
-object PokeRestClient : BaseSimpleRestClient() {
+object PokeRestClient : BaseRestClient() {
     override val protectedClient = false
     override fun enableBagelInterceptor() = true
 
@@ -23,6 +23,6 @@ object PokeRestClient : BaseSimpleRestClient() {
     val baseStatService: BaseStatNetworkService by lazy {
         // This behaves the same as using 'createRetrofit(baseUrl)',
         // but offers more options by using the builder itself.
-        getRetrofit.create(BaseStatNetworkService::class.java)
+        getRetrofit.newBuilder().baseUrl("").build().create(BaseStatNetworkService::class.java)
     }
 }
