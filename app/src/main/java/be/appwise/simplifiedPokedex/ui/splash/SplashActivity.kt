@@ -1,6 +1,7 @@
 package be.appwise.simplifiedPokedex.ui.splash
 
 import android.os.Bundle
+import androidx.activity.viewModels
 import androidx.preference.PreferenceManager
 import be.appwise.core.extensions.activity.isNetworkAvailable
 import be.appwise.core.extensions.view.show
@@ -9,8 +10,8 @@ import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_splash.*
 
-class SplashActivity : BaseVMActivity<SplashViewModel>() {
-    override fun getViewModel() = SplashViewModel::class.java
+class SplashActivity : BaseVMActivity() {
+    override val mViewModel: SplashViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +26,7 @@ class SplashActivity : BaseVMActivity<SplashViewModel>() {
         }
 
         if (isNetworkAvailable()) {
-            viewModel.getAllData({
+            mViewModel.getAllData({
                 runOnUiThread {
                     progressBar.progress = it
                 }

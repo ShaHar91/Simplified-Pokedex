@@ -10,6 +10,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ListView
 import android.widget.TextView
+import androidx.activity.viewModels
 import androidx.appcompat.widget.SearchView
 import be.appwise.core.extensions.activity.replaceFragment
 import be.appwise.core.extensions.view.setupRecyclerView
@@ -26,7 +27,7 @@ import jp.wasabeef.recyclerview.adapters.AlphaInAnimationAdapter
 import kotlinx.android.synthetic.main.activity_pokemon_list.*
 import java.util.*
 
-class MainActivity : BaseVMActivity<MainViewModel>() {
+class MainActivity : BaseVMActivity() {
     companion object {
         const val SELECTED_KEY = "selected_position"
         const val SELECTED_ID = "selected_id"
@@ -36,7 +37,7 @@ class MainActivity : BaseVMActivity<MainViewModel>() {
         }
     }
 
-    override fun getViewModel() = MainViewModel::class.java
+    override val mViewModel: MainViewModel by viewModels()
 
     private var twoPane: Boolean = false
     private var mPosition = ListView.INVALID_POSITION
@@ -96,12 +97,12 @@ class MainActivity : BaseVMActivity<MainViewModel>() {
             }
 
             override fun onQueryTextChange(newText: String): Boolean {
-                viewModel.setQuery(newText)
+                mViewModel.setQuery(newText)
                 return true
             }
         })
 
-        viewModel.pokemons.observe(this, androidx.lifecycle.Observer {
+        mViewModel.pokemons.observe(this, {
             mAdapter.submitList(it)
         })
     }

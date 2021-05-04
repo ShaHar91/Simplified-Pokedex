@@ -12,15 +12,15 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.Observer
+import androidx.fragment.app.viewModels
 import be.appwise.core.extensions.view.hide
 import be.appwise.core.extensions.view.show
 import be.appwise.core.ui.base.BaseVMFragment
-import be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
 import be.appwise.simplifiedPokedex.R
 import be.appwise.simplifiedPokedex.data.model.BaseStat
 import be.appwise.simplifiedPokedex.data.model.MatchUp
 import be.appwise.simplifiedPokedex.data.model.Pokemon
+import be.appwise.simplifiedPokedex.ui.customViews.TextProgressBar
 import be.appwise.simplifiedPokedex.utils.CommonUtils
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DataSource
@@ -30,7 +30,7 @@ import com.bumptech.glide.request.target.Target
 import kotlinx.android.synthetic.main.fragment_pokemon_detail.*
 import kotlinx.android.synthetic.main.pokedex_entry_type_chart.*
 
-class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
+class PokemonDetailFragment : BaseVMFragment() {
     companion object {
         const val TAG = "PokemonDetailFragment"
         const val POKEMON_ID_KEY = "mPokemonId"
@@ -44,7 +44,7 @@ class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
         }
     }
 
-    override fun getViewModel() = PokemonDetailViewModel::class.java
+    override val mViewModel: PokemonDetailViewModel by viewModels()
 
     private var mPokemonId: Int = 1
 
@@ -69,15 +69,15 @@ class PokemonDetailFragment : BaseVMFragment<PokemonDetailViewModel>() {
 
     private fun initializeListeners() {
         mViewModel.apply {
-            pokemon.observe(viewLifecycleOwner, Observer {
+            pokemon.observe(viewLifecycleOwner, {
                 fillInPokemonDetails(it)
             })
 
-            pokemonBaseStat.observe(viewLifecycleOwner, Observer {
+            pokemonBaseStat.observe(viewLifecycleOwner, {
                 fillInBaseStatDetails(it)
             })
 
-            pokemonMatchUp.observe(viewLifecycleOwner, Observer {
+            pokemonMatchUp.observe(viewLifecycleOwner, {
                 fillInMatchUpDetails(it)
             })
         }
