@@ -1,7 +1,6 @@
 package be.appwise.simplifiedPokedex.ui.main.detail
 
 import androidx.lifecycle.MutableLiveData
-import be.appwise.core.extensions.viewmodel.doubleArgsViewModelFactory
 import be.appwise.core.extensions.viewmodel.singleArgViewModelFactory
 import be.appwise.core.ui.base.BaseViewModel
 import be.appwise.simplifiedPokedex.MyApplication
@@ -10,9 +9,9 @@ import be.appwise.simplifiedPokedex.data.model.MatchUp
 import be.appwise.simplifiedPokedex.data.model.Pokemon
 import kotlinx.coroutines.launch
 
-class PokemonDetailViewModel(pokemonId: Int, onError:(Throwable) -> Unit) : BaseViewModel(onError) {
+class PokemonDetailViewModel(pokemonId: Int) : BaseViewModel() {
     companion object {
-        val factory = doubleArgsViewModelFactory(::PokemonDetailViewModel)
+        val factory = singleArgViewModelFactory(::PokemonDetailViewModel)
     }
 
     init {

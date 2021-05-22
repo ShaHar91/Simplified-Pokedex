@@ -46,7 +46,7 @@ class PokemonDetailFragment : BaseVMFragment() {
     }
 
     override val mViewModel: PokemonDetailViewModel by viewModels { getViewModelFactory() }
-    override fun getViewModelFactory() = PokemonDetailViewModel.factory(requireArguments().getInt(POKEMON_ID_KEY, 0), ::onError)
+    override fun getViewModelFactory() = PokemonDetailViewModel.factory(requireArguments().getInt(POKEMON_ID_KEY, 0))
 
     private var mPokemonId: Int = 1
 
