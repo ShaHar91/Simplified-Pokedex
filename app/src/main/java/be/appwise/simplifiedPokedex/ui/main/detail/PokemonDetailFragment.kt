@@ -13,6 +13,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
+import androidx.lifecycle.ViewModelProvider
 import be.appwise.core.extensions.view.hide
 import be.appwise.core.extensions.view.show
 import be.appwise.core.ui.base.BaseVMFragment
@@ -44,7 +45,8 @@ class PokemonDetailFragment : BaseVMFragment() {
         }
     }
 
-    override val mViewModel: PokemonDetailViewModel by viewModels()
+    override val mViewModel: PokemonDetailViewModel by viewModels { getViewModelFactory() }
+    override fun getViewModelFactory() = PokemonDetailViewModel.factory(requireArguments().getInt(POKEMON_ID_KEY, 0), ::onError)
 
     private var mPokemonId: Int = 1
 
@@ -61,7 +63,7 @@ class PokemonDetailFragment : BaseVMFragment() {
 
         mPokemonId = requireArguments().getInt(POKEMON_ID_KEY, 0)
 
-        mViewModel.getPokemonDetails(mPokemonId)
+//        mViewModel.getPokemonDetails(mPokemonId)
 
         initializeOnClicks()
         initializeListeners()
